@@ -1,0 +1,196 @@
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] MongoDB starting : pid=31721 port=27017 dbpath=/root/skynet/mongodb/data/db 64-bit host=iZ282n1zingZ
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] modules: none
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] build environment:
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten]     distmod: rhel62
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-02-17T07:31:40.353+0000 I CONTROL  [initandlisten] options: { config: "mongodb.conf", net: { port: 27017 }, processManagement: { fork: true }, storage: { dbPath: "data/db" }, systemLog: { destination: "file", logAppend: true, path: "mongodb.log" } }
+2016-02-17T07:31:40.380+0000 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /root/skynet/mongodb/data/db not found., terminating
+2016-02-17T07:31:40.380+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-02-17T07:42:23.307+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] MongoDB starting : pid=31825 port=27017 dbpath=/data/db 64-bit host=iZ282n1zingZ
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] modules: none
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] build environment:
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten]     distmod: rhel62
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-02-17T07:42:23.318+0000 I CONTROL  [initandlisten] options: { config: "mongodb.conf", net: { port: 27017 }, processManagement: { fork: true }, storage: { dbPath: "/data/db" }, systemLog: { destination: "file", logAppend: true, path: "mongodb.log" } }
+2016-02-17T07:42:23.345+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2016-02-17T07:42:23.345+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2016-02-17T07:42:23.750+0000 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2016-02-17T07:42:23.750+0000 I CONTROL  [initandlisten] 
+2016-02-17T07:42:23.750+0000 I CONTROL  [initandlisten] 
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] 
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] 
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 7798 processes, 65535 files. Number of processes should be at least 32767.5 : 0.5 times number of files.
+2016-02-17T07:42:23.751+0000 I CONTROL  [initandlisten] 
+2016-02-17T07:42:23.754+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2016-02-17T07:42:23.754+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-02-17T07:42:23.754+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-02-17T07:42:29.242+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42295 #1 (1 connection now open)
+2016-02-17T07:57:48.909+0000 I NETWORK  [conn1] end connection 127.0.0.1:42295 (0 connections now open)
+2016-02-17T07:57:50.124+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42296 #2 (1 connection now open)
+2016-02-17T08:38:31.339+0000 I NETWORK  [initandlisten] connection accepted from 74.82.47.4:32949 #3 (2 connections now open)
+2016-02-17T08:38:31.684+0000 I NETWORK  [conn3] end connection 74.82.47.4:32949 (1 connection now open)
+2016-02-17T08:39:00.112+0000 I NETWORK  [initandlisten] connection accepted from 74.82.47.4:44463 #4 (2 connections now open)
+2016-02-17T08:39:00.486+0000 I NETWORK  [conn4] end connection 74.82.47.4:44463 (1 connection now open)
+2016-02-17T09:28:38.768+0000 I NETWORK  [conn2] end connection 127.0.0.1:42296 (0 connections now open)
+2016-02-17T09:34:35.970+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42300 #5 (1 connection now open)
+2016-02-17T09:34:35.970+0000 I COMMAND  [conn5] CMD: dropIndexes test.testdb
+2016-02-17T09:34:35.971+0000 I COMMAND  [conn5] CMD: drop test.testdb
+2016-02-17T09:34:43.274+0000 I NETWORK  [conn5] end connection 127.0.0.1:42300 (0 connections now open)
+2016-02-17T09:39:59.367+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42302 #6 (1 connection now open)
+2016-02-17T09:39:59.368+0000 I COMMAND  [conn6] CMD: dropIndexes test.testdb
+2016-02-17T09:39:59.368+0000 I COMMAND  [conn6] CMD: drop test.testdb
+2016-02-17T09:40:03.567+0000 I NETWORK  [conn6] end connection 127.0.0.1:42302 (0 connections now open)
+2016-02-17T09:40:44.165+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42303 #7 (1 connection now open)
+2016-02-17T09:42:12.407+0000 I NETWORK  [conn7] end connection 127.0.0.1:42303 (0 connections now open)
+2016-02-17T09:42:17.785+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42304 #8 (1 connection now open)
+2016-02-17T09:42:20.280+0000 I NETWORK  [conn8] end connection 127.0.0.1:42304 (0 connections now open)
+2016-02-17T09:42:24.036+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42306 #9 (1 connection now open)
+2016-02-17T09:42:24.036+0000 I COMMAND  [conn9] CMD: dropIndexes test.testdb
+2016-02-17T09:42:24.037+0000 I COMMAND  [conn9] CMD: drop test.testdb
+2016-02-17T09:42:24.075+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42307 #10 (2 connections now open)
+2016-02-17T09:42:24.076+0000 I COMMAND  [conn10] CMD: dropIndexes test.testdb
+2016-02-17T09:42:24.076+0000 I COMMAND  [conn10] CMD: drop test.testdb
+2016-02-17T09:42:24.137+0000 I INDEX    [conn10] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-17T09:42:24.137+0000 I INDEX    [conn10] 	 building index using bulk method
+2016-02-17T09:42:24.138+0000 I INDEX    [conn10] build index done.  scanned 0 total records. 0 secs
+2016-02-17T09:42:24.139+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42308 #11 (3 connections now open)
+2016-02-17T09:42:24.140+0000 I COMMAND  [conn11] CMD: dropIndexes test.testdb
+2016-02-17T09:42:24.140+0000 I COMMAND  [conn11] CMD: drop test.testdb
+2016-02-17T09:42:24.205+0000 I INDEX    [conn11] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-17T09:42:24.205+0000 I INDEX    [conn11] 	 building index using bulk method
+2016-02-17T09:42:24.206+0000 I INDEX    [conn11] build index done.  scanned 0 total records. 0 secs
+2016-02-17T09:42:24.212+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42309 #12 (4 connections now open)
+2016-02-17T09:42:24.213+0000 I COMMAND  [conn12] CMD: dropIndexes test.testdb
+2016-02-17T09:42:24.214+0000 I COMMAND  [conn12] CMD: drop test.testdb
+2016-02-17T09:42:24.279+0000 I INDEX    [conn12] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-17T09:42:24.279+0000 I INDEX    [conn12] 	 building index using bulk method
+2016-02-17T09:42:24.280+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2016-02-17T09:42:24.308+0000 I INDEX    [conn12] build index on: test.testdb properties: { v: 1, key: { test_date: 1 }, name: "test_date_1", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-17T09:42:24.309+0000 I INDEX    [conn12] 	 building index using bulk method
+2016-02-17T09:42:24.309+0000 I INDEX    [conn12] build index done.  scanned 0 total records. 0 secs
+2016-02-17T09:43:36.588+0000 I NETWORK  [conn9] end connection 127.0.0.1:42306 (3 connections now open)
+2016-02-17T09:43:36.589+0000 I NETWORK  [conn10] end connection 127.0.0.1:42307 (2 connections now open)
+2016-02-17T09:43:36.589+0000 I NETWORK  [conn11] end connection 127.0.0.1:42308 (2 connections now open)
+2016-02-17T09:43:36.589+0000 I NETWORK  [conn12] end connection 127.0.0.1:42309 (2 connections now open)
+2016-02-17T09:43:41.342+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42310 #13 (1 connection now open)
+2016-02-17T12:45:24.957+0000 I NETWORK  [conn13] end connection 127.0.0.1:42310 (0 connections now open)
+2016-02-17T23:24:22.927+0000 I NETWORK  [initandlisten] connection accepted from 124.66.10.106:64937 #14 (1 connection now open)
+2016-02-17T23:24:29.047+0000 I NETWORK  [conn14] end connection 124.66.10.106:64937 (0 connections now open)
+2016-02-17T23:24:29.081+0000 I NETWORK  [initandlisten] connection accepted from 182.119.78.27:8751 #15 (1 connection now open)
+2016-02-17T23:24:29.131+0000 I NETWORK  [conn15] end connection 182.119.78.27:8751 (0 connections now open)
+2016-02-17T23:24:29.165+0000 I NETWORK  [initandlisten] connection accepted from 218.10.62.138:13194 #16 (1 connection now open)
+2016-02-17T23:24:29.186+0000 I NETWORK  [initandlisten] connection accepted from 111.85.179.33:62069 #17 (2 connections now open)
+2016-02-17T23:24:29.226+0000 I NETWORK  [conn17] end connection 111.85.179.33:62069 (1 connection now open)
+2016-02-17T23:24:29.231+0000 I NETWORK  [initandlisten] connection accepted from 114.96.161.171:30230 #18 (2 connections now open)
+2016-02-17T23:24:29.231+0000 I NETWORK  [conn18] end connection 114.96.161.171:30230 (1 connection now open)
+2016-02-17T23:24:29.252+0000 I NETWORK  [conn16] end connection 218.10.62.138:13194 (0 connections now open)
+2016-02-18T00:01:59.479+0000 I NETWORK  [initandlisten] connection accepted from 89.248.174.28:56714 #19 (1 connection now open)
+2016-02-18T00:02:00.234+0000 I NETWORK  [initandlisten] connection accepted from 89.248.174.28:56822 #20 (2 connections now open)
+2016-02-18T00:02:04.570+0000 I NETWORK  [conn20] end connection 89.248.174.28:56822 (1 connection now open)
+2016-02-18T00:02:04.572+0000 I NETWORK  [conn19] end connection 89.248.174.28:56714 (0 connections now open)
+2016-02-18T03:27:03.836+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42312 #21 (1 connection now open)
+2016-02-18T03:27:03.836+0000 I COMMAND  [conn21] CMD: dropIndexes test.testdb
+2016-02-18T03:27:03.837+0000 I COMMAND  [conn21] CMD: drop test.testdb
+2016-02-18T03:27:03.912+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42313 #22 (2 connections now open)
+2016-02-18T03:27:03.913+0000 I COMMAND  [conn22] CMD: dropIndexes test.testdb
+2016-02-18T03:27:03.914+0000 I COMMAND  [conn22] CMD: drop test.testdb
+2016-02-18T03:27:03.963+0000 I INDEX    [conn22] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-18T03:27:03.963+0000 I INDEX    [conn22] 	 building index using bulk method
+2016-02-18T03:27:03.964+0000 I INDEX    [conn22] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:27:03.966+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42314 #23 (3 connections now open)
+2016-02-18T03:27:03.967+0000 I COMMAND  [conn23] CMD: dropIndexes test.testdb
+2016-02-18T03:27:03.967+0000 I COMMAND  [conn23] CMD: drop test.testdb
+2016-02-18T03:27:04.038+0000 I INDEX    [conn23] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-18T03:27:04.038+0000 I INDEX    [conn23] 	 building index using bulk method
+2016-02-18T03:27:04.039+0000 I INDEX    [conn23] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:27:04.042+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42315 #24 (4 connections now open)
+2016-02-18T03:27:04.042+0000 I COMMAND  [conn24] CMD: dropIndexes test.testdb
+2016-02-18T03:27:04.043+0000 I COMMAND  [conn24] CMD: drop test.testdb
+2016-02-18T03:27:04.097+0000 I INDEX    [conn24] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-18T03:27:04.097+0000 I INDEX    [conn24] 	 building index using bulk method
+2016-02-18T03:27:04.098+0000 I INDEX    [conn24] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:27:04.113+0000 I INDEX    [conn24] build index on: test.testdb properties: { v: 1, key: { test_date: 1 }, name: "test_date_1", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-18T03:27:04.113+0000 I INDEX    [conn24] 	 building index using bulk method
+2016-02-18T03:27:04.114+0000 I INDEX    [conn24] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:28:25.448+0000 I NETWORK  [conn21] end connection 127.0.0.1:42312 (3 connections now open)
+2016-02-18T03:28:25.448+0000 I NETWORK  [conn22] end connection 127.0.0.1:42313 (2 connections now open)
+2016-02-18T03:28:25.449+0000 I NETWORK  [conn23] end connection 127.0.0.1:42314 (1 connection now open)
+2016-02-18T03:28:25.449+0000 I NETWORK  [conn24] end connection 127.0.0.1:42315 (0 connections now open)
+2016-02-18T03:32:08.558+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42320 #25 (1 connection now open)
+2016-02-18T03:32:08.559+0000 I COMMAND  [conn25] CMD: dropIndexes test.testdb
+2016-02-18T03:32:08.560+0000 I COMMAND  [conn25] CMD: drop test.testdb
+2016-02-18T03:32:08.619+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42321 #26 (2 connections now open)
+2016-02-18T03:32:08.619+0000 I COMMAND  [conn26] CMD: dropIndexes test.testdb
+2016-02-18T03:32:08.620+0000 I COMMAND  [conn26] CMD: drop test.testdb
+2016-02-18T03:32:08.779+0000 I INDEX    [conn26] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-18T03:32:08.779+0000 I INDEX    [conn26] 	 building index using bulk method
+2016-02-18T03:32:08.779+0000 I INDEX    [conn26] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:32:08.780+0000 I COMMAND  [conn26] command test.$cmd command: createIndexes { createIndexes: "testdb", indexes: [ { unique: true, key: { test_key: 1 }, name: "test_key_index" } ] } keyUpdates:0 writeConflicts:0 numYields:0 reslen:113 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_query 159ms
+2016-02-18T03:32:08.781+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42322 #27 (3 connections now open)
+2016-02-18T03:32:08.781+0000 I COMMAND  [conn27] CMD: dropIndexes test.testdb
+2016-02-18T03:32:08.782+0000 I COMMAND  [conn27] CMD: drop test.testdb
+2016-02-18T03:32:08.869+0000 I INDEX    [conn27] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-18T03:32:08.869+0000 I INDEX    [conn27] 	 building index using bulk method
+2016-02-18T03:32:08.870+0000 I INDEX    [conn27] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:32:08.873+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42323 #28 (4 connections now open)
+2016-02-18T03:32:08.874+0000 I COMMAND  [conn28] CMD: dropIndexes test.testdb
+2016-02-18T03:32:08.874+0000 I COMMAND  [conn28] CMD: drop test.testdb
+2016-02-18T03:32:08.927+0000 I INDEX    [conn28] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-18T03:32:08.927+0000 I INDEX    [conn28] 	 building index using bulk method
+2016-02-18T03:32:08.928+0000 I INDEX    [conn28] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:32:08.939+0000 I INDEX    [conn28] build index on: test.testdb properties: { v: 1, key: { test_date: 1 }, name: "test_date_1", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-18T03:32:08.939+0000 I INDEX    [conn28] 	 building index using bulk method
+2016-02-18T03:32:08.940+0000 I INDEX    [conn28] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:34:27.283+0000 I NETWORK  [conn28] end connection 127.0.0.1:42323 (3 connections now open)
+2016-02-18T03:34:27.284+0000 I NETWORK  [conn27] end connection 127.0.0.1:42322 (2 connections now open)
+2016-02-18T03:34:27.284+0000 I NETWORK  [conn26] end connection 127.0.0.1:42321 (1 connection now open)
+2016-02-18T03:34:27.284+0000 I NETWORK  [conn25] end connection 127.0.0.1:42320 (0 connections now open)
+2016-02-18T03:35:10.594+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42325 #29 (1 connection now open)
+2016-02-18T03:35:10.595+0000 I COMMAND  [conn29] CMD: dropIndexes test.testdb
+2016-02-18T03:35:10.596+0000 I COMMAND  [conn29] CMD: drop test.testdb
+2016-02-18T03:35:10.687+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42326 #30 (2 connections now open)
+2016-02-18T03:35:10.687+0000 I COMMAND  [conn30] CMD: dropIndexes test.testdb
+2016-02-18T03:35:10.688+0000 I COMMAND  [conn30] CMD: drop test.testdb
+2016-02-18T03:35:10.747+0000 I INDEX    [conn30] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-18T03:35:10.747+0000 I INDEX    [conn30] 	 building index using bulk method
+2016-02-18T03:35:10.748+0000 I INDEX    [conn30] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:35:10.750+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42327 #31 (3 connections now open)
+2016-02-18T03:35:10.750+0000 I COMMAND  [conn31] CMD: dropIndexes test.testdb
+2016-02-18T03:35:10.751+0000 I COMMAND  [conn31] CMD: drop test.testdb
+2016-02-18T03:35:10.808+0000 I INDEX    [conn31] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb" }
+2016-02-18T03:35:10.809+0000 I INDEX    [conn31] 	 building index using bulk method
+2016-02-18T03:35:10.809+0000 I INDEX    [conn31] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:35:10.813+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:42328 #32 (4 connections now open)
+2016-02-18T03:35:10.814+0000 I COMMAND  [conn32] CMD: dropIndexes test.testdb
+2016-02-18T03:35:10.814+0000 I COMMAND  [conn32] CMD: drop test.testdb
+2016-02-18T03:35:10.870+0000 I INDEX    [conn32] build index on: test.testdb properties: { v: 1, unique: true, key: { test_key: 1 }, name: "test_key_index", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-18T03:35:10.870+0000 I INDEX    [conn32] 	 building index using bulk method
+2016-02-18T03:35:10.871+0000 I INDEX    [conn32] build index done.  scanned 0 total records. 0 secs
+2016-02-18T03:35:10.887+0000 I INDEX    [conn32] build index on: test.testdb properties: { v: 1, key: { test_date: 1 }, name: "test_date_1", ns: "test.testdb", expireAfterSeconds: 1 }
+2016-02-18T03:35:10.887+0000 I INDEX    [conn32] 	 building index using bulk method
+2016-02-18T03:35:10.888+0000 I INDEX    [conn32] build index done.  scanned 0 total records. 0 secs
+2016-02-18T04:01:30.963+0000 I NETWORK  [conn29] end connection 127.0.0.1:42325 (3 connections now open)
+2016-02-18T04:01:30.963+0000 I NETWORK  [conn30] end connection 127.0.0.1:42326 (2 connections now open)
+2016-02-18T04:01:30.964+0000 I NETWORK  [conn31] end connection 127.0.0.1:42327 (1 connection now open)
+2016-02-18T04:01:30.964+0000 I NETWORK  [conn32] end connection 127.0.0.1:42328 (0 connections now open)
+2016-02-18T05:00:21.093+0000 I NETWORK  [initandlisten] connection accepted from 121.42.0.16:36971 #33 (1 connection now open)
+2016-02-18T05:00:21.093+0000 I NETWORK  [conn33] end connection 121.42.0.16:36971 (0 connections now open)
+2016-02-18T06:43:25.879+0000 I NETWORK  [initandlisten] connection accepted from 74.82.47.2:33412 #34 (1 connection now open)
+2016-02-18T06:43:26.347+0000 I NETWORK  [conn34] end connection 74.82.47.2:33412 (0 connections now open)
+2016-02-18T06:43:52.682+0000 I NETWORK  [initandlisten] connection accepted from 74.82.47.2:49514 #35 (1 connection now open)
+2016-02-18T06:43:53.034+0000 I NETWORK  [conn35] end connection 74.82.47.2:49514 (0 connections now open)
