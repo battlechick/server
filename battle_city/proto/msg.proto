@@ -1,0 +1,13 @@
+message Package {
+	optional string name = 1;
+	optional bytes data = 2;
+}
+
+message S2C_Hello {
+    optional string b = 1;
+}
+
+message C2S_Hello {
+    optional string a = 1;
+}
+
