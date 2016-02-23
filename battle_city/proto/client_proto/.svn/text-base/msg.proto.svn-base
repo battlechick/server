@@ -1,0 +1,14 @@
+message Package {
+	optional string name = 1;
+	optional bytes data = 2;
+}
+
+message S2C_Ping {
+	optional int32 time = 1;
+}
+
+message C2S_Ping {
+	optional int32 time = 1;
+}
+
+

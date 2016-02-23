@@ -1,0 +1,5 @@
+#!/bin/sh
+
+find . -name "*.erl" -o -name "*.mk" -o -name "*.lua" -o -name "*.h" -o -name "*.cpp" -o -name "*.c" -o -name "*.cc" -o -name "*.hpp" -o -name "*.sh" -o -name "*.php" -o -name "*.xml" -o -name "*.sql" -o -name "MakeFile" > cscope.files
+cscope -bkq -i cscope.files
+ctags -R

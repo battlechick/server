@@ -1,0 +1,23745 @@
+cscope 15 $HOME/server/battle_city -q 0000001087 0000108109
+	@install.sh
+
+2 
+	gwÜk¥aû
+=`
+pwd
+`
+
+3 
+cd
+ ../
+pbc
+/ && 
+make
+ && cd 
+bšdšg
+/
+lua53
+/
+
+4 
+ı
+ 
+´Ùobuf
+.
+lua
+ 
+$
+{
+wÜk¥aû
+}/
+lu®ib
+/
+
+5 
+ı
+ 
+pbc
+-
+lua53
+.
+c
+ 
+$
+{
+wÜk¥aû
+}/
+luaşib
+/
+
+7 
+cd
+ 
+$
+{
+wÜk¥aû
+} && 
+make
+
+
+	@luaclib/pbc-lua53.c
+
+1 #ifdeà
+__ılu¥lus
+
+
+4 
+	~"lua.h
+"
+
+5 
+	~"lu®ib.h
+"
+
+6 
+	~"Ïuxlib.h
+"
+
+7 #ifdeà
+__ılu¥lus
+
+
+11 
+	~<m®loc.h
+>
+
+13 #iâdeà
+_MSC_VER
+
+
+14 
+	~<¡dboŞ.h
+>
+
+16 
+	#®loÿ
+ 
+_®loÿ
+
+
+	)
+
+19 
+	~<¡ršg.h
+>
+
+20 
+	~<¡dlib.h
+>
+
+21 
+	~<¡dšt.h
+>
+
+23 
+	~"pbc.h
+"
+
+25 
+šlše
+ *
+
+26 
+	$checku£rd©a
+(
+lua_S‹
+ *
+L
+, 
+šdex
+) {
+
+27 * 
+ud
+ = 
+	`lua_tou£rd©a
+(
+L
+,
+šdex
+);
+
+28 ià(
+ud
+ =ğ
+NULL
+) {
+
+29 
+	`luaL_”rÜ
+(
+L
+, "u£rd©¨%d i n",
+šdex
+);
+
+31  
+ud
+;
+
+32 
+	}
+}
+
+35 
+	$_’v_Ãw
+(
+lua_S‹
+ *
+L
+) {
+
+36 
+pbc_’v
+ * 
+’v
+ = 
+	`pbc_Ãw
+();
+
+37 
+	`lua_pushlightu£rd©a
+(
+L
+, 
+’v
+);
+
+39 
+	}
+}
+
+42 
+	$_’v_»gi¡”
+(
+lua_S‹
+ *
+L
+) {
+
+43 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+,1);
+
+44 
+size_t
+ 
+sz
+ = 0;
+
+45 cÚ¡ * 
+bufãr
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, 2 , &
+sz
+);
+
+46 
+pbc_¦iû
+ 
+¦iû
+;
+
+47 
+¦iû
+.
+bufãr
+ = (*)buffer;
+
+48 
+¦iû
+.
+Ën
+ = ()
+sz
+;
+
+49 
+»t
+ = 
+	`pbc_»gi¡”
+(
+’v
+, &
+¦iû
+);
+
+51 ià(
+»t
+) {
+
+52  
+	`luaL_”rÜ
+(
+L
+, "register fail");
+
+55 
+	}
+}
+
+58 
+	$_’v_’um_id
+(
+lua_S‹
+ *
+L
+) {
+
+59 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+,1);
+
+60 
+size_t
+ 
+sz
+ = 0;
+
+61 cÚ¡ * 
+’um_ty³
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, 2, &
+sz
+);
+
+62 cÚ¡ * 
+’um_Çme
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, 3, &
+sz
+);
+
+63 
+št32_t
+ 
+’um_id
+ = 
+	`pbc_’um_id
+(
+’v
+, 
+’um_ty³
+, 
+’um_Çme
+);
+
+64 ià(
+’um_id
+ < 0)
+
+66 
+	`lua_pushš‹g”
+(
+L
+, 
+’um_id
+);
+
+68 
+	}
+}
+
+71 
+	$_rmes§ge_Ãw
+(
+lua_S‹
+ *
+L
+) {
+
+72 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+,1);
+
+73 cÚ¡ * 
+ty³_Çme
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+74 
+pbc_¦iû
+ 
+¦iû
+;
+
+75 ià(
+	`lua_is¡ršg
+(
+L
+,3)) {
+
+76 
+size_t
+ 
+sz
+ = 0;
+
+77 
+¦iû
+.
+bufãr
+ = (*)
+	`lua_tŞ¡ršg
+(
+L
+,3,&
+sz
+);
+
+78 
+¦iû
+.
+Ën
+ = ()
+sz
+;
+
+80 
+¦iû
+.
+bufãr
+ = 
+	`lua_tou£rd©a
+(
+L
+,3);
+
+81 
+¦iû
+.
+Ën
+ = 
+	`luaL_checkš‹g”
+(
+L
+,4);
+
+83 
+pbc_rmes§ge
+ * 
+m
+ = 
+	`pbc_rmes§ge_Ãw
+(
+’v
+, 
+ty³_Çme
+, &
+¦iû
+);
+
+84 ià(
+m
+==
+NULL
+)
+
+86 
+	`lua_pushlightu£rd©a
+(
+L
+,
+m
+);
+
+88 
+	}
+}
+
+91 
+	$_rmes§ge_d–‘e
+(
+lua_S‹
+ *
+L
+) {
+
+92 
+pbc_rmes§ge
+ * 
+m
+ = (pbc_rmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+93 
+	`pbc_rmes§ge_d–‘e
+(
+m
+);
+
+96 
+	}
+}
+
+99 
+	$_rmes§ge_št
+(
+lua_S‹
+ *
+L
+) {
+
+100 
+pbc_rmes§ge
+ * 
+m
+ = (pbc_rmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+101 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+102 
+šdex
+ = 
+	`luaL_checkš‹g”
+(
+L
+,3);
+
+103 
+ušt32_t
+ 
+hi
+,
+low
+;
+
+104 
+low
+ = 
+	`pbc_rmes§ge_š‹g”
+(
+m
+, 
+key
+, 
+šdex
+, &
+hi
+);
+
+105 
+št64_t
+ 
+v
+ = (št64_t)((
+ušt64_t
+)
+hi
+ << 32 | (ušt64_t)
+low
+);
+
+106 
+	`lua_pushš‹g”
+(
+L
+,
+v
+);
+
+109 
+	}
+}
+
+112 
+	$_rmes§ge_»®
+(
+lua_S‹
+ *
+L
+) {
+
+113 
+pbc_rmes§ge
+ * 
+m
+ = (pbc_rmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+114 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+115 
+šdex
+ = 
+	`luaL_checkš‹g”
+(
+L
+,3);
+
+116 
+v
+ = 
+	`pbc_rmes§ge_»®
+(
+m
+, 
+key
+, 
+šdex
+);
+
+118 
+	`lua_pushnumb”
+(
+L
+,
+v
+);
+
+121 
+	}
+}
+
+124 
+	$_rmes§ge_¡ršg
+(
+lua_S‹
+ *
+L
+) {
+
+125 
+pbc_rmes§ge
+ * 
+m
+ = (pbc_rmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+126 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+127 
+šdex
+ = 
+	`lua_toš‹g”
+(
+L
+,3);
+
+128 
+sz
+ = 0;
+
+129 cÚ¡ * 
+v
+ = 
+	`pbc_rmes§ge_¡ršg
+(
+m
+,
+key
+,
+šdex
+,&
+sz
+);
+
+130 
+	`lua_pushl¡ršg
+(
+L
+,
+v
+,
+sz
+);
+
+132 
+	}
+}
+
+135 
+	$_rmes§ge_mes§ge
+(
+lua_S‹
+ *
+L
+) {
+
+136 
+pbc_rmes§ge
+ * 
+m
+ = (pbc_rmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+137 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+138 
+šdex
+ = 
+	`lua_toš‹g”
+(
+L
+,3);
+
+139 
+pbc_rmes§ge
+ * 
+v
+ = 
+	`pbc_rmes§ge_mes§ge
+(
+m
+,
+key
+,
+šdex
+);
+
+140 
+	`lua_pushlightu£rd©a
+(
+L
+,
+v
+);
+
+142 
+	}
+}
+
+145 
+	$_rmes§ge_size
+(
+lua_S‹
+ *
+L
+) {
+
+146 
+pbc_rmes§ge
+ * 
+m
+ = (pbc_rmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+147 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+149 
+sz
+ = 
+	`pbc_rmes§ge_size
+(
+m
+, 
+key
+);
+
+151 
+	`lua_pushš‹g”
+(
+L
+, 
+sz
+);
+
+154 
+	}
+}
+
+157 
+	$_’v_ty³
+(
+lua_S‹
+ *
+L
+) {
+
+158 
+	`lua_£‰İ
+(
+L
+,3);
+
+159 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+,1);
+
+160 cÚ¡ * 
+ty³_Çme
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+161 ià(
+	`lua_i¢
+(
+L
+,3)) {
+
+162 
+»t
+ = 
+	`pbc_ty³
+(
+’v
+, 
+ty³_Çme
+, 
+NULL
+, NULL);
+
+163 
+	`lua_pushboŞ—n
+(
+L
+,
+»t
+);
+
+166 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,3);
+
+167 cÚ¡ * 
+ty³
+ = 
+NULL
+;
+
+168 
+»t
+ = 
+	`pbc_ty³
+(
+’v
+, 
+ty³_Çme
+, 
+key
+, &
+ty³
+);
+
+169 
+	`lua_pushš‹g”
+(
+L
+,
+»t
+);
+
+170 ià(
+ty³
+ =ğ
+NULL
+) {
+
+173 
+	`lua_push¡ršg
+(
+L
+, 
+ty³
+);
+
+176 
+	}
+}
+
+179 
+	$_wmes§ge_Ãw
+(
+lua_S‹
+ *
+L
+) {
+
+180 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+,1);
+
+181 cÚ¡ * 
+ty³_Çme
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+182 
+pbc_wmes§ge
+ * 
+»t
+ = 
+	`pbc_wmes§ge_Ãw
+(
+’v
+, 
+ty³_Çme
+);
+
+183 
+	`lua_pushlightu£rd©a
+(
+L
+,
+»t
+);
+
+185 
+	}
+}
+
+188 
+	$_wmes§ge_d–‘e
+(
+lua_S‹
+ *
+L
+) {
+
+189 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`lua_tou£rd©a
+(
+L
+,1);
+
+190 
+	`pbc_wmes§ge_d–‘e
+(
+m
+);
+
+193 
+	}
+}
+
+197 
+	$_wmes§ge_»®
+(
+lua_S‹
+ *
+L
+) {
+
+198 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+199 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+200 
+numb”
+ = 
+	`luaL_checknumb”
+(
+L
+,3);
+
+201 
+	`pbc_wmes§ge_»®
+(
+m
+, 
+key
+, 
+numb”
+);
+
+204 
+	}
+}
+
+207 
+	$_wmes§ge_¡ršg
+(
+lua_S‹
+ *
+L
+) {
+
+208 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+209 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+210 
+size_t
+ 
+Ën
+ = 0;
+
+211 cÚ¡ * 
+v
+ = 
+	`luaL_checkl¡ršg
+(
+L
+,3,&
+Ën
+);
+
+212 
+”r
+ = 
+	`pbc_wmes§ge_¡ršg
+(
+m
+, 
+key
+, 
+v
+, ()
+Ën
+);
+
+213 ià(
+”r
+) {
+
+214  
+	`luaL_”rÜ
+(
+L
+, "Wr™¡ršgƒ¼Ü : %s", 
+v
+);
+
+218 
+	}
+}
+
+221 
+	$_wmes§ge_mes§ge
+(
+lua_S‹
+ *
+L
+) {
+
+222 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+223 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+224 
+pbc_wmes§ge
+ * 
+»t
+ = 
+	`pbc_wmes§ge_mes§ge
+(
+m
+, 
+key
+);
+
+225 
+	`lua_pushlightu£rd©a
+(
+L
+, 
+»t
+);
+
+228 
+	}
+}
+
+231 
+	$_wmes§ge_št
+(
+lua_S‹
+ *
+L
+) {
+
+232 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+233 cÚ¡ * 
+key
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+234 
+št64_t
+ 
+numb”
+;
+
+236 ià(
+	`lua_isš‹g”
+(
+L
+, 3)) {
+
+237 
+numb”
+ = 
+	`lua_toš‹g”
+(
+L
+,3);
+
+239 
+numb”
+ = (
+št64_t
+)
+	`lua_tÚumb”
+(
+L
+,3);
+
+241 
+ušt32_t
+ 
+hi
+ = (ušt32_t)(
+numb”
+ >> 32);
+
+242 
+	`pbc_wmes§ge_š‹g”
+(
+m
+, 
+key
+, (
+ušt32_t
+)
+numb”
+, 
+hi
+);
+
+245 
+	}
+}
+
+248 
+	$_wmes§ge_bufãr
+(
+lua_S‹
+ *
+L
+) {
+
+249 
+pbc_¦iû
+ 
+¦iû
+;
+
+250 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+251 
+	`pbc_wmes§ge_bufãr
+(
+m
+ , &
+¦iû
+);
+
+252 
+	`lua_pushlightu£rd©a
+(
+L
+, 
+¦iû
+.
+bufãr
+);
+
+253 
+	`lua_pushš‹g”
+(
+L
+, 
+¦iû
+.
+Ën
+);
+
+255 
+	}
+}
+
+258 
+	$_wmes§ge_bufãr_¡ršg
+(
+lua_S‹
+ *
+L
+) {
+
+259 
+pbc_¦iû
+ 
+¦iû
+;
+
+260 
+pbc_wmes§ge
+ * 
+m
+ = (pbc_wmes§g*)
+	`checku£rd©a
+(
+L
+,1);
+
+261 
+	`pbc_wmes§ge_bufãr
+(
+m
+ , &
+¦iû
+);
+
+262 
+	`lua_pushl¡ršg
+(
+L
+, (cÚ¡ *)
+¦iû
+.
+bufãr
+, sliû.
+Ën
+);
+
+264 
+	}
+}
+
+270 
+	$_Ï¡_”rÜ
+(
+lua_S‹
+ *
+L
+) {
+
+271 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+, 1);
+
+272 cÚ¡ * 
+”r
+ = 
+	`pbc_”rÜ
+(
+’v
+);
+
+273 
+	`lua_push¡ršg
+(
+L
+,
+”r
+);
+
+275 
+	}
+}
+
+283 
+	$_·‰”n_Ãw
+(
+lua_S‹
+ *
+L
+) {
+
+284 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+, 1);
+
+285 cÚ¡ * 
+mes§ge
+ = 
+	`luaL_check¡ršg
+(
+L
+,2);
+
+286 cÚ¡ * 
+fÜm©
+ = 
+	`luaL_check¡ršg
+(
+L
+,3);
+
+287 
+pbc_·‰”n
+ * 
+·t
+ = 
+	`pbc_·‰”n_Ãw
+(
+’v
+, 
+mes§ge
+, 
+fÜm©
+);
+
+288 ià(
+·t
+ =ğ
+NULL
+) {
+
+289  
+	`luaL_”rÜ
+(
+L
+, "ü—‹…©‹À% (%sèçed", 
+mes§ge
+ , 
+fÜm©
+);
+
+291 
+	`lua_pushlightu£rd©a
+(
+L
+,
+·t
+);
+
+294 
+	}
+}
+
+297 
+	$_·‰”n_d–‘e
+(
+lua_S‹
+ *
+L
+) {
+
+298 
+pbc_·‰”n
+ * 
+·t
+ = (pbc_·‰”À*)
+	`lua_tou£rd©a
+(
+L
+,1);
+
+299 
+	`pbc_·‰”n_d–‘e
+(
+·t
+);
+
+302 
+	}
+}
+
+305 
+	$_push_v®ue
+(
+lua_S‹
+ *
+L
+, * 
+±r
+, 
+ty³
+) {
+
+306 
+ty³
+) {
+
+308 
+ušt64_t
+ 
+v
+ = *(ušt64_t*)
+±r
+;
+
+309 
+±r
+ += 8;
+
+310 
+	`lua_pushš‹g”
+(
+L
+, 
+v
+);
+
+314 
+št32_t
+ 
+v
+ = *(št32_t*)
+±r
+;
+
+315 
+±r
+ += 4;
+
+316 
+	`lua_pushš‹g”
+(
+L
+,
+v
+);
+
+320 
+št32_t
+ 
+v
+ = *(št32_t*)
+±r
+;
+
+321 
+±r
+ += 4;
+
+322 
+	`lua_pushboŞ—n
+(
+L
+,
+v
+);
+
+326 
+v
+ = *(*)
+±r
+;
+
+327 
+±r
+ += 8;
+
+328 
+	`lua_pushnumb”
+(
+L
+,
+v
+);
+
+332 
+pbc_¦iû
+ * 
+¦iû
+ = (pbc_¦iû *)
+±r
+;
+
+333 
+	`lua_pushl¡ršg
+(
+L
+,(cÚ¡ *)
+¦iû
+->
+bufãr
+, sliû->
+Ën
+);
+
+334 
+±r
+ +ğ(
+pbc_¦iû
+);
+
+338 
+pbc_¦iû
+ * 
+¦iû
+ = (pbc_¦iû *)
+±r
+;
+
+339 
+	`lua_ü—‹bË
+(
+L
+,2,0);
+
+340 
+	`lua_pushlightu£rd©a
+(
+L
+, 
+¦iû
+->
+bufãr
+);
+
+341 
+	`lua_¿w£ti
+(
+L
+,-2,1);
+
+342 
+	`lua_pushš‹g”
+(
+L
+,
+¦iû
+->
+Ën
+);
+
+343 
+	`lua_¿w£ti
+(
+L
+,-2,2);
+
+344 
+±r
+ +ğ(
+pbc_¦iû
+);
+
+348  
+±r
+;
+
+349 
+	}
+}
+
+352 
+	$_push_¬¿y
+(
+lua_S‹
+ *
+L
+, 
+pbc_¬¿y
+ 
+¬¿y
+, 
+ty³
+, 
+šdex
+) {
+
+353 
+ty³
+) {
+
+355 
+v
+ = 
+	`pbc_¬¿y_š‹g”
+(
+¬¿y
+, 
+šdex
+, 
+NULL
+);
+
+356 
+	`lua_pushš‹g”
+(
+L
+, 
+v
+);
+
+360 
+ušt32_t
+ 
+hi
+ = 0;
+
+361 
+ušt32_t
+ 
+low
+ = 
+	`pbc_¬¿y_š‹g”
+(
+¬¿y
+, 
+šdex
+, &
+hi
+);
+
+362 
+ušt64_t
+ 
+v
+ = (ušt64_t)
+hi
+ << 32 | (ušt64_t)
+low
+;
+
+363 
+	`lua_pushš‹g”
+(
+L
+, 
+v
+);
+
+367 
+v
+ = 
+	`pbc_¬¿y_š‹g”
+(
+¬¿y
+, 
+šdex
+, 
+NULL
+);
+
+368 
+	`lua_pushboŞ—n
+(
+L
+, 
+v
+);
+
+372 
+ušt32_t
+ 
+hi
+ = 0;
+
+373 
+ušt32_t
+ 
+low
+ = 
+	`pbc_¬¿y_š‹g”
+(
+¬¿y
+, 
+šdex
+, &
+hi
+);
+
+374 
+ušt64_t
+ 
+v
+ = (ušt64_t)
+low
+ | (ušt64_t)
+hi
+ << 32;
+
+375 
+	`lua_pushl¡ršg
+(
+L
+, (*)&
+v
+, 8);
+
+379 
+v
+ = 
+	`pbc_¬¿y_»®
+(
+¬¿y
+, 
+šdex
+);
+
+380 
+	`lua_pushnumb”
+(
+L
+, 
+v
+);
+
+384 
+pbc_¦iû
+ * 
+¦iû
+ = 
+	`pbc_¬¿y_¦iû
+(
+¬¿y
+, 
+šdex
+);
+
+385 
+	`lua_pushl¡ršg
+(
+L
+, (cÚ¡ *)
+¦iû
+->
+bufãr
+,¦iû->
+Ën
+);
+
+389 
+pbc_¦iû
+ * 
+¦iû
+ = 
+	`pbc_¬¿y_¦iû
+(
+¬¿y
+, 
+šdex
+);
+
+390 
+	`lua_ü—‹bË
+(
+L
+,2,0);
+
+391 
+	`lua_pushlightu£rd©a
+(
+L
+,
+¦iû
+->
+bufãr
+);
+
+392 
+	`lua_¿w£ti
+(
+L
+,-2,1);
+
+393 
+	`lua_pushš‹g”
+(
+L
+,
+¦iû
+->
+Ën
+);
+
+394 
+	`lua_¿w£ti
+(
+L
+,-2,2);
+
+398 
+	`lua_¿w£ti
+(
+L
+,-2,
+šdex
++1);
+
+399 
+	}
+}
+
+409 
+	$_·‰”n_uÅack
+(
+lua_S‹
+ *
+L
+) {
+
+410 
+pbc_·‰”n
+ * 
+·t
+ = (pbc_·‰”À*)
+	`checku£rd©a
+(
+L
+, 1);
+
+411 ià(
+·t
+ =ğ
+NULL
+) {
+
+412  
+	`luaL_”rÜ
+(
+L
+, "unpack…attern is NULL");
+
+414 
+size_t
+ 
+fÜm©_sz
+ = 0;
+
+415 cÚ¡ * 
+fÜm©
+ = 
+	`lua_tŞ¡ršg
+(
+L
+,2,&
+fÜm©_sz
+);
+
+416 
+size
+ = 
+	`lua_toš‹g”
+(
+L
+,3);
+
+417 
+pbc_¦iû
+ 
+¦iû
+;
+
+418 ià(
+	`lua_is¡ršg
+(
+L
+,4)) {
+
+419 
+size_t
+ 
+bufãr_Ën
+ = 0;
+
+420 cÚ¡ *
+bufãr
+ = 
+	`luaL_checkl¡ršg
+(
+L
+,4,&
+bufãr_Ën
+);
+
+421 
+¦iû
+.
+bufãr
+ = (*)buffer;
+
+422 
+¦iû
+.
+Ën
+ = 
+bufãr_Ën
+;
+
+424 ià(!
+	`lua_isu£rd©a
+(
+L
+,4)) {
+
+425  
+	`luaL_”rÜ
+(
+L
+, "Need‡ userdata");
+
+427 
+¦iû
+.
+bufãr
+ = 
+	`lua_tou£rd©a
+(
+L
+,4);
+
+428 
+¦iû
+.
+Ën
+ = 
+	`luaL_checkš‹g”
+(
+L
+,5);
+
+431 * 
+‹mp
+ = (*)
+	`®loÿ
+(
+size
+);
+
+432 
+»t
+ = 
+	`pbc_·‰”n_uÅack
+(
+·t
+, &
+¦iû
+, 
+‹mp
+);
+
+433 ià(
+»t
+ < 0) {
+
+436 
+	`lua_check¡ack
+(
+L
+, 
+fÜm©_sz
+ + 3);
+
+437 
+i
+;
+
+438 * 
+±r
+ = 
+‹mp
+;
+
+439 
+boŞ
+ 
+¬¿y
+ = 
+çl£
+;
+
+440 
+i
+=0;i<
+fÜm©_sz
+;i++) {
+
+441 
+ty³
+ = 
+fÜm©
+[
+i
+];
+
+442 ià(
+ty³
+ >= 'a' &&ype <='z') {
+
+443 
+±r
+ = (*)
+	`_push_v®ue
+(
+L
+,±r,
+ty³
+);
+
+445 
+¬¿y
+ = 
+Œue
+;
+
+446 
+n
+ = 
+	`pbc_¬¿y_size
+((
+_pbc_¬¿y
+ *)
+±r
+);
+
+447 
+	`lua_ü—‹bË
+(
+L
+,
+n
+,0);
+
+448 
+j
+;
+
+449 
+j
+=0;j<
+n
+;j++) {
+
+450 
+	`_push_¬¿y
+(
+L
+,(
+_pbc_¬¿y
+ *)
+±r
+, 
+ty³
+, 
+j
+);
+
+452 
+±r
+ +ğ(
+pbc_¬¿y
+);
+
+455 ià(
+¬¿y
+) {
+
+456 
+	`pbc_·‰”n_şo£_¬¿ys
+(
+·t
+, 
+‹mp
+);
+
+458  
+fÜm©_sz
+;
+
+459 
+	}
+}
+
+462 
+	$_g‘_v®ue
+(
+lua_S‹
+ *
+L
+, 
+šdex
+, * 
+±r
+, 
+ty³
+) {
+
+463 
+ty³
+) {
+
+465 
+št32_t
+ 
+v
+ = 
+	`luaL_checkš‹g”
+(
+L
+, 
+šdex
+);
+
+466 
+	`memıy
+(
+±r
+, &
+v
+, 4);
+
+467  
+±r
+ + 4;
+
+470 
+št64_t
+ 
+v
+ = (št64_t)
+	`luaL_checkš‹g”
+(
+L
+, 
+šdex
+);
+
+471 
+	`memıy
+(
+±r
+, &
+v
+, 8);
+
+472  
+±r
+ + 8;
+
+475 
+št32_t
+ 
+v
+ = 
+	`lua_toboŞ—n
+(
+L
+, 
+šdex
+);
+
+476 
+	`memıy
+(
+±r
+, &
+v
+, 4);
+
+477  
+±r
+ + 4;
+
+480 
+v
+ = 
+	`luaL_checknumb”
+(
+L
+, 
+šdex
+);
+
+481 
+	`memıy
+(
+±r
+, &
+v
+, 8);
+
+482  
+±r
+ + 8;
+
+485 
+size_t
+ 
+sz
+ = 0;
+
+486 cÚ¡ * 
+¡r
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, 
+šdex
+, &
+sz
+);
+
+487 
+pbc_¦iû
+ * 
+¦iû
+ = (pbc_¦iû *)
+±r
+;
+
+488 
+¦iû
+->
+bufãr
+ = (*)
+¡r
+;
+
+489 
+¦iû
+->
+Ën
+ = 
+sz
+;
+
+490  
+±r
+ + (
+pbc_¦iû
+);
+
+493 
+pbc_¦iû
+ * 
+¦iû
+ = (pbc_¦iû *)
+±r
+;
+
+494 ià(
+	`lua_i¡abË
+(
+L
+,
+šdex
+)) {
+
+495 
+	`lua_¿wg‘i
+(
+L
+,
+šdex
+,1);
+
+496 
+¦iû
+->
+bufãr
+ = 
+	`lua_tou£rd©a
+(
+L
+,-1);
+
+497 
+	`lua_¿wg‘i
+(
+L
+,
+šdex
+,2);
+
+498 
+¦iû
+->
+Ën
+ = 
+	`lua_toš‹g”
+(
+L
+,-1);
+
+499 
+	`lua_pİ
+(
+L
+,2);
+
+501 
+size_t
+ 
+sz
+ = 0;
+
+502 cÚ¡ * 
+bufãr
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, 
+šdex
+, &
+sz
+);
+
+503 
+¦iû
+->
+bufãr
+ = (*)buffer;
+
+504 
+¦iû
+->
+Ën
+ = 
+sz
+;
+
+506  
+±r
+ + (
+pbc_¦iû
+);
+
+509 
+	`luaL_”rÜ
+(
+L
+,"unknowÀfÜm© %c", 
+ty³
+);
+
+510  
+±r
+;
+
+512 
+	}
+}
+
+515 
+	$_g‘_¬¿y_v®ue
+(
+lua_S‹
+ *
+L
+, 
+pbc_¬¿y
+ 
+¬¿y
+, 
+ty³
+) {
+
+516 
+ty³
+) {
+
+518 
+št32_t
+ 
+v
+ = 
+	`luaL_checkš‹g”
+(
+L
+, -1);
+
+519 
+ušt32_t
+ 
+hi
+ = 0;
+
+520 ià(
+v
+<0) {
+
+521 
+hi
+ = ~0;
+
+523 
+	`pbc_¬¿y_push_š‹g”
+(
+¬¿y
+, 
+v
+, 
+hi
+);
+
+527 
+ušt64_t
+ 
+v
+ = (ušt64_t)
+	`luaL_checknumb”
+(
+L
+, -1);
+
+528 
+	`pbc_¬¿y_push_š‹g”
+(
+¬¿y
+, (
+ušt32_t
+)
+v
+, (uint32_t)(v >> 32));
+
+532 
+št32_t
+ 
+v
+ = 
+	`lua_toboŞ—n
+(
+L
+, -1);
+
+533 
+	`pbc_¬¿y_push_š‹g”
+(
+¬¿y
+, 
+v
+ ? 1: 0, 0);
+
+537 
+v
+ = 
+	`luaL_checknumb”
+(
+L
+, -1);
+
+538 
+	`pbc_¬¿y_push_»®
+(
+¬¿y
+, 
+v
+);
+
+542 
+size_t
+ 
+sz
+ = 0;
+
+543 cÚ¡ * 
+¡r
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, -1, &
+sz
+);
+
+544 
+pbc_¦iû
+ 
+¦iû
+;
+
+545 
+¦iû
+.
+bufãr
+ = (*)
+¡r
+;
+
+546 
+¦iû
+.
+Ën
+ = 
+sz
+;
+
+547 
+	`pbc_¬¿y_push_¦iû
+(
+¬¿y
+, &
+¦iû
+);
+
+551 
+pbc_¦iû
+ 
+¦iû
+;
+
+552 ià(
+	`lua_i¡abË
+(
+L
+,-1)) {
+
+553 
+	`lua_¿wg‘i
+(
+L
+,-1,1);
+
+554 
+¦iû
+.
+bufãr
+ = 
+	`lua_tou£rd©a
+(
+L
+,-1);
+
+555 
+	`lua_¿wg‘i
+(
+L
+,-2,2);
+
+556 
+¦iû
+.
+Ën
+ = 
+	`lua_toš‹g”
+(
+L
+,-1);
+
+557 
+	`lua_pİ
+(
+L
+,2);
+
+559 
+size_t
+ 
+sz
+ = 0;
+
+560 cÚ¡ * 
+bufãr
+ = 
+	`luaL_checkl¡ršg
+(
+L
+, -1, &
+sz
+);
+
+561 
+¦iû
+.
+bufãr
+ = (*)buffer;
+
+562 
+¦iû
+.
+Ën
+ = 
+sz
+;
+
+564 
+	`pbc_¬¿y_push_¦iû
+(
+¬¿y
+, &
+¦iû
+);
+
+568 
+	}
+}
+
+576 
+	$_·‰”n_·ck
+(
+lua_S‹
+ *
+L
+) {
+
+577 
+pbc_·‰”n
+ * 
+·t
+ = (pbc_·‰”À*)
+	`checku£rd©a
+(
+L
+,1);
+
+578 ià(
+·t
+ =ğ
+NULL
+) {
+
+579  
+	`luaL_”rÜ
+(
+L
+, "pack…attern is NULL");
+
+581 
+size_t
+ 
+fÜm©_sz
+ = 0;
+
+582 cÚ¡ * 
+fÜm©
+ = 
+	`lua_tŞ¡ršg
+(
+L
+,2,&
+fÜm©_sz
+);
+
+583 
+size
+ = 
+	`lua_toš‹g”
+(
+L
+,3);
+
+585 * 
+d©a
+ = (*)
+	`®loÿ
+(
+size
+);
+
+588 
+	`mem£t
+(
+d©a
+, 0 , 
+size
+);
+
+590 * 
+±r
+ = 
+d©a
+;
+
+592 
+i
+;
+
+594 
+i
+=0;i<
+fÜm©_sz
+;i++) {
+
+595 ià(
+fÜm©
+[
+i
+] >= 'a' && format[i] <='z') {
+
+596 
+±r
+ = 
+	`_g‘_v®ue
+(
+L
+, 4+
+i
+,…Œ, 
+fÜm©
+[i]);
+
+598 ià(!
+	`lua_i¡abË
+(
+L
+,4+
+i
+)) {
+
+599 
+	`luaL_”rÜ
+(
+L
+,"needable for‡rrayype");
+
+601 
+j
+;
+
+602 
+n
+ = 
+	`lua_¿wËn
+(
+L
+,4+
+i
+);
+
+603 
+j
+=0;j<
+n
+;j++) {
+
+604 
+	`lua_¿wg‘i
+(
+L
+,4+
+i
+,
+j
++1);
+
+605 
+	`_g‘_¬¿y_v®ue
+(
+L
+,(
+_pbc_¬¿y
+ *)
+±r
+,
+fÜm©
+[
+i
+]);
+
+606 
+	`lua_pİ
+(
+L
+,1);
+
+608 
+±r
+ +ğ(
+pbc_¬¿y
+);
+
+612 
+luaL_Bufãr
+ 
+b
+;
+
+613 
+	`luaL_buffš™
+(
+L
+, &
+b
+);
+
+615 
+ÿp
+ = 128;
+
+617 * 
+‹mp
+ = (*)
+	`luaL_´•buffsize
+(&
+b
+ , 
+ÿp
+);
+
+619 
+pbc_¦iû
+ 
+¦iû
+;
+
+620 
+¦iû
+.
+bufãr
+ = 
+‹mp
+;
+
+621 
+¦iû
+.
+Ën
+ = 
+ÿp
+;
+
+623 
+»t
+ = 
+	`pbc_·‰”n_·ck
+(
+·t
+, 
+d©a
+, &
+¦iû
+);
+
+625 ià(
+»t
+ < 0) {
+
+626 
+ÿp
+ = cap * 2;
+
+630 
+	`luaL_addsize
+(&
+b
+ , 
+¦iû
+.
+Ën
+);
+
+633 
+	`luaL_push»suÉ
+(&
+b
+);
+
+635 
+	`pbc_·‰”n_şo£_¬¿ys
+(
+·t
+, 
+d©a
+);
+
+637 
+	}
+}
+
+640 
+	$_·‰”n_size
+(
+lua_S‹
+ *
+L
+) {
+
+641 
+size_t
+ 
+sz
+ =0;
+
+642 cÚ¡ *
+fÜm©
+ = 
+	`luaL_checkl¡ršg
+(
+L
+,1,&
+sz
+);
+
+643 
+i
+;
+
+644 
+size
+ = 0;
+
+645 
+i
+=0;i<
+sz
+;i++) {
+
+646 
+fÜm©
+[
+i
+]) {
+
+649 
+size
+ += 4;
+
+653 
+size
+ += 8;
+
+657 
+size
+ +ğ(
+pbc_¦iû
+);
+
+660 
+size
+ +ğ(
+pbc_¬¿y
+);
+
+664 
+	`lua_pushš‹g”
+(
+L
+,
+size
+);
+
+666 
+	}
+}
+
+674 
+	$Ãw_¬¿y
+(
+lua_S‹
+ *
+L
+, 
+id
+, cÚ¡ *
+key
+) {
+
+675 
+	`lua_¿wg‘i
+(
+L
+, -2 , 
+id
+);
+
+676 ià(
+	`lua_i¢
+(
+L
+, -1)) {
+
+677 
+	`lua_pİ
+(
+L
+,1);
+
+678 
+	`lua_ÃwbË
+(
+L
+);
+
+679 
+	`lua_pushv®ue
+(
+L
+,-1);
+
+680 
+	`lua_pushv®ue
+(
+L
+,-1);
+
+681 
+	`lua_£tf›ld
+(
+L
+, -6 , 
+key
+);
+
+682 
+	`lua_¿w£ti
+(
+L
+, -4, 
+id
+);
+
+684 
+	}
+}
+
+687 
+	$push_v®ue
+(
+lua_S‹
+ *
+L
+, 
+ty³
+, cÚ¡ * 
+ty³_Çme
+, 
+pbc_v®ue
+ *
+v
+) {
+
+688 
+ty³
+) {
+
+689 
+PBC_FIXED32
+:
+
+690 
+PBC_INT
+:
+
+691 
+	`lua_pushš‹g”
+(
+L
+, ()
+v
+->
+i
+.
+low
+);
+
+693 
+PBC_REAL
+:
+
+694 
+	`lua_pushnumb”
+(
+L
+, 
+v
+->
+f
+);
+
+696 
+PBC_BOOL
+:
+
+697 
+	`lua_pushboŞ—n
+(
+L
+, 
+v
+->
+i
+.
+low
+);
+
+699 
+PBC_ENUM
+:
+
+700 
+	`lua_push¡ršg
+(
+L
+, 
+v
+->
+e
+.
+Çme
+);
+
+702 
+PBC_BYTES
+:
+
+703 
+PBC_STRING
+:
+
+704 
+	`lua_pushl¡ršg
+(
+L
+, (cÚ¡ *)
+v
+->
+s
+.
+bufãr
+ , v->s.
+Ën
+);
+
+706 
+PBC_MESSAGE
+:
+
+707 
+	`lua_pushv®ue
+(
+L
+, -3);
+
+708 
+	`lua_push¡ršg
+(
+L
+, 
+ty³_Çme
+);
+
+709 
+	`lua_pushl¡ršg
+(
+L
+, (cÚ¡ *)
+v
+->
+s
+.
+bufãr
+ , v->s.
+Ën
+);
+
+710 
+	`lua_ÿÎ
+(
+L
+, 2 , 1);
+
+712 
+PBC_FIXED64
+:
+
+713 
+PBC_UINT
+:
+
+714 
+PBC_INT64
+: {
+
+715 
+ušt64_t
+ 
+v64
+ = (ušt64_t)(
+v
+->
+i
+.
+hi
+è<< 32 | (ušt64_t)(v->i.
+low
+);
+
+716 
+	`lua_pushš‹g”
+(
+L
+,
+v64
+);
+
+720 
+	`luaL_”rÜ
+(
+L
+, "UnknowÀty³ %s", 
+ty³_Çme
+);
+
+723 
+	}
+}
+
+731 
+	$decode_cb
+(*
+ud
+, 
+ty³
+, cÚ¡ * 
+ty³_Çme
+, 
+pbc_v®ue
+ *
+v
+, 
+id
+, cÚ¡ *
+key
+) {
+
+732 
+lua_S‹
+ *
+L
+ = (lua_S‹ *)
+ud
+;
+
+733 ià(
+key
+ =ğ
+NULL
+) {
+
+738 ià(
+ty³
+ & 
+PBC_REPEATED
+) {
+
+739 
+	`push_v®ue
+(
+L
+, 
+ty³
+ & ~
+PBC_REPEATED
+, 
+ty³_Çme
+, 
+v
+);
+
+740 
+	`Ãw_¬¿y
+(
+L
+, 
+id
+ , 
+key
+);
+
+741 
+n
+ = 
+	`lua_¿wËn
+(
+L
+,-1);
+
+742 
+	`lua_š£¹
+(
+L
+, -2);
+
+743 
+	`lua_¿w£ti
+(
+L
+, -2 , 
+n
++1);
+
+744 
+	`lua_pİ
+(
+L
+,1);
+
+746 
+	`push_v®ue
+(
+L
+, 
+ty³
+, 
+ty³_Çme
+, 
+v
+);
+
+747 
+	`lua_£tf›ld
+(
+L
+, -3 , 
+key
+);
+
+749 
+	}
+}
+
+763 
+	$_decode
+(
+lua_S‹
+ *
+L
+) {
+
+764 
+pbc_’v
+ * 
+’v
+ = (pbc_’v *)
+	`checku£rd©a
+(
+L
+,1);
+
+765 
+	`luaL_checkty³
+(
+L
+, 2 , 
+LUA_TFUNCTION
+);
+
+766 
+	`luaL_checkty³
+(
+L
+, 3 , 
+LUA_TTABLE
+);
+
+767 cÚ¡ * 
+ty³
+ = 
+	`luaL_check¡ršg
+(
+L
+,4);
+
+768 
+pbc_¦iû
+ 
+¦iû
+;
+
+769 ià(
+	`lua_ty³
+(
+L
+,5è=ğ
+LUA_TSTRING
+) {
+
+770 
+size_t
+ 
+Ën
+;
+
+771 
+¦iû
+.
+bufãr
+ = (*)
+	`luaL_checkl¡ršg
+(
+L
+,5,&
+Ën
+);
+
+772 
+¦iû
+.
+Ën
+ = ()len;
+
+774 
+¦iû
+.
+bufãr
+ = 
+	`checku£rd©a
+(
+L
+,5);
+
+775 
+¦iû
+.
+Ën
+ = 
+	`luaL_checkš‹g”
+(
+L
+,6);
+
+777 
+	`lua_pushv®ue
+(
+L
+, 2);
+
+778 
+	`lua_pushv®ue
+(
+L
+, 3);
+
+779 
+	`lua_ÃwbË
+(
+L
+);
+
+781 
+n
+ = 
+	`pbc_decode
+(
+’v
+, 
+ty³
+, &
+¦iû
+, 
+decode_cb
+, 
+L
+);
+
+782 ià(
+n
+<0) {
+
+783 
+	`lua_pushboŞ—n
+(
+L
+,0);
+
+785 
+	`lua_pushboŞ—n
+(
+L
+,1);
+
+788 
+	}
+}
+
+790 
+	sgcobj
+ {
+
+791 
+pbc_’v
+ * 
+’v
+;
+
+792 
+size_·t
+;
+
+793 
+ÿp_·t
+;
+
+794 
+pbc_·‰”n
+ ** 
+·t
+;
+
+795 
+size_msg
+;
+
+796 
+ÿp_msg
+;
+
+797 
+pbc_rmes§ge
+ ** 
+msg
+;
+
+801 
+	$_ş—r_gcobj
+(
+lua_S‹
+ *
+L
+) {
+
+802 
+gcobj
+ * 
+obj
+ = (gcobj *)
+	`lua_tou£rd©a
+(
+L
+,1);
+
+803 
+i
+;
+
+804 
+i
+=0;i<
+obj
+->
+size_·t
+;i++) {
+
+805 
+	`pbc_·‰”n_d–‘e
+(
+obj
+->
+·t
+[
+i
+]);
+
+807 
+i
+=0;i<
+obj
+->
+size_msg
+;i++) {
+
+808 
+	`pbc_rmes§ge_d–‘e
+(
+obj
+->
+msg
+[
+i
+]);
+
+810 
+	`ä“
+(
+obj
+->
+·t
+);
+
+811 
+	`ä“
+(
+obj
+->
+msg
+);
+
+812 
+obj
+->
+·t
+ = 
+NULL
+;
+
+813 
+obj
+->
+msg
+ = 
+NULL
+;
+
+814 ià(
+obj
+->
+’v
+) {
+
+815 
+	`pbc_d–‘e
+(
+obj
+->
+’v
+);
+
+816 
+obj
+->
+’v
+ = 
+NULL
+;
+
+820 
+	}
+}
+
+823 
+	$_gc
+(
+lua_S‹
+ *
+L
+) {
+
+824 
+gcobj
+ * 
+obj
+;
+
+825 
+	`lua_£‰İ
+(
+L
+,1);
+
+826 
+obj
+ = (
+gcobj
+ *)
+	`lua_Ãwu£rd©a
+(
+L
+,(*obj));
+
+827 
+obj
+->
+’v
+ = (
+pbc_’v
+ *)
+	`lua_tou£rd©a
+(
+L
+,1);
+
+828 
+obj
+->
+size_·t
+ = 0;
+
+829 
+obj
+->
+ÿp_·t
+ = 4;
+
+830 
+obj
+->
+size_msg
+ = 0;
+
+831 
+obj
+->
+ÿp_msg
+ = 4;
+
+832 
+obj
+->
+·t
+ = (
+pbc_·‰”n
+ **)
+	`m®loc
+(obj->
+ÿp_·t
+ * (pbc_pattern *));
+
+833 
+obj
+->
+msg
+ = (
+pbc_rmes§ge
+ **)
+	`m®loc
+(obj->
+ÿp_msg
+ * (pbc_rmessage *));
+
+835 
+	`lua_ü—‹bË
+(
+L
+,0,1);
+
+836 
+	`lua_pushcfunùiÚ
+(
+L
+, 
+_ş—r_gcobj
+);
+
+837 
+	`lua_£tf›ld
+(
+L
+,-2,"__gc");
+
+838 
+	`lua_£tm‘©abË
+(
+L
+,-2);
+
+841 
+	}
+}
+
+844 
+	$_add_·‰”n
+(
+lua_S‹
+ *
+L
+) {
+
+845 
+gcobj
+ * 
+obj
+ = (gcobj *)
+	`lua_tou£rd©a
+(
+L
+,1);
+
+846 ià(
+obj
+->
+size_·t
+ >ğobj->
+ÿp_·t
+) {
+
+847 
+obj
+->
+ÿp_·t
+ *= 2;
+
+848 
+obj
+->
+·t
+ = (
+pbc_·‰”n
+ **)
+	`»®loc
+(obj->·t, obj->
+ÿp_·t
+ * (pbc_pattern *));
+
+850 
+pbc_·‰”n
+ * 
+·t
+ = (pbc_·‰”À*)
+	`lua_tou£rd©a
+(
+L
+,2);
+
+851 
+obj
+->
+·t
+[obj->
+size_·t
+++] =…at;
+
+853 
+	}
+}
+
+856 
+	$_add_rmes§ge
+(
+lua_S‹
+ *
+L
+) {
+
+857 
+gcobj
+ * 
+obj
+ = (gcobj *)
+	`lua_tou£rd©a
+(
+L
+,1);
+
+858 ià(
+obj
+->
+size_msg
+ >ğobj->
+ÿp_msg
+) {
+
+859 
+obj
+->
+ÿp_msg
+ *= 2;
+
+860 
+obj
+->
+msg
+ = (
+pbc_rmes§ge
+ **)
+	`»®loc
+(obj->msg, obj->
+ÿp_msg
+ * (pbc_rmessage *));
+
+862 
+pbc_rmes§ge
+ * 
+msg
+ = (pbc_rmes§g*)
+	`lua_tou£rd©a
+(
+L
+,2);
+
+863 
+obj
+->
+msg
+[obj->
+size_msg
+++] = msg;
+
+865 
+	}
+}
+
+868 
+	$luaİ’_´Ùobuf_c
+(
+lua_S‹
+ *
+L
+) {
+
+869 
+luaL_Reg
+ 
+»g
+[] = {
+
+870 {"_’v_Ãw" , 
+_’v_Ãw
+ },
+
+871 {"_’v_»gi¡”" , 
+_’v_»gi¡”
+ },
+
+872 {"_’v_ty³", 
+_’v_ty³
+ },
+
+873 {"_rmes§ge_Ãw" , 
+_rmes§ge_Ãw
+ },
+
+874 {"_rmes§ge_d–‘e" , 
+_rmes§ge_d–‘e
+ },
+
+875 {"_rmes§ge_št", 
+_rmes§ge_št
+ },
+
+876 {"_rmes§ge_»®" , 
+_rmes§ge_»®
+ },
+
+877 {"_rmes§ge_¡ršg" , 
+_rmes§ge_¡ršg
+ },
+
+878 {"_rmes§ge_mes§ge" , 
+_rmes§ge_mes§ge
+ },
+
+879 {"_rmes§ge_size" , 
+_rmes§ge_size
+ },
+
+880 {"_wmes§ge_Ãw", 
+_wmes§ge_Ãw
+ },
+
+881 {"_wmes§ge_d–‘e", 
+_wmes§ge_d–‘e
+ },
+
+882 {"_wmes§ge_»®", 
+_wmes§ge_»®
+ },
+
+883 {"_wmes§ge_¡ršg", 
+_wmes§ge_¡ršg
+ },
+
+884 {"_wmes§ge_mes§ge", 
+_wmes§ge_mes§ge
+ },
+
+885 {"_wmes§ge_št", 
+_wmes§ge_št
+ },
+
+886 {"_wmes§ge_bufãr", 
+_wmes§ge_bufãr
+ },
+
+887 {"_wmes§ge_bufãr_¡ršg", 
+_wmes§ge_bufãr_¡ršg
+ },
+
+888 {"_·‰”n_Ãw", 
+_·‰”n_Ãw
+ },
+
+889 {"_·‰”n_d–‘e", 
+_·‰”n_d–‘e
+ },
+
+890 {"_·‰”n_size", 
+_·‰”n_size
+ },
+
+891 {"_·‰”n_uÅack", 
+_·‰”n_uÅack
+ },
+
+892 {"_·‰”n_·ck", 
+_·‰”n_·ck
+ },
+
+893 {"_Ï¡_”rÜ", 
+_Ï¡_”rÜ
+ },
+
+894 {"_decode", 
+_decode
+ },
+
+895 {"_gc", 
+_gc
+ },
+
+896 {"_add_·‰”n", 
+_add_·‰”n
+ },
+
+897 {"_add_rmes§ge", 
+_add_rmes§ge
+ },
+
+898 {"_’v_’um_id", 
+_’v_’um_id
+},
+
+899 {
+NULL
+,NULL},
+
+902 
+	`luaL_checkv”siÚ
+(
+L
+);
+
+903 
+	`luaL_Ãwlib
+(
+L
+, 
+»g
+);
+
+906 
+	}
+}
+
+	@lualib/protobuf.lua
+
+1 
+loÿl
+ 
+	gc
+ = 
+»quœe
+ "protobuf.c"
+
+3 
+loÿl
+ 
+£tm‘©abË
+ = setmetatable
+
+4 
+loÿl
+ 
+ty³
+ =ype
+
+5 
+loÿl
+ 
+bË
+ =able
+
+6 
+loÿl
+ 
+as£¹
+ =‡ssert
+
+7 
+loÿl
+ 
+·œs
+ =…airs
+
+8 
+loÿl
+ 
+aœs
+ = ipairs
+
+9 
+loÿl
+ 
+¡ršg
+ = string
+
+10 
+loÿl
+ 
+´št
+ =…rint
+
+11 
+loÿl
+ 
+io
+ = io
+
+12 
+loÿl
+ 
+tš£¹
+ = 
+bË
+.
+š£¹
+
+
+13 
+loÿl
+ 
+¿wg‘
+ =„awget
+
+15 
+loÿl
+ 
+M
+ = {}
+
+17 
+loÿl
+ 
+_·‰”n_ÿche
+ = {}
+
+19 
+loÿl
+ 
+P
+,
+GC
+
+
+21 
+	gP
+ = 
+debug
+.
+g‘»gi¡ry
+().
+PROTOBUF_ENV
+
+
+23 
+P
+ 
+th’
+
+
+24 
+GC
+ = 
+c
+.
+	$_gc
+()
+
+26 
+P
+ğ
+c
+.
+	$_’v_Ãw
+()
+
+27 
+GC
+ = 
+c
+.
+	$_gc
+(
+P
+)
+
+28 
+’d
+
+
+30 
+M
+.
+GC
+ = GC
+
+32 
+funùiÚ
+ 
+M
+.
+	$Ï¡”rÜ
+()
+
+33  
+c
+.
+	$_Ï¡_”rÜ
+(
+P
+)
+
+34 
+’d
+
+
+36 
+loÿl
+ 
+decode_ty³_ÿche
+ = {
+	}
+}
+
+37 
+loÿl
+ 
+_R_m‘a
+ = {}
+
+39 
+funùiÚ
+ 
+_R_m‘a
+:
+	$__šdex
+(
+key
+)
+
+40 
+loÿl
+ 
+v
+ = 
+decode_ty³_ÿche
+[
+£lf
+.
+_CTy³
+][
+key
+](self, key)
+
+41 
+£lf
+[
+key
+] = 
+v
+
+
+42  
+v
+
+
+43 
+’d
+
+
+45 
+loÿl
+ 
+_»ad”
+ = {
+	}
+}
+
+47 
+funùiÚ
+ 
+_»ad”
+:
+	$»®
+(
+key
+)
+
+48  
+c
+.
+	$_rmes§ge_»®
+(
+£lf
+.
+_CObj
+ , 
+key
+ , 0)
+
+49 
+’d
+
+
+51 
+funùiÚ
+ 
+_»ad”
+:
+	$¡ršg
+(
+key
+)
+
+52  
+c
+.
+	$_rmes§ge_¡ršg
+(
+£lf
+.
+_CObj
+ , 
+key
+ , 0)
+
+53 
+’d
+
+
+55 
+funùiÚ
+ 
+_»ad”
+:
+	$boŞ
+(
+key
+)
+
+56  
+c
+.
+	`_rmes§ge_št
+(
+£lf
+.
+_CObj
+ , 
+key
+ , 0) ~= 0
+
+57 
+’d
+
+
+59 
+funùiÚ
+ 
+_»ad”
+:
+	$mes§ge
+(
+key
+, 
+mes§ge_ty³
+)
+
+60 
+loÿl
+ 
+rmes§ge
+ = 
+c
+.
+	$_rmes§ge_mes§ge
+(
+£lf
+.
+_CObj
+ , 
+key
+ , 0)
+
+61 
+rmes§ge
+ 
+th’
+
+
+62 
+loÿl
+ 
+v
+ = {
+
+63 
+_CObj
+ = 
+rmes§ge
+,
+
+64 
+_CTy³
+ = 
+mes§ge_ty³
+,
+
+65 
+_P¬’t
+ = 
+£lf
+,
+
+66 
+	}
+}
+
+67  
+	$£tm‘©abË
+Ğ
+v
+ , 
+_R_m‘a
+ )
+
+68 
+’d
+
+
+69 
+’d
+
+
+71 
+funùiÚ
+ 
+_»ad”
+:(
+key
+)
+
+72  
+c
+.
+	$_rmes§ge_št
+(
+£lf
+.
+_CObj
+ , 
+key
+ , 0)
+
+73 
+’d
+
+
+75 
+funùiÚ
+ 
+_»ad”
+:
+	$»®_»³©ed
+(
+key
+)
+
+76 
+loÿl
+ 
+cobj
+ = 
+£lf
+.
+_CObj
+
+
+77 
+loÿl
+ 
+n
+ = 
+c
+.
+	$_rmes§ge_size
+(
+cobj
+ , 
+key
+)
+
+78 
+loÿl
+ 
+»t
+ = {
+	}
+}
+
+79 
+i
+=0,
+	gn
+-1 do
+
+80 
+tš£¹
+(
+»t
+, 
+c
+.
+	$_rmes§ge_»®
+(
+cobj
+ , 
+key
+ , 
+i
+))
+
+81 
+’d
+
+
+82  
+»t
+
+
+83 
+’d
+
+
+85 
+funùiÚ
+ 
+_»ad”
+:
+	$¡ršg_»³©ed
+(
+key
+)
+
+86 
+loÿl
+ 
+cobj
+ = 
+£lf
+.
+_CObj
+
+
+87 
+loÿl
+ 
+n
+ = 
+c
+.
+	$_rmes§ge_size
+(
+cobj
+ , 
+key
+)
+
+88 
+loÿl
+ 
+»t
+ = {
+	}
+}
+
+89 
+i
+=0,
+	gn
+-1 do
+
+90 
+tš£¹
+(
+»t
+, 
+c
+.
+	$_rmes§ge_¡ršg
+(
+cobj
+ , 
+key
+ , 
+i
+))
+
+91 
+’d
+
+
+92  
+»t
+
+
+93 
+’d
+
+
+95 
+funùiÚ
+ 
+_»ad”
+:
+	$boŞ_»³©ed
+(
+key
+)
+
+96 
+loÿl
+ 
+cobj
+ = 
+£lf
+.
+_CObj
+
+
+97 
+loÿl
+ 
+n
+ = 
+c
+.
+	$_rmes§ge_size
+(
+cobj
+ , 
+key
+)
+
+98 
+loÿl
+ 
+»t
+ = {
+	}
+}
+
+99 
+i
+=0,
+	gn
+-1 do
+
+100 
+tš£¹
+(
+»t
+, 
+c
+.
+_rmes§ge_št
+(
+cobj
+ , 
+key
+ , 
+i
+) ~= 0)
+
+101 
+’d
+
+
+102  
+»t
+
+
+103 
+’d
+
+
+105 
+funùiÚ
+ 
+_»ad”
+:
+	$mes§ge_»³©ed
+(
+key
+, 
+mes§ge_ty³
+)
+
+106 
+loÿl
+ 
+cobj
+ = 
+£lf
+.
+_CObj
+
+
+107 
+loÿl
+ 
+n
+ = 
+c
+.
+	$_rmes§ge_size
+(
+cobj
+ , 
+key
+)
+
+108 
+loÿl
+ 
+»t
+ = {
+	}
+}
+
+109 
+i
+=0,
+	gn
+-1 do
+
+110 
+loÿl
+ 
+	gm
+ = {
+
+111 
+_CObj
+ = 
+c
+.
+_rmes§ge_mes§ge
+(
+cobj
+ , 
+key
+ , 
+i
+),
+
+112 
+	g_CTy³
+ = 
+mes§ge_ty³
+,
+
+113 
+	g_P¬’t
+ = 
+£lf
+,
+
+115 
+tš£¹
+(
+»t
+, 
+	$£tm‘©abË
+Ğ
+m
+ , 
+_R_m‘a
+ ))
+
+116 
+’d
+
+
+117  
+»t
+
+
+118 
+’d
+
+
+120 
+funùiÚ
+ 
+_»ad”
+:
+	$št_»³©ed
+(
+key
+)
+
+121 
+loÿl
+ 
+cobj
+ = 
+£lf
+.
+_CObj
+
+
+122 
+loÿl
+ 
+n
+ = 
+c
+.
+	$_rmes§ge_size
+(
+cobj
+ , 
+key
+)
+
+123 
+loÿl
+ 
+»t
+ = {
+	}
+}
+
+124 
+i
+=0,
+	gn
+-1 do
+
+125 
+tš£¹
+(
+»t
+, 
+c
+.
+	$_rmes§ge_št
+(
+cobj
+ , 
+key
+ , 
+i
+))
+
+126 
+’d
+
+
+127  
+»t
+
+
+128 
+’d
+
+
+131 
+	#PBC_INT
+ 1
+
+	)
+
+132 
+	#PBC_REAL
+ 2
+
+	)
+
+133 
+	#PBC_BOOL
+ 3
+
+	)
+
+134 
+	#PBC_ENUM
+ 4
+
+	)
+
+135 
+	#PBC_STRING
+ 5
+
+	)
+
+136 
+	#PBC_MESSAGE
+ 6
+
+	)
+
+137 
+	#PBC_FIXED64
+ 7
+
+	)
+
+138 
+	#PBC_FIXED32
+ 8
+
+	)
+
+139 
+	#PBC_BYTES
+ 9
+
+	)
+
+140 
+	#PBC_INT64
+ 10
+
+	)
+
+141 
+	#PBC_UINT
+ 11
+
+	)
+
+142 
+	#PBC_UNKNOWN
+ 12
+
+	)
+
+143 
+	#PBC_REPEATED
+ 128
+
+	)
+
+146 
+_»ad”
+[1] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+’d
+
+
+147 
+_»ad”
+[2] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+»®
+ 
+’d
+
+
+148 
+_»ad”
+[3] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+boŞ
+ 
+’d
+
+
+149 
+_»ad”
+[4] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+¡ršg
+ 
+’d
+
+
+150 
+_»ad”
+[5] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+¡ršg
+ 
+’d
+
+
+151 
+_»ad”
+[6] = 
+	$funùiÚ
+(
+msg
+)
+
+152 
+loÿl
+ 
+mes§ge
+ = 
+_»ad”
+.message
+
+153  
+	$funùiÚ
+(
+£lf
+,
+key
+)
+
+154  
+	$mes§ge
+(
+£lf
+, 
+key
+, 
+msg
+)
+
+155 
+’d
+
+
+156 
+’d
+
+
+157 
+_»ad”
+[7] = _reader[1]
+
+158 
+_»ad”
+[8] = _reader[1]
+
+159 
+_»ad”
+[9] = _reader[5]
+
+160 
+_»ad”
+[10] = _reader[7]
+
+161 
+_»ad”
+[11] = _reader[7]
+
+163 
+_»ad”
+[128+1] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+št_»³©ed
+ 
+’d
+
+
+164 
+_»ad”
+[128+2] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+»®_»³©ed
+ 
+’d
+
+
+165 
+_»ad”
+[128+3] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+boŞ_»³©ed
+ 
+’d
+
+
+166 
+_»ad”
+[128+4] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+¡ršg_»³©ed
+ 
+’d
+
+
+167 
+_»ad”
+[128+5] = 
+	$funùiÚ
+(
+msg
+è 
+_»ad”
+.
+¡ršg_»³©ed
+ 
+’d
+
+
+168 
+_»ad”
+[128+6] = 
+	$funùiÚ
+(
+msg
+)
+
+169 
+loÿl
+ 
+mes§ge
+ = 
+_»ad”
+.
+mes§ge_»³©ed
+
+
+170  
+	$funùiÚ
+(
+£lf
+,
+key
+)
+
+171  
+	$mes§ge
+(
+£lf
+, 
+key
+, 
+msg
+)
+
+172 
+’d
+
+
+173 
+’d
+
+
+174 
+_»ad”
+[128+7] = _reader[128+1]
+
+175 
+_»ad”
+[128+8] = _reader[128+1]
+
+176 
+_»ad”
+[128+9] = _reader[128+5]
+
+177 
+_»ad”
+[128+10] = _reader[128+7]
+
+178 
+_»ad”
+[128+11] = _reader[128+7]
+
+180 
+loÿl
+ 
+_decode_ty³_m‘a
+ = {
+	}
+}
+
+182 
+funùiÚ
+ 
+_decode_ty³_m‘a
+:
+	$__šdex
+(
+key
+)
+
+183 
+loÿl
+ 
+t
+, 
+msg
+ = 
+c
+.
+	$_’v_ty³
+(
+P
+, 
+£lf
+.
+_CTy³
+, 
+key
+)
+
+184 
+loÿl
+ 
+func
+ = 
+	$as£¹
+(
+_»ad”
+[
+t
+],
+key
+)(
+msg
+)
+
+185 
+£lf
+[
+key
+] = 
+func
+
+
+186  
+func
+
+
+187 
+’d
+
+
+189 
+	`£tm‘©abË
+(
+decode_ty³_ÿche
+ , {
+
+190 
+__šdex
+ = 
+	`funùiÚ
+(
+£lf
+, 
+key
+)
+
+191 
+loÿl
+ 
+v
+ = 
+	`£tm‘©abË
+({ 
+_CTy³
+ = 
+key
+ } , 
+_decode_ty³_m‘a
+)
+
+192 
+£lf
+[
+key
+] = 
+v
+
+
+193  
+v
+
+
+194 
+’d
+
+
+195 
+	}
+})
+
+197 
+loÿl
+ 
+funùiÚ
+ 
+	$decode_mes§ge
+Ğ
+mes§ge
+ , 
+bufãr
+, 
+Ëngth
+)
+
+198 
+loÿl
+ 
+rmes§ge
+ = 
+c
+.
+	$_rmes§ge_Ãw
+(
+P
+, 
+mes§ge
+, 
+bufãr
+, 
+Ëngth
+)
+
+199 
+rmes§ge
+ 
+th’
+
+
+200 
+loÿl
+ 
+£lf
+ = {
+
+201 
+_CObj
+ = 
+rmes§ge
+,
+
+202 
+_CTy³
+ = 
+mes§ge
+,
+
+203 
+	}
+}
+
+204 
+	gc
+.
+	$_add_rmes§ge
+(
+GC
+,
+rmes§ge
+)
+
+205  
+	$£tm‘©abË
+Ğ
+£lf
+ , 
+_R_m‘a
+ )
+
+206 
+’d
+
+
+207 
+’d
+
+
+209 ----------- 
+’code
+ ----------------
+
+211 
+loÿl
+ 
+’code_ty³_ÿche
+ = {
+	}
+}
+
+213 
+loÿl
+ 
+funùiÚ
+ 
+	$’code_mes§ge
+(
+CObj
+, 
+mes§ge_ty³
+, 
+t
+)
+
+214 
+loÿl
+ 
+ty³
+ = 
+’code_ty³_ÿche
+[
+mes§ge_ty³
+]
+
+215 
+k
+,
+v
+ 
+š
+ 
+	$·œs
+(
+t
+) do
+
+216 
+loÿl
+ 
+func
+ = 
+ty³
+[
+k
+]
+
+217 
+	$func
+(
+CObj
+, 
+k
+ , 
+v
+)
+
+218 
+’d
+
+
+219 
+’d
+
+
+221 
+loÿl
+ 
+_wr™”
+ = {
+
+222 
+»®
+ = 
+c
+.
+_wmes§ge_»®
+,
+
+223 ğ
+c
+.
+_wmes§ge_¡ršg
+,
+
+224 
+¡ršg
+ = 
+c
+.
+_wmes§ge_¡ršg
+,
+
+225 ğ
+c
+.
+_wmes§ge_št
+,
+
+226 
+	}
+}
+
+228 
+funùiÚ
+ 
+	g_wr™”
+:
+	$boŞ
+(
+k
+,
+v
+)
+
+229 
+c
+.
+	$_wmes§ge_št
+(
+£lf
+, 
+k
+, 
+v
+ 
+ªd
+ 1 
+Ü
+ 0)
+
+230 
+’d
+
+
+232 
+funùiÚ
+ 
+_wr™”
+:
+	$mes§ge
+(
+k
+, 
+v
+ , 
+mes§ge_ty³
+)
+
+233 
+loÿl
+ 
+submes§ge
+ = 
+c
+.
+	$_wmes§ge_mes§ge
+(
+£lf
+, 
+k
+)
+
+234 
+	$’code_mes§ge
+(
+submes§ge
+, 
+mes§ge_ty³
+, 
+v
+)
+
+235 
+’d
+
+
+237 
+funùiÚ
+ 
+_wr™”
+:
+	$»®_»³©ed
+(
+k
+,
+v
+)
+
+238 
+_
+,
+v
+ 
+š
+ 
+	$aœs
+(
+v
+) do
+
+239 
+c
+.
+	$_wmes§ge_»®
+(
+£lf
+,
+k
+,
+v
+)
+
+240 
+’d
+
+
+241 
+’d
+
+
+243 
+funùiÚ
+ 
+_wr™”
+:
+	$boŞ_»³©ed
+(
+k
+,
+v
+)
+
+244 
+_
+,
+v
+ 
+š
+ 
+	$aœs
+(
+v
+) do
+
+245 
+c
+.
+	$_wmes§ge_št
+(
+£lf
+, 
+k
+, 
+v
+ 
+ªd
+ 1 
+Ü
+ 0)
+
+246 
+’d
+
+
+247 
+’d
+
+
+249 
+funùiÚ
+ 
+_wr™”
+:
+	$¡ršg_»³©ed
+(
+k
+,
+v
+)
+
+250 
+_
+,
+v
+ 
+š
+ 
+	$aœs
+(
+v
+) do
+
+251 
+c
+.
+	$_wmes§ge_¡ršg
+(
+£lf
+,
+k
+,
+v
+)
+
+252 
+’d
+
+
+253 
+’d
+
+
+255 
+funùiÚ
+ 
+_wr™”
+:
+	$mes§ge_»³©ed
+(
+k
+,
+v
+, 
+mes§ge_ty³
+)
+
+256 
+_
+,
+v
+ 
+š
+ 
+	$aœs
+(
+v
+) do
+
+257 
+loÿl
+ 
+submes§ge
+ = 
+c
+.
+	$_wmes§ge_mes§ge
+(
+£lf
+, 
+k
+)
+
+258 
+	$’code_mes§ge
+(
+submes§ge
+, 
+mes§ge_ty³
+, 
+v
+)
+
+259 
+’d
+
+
+260 
+’d
+
+
+262 
+funùiÚ
+ 
+_wr™”
+:
+	$št_»³©ed
+(
+k
+,
+v
+)
+
+263 
+_
+,
+v
+ 
+š
+ 
+	$aœs
+(
+v
+) do
+
+264 
+c
+.
+	$_wmes§ge_št
+(
+£lf
+,
+k
+,
+v
+)
+
+265 
+’d
+
+
+266 
+’d
+
+
+268 
+_wr™”
+[1] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+’d
+
+
+269 
+_wr™”
+[2] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+»®
+ 
+’d
+
+
+270 
+_wr™”
+[3] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+boŞ
+ 
+’d
+
+
+271 
+_wr™”
+[4] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+¡ršg
+ 
+’d
+
+
+272 
+_wr™”
+[5] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+¡ršg
+ 
+’d
+
+
+273 
+_wr™”
+[6] = 
+	$funùiÚ
+(
+msg
+)
+
+274 
+loÿl
+ 
+mes§ge
+ = 
+_wr™”
+.message
+
+275  
+	$funùiÚ
+(
+£lf
+,
+key
+ , 
+v
+)
+
+276  
+	$mes§ge
+(
+£lf
+, 
+key
+, 
+v
+, 
+msg
+)
+
+277 
+’d
+
+
+278 
+’d
+
+
+279 
+_wr™”
+[7] = _writer[1]
+
+280 
+_wr™”
+[8] = _writer[1]
+
+281 
+_wr™”
+[9] = _writer[5]
+
+282 
+_wr™”
+[10] = _writer[7]
+
+283 
+_wr™”
+[11] = _writer[7]
+
+285 
+_wr™”
+[128+1] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+št_»³©ed
+ 
+’d
+
+
+286 
+_wr™”
+[128+2] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+»®_»³©ed
+ 
+’d
+
+
+287 
+_wr™”
+[128+3] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+boŞ_»³©ed
+ 
+’d
+
+
+288 
+_wr™”
+[128+4] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+¡ršg_»³©ed
+ 
+’d
+
+
+289 
+_wr™”
+[128+5] = 
+	$funùiÚ
+(
+msg
+è 
+_wr™”
+.
+¡ršg_»³©ed
+ 
+’d
+
+
+290 
+_wr™”
+[128+6] = 
+	$funùiÚ
+(
+msg
+)
+
+291 
+loÿl
+ 
+mes§ge
+ = 
+_wr™”
+.
+mes§ge_»³©ed
+
+
+292  
+	$funùiÚ
+(
+£lf
+,
+key
+, 
+v
+)
+
+293  
+	$mes§ge
+(
+£lf
+, 
+key
+, 
+v
+, 
+msg
+)
+
+294 
+’d
+
+
+295 
+’d
+
+
+297 
+_wr™”
+[128+7] = _writer[128+1]
+
+298 
+_wr™”
+[128+8] = _writer[128+1]
+
+299 
+_wr™”
+[128+9] = _writer[128+5]
+
+300 
+_wr™”
+[128+10] = _writer[128+7]
+
+301 
+_wr™”
+[128+11] = _writer[128+7]
+
+303 
+loÿl
+ 
+_’code_ty³_m‘a
+ = {
+	}
+}
+
+305 
+funùiÚ
+ 
+_’code_ty³_m‘a
+:
+	$__šdex
+(
+key
+)
+
+306 
+loÿl
+ 
+t
+, 
+msg
+ = 
+c
+.
+	$_’v_ty³
+(
+P
+, 
+£lf
+.
+_CTy³
+, 
+key
+)
+
+307 
+loÿl
+ 
+func
+ = 
+	$as£¹
+(
+_wr™”
+[
+t
+],
+key
+)(
+msg
+)
+
+308 
+£lf
+[
+key
+] = 
+func
+
+
+309  
+func
+
+
+310 
+’d
+
+
+312 
+	`£tm‘©abË
+(
+’code_ty³_ÿche
+ , {
+
+313 
+__šdex
+ = 
+	`funùiÚ
+(
+£lf
+, 
+key
+)
+
+314 
+loÿl
+ 
+v
+ = 
+	`£tm‘©abË
+({ 
+_CTy³
+ = 
+key
+ } , 
+_’code_ty³_m‘a
+)
+
+315 
+£lf
+[
+key
+] = 
+v
+
+
+316  
+v
+
+
+317 
+’d
+
+
+318 
+	}
+})
+
+320 
+funùiÚ
+ 
+	gM
+.
+	$’code
+Ğ
+mes§ge
+, 
+t
+ , 
+func
+ , ...)
+
+321 
+loÿl
+ 
+’cod”
+ = 
+c
+.
+	$_wmes§ge_Ãw
+(
+P
+, 
+mes§ge
+)
+
+322 
+	$as£¹
+(
+’cod”
+ , 
+mes§ge
+)
+
+323 
+	$’code_mes§ge
+(
+’cod”
+, 
+mes§ge
+, 
+t
+)
+
+324 
+func
+ 
+th’
+
+
+325 
+loÿl
+ 
+bufãr
+, 
+Ën
+ = 
+c
+.
+	$_wmes§ge_bufãr
+(
+’cod”
+)
+
+326 
+loÿl
+ 
+»t
+ = 
+	$func
+(
+bufãr
+, 
+Ën
+, ...)
+
+327 
+c
+.
+	$_wmes§ge_d–‘e
+(
+’cod”
+)
+
+328  
+»t
+
+
+330 
+loÿl
+ 
+s
+ = 
+c
+.
+	$_wmes§ge_bufãr_¡ršg
+(
+’cod”
+)
+
+331 
+c
+.
+	$_wmes§ge_d–‘e
+(
+’cod”
+)
+
+332  
+s
+
+
+333 
+’d
+
+
+334 
+’d
+
+
+336 --------- 
+uÅack
+ ----------
+
+338 
+loÿl
+ 
+_·‰”n_ty³
+ = {
+
+351 
+	}
+}
+
+353 
+	g_·‰”n_ty³
+[4] = 
+_·‰”n_ty³
+[1]
+
+354 
+_·‰”n_ty³
+[8] = _pattern_type[1]
+
+355 
+_·‰”n_ty³
+[9] = _pattern_type[5]
+
+356 
+_·‰”n_ty³
+[10] = _pattern_type[7]
+
+357 
+_·‰”n_ty³
+[11] = _pattern_type[7]
+
+358 
+_·‰”n_ty³
+[128+4] = _pattern_type[128+1]
+
+359 
+_·‰”n_ty³
+[128+8] = _pattern_type[128+1]
+
+360 
+_·‰”n_ty³
+[128+9] = _pattern_type[128+5]
+
+361 
+_·‰”n_ty³
+[128+10] = _pattern_type[128+7]
+
+362 
+_·‰”n_ty³
+[128+11] = _pattern_type[128+7]
+
+365 
+loÿl
+ 
+funùiÚ
+ 
+	$_·‰”n_ü—‹
+(
+·‰”n
+)
+
+366 
+loÿl
+ 
+™”
+ = 
+¡ršg
+.
+	`gm©ch
+(
+·‰”n
+,"[^ ]+")
+
+367 
+loÿl
+ 
+mes§ge
+ = 
+	$™”
+()
+
+368 
+loÿl
+ 
+ı©
+ = {
+	}
+}
+
+369 
+loÿl
+ 
+lua
+ = {}
+
+370 
+v
+ 
+š
+ 
+™”
+ do
+
+371 
+loÿl
+ 
+tidx
+ = 
+c
+.
+	$_’v_ty³
+(
+P
+, 
+mes§ge
+, 
+v
+)
+
+372 
+loÿl
+ 
+t
+ = 
+_·‰”n_ty³
+[
+tidx
+]
+
+373 
+	$as£¹
+(
+t
+,
+tidx
+)
+
+374 
+	`tš£¹
+(
+ı©
+,
+v
+ .. " " .. 
+t
+[1])
+
+375 
+	$tš£¹
+(
+lua
+,
+t
+[2])
+
+376 
+’d
+
+
+377 
+loÿl
+ 
+cobj
+ = 
+c
+.
+	`_·‰”n_Ãw
+(
+P
+, 
+mes§ge
+ , "@" .. 
+bË
+.
+	`cÚÿt
+(
+ı©
+," "))
+
+378 
+cobj
+ =ğ
+n
+ 
+th’
+
+
+380 
+’d
+
+
+381 
+c
+.
+	$_add_·‰”n
+(
+GC
+, 
+cobj
+)
+
+382 
+loÿl
+ 
+·t
+ = {
+
+383 
+CObj
+ = 
+cobj
+,
+
+384 
+fÜm©
+ = 
+bË
+.
+	`cÚÿt
+(
+lua
+),
+
+385 
+size
+ = 0
+
+386 
+	}
+}
+
+387 
+	g·t
+.
+	gsize
+ = 
+c
+.
+	$_·‰”n_size
+(
+·t
+.
+fÜm©
+)
+
+389  
+·t
+
+
+390 
+’d
+
+
+392 
+	`£tm‘©abË
+(
+_·‰”n_ÿche
+, {
+
+393 
+__šdex
+ = 
+	`funùiÚ
+(
+t
+, 
+key
+)
+
+394 
+loÿl
+ 
+v
+ = 
+	`_·‰”n_ü—‹
+(
+key
+)
+
+395 
+t
+[
+key
+] = 
+v
+
+
+396  
+v
+
+
+397 
+’d
+
+
+398 
+	}
+})
+
+400 
+funùiÚ
+ 
+	gM
+.
+	$uÅack
+(
+·‰”n
+, 
+bufãr
+, 
+Ëngth
+)
+
+401 
+loÿl
+ 
+·t
+ = 
+_·‰”n_ÿche
+[
+·‰”n
+]
+
+402  
+c
+.
+	$_·‰”n_uÅack
+(
+·t
+.
+CObj
+ ,…©.
+fÜm©
+,…©.
+size
+, 
+bufãr
+, 
+Ëngth
+)
+
+403 
+’d
+
+
+405 
+funùiÚ
+ 
+M
+.
+	$·ck
+(
+·‰”n
+, ...)
+
+406 
+loÿl
+ 
+·t
+ = 
+_·‰”n_ÿche
+[
+·‰”n
+]
+
+407  
+c
+.
+	$_·‰”n_·ck
+(
+·t
+.
+CObj
+,…©.
+fÜm©
+,…©.
+size
+ , ...)
+
+408 
+’d
+
+
+410 
+funùiÚ
+ 
+M
+.
+	$check
+(
+ty³Çme
+ , 
+f›ld
+)
+
+411 
+f›ld
+ =ğ
+n
+ 
+th’
+
+
+412  
+c
+.
+	$_’v_ty³
+(
+P
+,
+ty³Çme
+)
+
+414  
+c
+.
+	`_’v_ty³
+(
+P
+,
+ty³Çme
+,
+f›ld
+) ~=0
+
+415 
+’d
+
+
+416 
+’d
+
+
+420 
+loÿl
+ 
+deçuÉ_ÿche
+ = {
+	}
+}
+
+422 -- 
+todo
+ : 
+ş—r
+ 
+deçuÉ_ÿche
+, 
+	gv
+.
+_CObj
+
+
+424 
+loÿl
+ 
+funùiÚ
+ 
+	$deçuÉ_bË
+(
+ty³Çme
+)
+
+425 
+loÿl
+ 
+v
+ = 
+deçuÉ_ÿche
+[
+ty³Çme
+]
+
+426 
+v
+ 
+th’
+
+
+427  
+v
+
+
+428 
+’d
+
+
+430 
+v
+ = { 
+__šdex
+ = 
+	`as£¹
+(
+	`decode_mes§ge
+(
+ty³Çme
+ , "")è
+	}
+}
+
+432 
+	gdeçuÉ_ÿche
+[
+ty³Çme
+] = 
+v
+
+
+433  
+v
+
+
+434 
+’d
+
+
+436 
+loÿl
+ 
+decode_mes§ge_mt
+ = {}
+
+438 
+loÿl
+ 
+funùiÚ
+ 
+	$decode_mes§ge_cb
+(
+ty³Çme
+, 
+bufãr
+)
+
+439  
+	`£tm‘©abË
+ ( { 
+ty³Çme
+, 
+bufãr
+ 
+	}
+} , 
+	gdecode_mes§ge_mt
+)
+
+440 
+’d
+
+
+442 
+funùiÚ
+ 
+	gM
+.
+	$decode
+(
+ty³Çme
+, 
+bufãr
+, 
+Ëngth
+)
+
+443 
+loÿl
+ 
+»t
+ = {
+	}
+}
+
+444 
+loÿl
+ 
+ok
+ = 
+c
+.
+	$_decode
+(
+P
+, 
+decode_mes§ge_cb
+ , 
+»t
+ , 
+ty³Çme
+, 
+bufãr
+, 
+Ëngth
+)
+
+445 
+ok
+ 
+th’
+
+
+446  
+	`£tm‘©abË
+(
+»t
+ , 
+	$deçuÉ_bË
+(
+ty³Çme
+))
+
+448  
+çl£
+ , 
+c
+.
+	$_Ï¡_”rÜ
+(
+P
+)
+
+449 
+’d
+
+
+450 
+’d
+
+
+452 
+loÿl
+ 
+funùiÚ
+ 
+	$ex·nd
+(
+tbl
+)
+
+453 
+loÿl
+ 
+ty³Çme
+ = 
+	$¿wg‘
+(
+tbl
+ , 1)
+
+454 
+loÿl
+ 
+bufãr
+ = 
+	$¿wg‘
+(
+tbl
+ , 2)
+
+455 
+tbl
+[1] ,bl[2] = 
+n
+ ,‚il
+
+456 
+	`as£¹
+(
+c
+.
+	`_decode
+(
+P
+, 
+decode_mes§ge_cb
+ , 
+tbl
+ , 
+ty³Çme
+, 
+bufãr
+),ypename)
+
+457 
+	`£tm‘©abË
+(
+tbl
+ , 
+	$deçuÉ_bË
+(
+ty³Çme
+))
+
+458 
+’d
+
+
+460 
+funùiÚ
+ 
+decode_mes§ge_mt
+.
+	$__šdex
+(
+tbl
+, 
+key
+)
+
+461 
+	$ex·nd
+(
+tbl
+)
+
+462  
+tbl
+[
+key
+]
+
+463 
+’d
+
+
+465 
+funùiÚ
+ 
+decode_mes§ge_mt
+.
+	$__·œs
+(
+tbl
+)
+
+466 
+	$ex·nd
+(
+tbl
+)
+
+467  
+	$·œs
+(
+tbl
+)
+
+468 
+’d
+
+
+470 
+loÿl
+ 
+funùiÚ
+ 
+	$£t_deçuÉ
+(
+ty³Çme
+, 
+tbl
+)
+
+471 
+k
+,
+v
+ 
+š
+ 
+	$·œs
+(
+tbl
+) do
+
+472 
+	`ty³
+(
+v
+è=ğ"bË" 
+th’
+
+
+473 
+loÿl
+ 
+t
+, 
+msg
+ = 
+c
+.
+	$_’v_ty³
+(
+P
+, 
+ty³Çme
+, 
+k
+)
+
+474 
+t
+ =ğ6 
+th’
+
+
+475 
+	$£t_deçuÉ
+(
+msg
+, 
+v
+)
+
+476 
+–£if
+ 
+t
+ =ğ128+6 
+th’
+
+
+477 
+_
+,
+v
+ 
+š
+ 
+	$aœs
+(
+v
+) do
+
+478 
+	$£t_deçuÉ
+(
+msg
+, 
+v
+)
+
+479 
+’d
+
+
+480 
+’d
+
+
+481 
+’d
+
+
+482 
+’d
+
+
+483  
+	`£tm‘©abË
+(
+tbl
+ , 
+	$deçuÉ_bË
+(
+ty³Çme
+))
+
+484 
+’d
+
+
+486 
+funùiÚ
+ 
+M
+.(
+bufãr
+)
+
+487 
+c
+.
+	$_’v_»gi¡”
+(
+P
+, 
+bufãr
+)
+
+488 
+’d
+
+
+490 
+funùiÚ
+ 
+M
+.
+	$»gi¡”_fe
+(
+f’ame
+)
+
+491 
+loÿl
+ 
+f
+ = 
+	`as£¹
+(
+io
+.
+	`İ’
+(
+f’ame
+ , "rb"))
+
+492 
+loÿl
+ 
+bufãr
+ = 
+f
+:
+»ad
+ "*a"
+
+493 
+c
+.
+	$_’v_»gi¡”
+(
+P
+, 
+bufãr
+)
+
+494 
+f
+:
+	$şo£
+()
+
+495 
+’d
+
+
+497 
+funùiÚ
+ 
+M
+.
+	$’um_id
+(
+’um_ty³
+, 
+’um_Çme
+)
+
+498  
+c
+.
+	$_’v_’um_id
+(
+P
+, 
+’um_ty³
+, 
+’um_Çme
+)
+
+499 
+’d
+
+
+501 
+funùiÚ
+ 
+M
+.
+	$exŒaù
+(
+tbl
+)
+
+502 
+loÿl
+ 
+ty³Çme
+ = 
+	$¿wg‘
+(
+tbl
+ , 1)
+
+503 
+loÿl
+ 
+bufãr
+ = 
+	$¿wg‘
+(
+tbl
+ , 2)
+
+504 
+	`ty³
+(
+ty³Çme
+è=ğ"¡ršg" 
+ªd
+y³(
+bufãr
+è=ğ"¡ršg" 
+th’
+
+
+505 
+M
+.
+	$check
+(
+ty³Çme
+è
+th’
+
+
+506 
+	$ex·nd
+(
+tbl
+)
+
+507 
+’d
+
+
+508 
+’d
+
+
+510 
+k
+, 
+v
+ 
+š
+ 
+	$·œs
+(
+tbl
+) do
+
+511 
+	`ty³
+(
+v
+è=ğ"bË" 
+th’
+
+
+512 
+M
+.
+	$exŒaù
+(
+v
+)
+
+513 
+’d
+
+
+514 
+’d
+
+
+515 
+’d
+
+
+517 
+M
+.=
+£t_deçuÉ
+
+
+519  
+M
+
+
+	@proto/client_proto/ProtoGen/protobuf-net.xml
+
+1 <?
+xml
+ 
+	gv”siÚ
+="1.0"?>
+
+2 <
+doc
+>
+
+3 <
+as£mbly
+>
+
+4 <
+Çme
+>
+´Ùobuf
+-
+Ãt
+</name>
+
+5 </
+as£mbly
+>
+
+6 <
+memb”s
+>
+
+7 <
+memb”
+ 
+Çme
+="T:ProtoBuf.BclHelpers">
+
+8 <
+summ¬y
+>
+
+9 
+Provides
+ 
+suµÜt
+ 
+commÚ
+ .
+NET
+ 
+ty³s
+ 
+th©
+ dØ
+nÙ
+ 
+have
+ 
+a
+ 
+dœeù
+ 
+»´e£Á©iÚ
+
+
+10 
+š
+ 
+´Ùobuf
+, 
+usšg
+ 
+the
+ 
+defš™iÚs
+ 
+äom
+ 
+	gbş
+.
+	g´Ùo
+
+
+11 </
+	gsumm¬y
+>
+
+12 </
+	gmemb”
+>
+
+13 <
+memb”
+ 
+	gÇme
+="M:ProtoBuf.BclHelpers.GetUninitializedObject(System.Type)">
+
+14 <
+summ¬y
+>
+
+15 
+C»©es
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+of
+ 
+the
+ 
+¥ecif›d
+ 
+ty³
+, 
+by·ssšg
+h
+	gcÚ¡ruùÜ
+.
+
+16 </
+	gsumm¬y
+>
+
+17 <
+·¿m
+ 
+	gÇme
+="ty³">
+The
+ 
+ty³
+ 
+to
+ 
+ü—‹
+</param>
+
+18 <
+»tuºs
+>
+The
+ 
+Ãw
+ 
+š¡ªû
+</returns>
+
+19 <
+exû±iÚ
+ 
+üef
+="T:Sy¡em.NÙSuµÜ‹dExû±iÚ">
+If
+ 
+the
+ 
+¶©fÜm
+ 
+dÛs
+ 
+nÙ
+ 
+suµÜt
+ 
+cÚ¡ruùÜ
+-
+skpšg
+</exception>
+
+20 </
+memb”
+>
+
+21 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.WriteTimeSpan(System.TimeSpan,ProtoBuf.ProtoWriter)">
+
+22 <
+summ¬y
+>
+
+23 
+Wr™es
+ 
+a
+ 
+TimeS·n
+ 
+to
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+24 </
+summ¬y
+>
+
+25 </
+memb”
+>
+
+26 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.ReadTimeSpan(ProtoBuf.ProtoReader)">
+
+27 <
+summ¬y
+>
+
+28 
+P¬£s
+ 
+a
+ 
+TimeS·n
+ 
+äom
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+29 </
+summ¬y
+>
+
+30 </
+memb”
+>
+
+31 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.ReadDateTime(ProtoBuf.ProtoReader)">
+
+32 <
+summ¬y
+>
+
+33 
+P¬£s
+ 
+a
+ 
+D©eTime
+ 
+äom
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+34 </
+summ¬y
+>
+
+35 </
+memb”
+>
+
+36 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.WriteDateTime(System.DateTime,ProtoBuf.ProtoWriter)">
+
+37 <
+summ¬y
+>
+
+38 
+Wr™es
+ 
+a
+ 
+D©eTime
+ 
+to
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+39 </
+summ¬y
+>
+
+40 </
+memb”
+>
+
+41 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.ReadDecimal(ProtoBuf.ProtoReader)">
+
+42 <
+summ¬y
+>
+
+43 
+P¬£s
+ 
+a
+ 
+decim®
+ 
+äom
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+44 </
+summ¬y
+>
+
+45 </
+memb”
+>
+
+46 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.WriteDecimal(System.Decimal,ProtoBuf.ProtoWriter)">
+
+47 <
+summ¬y
+>
+
+48 
+Wr™es
+ 
+a
+ 
+decim®
+ 
+to
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+49 </
+summ¬y
+>
+
+50 </
+memb”
+>
+
+51 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.WriteGuid(System.Guid,ProtoBuf.ProtoWriter)">
+
+52 <
+summ¬y
+>
+
+53 
+Wr™es
+ 
+a
+ 
+Guid
+ 
+to
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+54 </
+summ¬y
+>
+
+55 </
+memb”
+>
+
+56 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.ReadGuid(ProtoBuf.ProtoReader)">
+
+57 <
+summ¬y
+>
+
+58 
+P¬£s
+ 
+a
+ 
+Guid
+ 
+äom
+‡ 
+´Ùobuf
+ 
+¡»am
+
+
+59 </
+summ¬y
+>
+
+60 </
+memb”
+>
+
+61 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.ReadNetObject(System.Object,ProtoBuf.ProtoReader,System.Int32,System.Type,ProtoBuf.BclHelpers.NetObjectOptions)">
+
+62 <
+summ¬y
+>
+
+63 
+R—ds
+ 
+ª
+ *
+im¶em’tiÚ
+ 
+¥ecific
+* 
+bundËd
+ .
+NET
+ 
+objeù
+, 
+	$šşudšg
+ (
+as
+ 
+İtiÚs
+è
+ty³
+-
+m‘ad©a
+, 
+id’t™y
+/
+»
+-
+u£
+, 
+‘c
+.
+
+64 </
+summ¬y
+>
+
+65 </
+memb”
+>
+
+66 <
+memb”
+ 
+Çme
+="M:ProtoBuf.BclHelpers.WriteNetObject(System.Object,ProtoBuf.ProtoWriter,System.Int32,ProtoBuf.BclHelpers.NetObjectOptions)">
+
+67 <
+summ¬y
+>
+
+68 
+Wr™es
+ 
+ª
+ *
+im¶em’tiÚ
+ 
+¥ecific
+* 
+bundËd
+ .
+NET
+ 
+objeù
+, 
+	$šşudšg
+ (
+as
+ 
+İtiÚs
+è
+ty³
+-
+m‘ad©a
+, 
+id’t™y
+/
+»
+-
+u£
+, 
+‘c
+.
+
+69 </
+summ¬y
+>
+
+70 </
+memb”
+>
+
+71 <
+memb”
+ 
+Çme
+="T:ProtoBuf.BclHelpers.NetObjectOptions">
+
+72 <
+summ¬y
+>
+
+73 
+O±iÚ®
+ 
+behaviours
+ 
+th©
+ 
+šŒoduû
+ .
+NET
+-
+¥ecific
+ 
+funùiÚ®™y
+
+
+74 </
+summ¬y
+>
+
+75 </
+memb”
+>
+
+76 <
+memb”
+ 
+Çme
+="F:ProtoBuf.BclHelpers.NetObjectOptions.None">
+
+77 <
+summ¬y
+>
+
+78 
+No
+ 
+¥ecŸl
+ 
+behaviour
+
+
+79 </
+summ¬y
+>
+
+80 </
+memb”
+>
+
+81 <
+memb”
+ 
+Çme
+="F:ProtoBuf.BclHelpers.NetObjectOptions.AsReference">
+
+82 <
+summ¬y
+>
+
+83 
+EÇbËs
+ 
+fuÎ
+ 
+objeù
+-
+Œackšg
+/fuÎ-
+g¿ph
+ 
+suµÜt
+.
+
+84 </
+summ¬y
+>
+
+85 </
+memb”
+>
+
+86 <
+memb”
+ 
+Çme
+="F:ProtoBuf.BclHelpers.NetObjectOptions.DynamicType">
+
+87 <
+summ¬y
+>
+
+88 
+Embeds
+ 
+the
+ 
+ty³
+ 
+šfÜm©iÚ
+ 
+što
+h
+¡»am
+, 
+®lowšg
+ 
+u§ge
+ 
+w™h
+ 
+ty³s
+ 
+nÙ
+ 
+known
+ 
+š
+ 
+advªû
+.
+
+89 </
+summ¬y
+>
+
+90 </
+memb”
+>
+
+91 <
+memb”
+ 
+Çme
+="F:ProtoBuf.BclHelpers.NetObjectOptions.UseConstructor">
+
+92 <
+summ¬y
+>
+
+93 
+If
+ 
+çl£
+, 
+the
+ 
+cÚ¡ruùÜ
+ th
+ty³
+ 
+is
+ 
+by·s£d
+ 
+duršg
+ 
+de£rŸliz©iÚ
+, 
+m—nšg
+ 
+ªy
+ 
+f›ld
+ 
+š™Ÿliz”s
+
+
+94 
+Ü
+ 
+Ùh”
+ 
+š™Ÿliz©iÚ
+ 
+code
+ 
+is
+ 
+sk³d
+.
+
+95 </
+summ¬y
+>
+
+96 </
+memb”
+>
+
+97 <
+memb”
+ 
+Çme
+="F:ProtoBuf.BclHelpers.NetObjectOptions.LateSet">
+
+98 <
+summ¬y
+>
+
+99 
+Should
+ 
+the
+ 
+objeù
+ 
+šdex
+ 
+be
+ 
+»£rved
+, 
+¿th”
+ 
+thª
+ 
+ü—tšg
+ 
+ª
+ objeù 
+´om±ly
+
+
+100 </
+summ¬y
+>
+
+101 </
+memb”
+>
+
+102 <
+memb”
+ 
+Çme
+="T:ProtoBuf.BufferExtension">
+
+103 <
+summ¬y
+>
+
+104 
+Provides
+ 
+a
+ 
+sim¶e
+ 
+bufãr
+-
+ba£d
+ 
+im¶em’tiÚ
+ 
+of
+ 
+ª
+ <
+£e
+ 
+üef
+="T:PrÙoBuf.IEx‹nsiÚ">
+ex‹nsiÚ
+</£e> 
+objeù
+.
+
+105 </
+summ¬y
+>
+
+106 </
+memb”
+>
+
+107 <
+memb”
+ 
+Çme
+="T:ProtoBuf.IExtension">
+
+108 <
+summ¬y
+>
+
+109 
+Provides
+ 
+add™iÚ
+ 
+ÿ·b™y
+ 
+suµÜtšg
+ 
+uÃx³ùed
+ 
+f›lds
+ 
+duršg
+
+
+110 
+´ÙocŞ
+-
+bufãr
+ 
+£rŸliz©iÚ
+/
+de£rŸliz©iÚ
+. 
+This
+ 
+®lows
+ 
+loss
+-
+Ëss
+
+
+111 
+round
+-
+Œ
+/
+m”ge
+, 
+ev’
+ 
+wh’
+ 
+the
+ 
+d©a
+ 
+is
+ 
+nÙ
+ 
+fuÎy
+ 
+und”¡ood
+.
+
+112 </
+summ¬y
+>
+
+113 </
+memb”
+>
+
+114 <
+memb”
+ 
+Çme
+="M:ProtoBuf.IExtension.BeginAppend">
+
+115 <
+summ¬y
+>
+
+116 
+Reque¡s
+ 
+a
+ 
+¡»am
+ 
+što
+ 
+which
+ 
+ªy
+ 
+uÃx³ùed
+ 
+f›lds
+ 
+ÿn
+ 
+be
+ 
+³rsi¡ed
+.
+
+117 </
+summ¬y
+>
+
+118 <
+»tuºs
+>
+A
+ 
+Ãw
+ 
+¡»am
+ 
+su™abË
+ 
+¡Üšg
+ 
+d©a
+.</returns>
+
+119 </
+memb”
+>
+
+120 <
+memb”
+ 
+Çme
+="M:ProtoBuf.IExtension.EndAppend(System.IO.Stream,System.Boolean)">
+
+121 <
+summ¬y
+>
+
+122 
+Indiÿ‹s
+ 
+th©
+ 
+®l
+ 
+uÃx³ùed
+ 
+f›lds
+ 
+have
+ 
+now
+ 
+b“n
+ 
+¡Üed
+. 
+The
+
+
+123 
+im¶em’tšg
+ 
+şass
+ 
+is
+ 
+»¥ÚsibË
+ 
+şosšg
+ 
+the
+ 
+¡»am
+. 
+If
+
+
+124 "comm™" 
+is
+ 
+nÙ
+ 
+Œue
+ 
+the
+ 
+d©a
+ 
+may
+ 
+be
+ 
+disÿrded
+.
+
+125 </
+summ¬y
+>
+
+126 <
+·¿m
+ 
+Çme
+="¡»am">
+The
+ 
+¡»am
+ 
+Üigš®ly
+ 
+obšed
+ 
+by
+ 
+BegšAµ’d
+.</param>
+
+127 <
+·¿m
+ 
+Çme
+="comm™">
+True
+ 
+the
+ 
+­³nd
+ 
+İ”©iÚ
+ 
+com¶‘ed
+ 
+sucûssfuÎy
+.</param>
+
+128 </
+memb”
+>
+
+129 <
+memb”
+ 
+Çme
+="M:ProtoBuf.IExtension.BeginQuery">
+
+130 <
+summ¬y
+>
+
+131 
+Reque¡s
+ 
+a
+ 
+¡»am
+ 
+of
+ 
+the
+ 
+uÃx³ùed
+ 
+f›lds
+ 
+´eviou¦y
+ 
+¡Üed
+.
+
+132 </
+summ¬y
+>
+
+133 <
+»tuºs
+>
+A
+ 
+´•¬ed
+ 
+¡»am
+ 
+of
+ 
+the
+ 
+uÃx³ùed
+ 
+f›lds
+.</returns>
+
+134 </
+memb”
+>
+
+135 <
+memb”
+ 
+Çme
+="M:ProtoBuf.IExtension.EndQuery(System.IO.Stream)">
+
+136 <
+summ¬y
+>
+
+137 
+Indiÿ‹s
+ 
+th©
+ 
+®l
+ 
+uÃx³ùed
+ 
+f›lds
+ 
+have
+ 
+now
+ 
+b“n
+ 
+»ad
+. 
+The
+
+
+138 
+im¶em’tšg
+ 
+şass
+ 
+is
+ 
+»¥ÚsibË
+ 
+şosšg
+ 
+the
+ 
+¡»am
+.
+
+139 </
+summ¬y
+>
+
+140 <
+·¿m
+ 
+Çme
+="¡»am">
+The
+ 
+¡»am
+ 
+Üigš®ly
+ 
+obšed
+ 
+by
+ 
+BegšQu”y
+.</param>
+
+141 </
+memb”
+>
+
+142 <
+memb”
+ 
+Çme
+="M:ProtoBuf.IExtension.GetLength">
+
+143 <
+summ¬y
+>
+
+144 
+Reque¡s
+ 
+the
+ 
+Ëngth
+ 
+of
+h
+¿w
+ 
+bš¬y
+ 
+¡»am
+; 
+this
+ 
+is
+ 
+u£d
+
+
+145 
+wh’
+ 
+£rŸlizšg
+ 
+sub
+-
+’t™›s
+ 
+to
+ 
+šdiÿ‹
+ 
+the
+ 
+ex³ùed
+ 
+size
+.
+
+146 </
+summ¬y
+>
+
+147 <
+»tuºs
+>
+The
+ 
+Ëngth
+ 
+of
+ 
+the
+ 
+bš¬y
+ 
+¡»am
+ 
+»´e£Ášg
+ 
+uÃx³ùed
+ 
+d©a
+.</returns>
+
+148 </
+memb”
+>
+
+149 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ProtoBeforeSerializationAttribute">
+
+150 <
+summ¬y
+>
+S³cif›s
+ 
+a
+ 
+m‘hod
+ 
+Ú
+ 
+the
+ 
+roÙ
+-
+cÚŒaù
+ 
+š
+ 
+ª
+ 
+h›¿rchy
+ 
+to
+ 
+be
+ 
+švoked
+ 
+befÜe
+ 
+£rŸliz©iÚ
+.</summary>
+
+151 </
+memb”
+>
+
+152 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ProtoAfterSerializationAttribute">
+
+153 <
+summ¬y
+>
+S³cif›s
+ 
+a
+ 
+m‘hod
+ 
+Ú
+ 
+the
+ 
+roÙ
+-
+cÚŒaù
+ 
+š
+ 
+ª
+ 
+h›¿rchy
+ 
+to
+ 
+be
+ 
+švoked
+ 
+aá”
+ 
+£rŸliz©iÚ
+.</summary>
+
+154 </
+memb”
+>
+
+155 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ProtoBeforeDeserializationAttribute">
+
+156 <
+summ¬y
+>
+S³cif›s
+ 
+a
+ 
+m‘hod
+ 
+Ú
+ 
+the
+ 
+roÙ
+-
+cÚŒaù
+ 
+š
+ 
+ª
+ 
+h›¿rchy
+ 
+to
+ 
+be
+ 
+švoked
+ 
+befÜe
+ 
+de£rŸliz©iÚ
+.</summary>
+
+157 </
+memb”
+>
+
+158 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ProtoAfterDeserializationAttribute">
+
+159 <
+summ¬y
+>
+S³cif›s
+ 
+a
+ 
+m‘hod
+ 
+Ú
+ 
+the
+ 
+roÙ
+-
+cÚŒaù
+ 
+š
+ 
+ª
+ 
+h›¿rchy
+ 
+to
+ 
+be
+ 
+švoked
+ 
+aá”
+ 
+de£rŸliz©iÚ
+.</summary>
+
+160 </
+memb”
+>
+
+161 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Compiler.CompilerContext.LoadNullRef">
+
+162 <
+summ¬y
+>
+
+163 
+Pushes
+ 
+a
+ 
+nuÎ
+ 
+»ã»nû
+ 
+Úto
+ 
+the
+ 
+¡ack
+. 
+NÙe
+ 
+th©
+ 
+this
+ 
+should
+ 
+Úly
+
+
+164 
+be
+ 
+u£d
+ 
+to
+  
+a
+ 
+	`nuÎ
+ (
+Ü
+ 
+£t
+‡ 
+v¬ŸbË
+Ø
+nuÎ
+); nuÎ-
+‹¡s
+
+
+165 
+u£
+ 
+B¿nchIfTrue
+ / 
+B¿nchIfF®£
+.
+
+166 </
+summ¬y
+>
+
+167 </
+memb”
+>
+
+168 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Compiler.CompilerContext.UsingBlock.#ctor(ProtoBuf.Compiler.CompilerContext,ProtoBuf.Compiler.Local)">
+
+169 <
+summ¬y
+>
+
+170 
+C»©es
+ 
+a
+ 
+Ãw
+ "usšg" 
+	$block
+ (
+equiv®’t
+è
+¬ound
+ 
+a
+ 
+v¬ŸbË
+;
+
+171 
+the
+ 
+v¬ŸbË
+ 
+mu¡
+ 
+exi¡
+, 
+ªd
+ 
+nÙe
+ 
+	`th©
+ (
+uÆike
+ 
+š
+ 
+C
+#è
+™
+ 
+is
+
+
+172 
+the
+ 
+v¬ŸbËs
+ *
+fš®
+* 
+v®ue
+ 
+th©
+ 
+g‘s
+ 
+di¥o£d
+. 
+If
+ 
+you
+ 
+Ãed
+
+
+173 *
+Üigš®
+* 
+di¥o§l
+, 
+cİy
+ 
+your
+ 
+v¬ŸbË
+ 
+fœ¡
+.
+
+175 
+It
+ 
+is
+ 
+the
+ 
+ÿÎ”s
+ 
+»¥Úsib™y
+ 
+to
+ 
+’su»
+ 
+th©
+h
+v¬ŸbË
+'s
+
+176 
+scİe
+ 
+fuÎy
+-
+’ÿpsuÏ‹s
+ 
+the
+ "usšg"; 
+nÙ
+,h
+v¬ŸbË
+
+
+177 
+may
+ 
+be
+ 
+»
+-
+	`u£d
+ (
+ªd
+ 
+thus
+„e-
+assigÃd
+è
+uÃx³ùedly
+.
+
+178 </
+summ¬y
+>
+
+179 </
+memb”
+>
+
+180 <
+memb”
+ 
+Çme
+="T:ProtoBuf.DataFormat">
+
+181 <
+summ¬y
+>
+
+182 
+Sub
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+£rŸlizšg
+/
+de£rŸlizšg
+ 
+d©a
+
+
+183 </
+summ¬y
+>
+
+184 </
+memb”
+>
+
+185 <
+memb”
+ 
+Çme
+="F:ProtoBuf.DataFormat.Default">
+
+186 <
+summ¬y
+>
+
+187 
+U£s
+ 
+the
+  
+’codšg
+ th
+d©a
+-
+ty³
+.
+
+188 </
+summ¬y
+>
+
+189 </
+memb”
+>
+
+190 <
+memb”
+ 
+Çme
+="F:ProtoBuf.DataFormat.ZigZag">
+
+191 <
+summ¬y
+>
+
+192 
+Wh’
+ 
+­¶›d
+ 
+to
+ sigÃd 
+š‹g”
+-
+ba£d
+ 
+	`d©a
+ (
+šşudšg
+ 
+Decim®
+), 
+this
+
+
+193 
+šdiÿ‹s
+ 
+th©
+ 
+zigzag
+ 
+v¬ŸÁ
+ 
+’codšg
+ 
+wl
+ 
+be
+ 
+u£d
+. 
+This
+ 
+m—ns
+h© 
+v®ues
+
+
+194 
+w™h
+ 
+sm®l
+ 
+	$magn™ude
+ (
+»g¬dËss
+ 
+of
+ 
+sign
+è
+ke
+ 
+a
+ 
+sm®l
+ 
+amouÁ
+
+
+195 
+of
+ 
+¥aû
+ 
+to
+ 
+’code
+.
+
+196 </
+summ¬y
+>
+
+197 </
+memb”
+>
+
+198 <
+memb”
+ 
+Çme
+="F:ProtoBuf.DataFormat.TwosComplement">
+
+199 <
+summ¬y
+>
+
+200 
+Wh’
+ 
+­¶›d
+ 
+to
+ sigÃd 
+š‹g”
+-
+ba£d
+ 
+	`d©a
+ (
+šşudšg
+ 
+Decim®
+), 
+this
+
+
+201 
+šdiÿ‹s
+ 
+th©
+ 
+two
+'s-complement variantƒncoding will be used.
+
+202 
+This
+ 
+m—ns
+ 
+th©
+ 
+ªy
+ -
+ve
+ 
+numb”
+ 
+wl
+ 
+ke
+ 10 
+	`by‹s
+ (
+ev’
+ 32-
+b™
+),
+
+203 
+so
+ 
+should
+ 
+Úly
+ 
+be
+ 
+u£d
+ 
+com·tib™y
+.
+
+204 </
+summ¬y
+>
+
+205 </
+memb”
+>
+
+206 <
+memb”
+ 
+Çme
+="F:ProtoBuf.DataFormat.FixedSize">
+
+207 <
+summ¬y
+>
+
+208 
+Wh’
+ 
+­¶›d
+ 
+to
+ sigÃd 
+š‹g”
+-
+ba£d
+ 
+	`d©a
+ (
+šşudšg
+ 
+Decim®
+), 
+this
+
+
+209 
+šdiÿ‹s
+ 
+th©
+ 
+a
+ 
+fixed
+ 
+amouÁ
+ 
+of
+ 
+¥aû
+ 
+wl
+ 
+be
+ 
+u£d
+.
+
+210 </
+summ¬y
+>
+
+211 </
+memb”
+>
+
+212 <
+memb”
+ 
+Çme
+="F:ProtoBuf.DataFormat.Group">
+
+213 <
+summ¬y
+>
+
+214 
+Wh’
+ 
+­¶›d
+ 
+to
+ 
+a
+ 
+sub
+-
+mes§ge
+, 
+šdiÿ‹s
+ 
+th©
+ 
+the
+ 
+v®ue
+ 
+should
+ 
+be
+ 
+Œ—‹d
+
+
+215 
+as
+ 
+group
+-
+d–im™ed
+.
+
+216 </
+summ¬y
+>
+
+217 </
+memb”
+>
+
+218 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Extensible">
+
+219 <
+summ¬y
+>
+
+220 
+Sim¶e
+ 
+ba£
+ 
+şass
+ 
+suµÜtšg
+ 
+uÃx³ùed
+ 
+f›lds
+ 
+®lowšg
+
+
+221 
+loss
+-
+Ëss
+ 
+round
+-
+ts
+/
+m”ge
+, 
+ev’
+ 
+the
+ 
+d©a
+ 
+is
+ 
+nÙ
+ 
+und”¡od
+.
+
+222 
+The
+ 
+add™iÚ®
+ 
+f›lds
+ 
+	$¬e
+ (
+by
+ è
+¡Üed
+ 
+š
+-
+memÜy
+ iÀ
+a
+ 
+bufãr
+.
+
+223 </
+summ¬y
+>
+
+224 <
+»m¬ks
+>
+As
+ 
+ª
+ 
+exam¶e
+ 
+of
+‡À
+®‹º©ive
+ 
+im¶em’tiÚ
+, 
+you
+ 
+might
+
+
+225 
+choo£
+ 
+to
+ 
+u£
+ 
+the
+ 
+fe
+ 
+	$sy¡em
+ (
+‹mpÜ¬y
+ 
+fes
+è
+as
+ 
+the
+ 
+back
+-
+’d
+, 
+Œackšg
+
+
+226 
+Úly
+ 
+the
+ 
+·ths
+ [
+such
+ 
+ª
+ 
+objeù
+ 
+would
+ 
+id—Îy
+ 
+be
+ 
+IDi¥o§bË
+ 
+ªd
+ 
+u£
+
+
+227 
+a
+ 
+fš®iz”
+ 
+to
+ 
+’su»
+ 
+th©
+ 
+the
+ 
+fes
+ 
+¬e
+ 
+»moved
+].</
+»m¬ks
+>
+
+228 <
+£—lso
+ 
+üef
+="T:ProtoBuf.IExtensible"/>
+
+229 </
+memb”
+>
+
+230 <
+memb”
+ 
+Çme
+="T:ProtoBuf.IExtensible">
+
+231 <
+summ¬y
+>
+
+232 
+Indiÿ‹s
+ 
+th©
+ 
+the
+ 
+im¶em’tšg
+ 
+ty³
+ 
+has
+ 
+suµÜt
+ 
+´ÙocŞ
+-
+bufãr
+
+
+233 <
+£e
+ 
+üef
+="T:PrÙoBuf.IEx‹nsiÚ">
+ex‹nsiÚs
+</see>.
+
+234 </
+summ¬y
+>
+
+235 <
+»m¬ks
+>
+Cª
+ 
+be
+ 
+im¶em’‹d
+ 
+by
+ 
+d”ivšg
+ 
+äom
+ 
+Ex‹nsibË
+.</remarks>
+
+236 </
+memb”
+>
+
+237 <
+memb”
+ 
+Çme
+="M:ProtoBuf.IExtensible.GetExtensionObject(System.Boolean)">
+
+238 <
+summ¬y
+>
+
+239 
+R‘r›ves
+ 
+the
+ <
+£e
+ 
+üef
+="T:PrÙoBuf.IEx‹nsiÚ">
+ex‹nsiÚ
+</£e> 
+objeù
+ th
+cu¼’t
+
+
+240 
+š¡ªû
+, 
+İtiÚ®ly
+ 
+ü—tšg
+ 
+™
+ ™ 
+dÛs
+ 
+nÙ
+ 
+®»ady
+ 
+exi¡
+.
+
+241 </
+summ¬y
+>
+
+242 <
+·¿m
+ 
+Çme
+="ü—‹IfMissšg">
+Should
+ 
+a
+ 
+Ãw
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+be
+
+
+243 
+ü—‹d
+ 
+™
+ 
+dÛs
+ 
+nÙ
+ 
+®»ady
+ 
+exi¡
+?</
+·¿m
+>
+
+244 <
+»tuºs
+>
+The
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+™
+ 
+	`exi¡s
+ (
+Ü
+ 
+was
+ 
+ü—‹d
+), o¸
+nuÎ
+
+
+245 
+the
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+dÛs
+ 
+nÙ
+ 
+exi¡
+ 
+Ü
+ 
+is
+‚Ù 
+avaabË
+.</
+»tuºs
+>
+
+246 <
+»m¬ks
+>
+The
+ <
+c
+>
+ü—‹IfMissšg
+</c> 
+¬gum’t
+ 
+is
+ 
+çl£
+ 
+duršg
+ 
+£rŸliz©iÚ
+,
+
+247 
+ªd
+ 
+Œue
+ 
+duršg
+ 
+de£rŸliz©iÚ
+ 
+upÚ
+ 
+’couÁ”šg
+ 
+uÃx³ùed
+ 
+f›lds
+.</
+»m¬ks
+>
+
+248 </
+memb”
+>
+
+249 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetExtensionObject(System.Boolean)">
+
+250 <
+summ¬y
+>
+
+251 
+R‘r›ves
+ 
+the
+ <
+£e
+ 
+üef
+="T:PrÙoBuf.IEx‹nsiÚ">
+ex‹nsiÚ
+</£e> 
+objeù
+ th
+cu¼’t
+
+
+252 
+š¡ªû
+, 
+İtiÚ®ly
+ 
+ü—tšg
+ 
+™
+ ™ 
+dÛs
+ 
+nÙ
+ 
+®»ady
+ 
+exi¡
+.
+
+253 </
+summ¬y
+>
+
+254 <
+·¿m
+ 
+Çme
+="ü—‹IfMissšg">
+Should
+ 
+a
+ 
+Ãw
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+be
+
+
+255 
+ü—‹d
+ 
+™
+ 
+dÛs
+ 
+nÙ
+ 
+®»ady
+ 
+exi¡
+?</
+·¿m
+>
+
+256 <
+»tuºs
+>
+The
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+™
+ 
+	`exi¡s
+ (
+Ü
+ 
+was
+ 
+ü—‹d
+), o¸
+nuÎ
+
+
+257 
+the
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+dÛs
+ 
+nÙ
+ 
+exi¡
+ 
+Ü
+ 
+is
+‚Ù 
+avaabË
+.</
+»tuºs
+>
+
+258 <
+»m¬ks
+>
+The
+ <
+c
+>
+ü—‹IfMissšg
+</c> 
+¬gum’t
+ 
+is
+ 
+çl£
+ 
+duršg
+ 
+£rŸliz©iÚ
+,
+
+259 
+ªd
+ 
+Œue
+ 
+duršg
+ 
+de£rŸliz©iÚ
+ 
+upÚ
+ 
+’couÁ”šg
+ 
+uÃx³ùed
+ 
+f›lds
+.</
+»m¬ks
+>
+
+260 </
+memb”
+>
+
+261 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetExtensionObject(ProtoBuf.IExtension@,System.Boolean)">
+
+262 <
+summ¬y
+>
+
+263 
+Provides
+ 
+a
+ 
+sim¶e
+,  
+im¶em’tiÚ
+ <
+£e
+ 
+üef
+="T:PrÙoBuf.IEx‹nsiÚ">
+ex‹nsiÚ
+</£e> 
+suµÜt
+,
+
+264 
+İtiÚ®ly
+ 
+ü—tšg
+ 
+™
+ ™ 
+dÛs
+ 
+nÙ
+ 
+®»ady
+ 
+exi¡
+. 
+DesigÃd
+ 
+to
+ 
+be
+ 
+ÿÎed
+ 
+by
+
+
+265 
+şas£s
+ 
+im¶em’tšg
+ <
+£e
+ 
+üef
+="T:ProtoBuf.IExtensible"/>.
+
+266 </
+summ¬y
+>
+
+267 <
+·¿m
+ 
+Çme
+="ü—‹IfMissšg">
+Should
+ 
+a
+ 
+Ãw
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+be
+
+
+268 
+ü—‹d
+ 
+™
+ 
+dÛs
+ 
+nÙ
+ 
+®»ady
+ 
+exi¡
+?</
+·¿m
+>
+
+269 <
+·¿m
+ 
+Çme
+="ex‹nsiÚObjeù">
+The
+ 
+ex‹nsiÚ
+ 
+f›ld
+ 
+to
+ 
+	`check
+ (
+ªd
+ 
+possibly
+ 
+upd©e
+).</param>
+
+270 <
+»tuºs
+>
+The
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+™
+ 
+	`exi¡s
+ (
+Ü
+ 
+was
+ 
+ü—‹d
+), o¸
+nuÎ
+
+
+271 
+the
+ 
+ex‹nsiÚ
+ 
+objeù
+ 
+dÛs
+ 
+nÙ
+ 
+exi¡
+ 
+Ü
+ 
+is
+‚Ù 
+avaabË
+.</
+»tuºs
+>
+
+272 <
+»m¬ks
+>
+The
+ <
+c
+>
+ü—‹IfMissšg
+</c> 
+¬gum’t
+ 
+is
+ 
+çl£
+ 
+duršg
+ 
+£rŸliz©iÚ
+,
+
+273 
+ªd
+ 
+Œue
+ 
+duršg
+ 
+de£rŸliz©iÚ
+ 
+upÚ
+ 
+’couÁ”šg
+ 
+uÃx³ùed
+ 
+f›lds
+.</
+»m¬ks
+>
+
+274 </
+memb”
+>
+
+275 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.AppendValue``1(ProtoBuf.IExtensible,System.Int32,``0)">
+
+276 <
+summ¬y
+>
+
+277 
+Aµ’ds
+ 
+the
+ 
+v®ue
+ 
+as
+ 
+ª
+ 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+278 
+NÙe
+ 
+th©
+ 
+nÚ
+-
+»³©ed
+ 
+sub
+-
+objeùs
+, 
+this
+ 
+equ©es
+ 
+to
+ 
+a
+ 
+m”ge
+ 
+İ”©iÚ
+;
+
+279 
+»³©ed
+ 
+sub
+-
+objeùs
+ 
+this
+ 
+adds
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+to
+ 
+the
+ 
+£t
+; 
+sim¶e
+
+
+280 
+v®ues
+ 
+the
+ 
+Ãw
+ 
+v®ue
+ 
+su³rûdes
+h
+Şd
+ value.
+
+281 </
+summ¬y
+>
+
+282 <
+»m¬ks
+>
+NÙe
+ 
+th©
+ 
+­³ndšg
+ 
+a
+ 
+v®ue
+ 
+dÛs
+ 
+nÙ
+ 
+»move
+ 
+the
+ 
+Şd
+ v®u
+äom
+
+
+283 
+the
+ 
+¡»am
+; 
+avoid
+ 
+»³©edly
+ 
+­³ndšg
+ 
+v®ues
+ th
+§me
+ 
+f›ld
+.</
+»m¬ks
+>
+
+284 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+ty³
+ 
+of
+ 
+the
+ 
+v®ue
+ 
+to
+ 
+­³nd
+.</typeparam>
+
+285 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+­³nd
+ 
+the
+ 
+v®ue
+o.</param>
+
+286 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+287 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+v®ue
+ 
+to
+ 
+­³nd
+.</param>
+
+288 </
+memb”
+>
+
+289 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.AppendValue``1(ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,``0)">
+
+290 <
+summ¬y
+>
+
+291 
+Aµ’ds
+ 
+the
+ 
+v®ue
+ 
+as
+ 
+ª
+ 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+292 
+NÙe
+ 
+th©
+ 
+nÚ
+-
+»³©ed
+ 
+sub
+-
+objeùs
+, 
+this
+ 
+equ©es
+ 
+to
+ 
+a
+ 
+m”ge
+ 
+İ”©iÚ
+;
+
+293 
+»³©ed
+ 
+sub
+-
+objeùs
+ 
+this
+ 
+adds
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+to
+ 
+the
+ 
+£t
+; 
+sim¶e
+
+
+294 
+v®ues
+ 
+the
+ 
+Ãw
+ 
+v®ue
+ 
+su³rûdes
+h
+Şd
+ value.
+
+295 </
+summ¬y
+>
+
+296 <
+»m¬ks
+>
+NÙe
+ 
+th©
+ 
+­³ndšg
+ 
+a
+ 
+v®ue
+ 
+dÛs
+ 
+nÙ
+ 
+»move
+ 
+the
+ 
+Şd
+ v®u
+äom
+
+
+297 
+the
+ 
+¡»am
+; 
+avoid
+ 
+»³©edly
+ 
+­³ndšg
+ 
+v®ues
+ th
+§me
+ 
+f›ld
+.</
+»m¬ks
+>
+
+298 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+299 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+’codšg
+ 
+the
+ 
+v®ue
+.</param>
+
+300 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+­³nd
+ 
+the
+ 
+v®ue
+o.</param>
+
+301 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+302 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+v®ue
+ 
+to
+ 
+­³nd
+.</param>
+
+303 </
+memb”
+>
+
+304 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetValue``1(ProtoBuf.IExtensible,System.Int32)">
+
+305 <
+summ¬y
+>
+
+306 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+307 
+The
+ 
+v®ue
+ 
+»tuºed
+ 
+is
+ 
+the
+ 
+compo£d
+ v®u
+aá”
+ 
+m”gšg
+ 
+ªy
+ 
+du¶iÿ‹d
+ 
+cÚ‹Á
+; the
+
+308 
+v®ue
+ 
+is
+ "»³©ed" (
+a
+ 
+li¡
+), 
+th’
+ 
+u£
+ 
+G‘V®ues
+ 
+š¡—d
+.
+
+309 </
+summ¬y
+>
+
+310 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+311 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+312 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+313 <
+»tuºs
+>
+The
+ 
+efãùive
+ 
+v®ue
+ 
+of
+ 
+the
+ 
+f›ld
+, 
+Ü
+h v®u
+nÙ
+ 
+found
+.</returns>
+
+314 </
+memb”
+>
+
+315 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetValue``1(ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat)">
+
+316 <
+summ¬y
+>
+
+317 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+318 
+The
+ 
+v®ue
+ 
+»tuºed
+ 
+is
+ 
+the
+ 
+compo£d
+ v®u
+aá”
+ 
+m”gšg
+ 
+ªy
+ 
+du¶iÿ‹d
+ 
+cÚ‹Á
+; the
+
+319 
+v®ue
+ 
+is
+ "»³©ed" (
+a
+ 
+li¡
+), 
+th’
+ 
+u£
+ 
+G‘V®ues
+ 
+š¡—d
+.
+
+320 </
+summ¬y
+>
+
+321 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+322 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+323 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+324 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+decodšg
+ 
+the
+ 
+v®ue
+.</param>
+
+325 <
+»tuºs
+>
+The
+ 
+efãùive
+ 
+v®ue
+ 
+of
+ 
+the
+ 
+f›ld
+, 
+Ü
+h v®u
+nÙ
+ 
+found
+.</returns>
+
+326 </
+memb”
+>
+
+327 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.TryGetValue``1(ProtoBuf.IExtensible,System.Int32,``0@)">
+
+328 <
+summ¬y
+>
+
+329 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+330 
+The
+ 
+v®ue
+ 
+	`»tuºed
+ (
+š
+ "v®ue"è
+is
+ 
+the
+ 
+compo£d
+ v®u
+aá”
+ 
+m”gšg
+ 
+ªy
+ 
+du¶iÿ‹d
+ 
+cÚ‹Á
+;
+
+331 
+the
+ 
+v®ue
+ 
+is
+ "»³©ed" (
+a
+ 
+li¡
+), 
+th’
+ 
+u£
+ 
+G‘V®ues
+ 
+š¡—d
+.
+
+332 </
+summ¬y
+>
+
+333 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+334 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+efãùive
+ 
+v®ue
+ 
+of
+ 
+the
+ 
+f›ld
+, 
+Ü
+h v®u
+nÙ
+ 
+found
+.</param>
+
+335 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+336 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+337 <
+»tuºs
+>
+True
+ 
+d©a
+ 
+the
+ 
+f›ld
+ 
+was
+ 
+´e£Á
+, 
+çl£
+ 
+Ùh”wi£
+.</returns>
+
+338 </
+memb”
+>
+
+339 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.TryGetValue``1(ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,``0@)">
+
+340 <
+summ¬y
+>
+
+341 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+342 
+The
+ 
+v®ue
+ 
+	`»tuºed
+ (
+š
+ "v®ue"è
+is
+ 
+the
+ 
+compo£d
+ v®u
+aá”
+ 
+m”gšg
+ 
+ªy
+ 
+du¶iÿ‹d
+ 
+cÚ‹Á
+;
+
+343 
+the
+ 
+v®ue
+ 
+is
+ "»³©ed" (
+a
+ 
+li¡
+), 
+th’
+ 
+u£
+ 
+G‘V®ues
+ 
+š¡—d
+.
+
+344 </
+summ¬y
+>
+
+345 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+346 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+efãùive
+ 
+v®ue
+ 
+of
+ 
+the
+ 
+f›ld
+, 
+Ü
+h v®u
+nÙ
+ 
+found
+.</param>
+
+347 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+348 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+349 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+decodšg
+ 
+the
+ 
+v®ue
+.</param>
+
+350 <
+»tuºs
+>
+True
+ 
+d©a
+ 
+the
+ 
+f›ld
+ 
+was
+ 
+´e£Á
+, 
+çl£
+ 
+Ùh”wi£
+.</returns>
+
+351 </
+memb”
+>
+
+352 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.TryGetValue``1(ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,System.Boolean,``0@)">
+
+353 <
+summ¬y
+>
+
+354 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+355 
+The
+ 
+v®ue
+ 
+	`»tuºed
+ (
+š
+ "v®ue"è
+is
+ 
+the
+ 
+compo£d
+ v®u
+aá”
+ 
+m”gšg
+ 
+ªy
+ 
+du¶iÿ‹d
+ 
+cÚ‹Á
+;
+
+356 
+the
+ 
+v®ue
+ 
+is
+ "»³©ed" (
+a
+ 
+li¡
+), 
+th’
+ 
+u£
+ 
+G‘V®ues
+ 
+š¡—d
+.
+
+357 </
+summ¬y
+>
+
+358 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+359 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+efãùive
+ 
+v®ue
+ 
+of
+ 
+the
+ 
+f›ld
+, 
+Ü
+h v®u
+nÙ
+ 
+found
+.</param>
+
+360 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+361 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+362 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+decodšg
+ 
+the
+ 
+v®ue
+.</param>
+
+363 <
+·¿m
+ 
+Çme
+="®lowDefšedTag">
+AÎow
+ 
+gs
+ 
+th©
+ 
+¬e
+ 
+´e£Á
+ 
+as
+ 
+·¹
+ 
+of
+ 
+the
+ 
+defš™iÚ
+; 
+exam¶e
+, 
+to
+ 
+qu”y
+ 
+unknown
+ 
+v®ues
+.</param>
+
+364 <
+»tuºs
+>
+True
+ 
+d©a
+ 
+the
+ 
+f›ld
+ 
+was
+ 
+´e£Á
+, 
+çl£
+ 
+Ùh”wi£
+.</returns>
+
+365 </
+memb”
+>
+
+366 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetValues``1(ProtoBuf.IExtensible,System.Int32)">
+
+367 <
+summ¬y
+>
+
+368 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+369 
+Each
+ 
+occu¼’û
+ 
+of
+ 
+the
+ 
+f›ld
+ 
+is
+ 
+y›lded
+ 
+£·¿‹ly
+, 
+makšg
+ 
+this
+ 
+u§ge
+ 
+su™abË
+ "repeated"
+
+370 (
+li¡
+è
+f›lds
+.
+
+371 </
+summ¬y
+>
+
+372 <
+»m¬ks
+>
+The
+ 
+ex‹nded
+ 
+d©a
+ 
+is
+ 
+´oûs£d
+ 
+Ïzy
+ 
+as
+ 
+the
+ 
+’um”©Ü
+ i 
+™”©ed
+.</remarks>
+
+373 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+374 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+375 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+376 <
+»tuºs
+>
+An
+ 
+’um”©Ü
+ 
+th©
+ 
+y›lds
+ 
+—ch
+ 
+occu¼’û
+ 
+of
+ 
+the
+ 
+f›ld
+.</returns>
+
+377 </
+memb”
+>
+
+378 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetValues``1(ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat)">
+
+379 <
+summ¬y
+>
+
+380 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+381 
+Each
+ 
+occu¼’û
+ 
+of
+ 
+the
+ 
+f›ld
+ 
+is
+ 
+y›lded
+ 
+£·¿‹ly
+, 
+makšg
+ 
+this
+ 
+u§ge
+ 
+su™abË
+ "repeated"
+
+382 (
+li¡
+è
+f›lds
+.
+
+383 </
+summ¬y
+>
+
+384 <
+»m¬ks
+>
+The
+ 
+ex‹nded
+ 
+d©a
+ 
+is
+ 
+´oûs£d
+ 
+Ïzy
+ 
+as
+ 
+the
+ 
+’um”©Ü
+ i 
+™”©ed
+.</remarks>
+
+385 <
+ty³·¿m
+ 
+Çme
+="TV®ue">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</typeparam>
+
+386 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+387 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+388 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+decodšg
+ 
+the
+ 
+v®ue
+.</param>
+
+389 <
+»tuºs
+>
+An
+ 
+’um”©Ü
+ 
+th©
+ 
+y›lds
+ 
+—ch
+ 
+occu¼’û
+ 
+of
+ 
+the
+ 
+f›ld
+.</returns>
+
+390 </
+memb”
+>
+
+391 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.TryGetValue(ProtoBuf.Meta.TypeModel,System.Type,ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,System.Boolean,System.Object@)">
+
+392 <
+summ¬y
+>
+
+393 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+394 
+The
+ 
+v®ue
+ 
+	`»tuºed
+ (
+š
+ "v®ue"è
+is
+ 
+the
+ 
+compo£d
+ v®u
+aá”
+ 
+m”gšg
+ 
+ªy
+ 
+du¶iÿ‹d
+ 
+cÚ‹Á
+;
+
+395 
+the
+ 
+v®ue
+ 
+is
+ "»³©ed" (
+a
+ 
+li¡
+), 
+th’
+ 
+u£
+ 
+G‘V®ues
+ 
+š¡—d
+.
+
+396 </
+summ¬y
+>
+
+397 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</param>
+
+398 <
+·¿m
+ 
+Çme
+="mod–">
+The
+ 
+mod–
+ 
+to
+ 
+u£
+ 
+cÚfigu¿tiÚ
+.</param>
+
+399 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+efãùive
+ 
+v®ue
+ 
+of
+ 
+the
+ 
+f›ld
+, 
+Ü
+h v®u
+nÙ
+ 
+found
+.</param>
+
+400 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+401 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+402 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+decodšg
+ 
+the
+ 
+v®ue
+.</param>
+
+403 <
+·¿m
+ 
+Çme
+="®lowDefšedTag">
+AÎow
+ 
+gs
+ 
+th©
+ 
+¬e
+ 
+´e£Á
+ 
+as
+ 
+·¹
+ 
+of
+ 
+the
+ 
+defš™iÚ
+; 
+exam¶e
+, 
+to
+ 
+qu”y
+ 
+unknown
+ 
+v®ues
+.</param>
+
+404 <
+»tuºs
+>
+True
+ 
+d©a
+ 
+the
+ 
+f›ld
+ 
+was
+ 
+´e£Á
+, 
+çl£
+ 
+Ùh”wi£
+.</returns>
+
+405 </
+memb”
+>
+
+406 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.GetValues(ProtoBuf.Meta.TypeModel,System.Type,ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat)">
+
+407 <
+summ¬y
+>
+
+408 
+Qu”›s
+ 
+ª
+ 
+ex‹nsibË
+ 
+objeù
+ ª 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+409 
+Each
+ 
+occu¼’û
+ 
+of
+ 
+the
+ 
+f›ld
+ 
+is
+ 
+y›lded
+ 
+£·¿‹ly
+, 
+makšg
+ 
+this
+ 
+u§ge
+ 
+su™abË
+ "repeated"
+
+410 (
+li¡
+è
+f›lds
+.
+
+411 </
+summ¬y
+>
+
+412 <
+»m¬ks
+>
+The
+ 
+ex‹nded
+ 
+d©a
+ 
+is
+ 
+´oûs£d
+ 
+Ïzy
+ 
+as
+ 
+the
+ 
+’um”©Ü
+ i 
+™”©ed
+.</remarks>
+
+413 <
+·¿m
+ 
+Çme
+="mod–">
+The
+ 
+mod–
+ 
+to
+ 
+u£
+ 
+cÚfigu¿tiÚ
+.</param>
+
+414 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+d©a
+-
+ty³
+ 
+of
+ 
+the
+ 
+f›ld
+.</param>
+
+415 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+obš
+ 
+the
+ 
+v®ue
+ 
+äom
+.</param>
+
+416 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+417 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+decodšg
+ 
+the
+ 
+v®ue
+.</param>
+
+418 <
+»tuºs
+>
+An
+ 
+’um”©Ü
+ 
+th©
+ 
+y›lds
+ 
+—ch
+ 
+occu¼’û
+ 
+of
+ 
+the
+ 
+f›ld
+.</returns>
+
+419 </
+memb”
+>
+
+420 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Extensible.AppendValue(ProtoBuf.Meta.TypeModel,ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,System.Object)">
+
+421 <
+summ¬y
+>
+
+422 
+Aµ’ds
+ 
+the
+ 
+v®ue
+ 
+as
+ 
+ª
+ 
+	$add™iÚ®
+ (
+uÃx³ùed
+è
+d©a
+-
+f›ld
+ 
+the
+ 
+š¡ªû
+.
+
+423 
+NÙe
+ 
+th©
+ 
+nÚ
+-
+»³©ed
+ 
+sub
+-
+objeùs
+, 
+this
+ 
+equ©es
+ 
+to
+ 
+a
+ 
+m”ge
+ 
+İ”©iÚ
+;
+
+424 
+»³©ed
+ 
+sub
+-
+objeùs
+ 
+this
+ 
+adds
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+to
+ 
+the
+ 
+£t
+; 
+sim¶e
+
+
+425 
+v®ues
+ 
+the
+ 
+Ãw
+ 
+v®ue
+ 
+su³rûdes
+h
+Şd
+ value.
+
+426 </
+summ¬y
+>
+
+427 <
+»m¬ks
+>
+NÙe
+ 
+th©
+ 
+­³ndšg
+ 
+a
+ 
+v®ue
+ 
+dÛs
+ 
+nÙ
+ 
+»move
+ 
+the
+ 
+Şd
+ v®u
+äom
+
+
+428 
+the
+ 
+¡»am
+; 
+avoid
+ 
+»³©edly
+ 
+­³ndšg
+ 
+v®ues
+ th
+§me
+ 
+f›ld
+.</
+»m¬ks
+>
+
+429 <
+·¿m
+ 
+Çme
+="mod–">
+The
+ 
+mod–
+ 
+to
+ 
+u£
+ 
+cÚfigu¿tiÚ
+.</param>
+
+430 <
+·¿m
+ 
+Çme
+="fÜm©">
+The
+ 
+d©a
+-
+fÜm©
+ 
+to
+ 
+u£
+ 
+wh’
+ 
+’codšg
+ 
+the
+ 
+v®ue
+.</param>
+
+431 <
+·¿m
+ 
+Çme
+="š¡ªû">
+The
+ 
+ex‹nsibË
+ 
+objeù
+ 
+to
+ 
+­³nd
+ 
+the
+ 
+v®ue
+o.</param>
+
+432 <
+·¿m
+ 
+Çme
+="g">
+The
+ 
+f›ld
+ 
+id’tif›r
+; 
+the
+ 
+g
+ 
+should
+ 
+nÙ
+ 
+be
+ 
+defšed
+ 
+as
+ 
+a
+ 
+known
+ 
+d©a
+-f›ld th
+š¡ªû
+.</param>
+
+433 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+v®ue
+ 
+to
+ 
+­³nd
+.</param>
+
+434 </
+memb”
+>
+
+435 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ExtensibleUtil">
+
+436 <
+summ¬y
+>
+
+437 
+This
+ 
+şass
+ 
+aùs
+ 
+as
+ 
+ª
+ 
+š‹º®
+ 
+w¿µ”
+ 
+®lowšg
+ 
+us
+ 
+to
+ dØ
+a
+ 
+dyÇmic
+
+
+438 
+m‘hodšfo
+ 
+švoke
+; 
+ª
+'ˆpuˆštØS”Ÿliz”‡ dÚ'
+t
+ 
+wªt
+ 
+Ú
+ 
+public
+
+
+439 
+API
+; 
+ÿn
+'t…ut into Serializer&lt;T&gt; since we‚eedo invoke
+
+440 
+acüoss
+ 
+şas£s
+, 
+which
+ 
+i¢
+'t‡llowed in Silverlight)
+
+441 </
+summ¬y
+>
+
+442 </
+memb”
+>
+
+443 <
+memb”
+ 
+Çme
+="M:ProtoBuf.ExtensibleUtil.GetExtendedValues``1(ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,System.Boolean,System.Boolean)">
+
+444 <
+summ¬y
+>
+
+445 
+AÎ
+ 
+this
+ 
+dÛs
+ 
+is
+ 
+ÿÎ
+ 
+G‘Ex‹ndedV®uesTy³d
+ 
+w™h
+ 
+the
+ 
+cÜ»ù
+ 
+ty³
+ "instance";
+
+446 
+this
+ 
+’su»s
+ 
+th©
+ 
+we
+ 
+dÚ
+'t get issues with subclasses declaring conflictingypes -
+
+447 
+the
+ 
+ÿÎ”
+ 
+mu¡
+ 
+»¥eù
+h
+f›lds
+ 
+defšed
+ th
+ty³
+ 
+they
+ 
+·ss
+ 
+š
+.
+
+448 </
+summ¬y
+>
+
+449 </
+memb”
+>
+
+450 <
+memb”
+ 
+Çme
+="M:ProtoBuf.ExtensibleUtil.GetExtendedValues(ProtoBuf.Meta.TypeModel,System.Type,ProtoBuf.IExtensible,System.Int32,ProtoBuf.DataFormat,System.Boolean,System.Boolean)">
+
+451 <
+summ¬y
+>
+
+452 
+AÎ
+ 
+this
+ 
+dÛs
+ 
+is
+ 
+ÿÎ
+ 
+G‘Ex‹ndedV®uesTy³d
+ 
+w™h
+ 
+the
+ 
+cÜ»ù
+ 
+ty³
+ "instance";
+
+453 
+this
+ 
+’su»s
+ 
+th©
+ 
+we
+ 
+dÚ
+'t get issues with subclasses declaring conflictingypes -
+
+454 
+the
+ 
+ÿÎ”
+ 
+mu¡
+ 
+»¥eù
+h
+f›lds
+ 
+defšed
+ th
+ty³
+ 
+they
+ 
+·ss
+ 
+š
+.
+
+455 </
+summ¬y
+>
+
+456 </
+memb”
+>
+
+457 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Helpers">
+
+458 <
+summ¬y
+>
+
+459 
+NÙ
+ 
+®l
+ 
+äamewÜks
+ 
+¬e
+ 
+ü—‹d
+ 
+	`equ®
+ (
+fx1
+.1 
+vs
+ 
+fx2
+.0,
+
+460 
+miüo
+-
+äamewÜk
+, 
+com·ù
+-framework,
+
+461 
+sv”light
+, 
+‘c
+). 
+This
+ 
+şass
+ 
+sim¶y
+ 
+w¿ps
+ 
+up
+ 
+a
+ 
+ãw
+ 
+thšgs
+ 
+th©
+ 
+would
+
+
+462 
+Ùh”wi£
+ 
+make
+ 
+the
+ 
+»®
+ 
+code
+ 
+uÂeûs§ry
+ 
+messy
+, 
+´ovidšg
+ 
+çÎback
+
+
+463 
+im¶em’tiÚs
+ 
+Ãûs§ry
+.
+
+464 </
+summ¬y
+>
+
+465 </
+memb”
+>
+
+466 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ProtoTypeCode">
+
+467 <
+summ¬y
+>
+
+468 
+IÁ’ded
+ 
+to
+ 
+be
+ 
+a
+ 
+dœeù
+ 
+m­
+Ø
+»guÏr
+ 
+Ty³Code
+, 
+but
+:
+
+469 - 
+w™h
+ 
+missšg
+ 
+ty³s
+
+
+470 - 
+exi¡šg
+ 
+Ú
+ 
+WšRT
+
+
+471 </
+summ¬y
+>
+
+472 </
+memb”
+>
+
+473 <
+memb”
+ 
+Çme
+="T:ProtoBuf.ImplicitFields">
+
+474 <
+summ¬y
+>
+
+475 
+S³cif›s
+ 
+the
+ 
+m‘hod
+ 
+u£d
+ 
+to
+ 
+šãr
+ 
+f›ld
+ 
+gs
+ 
+memb”s
+ 
+of
+h
+ty³
+
+
+476 
+und”
+ 
+cÚsid”©iÚ
+. 
+Tags
+ 
+¬e
+ 
+deduûd
+ 
+usšg
+ 
+the
+ 
+šv¬ŸÁ
+ 
+®phab‘ic
+
+
+477 
+£qu’û
+ 
+of
+ 
+the
+ 
+memb”s
+'‚ames;his makes implicit fieldags very brittle,
+
+478 
+ªd
+ 
+susû±ibË
+ 
+to
+ 
+chªges
+ 
+such
+ 
+as
+ 
+f›ld
+ 
+	`Çmes
+ (
+nÜm®ly
+ 
+ª
+ 
+isŞ©ed
+
+
+479 
+chªge
+).
+
+480 </
+summ¬y
+>
+
+481 </
+memb”
+>
+
+482 <
+memb”
+ 
+Çme
+="F:ProtoBuf.ImplicitFields.None">
+
+483 <
+summ¬y
+>
+
+484 
+No
+ 
+memb”s
+ 
+¬e
+ 
+£rŸlized
+ 
+im¶ic™ly
+; 
+®l
+ memb” 
+»quœe
+ 
+a
+ 
+su™abË
+
+
+485 
+©Œibu‹
+ 
+such
+ 
+as
+ [
+PrÙoMemb”
+]. 
+This
+ 
+is
+ 
+the
+ 
+»cmom’ded
+ 
+mode
+ 
+
+486 
+mo¡
+ 
+sûÇrios
+.
+
+487 </
+summ¬y
+>
+
+488 </
+memb”
+>
+
+489 <
+memb”
+ 
+Çme
+="F:ProtoBuf.ImplicitFields.AllPublic">
+
+490 <
+summ¬y
+>
+
+491 
+Public
+ 
+´İ”t›s
+ 
+ªd
+ 
+f›lds
+ 
+¬e
+ 
+–igibË
+ 
+im¶ic™
+ 
+£rŸliz©iÚ
+;
+
+492 
+this
+ 
+Œ—ts
+ 
+the
+ 
+public
+ 
+API
+ 
+as
+ 
+a
+ 
+cÚŒaù
+. 
+Ord”šg
+ 
+bešgs
+ 
+äom
+ 
+Im¶ic™Fœ¡Tag
+.
+
+493 </
+summ¬y
+>
+
+494 </
+memb”
+>
+
+495 <
+memb”
+ 
+Çme
+="F:ProtoBuf.ImplicitFields.AllFields">
+
+496 <
+summ¬y
+>
+
+497 
+Public
+ 
+ªd
+ 
+nÚ
+-
+public
+ 
+f›lds
+ 
+¬e
+ 
+–igibË
+ 
+im¶ic™
+ 
+£rŸliz©iÚ
+;
+
+498 
+this
+ 
+aùs
+ 
+as
+ 
+a
+ 
+¡©e
+/
+im¶em’tiÚ
+ 
+£rŸliz”
+. 
+Ord”šg
+ 
+bešgs
+ 
+äom
+ 
+Im¶ic™Fœ¡Tag
+.
+
+499 </
+summ¬y
+>
+
+500 </
+memb”
+>
+
+501 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Meta.CallbackSet">
+
+502 <
+summ¬y
+>
+
+503 
+R•»£Ás
+ 
+the
+ 
+£t
+ 
+of
+ 
+£rŸliz©iÚ
+ 
+ÿÎbacks
+ 
+to
+ 
+be
+ 
+u£d
+ 
+wh’
+ 
+£rŸlizšg
+/
+de£rŸlizšg
+ 
+a
+ 
+ty³
+.
+
+504 </
+summ¬y
+>
+
+505 </
+memb”
+>
+
+506 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.CallbackSet.BeforeSerialize">
+
+507 <
+summ¬y
+>
+C®Ëd
+ 
+befÜe
+ 
+£rŸlizšg
+ 
+ª
+ 
+š¡ªû
+</summary>
+
+508 </
+memb”
+>
+
+509 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.CallbackSet.BeforeDeserialize">
+
+510 <
+summ¬y
+>
+C®Ëd
+ 
+befÜe
+ 
+de£rŸlizšg
+ 
+ª
+ 
+š¡ªû
+</summary>
+
+511 </
+memb”
+>
+
+512 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.CallbackSet.AfterSerialize">
+
+513 <
+summ¬y
+>
+C®Ëd
+ 
+aá”
+ 
+£rŸlizšg
+ 
+ª
+ 
+š¡ªû
+</summary>
+
+514 </
+memb”
+>
+
+515 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.CallbackSet.AfterDeserialize">
+
+516 <
+summ¬y
+>
+C®Ëd
+ 
+aá”
+ 
+de£rŸlizšg
+ 
+ª
+ 
+š¡ªû
+</summary>
+
+517 </
+memb”
+>
+
+518 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.CallbackSet.NonTrivial">
+
+519 <
+summ¬y
+>
+
+520 
+True
+ 
+ªy
+ 
+ÿÎback
+ 
+is
+ 
+£t
+, 
+F®£
+
+
+521 </
+summ¬y
+>
+
+522 </
+memb”
+>
+
+523 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Meta.MetaType">
+
+524 <
+summ¬y
+>
+
+525 
+R•»£Ás
+ 
+a
+ 
+ty³
+ 
+©
+ 
+ruÁime
+ 
+u£
+ 
+w™h
+ 
+´Ùobuf
+, 
+®lowšg
+ 
+the
+ 
+f›ld
+ 
+	$m­pšgs
+ (
+‘c
+è
+to
+ 
+be
+ 
+defšed
+
+
+526 </
+summ¬y
+>
+
+527 </
+memb”
+>
+
+528 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.ToString">
+
+529 <
+summ¬y
+>
+
+530 
+G‘
+ 
+the
+ 
+Çme
+ 
+of
+h
+ty³
+ 
+bešg
+ 
+»´e£Áed
+
+
+531 </
+summ¬y
+>
+
+532 </
+memb”
+>
+
+533 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.AddSubType(System.Int32,System.Type)">
+
+534 <
+summ¬y
+>
+
+535 
+Adds
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+to
+ 
+the
+ 
+šh”™ªû
+ 
+mod–
+
+
+536 </
+summ¬y
+>
+
+537 </
+memb”
+>
+
+538 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.AddSubType(System.Int32,System.Type,ProtoBuf.DataFormat)">
+
+539 <
+summ¬y
+>
+
+540 
+Adds
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+to
+ 
+the
+ 
+šh”™ªû
+ 
+mod–
+
+
+541 </
+summ¬y
+>
+
+542 </
+memb”
+>
+
+543 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.SetCallbacks(System.Reflection.MethodInfo,System.Reflection.MethodInfo,System.Reflection.MethodInfo,System.Reflection.MethodInfo)">
+
+544 <
+summ¬y
+>
+
+545 
+Assigns
+ 
+the
+ 
+ÿÎbacks
+ 
+to
+ 
+u£
+ 
+duršg
+ 
+£rŸlŸtiÚ
+/
+de£rŸliz©iÚ
+.
+
+546 </
+summ¬y
+>
+
+547 <
+·¿m
+ 
+Çme
+="befÜeS”Ÿlize">
+The
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+befÜe
+ 
+£rŸliz©iÚ
+ 
+begšs
+.</
+·¿m
+>
+
+548 <
+·¿m
+ 
+Çme
+="aá”S”Ÿlize">
+The
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+wh’
+ 
+£rŸliz©iÚ
+ 
+is
+ 
+com¶‘e
+.</
+·¿m
+>
+
+549 <
+·¿m
+ 
+Çme
+="befÜeDe£rŸlize">
+The
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+befÜe
+ 
+de£rŸliz©iÚ
+ 
+	`begšs
+ (Ü 
+wh’
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+is
+ 
+ü—‹d
+ 
+duršg
+ de£rŸliz©iÚ).</
+·¿m
+>
+
+550 <
+·¿m
+ 
+Çme
+="aá”De£rŸlize">
+The
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+wh’
+ 
+de£rŸliz©iÚ
+ 
+is
+ 
+com¶‘e
+.</
+·¿m
+>
+
+551 <
+»tuºs
+>
+The
+ 
+£t
+ 
+of
+ 
+ÿÎbacks
+.</returns>
+
+552 </
+memb”
+>
+
+553 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.SetCallbacks(System.String,System.String,System.String,System.String)">
+
+554 <
+summ¬y
+>
+
+555 
+Assigns
+ 
+the
+ 
+ÿÎbacks
+ 
+to
+ 
+u£
+ 
+duršg
+ 
+£rŸlŸtiÚ
+/
+de£rŸliz©iÚ
+.
+
+556 </
+summ¬y
+>
+
+557 <
+·¿m
+ 
+Çme
+="befÜeS”Ÿlize">
+The
+‚am
+of
+ 
+the
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+befÜe
+ 
+£rŸliz©iÚ
+ 
+begšs
+.</
+·¿m
+>
+
+558 <
+·¿m
+ 
+Çme
+="aá”S”Ÿlize">
+The
+‚am
+of
+ 
+the
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+wh’
+ 
+£rŸliz©iÚ
+ 
+is
+ 
+com¶‘e
+.</
+·¿m
+>
+
+559 <
+·¿m
+ 
+Çme
+="befÜeDe£rŸlize">
+The
+‚am
+of
+ 
+the
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+befÜe
+ 
+de£rŸliz©iÚ
+ 
+	`begšs
+ (Ü 
+wh’
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+is
+ 
+ü—‹d
+ 
+duršg
+ de£rŸliz©iÚ).</
+·¿m
+>
+
+560 <
+·¿m
+ 
+Çme
+="aá”De£rŸlize">
+The
+‚am
+of
+ 
+the
+ 
+	$m‘hod
+ (
+Ü
+ 
+nuÎ
+è
+ÿÎed
+ 
+wh’
+ 
+de£rŸliz©iÚ
+ 
+is
+ 
+com¶‘e
+.</
+·¿m
+>
+
+561 <
+»tuºs
+>
+The
+ 
+£t
+ 
+of
+ 
+ÿÎbacks
+.</returns>
+
+562 </
+memb”
+>
+
+563 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.SetFactory(System.Reflection.MethodInfo)">
+
+564 <
+summ¬y
+>
+
+565 
+DesigÇ‹
+ 
+a
+ 
+çùÜy
+-
+m‘hod
+ 
+to
+ 
+u£
+Ø
+ü—‹
+ 
+š¡ªûs
+ 
+of
+ 
+this
+ 
+ty³
+
+
+566 </
+summ¬y
+>
+
+567 </
+memb”
+>
+
+568 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.SetFactory(System.String)">
+
+569 <
+summ¬y
+>
+
+570 
+DesigÇ‹
+ 
+a
+ 
+çùÜy
+-
+m‘hod
+ 
+to
+ 
+u£
+Ø
+ü—‹
+ 
+š¡ªûs
+ 
+of
+ 
+this
+ 
+ty³
+
+
+571 </
+summ¬y
+>
+
+572 </
+memb”
+>
+
+573 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.ThrowIfFrozen">
+
+574 <
+summ¬y
+>
+
+575 
+Throws
+ 
+ª
+ 
+exû±iÚ
+ 
+the
+ 
+ty³
+ 
+has
+ 
+b“n
+ 
+made
+ 
+immubË
+
+
+576 </
+summ¬y
+>
+
+577 </
+memb”
+>
+
+578 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.Add(System.Int32,System.String)">
+
+579 <
+summ¬y
+>
+
+580 
+Adds
+ 
+a
+ 
+	$memb”
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+
+
+581 </
+summ¬y
+>
+
+582 </
+memb”
+>
+
+583 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.AddField(System.Int32,System.String)">
+
+584 <
+summ¬y
+>
+
+585 
+Adds
+ 
+a
+ 
+	$memb”
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+, 
+»tuºšg
+h
+V®ueMemb”
+ 
+¿th”
+ 
+thª
+h
+æu’t
+ 
+API
+.
+
+586 
+This
+ 
+is
+ 
+Ùh”wi£
+ 
+id’tiÿl
+ 
+to
+ 
+Add
+.
+
+587 </
+summ¬y
+>
+
+588 </
+memb”
+>
+
+589 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.Add(System.String)">
+
+590 <
+summ¬y
+>
+
+591 
+Adds
+ 
+a
+ 
+	$memb”
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+
+
+592 </
+summ¬y
+>
+
+593 </
+memb”
+>
+
+594 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.SetSurrogate(System.Type)">
+
+595 <
+summ¬y
+>
+
+596 
+P”fÜms
+ 
+£rŸliz©iÚ
+ 
+of
+ 
+this
+ 
+ty³
+ 
+vŸ
+ 
+a
+ 
+su¼og©e
+; 
+®l
+
+
+597 
+Ùh”
+ 
+£rŸliz©iÚ
+ 
+İtiÚs
+ 
+¬e
+ 
+ignÜed
+ 
+ªd
+ 
+hªdËd
+
+
+598 
+by
+ 
+the
+ 
+su¼og©e
+'s configuration.
+
+599 </
+summ¬y
+>
+
+600 </
+memb”
+>
+
+601 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.Add(System.String[])">
+
+602 <
+summ¬y
+>
+
+603 
+Adds
+ 
+a
+ 
+£t
+ 
+of
+ 
+	$memb”s
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+
+
+604 </
+summ¬y
+>
+
+605 </
+memb”
+>
+
+606 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.Add(System.Int32,System.String,System.Object)">
+
+607 <
+summ¬y
+>
+
+608 
+Adds
+ 
+a
+ 
+	$memb”
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+
+
+609 </
+summ¬y
+>
+
+610 </
+memb”
+>
+
+611 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.Add(System.Int32,System.String,System.Type,System.Type)">
+
+612 <
+summ¬y
+>
+
+613 
+Adds
+ 
+a
+ 
+	$memb”
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+, 
+šşudšg
+ 
+ª
+ 
+™emTy³
+ 
+ªd
+ 
+deçuÉTy³
+ 
+»´e£Ášg
+ 
+li¡s
+
+
+614 </
+summ¬y
+>
+
+615 </
+memb”
+>
+
+616 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.AddField(System.Int32,System.String,System.Type,System.Type)">
+
+617 <
+summ¬y
+>
+
+618 
+Adds
+ 
+a
+ 
+	$memb”
+ (
+by
+ 
+Çme
+è
+to
+ 
+the
+ 
+M‘aTy³
+, 
+šşudšg
+ 
+ª
+ 
+™emTy³
+ 
+ªd
+ 
+deçuÉTy³
+ 
+»´e£Ášg
+ 
+li¡s
+, 
+»tuºšg
+h
+V®ueMemb”
+ 
+¿th”
+ 
+thª
+h
+æu’t
+ 
+API
+.
+
+619 
+This
+ 
+is
+ 
+Ùh”wi£
+ 
+id’tiÿl
+ 
+to
+ 
+Add
+.
+
+620 </
+summ¬y
+>
+
+621 </
+memb”
+>
+
+622 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.GetFields">
+
+623 <
+summ¬y
+>
+
+624 
+R‘uºs
+ 
+the
+ 
+V®ueMemb”
+ 
+š¡ªûs
+ 
+assocŸ‹d
+ 
+w™h
+ 
+this
+ 
+ty³
+
+
+625 </
+summ¬y
+>
+
+626 </
+memb”
+>
+
+627 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.GetSubtypes">
+
+628 <
+summ¬y
+>
+
+629 
+R‘uºs
+ 
+the
+ 
+SubTy³
+ 
+š¡ªûs
+ 
+assocŸ‹d
+ 
+w™h
+ 
+this
+ 
+ty³
+
+
+630 </
+summ¬y
+>
+
+631 </
+memb”
+>
+
+632 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.MetaType.CompileInPlace">
+
+633 <
+summ¬y
+>
+
+634 
+Compes
+ 
+the
+ 
+£rŸliz”
+ 
+this
+ 
+ty³
+;hi 
+is
+ *
+nÙ
+* 
+a
+ 
+fuÎ
+
+
+635 
+¡ªd®Úe
+ 
+compe
+, 
+but
+ 
+ÿn
+ 
+signifiÿÁly
+ 
+boo¡
+ 
+³rfÜmªû
+
+
+636 
+®lowšg
+ 
+add™iÚ®
+ 
+ty³s
+ 
+to
+ 
+be
+ 
+added
+.
+
+637 </
+summ¬y
+>
+
+638 <
+»m¬ks
+>
+An
+ 
+š
+-
+¶aû
+ 
+compe
+ 
+ÿn
+ 
+acûss
+ 
+nÚ
+-
+public
+ 
+ty³s
+ / 
+memb”s
+</remarks>
+
+639 </
+memb”
+>
+
+640 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.BaseType">
+
+641 <
+summ¬y
+>
+
+642 
+G‘s
+ 
+the
+ 
+ba£
+-
+ty³
+ 
+this
+ype
+
+643 </
+summ¬y
+>
+
+644 </
+memb”
+>
+
+645 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.IncludeSerializerMethod">
+
+646 <
+summ¬y
+>
+
+647 
+Wh’
+ 
+u£d
+ 
+to
+ 
+compe
+ 
+a
+ 
+mod–
+, 
+should
+ 
+public
+ 
+£rŸliz©iÚ
+/
+de£rŸlz©iÚ
+ 
+m‘hods
+
+
+648 
+be
+ 
+šşuded
+ 
+this
+ 
+ty³
+?
+
+649 </
+summ¬y
+>
+
+650 </
+memb”
+>
+
+651 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.AsReferenceDefault">
+
+652 <
+summ¬y
+>
+
+653 
+Should
+ 
+this
+ 
+ty³
+ 
+be
+ 
+Œ—‹d
+ 
+as
+ 
+a
+ 
+»ã»nû
+ 
+by
+ ?
+
+654 </
+summ¬y
+>
+
+655 </
+memb”
+>
+
+656 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.HasCallbacks">
+
+657 <
+summ¬y
+>
+
+658 
+Indiÿ‹s
+ 
+wh‘h”
+ 
+the
+ 
+cu¼’t
+ 
+ty³
+ 
+has
+ 
+defšed
+ 
+ÿÎbacks
+
+
+659 </
+summ¬y
+>
+
+660 </
+memb”
+>
+
+661 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.HasSubtypes">
+
+662 <
+summ¬y
+>
+
+663 
+Indiÿ‹s
+ 
+wh‘h”
+ 
+the
+ 
+cu¼’t
+ 
+ty³
+ 
+has
+ 
+defšed
+ 
+subty³s
+
+
+664 </
+summ¬y
+>
+
+665 </
+memb”
+>
+
+666 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.Callbacks">
+
+667 <
+summ¬y
+>
+
+668 
+R‘uºs
+ 
+the
+ 
+£t
+ 
+of
+ 
+ÿÎbacks
+ 
+defšed
+ 
+this
+ 
+ty³
+
+
+669 </
+summ¬y
+>
+
+670 </
+memb”
+>
+
+671 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.Name">
+
+672 <
+summ¬y
+>
+
+673 
+G‘s
+ 
+Ü
+ 
+£ts
+ 
+the
+ 
+Çme
+ 
+of
+ 
+this
+ 
+cÚŒaù
+.
+
+674 </
+summ¬y
+>
+
+675 </
+memb”
+>
+
+676 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.Type">
+
+677 <
+summ¬y
+>
+
+678 
+The
+ 
+ruÁime
+ 
+ty³
+ 
+th©
+ 
+the
+ 
+m‘a
+-ty³ 
+»´e£Ás
+
+
+679 </
+summ¬y
+>
+
+680 </
+memb”
+>
+
+681 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.UseConstructor">
+
+682 <
+summ¬y
+>
+
+683 
+G‘s
+ 
+Ü
+ 
+£ts
+ 
+wh‘h”
+ 
+the
+ 
+ty³
+ 
+should
+ 
+u£
+ 
+a
+ 
+·¿m‘”Ëss
+ 
+	`cÚ¡ruùÜ
+ (the ),
+
+684 
+Ü
+ 
+wh‘h”
+ 
+the
+ 
+ty³
+ 
+should
+ 
+sk
+h
+cÚ¡ruùÜ
+ 
+com¶‘–y
+. 
+This
+ 
+İtiÚ
+ 
+is
+ 
+nÙ
+ 
+suµÜ‹d
+
+
+685 
+Ú
+ 
+com·ù
+-
+äamewÜk
+.
+
+686 </
+summ¬y
+>
+
+687 </
+memb”
+>
+
+688 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.ConstructType">
+
+689 <
+summ¬y
+>
+
+690 
+The
+ 
+cÚü‘e
+ 
+ty³
+ 
+to
+ 
+ü—‹
+ 
+wh’
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ 
+of
+ 
+this
+y³ 
+is
+ 
+Ãeded
+;hi 
+may
+ 
+be
+ 
+u£ful
+ wh’ 
+d—lšg
+
+
+691 
+w™h
+ 
+dyÇmic
+ 
+´ox›s
+, 
+Ü
+ w™h 
+š‹rçû
+-
+ba£d
+ 
+APIs
+
+
+692 </
+summ¬y
+>
+
+693 </
+memb”
+>
+
+694 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.Item(System.Int32)">
+
+695 <
+summ¬y
+>
+
+696 
+R‘uºs
+ 
+the
+ 
+V®ueMemb”
+ 
+th©
+ 
+m©chs
+ 
+a
+ 
+giv’
+ 
+f›ld
+ 
+numb”
+, 
+Ü
+ 
+nuÎ
+ 
+nÙ
+ 
+found
+
+
+697 </
+summ¬y
+>
+
+698 </
+memb”
+>
+
+699 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.Item(System.Reflection.MemberInfo)">
+
+700 <
+summ¬y
+>
+
+701 
+R‘uºs
+ 
+the
+ 
+V®ueMemb”
+ 
+th©
+ 
+m©chs
+ 
+a
+ 
+giv’
+ 
+	`memb”
+ (
+´İ”ty
+/
+f›ld
+), 
+Ü
+ 
+nuÎ
+ 
+nÙ
+ 
+found
+
+
+702 </
+summ¬y
+>
+
+703 </
+memb”
+>
+
+704 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.EnumPassthru">
+
+705 <
+summ¬y
+>
+
+706 
+G‘s
+ 
+Ü
+ 
+£ts
+ 
+a
+ 
+v®ue
+ 
+šdiÿtšg
+ 
+th©
+ 
+ª
+ 
+should
+ 
+be
+ 
+Œ—‹d
+ 
+dœeùly
+ 
+as
+‡À//
+‘c
+, 
+¿th”
+
+
+707 
+thª
+ 
+’fÜcšg
+ .
+´Ùo
+ 
+ruËs
+. 
+This
+ 
+is
+ 
+u£ful
+ *
+š
+ 
+·¹icul
+* [
+FÏgs
+] 
+’ums
+.
+
+708 </
+summ¬y
+>
+
+709 </
+memb”
+>
+
+710 <
+memb”
+ 
+Çme
+="P:ProtoBuf.Meta.MetaType.IgnoreListHandling">
+
+711 <
+summ¬y
+>
+
+712 
+G‘s
+ 
+Ü
+ 
+£ts
+ 
+a
+ 
+v®ue
+ 
+šdiÿtšg
+ 
+th©
+ 
+this
+ 
+ty³
+ 
+should
+ 
+NOT
+ 
+be
+ 
+Œ—‹d
+ 
+as
+‡ 
+li¡
+, 
+ev’
+ 
+™
+ 
+has
+
+
+713 
+çmŸr
+ 
+li¡
+-
+like
+ 
+	`ch¬aù”i¡ics
+ (
+’um”abË
+, 
+add
+, 
+‘c
+)
+
+714 </
+summ¬y
+>
+
+715 </
+memb”
+>
+
+716 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Meta.RuntimeTypeModel">
+
+717 <
+summ¬y
+>
+
+718 
+Provides
+ 
+´Ùobuf
+ 
+£rŸliz©iÚ
+ 
+suµÜt
+ 
+a
+ 
+numb”
+ 
+of
+ 
+ty³s
+ 
+th©
+ 
+ÿn
+ 
+be
+ 
+defšed
+ 
+©
+ 
+ruÁime
+
+
+719 </
+summ¬y
+>
+
+720 </
+memb”
+>
+
+721 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Meta.TypeModel">
+
+722 <
+summ¬y
+>
+
+723 
+Provides
+ 
+´Ùobuf
+ 
+£rŸliz©iÚ
+ 
+suµÜt
+ 
+a
+ 
+numb”
+ 
+of
+ 
+ty³s
+
+
+724 </
+summ¬y
+>
+
+725 </
+memb”
+>
+
+726 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.MapType(System.Type)">
+
+727 <
+summ¬y
+>
+
+728 
+ResŞve
+ 
+a
+ 
+Sy¡em
+.
+Ty³
+ 
+to
+ 
+the
+ 
+comp”
+-
+¥ecific
+ 
+ty³
+
+
+729 </
+summ¬y
+>
+
+730 </
+memb”
+>
+
+731 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.MapType(System.Type,System.Boolean)">
+
+732 <
+summ¬y
+>
+
+733 
+ResŞve
+ 
+a
+ 
+Sy¡em
+.
+Ty³
+ 
+to
+ 
+the
+ 
+comp”
+-
+¥ecific
+ 
+ty³
+
+
+734 </
+summ¬y
+>
+
+735 </
+memb”
+>
+
+736 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.TrySerializeAuxiliaryType(ProtoBuf.ProtoWriter,System.Type,ProtoBuf.DataFormat,System.Int32,System.Object,System.Boolean)">
+
+737 <
+summ¬y
+>
+
+738 
+This
+ 
+is
+ 
+the
+ 
+mÜe
+ "com¶‘e" 
+v”siÚ
+ 
+of
+ 
+S”Ÿlize
+, 
+which
+ 
+hªdËs
+ 
+sšgË
+ 
+š¡ªûs
+ oà
+m­³d
+ 
+ty³s
+.
+
+739 
+The
+ 
+v®ue
+ 
+is
+ 
+wr™‹n
+ 
+as
+ 
+a
+ 
+com¶‘e
+ 
+f›ld
+, 
+šşudšg
+ f›ld-
+h—d”
+ 
+	`ªd
+ (
+sub
+-
+objeùs
+)‡
+
+740 
+Ëngth
+-
+´efix
+
+
+741 
+In
+ 
+add™iÚ
+ 
+to
+ 
+th©
+, 
+this
+ 
+´ovides
+ 
+suµÜt
+ :
+
+742 - 
+basic
+ 
+v®ues
+; 
+šdividu®
+ / 
+¡ršg
+ / 
+Guid
+ / 
+‘c
+
+
+743 - 
+IEnum”abË
+ 
+£qu’ûs
+ 
+of
+ 
+ªy
+ 
+ty³
+ 
+hªdËd
+ 
+by
+ 
+TryS”ŸlizeAuxŸryTy³
+
+
+745 </
+summ¬y
+>
+
+746 </
+memb”
+>
+
+747 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Serialize(System.IO.Stream,System.Object)">
+
+748 <
+summ¬y
+>
+
+749 
+Wr™es
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»´e£Á©iÚ
+ 
+of
+ 
+the
+ 
+giv’
+ 
+š¡ªû
+ 
+to
+h
+suµl›d
+ 
+¡»am
+.
+
+750 </
+summ¬y
+>
+
+751 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`£rŸlized
+ (
+ÿÂÙ
+ b
+nuÎ
+).</param>
+
+752 <
+·¿m
+ 
+Çme
+="de¡">
+The
+ 
+de¡š©iÚ
+ 
+¡»am
+ 
+to
+ 
+wr™e
+o.</param>
+
+753 </
+memb”
+>
+
+754 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Serialize(System.IO.Stream,System.Object,ProtoBuf.SerializationContext)">
+
+755 <
+summ¬y
+>
+
+756 
+Wr™es
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»´e£Á©iÚ
+ 
+of
+ 
+the
+ 
+giv’
+ 
+š¡ªû
+ 
+to
+h
+suµl›d
+ 
+¡»am
+.
+
+757 </
+summ¬y
+>
+
+758 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`£rŸlized
+ (
+ÿÂÙ
+ b
+nuÎ
+).</param>
+
+759 <
+·¿m
+ 
+Çme
+="de¡">
+The
+ 
+de¡š©iÚ
+ 
+¡»am
+ 
+to
+ 
+wr™e
+o.</param>
+
+760 <
+·¿m
+ 
+Çme
+="cÚ‹xt">
+Add™iÚ®
+ 
+šfÜm©iÚ
+ 
+about
+ 
+this
+ 
+£rŸliz©iÚ
+ 
+İ”©iÚ
+.</param>
+
+761 </
+memb”
+>
+
+762 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Serialize(ProtoBuf.ProtoWriter,System.Object)">
+
+763 <
+summ¬y
+>
+
+764 
+Wr™es
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»´e£Á©iÚ
+ 
+of
+ 
+the
+ 
+giv’
+ 
+š¡ªû
+ 
+to
+h
+suµl›d
+ 
+wr™”
+.
+
+765 </
+summ¬y
+>
+
+766 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`£rŸlized
+ (
+ÿÂÙ
+ b
+nuÎ
+).</param>
+
+767 <
+·¿m
+ 
+Çme
+="de¡">
+The
+ 
+de¡š©iÚ
+ 
+wr™”
+ 
+to
+ 
+wr™e
+o.</param>
+
+768 </
+memb”
+>
+
+769 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeWithLengthPrefix(System.IO.Stream,System.Object,System.Type,ProtoBuf.PrefixStyle,System.Int32)">
+
+770 <
+summ¬y
+>
+
+771 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+Ü
+ 
+nuÎ
+), 
+usšg
+ 
+Ëngth
+-
+´efixed
+
+
+772 
+d©a
+ - 
+u£ful
+ 
+w™h
+ 
+ÃtwÜk
+ 
+IO
+.
+
+773 </
+summ¬y
+>
+
+774 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+bešg
+ 
+m”ged
+.</param>
+
+775 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+776 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+777 <
+·¿m
+ 
+Çme
+="¡yË">
+How
+ 
+to
+ 
+’code
+ 
+the
+ 
+Ëngth
+ 
+´efix
+.</param>
+
+778 <
+·¿m
+ 
+Çme
+="f›ldNumb”">
+The
+ 
+g
+ 
+u£d
+ 
+as
+ 
+a
+ 
+´efix
+ 
+to
+ 
+—ch
+ 
+	`»cÜd
+ (
+Úly
+ u£d 
+w™h
+ 
+ba£
+-128 
+¡yË
+ 
+´efixes
+).</param>
+
+779 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+780 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+781 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+782 </
+memb”
+>
+
+783 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeWithLengthPrefix(System.IO.Stream,System.Object,System.Type,ProtoBuf.PrefixStyle,System.Int32,ProtoBuf.Serializer.TypeResolver)">
+
+784 <
+summ¬y
+>
+
+785 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+Ü
+ 
+nuÎ
+), 
+usšg
+ 
+Ëngth
+-
+´efixed
+
+
+786 
+d©a
+ - 
+u£ful
+ 
+w™h
+ 
+ÃtwÜk
+ 
+IO
+.
+
+787 </
+summ¬y
+>
+
+788 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+bešg
+ 
+m”ged
+.</param>
+
+789 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+790 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+791 <
+·¿m
+ 
+Çme
+="¡yË">
+How
+ 
+to
+ 
+’code
+ 
+the
+ 
+Ëngth
+ 
+´efix
+.</param>
+
+792 <
+·¿m
+ 
+Çme
+="ex³ùedF›ld">
+The
+ 
+g
+ 
+u£d
+ 
+as
+ 
+a
+ 
+´efix
+ 
+to
+ 
+—ch
+ 
+	`»cÜd
+ (
+Úly
+ u£d 
+w™h
+ 
+ba£
+-128 
+¡yË
+ 
+´efixes
+).</param>
+
+793 <
+·¿m
+ 
+Çme
+="»sŞv”">
+U£d
+ 
+to
+ 
+»sŞve
+ 
+ty³s
+ 
+Ú
+ 
+a
+ 
+³r
+-
+f›ld
+ 
+basis
+.</param>
+
+794 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+795 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+796 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+797 </
+memb”
+>
+
+798 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeWithLengthPrefix(System.IO.Stream,System.Object,System.Type,ProtoBuf.PrefixStyle,System.Int32,ProtoBuf.Serializer.TypeResolver,System.Int32@)">
+
+799 <
+summ¬y
+>
+
+800 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+Ü
+ 
+nuÎ
+), 
+usšg
+ 
+Ëngth
+-
+´efixed
+
+
+801 
+d©a
+ - 
+u£ful
+ 
+w™h
+ 
+ÃtwÜk
+ 
+IO
+.
+
+802 </
+summ¬y
+>
+
+803 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+bešg
+ 
+m”ged
+.</param>
+
+804 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+805 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+806 <
+·¿m
+ 
+Çme
+="¡yË">
+How
+ 
+to
+ 
+’code
+ 
+the
+ 
+Ëngth
+ 
+´efix
+.</param>
+
+807 <
+·¿m
+ 
+Çme
+="ex³ùedF›ld">
+The
+ 
+g
+ 
+u£d
+ 
+as
+ 
+a
+ 
+´efix
+ 
+to
+ 
+—ch
+ 
+	`»cÜd
+ (
+Úly
+ u£d 
+w™h
+ 
+ba£
+-128 
+¡yË
+ 
+´efixes
+).</param>
+
+808 <
+·¿m
+ 
+Çme
+="»sŞv”">
+U£d
+ 
+to
+ 
+»sŞve
+ 
+ty³s
+ 
+Ú
+ 
+a
+ 
+³r
+-
+f›ld
+ 
+basis
+.</param>
+
+809 <
+·¿m
+ 
+Çme
+="by‹sR—d">
+R‘uºs
+ 
+the
+ 
+numb”
+ 
+of
+ 
+by‹s
+ 
+cÚsumed
+ 
+by
+ 
+this
+ 
+	`İ”©iÚ
+ (
+šşudes
+ 
+Ëngth
+-
+´efix
+ 
+ov”h—ds
+ 
+ªd
+ 
+ªy
+ 
+sk³d
+ 
+d©a
+).</param>
+
+810 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+811 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+812 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+813 </
+memb”
+>
+
+814 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeItems(System.IO.Stream,System.Type,ProtoBuf.PrefixStyle,System.Int32,ProtoBuf.Serializer.TypeResolver)">
+
+815 <
+summ¬y
+>
+
+816 
+R—ds
+ 
+a
+ 
+£qu’û
+ 
+of
+ 
+cÚ£cutive
+ 
+Ëngth
+-
+´efixed
+ 
+™ems
+ 
+äom
+‡ 
+¡»am
+, 
+usšg
+
+
+817 
+e™h”
+ 
+ba£
+-128 
+Ü
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+. 
+Ba£
+-128…»fixe 
+w™h
+ 
+a
+ 
+g
+
+
+818 
+¬e
+ 
+dœeùly
+ 
+com·¿bË
+ 
+to
+ 
+£rŸlizšg
+ 
+muÉË
+ 
+™ems
+ 
+š
+ 
+sucûssiÚ
+
+
+819 (
+u£
+ 
+the
+ <
+£e
+ 
+üef
+="F:PrÙoBuf.S”Ÿliz”.Li¡I‹mTag"/> 
+g
+ 
+to
+ 
+emuÏ‹
+h
+im¶ic™
+ 
+behaviÜ
+
+
+820 
+wh’
+ 
+£rŸlizšg
+ 
+a
+ 
+li¡
+/
+¬¿y
+). 
+Wh’
+‡ 
+g
+ 
+is
+
+
+821 
+¥ecif›d
+, 
+ªy
+ 
+»cÜds
+ 
+w™h
+ 
+difã»Á
+ 
+gs
+ 
+¬e
+ 
+s’y
+ 
+om™‹d
+. 
+The
+
+
+822 
+g
+ 
+is
+ 
+ignÜed
+. 
+The
+ag i 
+ignÜes
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+.
+
+823 </
+summ¬y
+>
+
+824 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+cÚššg
+ 
+the
+ 
+£rŸlized
+ 
+»cÜds
+.</param>
+
+825 <
+·¿m
+ 
+Çme
+="¡yË">
+The
+ 
+´efix
+ 
+¡yË
+ 
+u£d
+ 
+š
+ 
+the
+ 
+d©a
+.</param>
+
+826 <
+·¿m
+ 
+Çme
+="ex³ùedF›ld">
+The
+ 
+g
+ 
+of
+ 
+»cÜds
+ 
+to
+  (
+nÚ
+-
+pos™ive
+, 
+th’
+ 
+no
+ag 
+is
+
+
+827 
+ex³ùed
+ 
+ªd
+ 
+®l
+ 
+»cÜds
+ 
+¬e
+ 
+»tuºed
+).</
+·¿m
+>
+
+828 <
+·¿m
+ 
+Çme
+="»sŞv”">
+On
+ 
+a
+ 
+f›ld
+-
+by
+-f›ld 
+basis
+, 
+the
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+	`de£rŸlize
+ (
+ÿn
+ 
+be
+ 
+nuÎ
+ "ty³" 
+is
+ 
+¥ecif›d
+). </param>
+
+829 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+	`de£rŸlize
+ (
+ÿn
+ 
+be
+ 
+nuÎ
+ "»sŞv”" 
+is
+ 
+¥ecif›d
+).</param>
+
+830 <
+»tuºs
+>
+The
+ 
+£qu’û
+ 
+of
+ 
+de£rŸlized
+ 
+objeùs
+.</returns>
+
+831 </
+memb”
+>
+
+832 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeItems(System.IO.Stream,System.Type,ProtoBuf.PrefixStyle,System.Int32,ProtoBuf.Serializer.TypeResolver,ProtoBuf.SerializationContext)">
+
+833 <
+summ¬y
+>
+
+834 
+R—ds
+ 
+a
+ 
+£qu’û
+ 
+of
+ 
+cÚ£cutive
+ 
+Ëngth
+-
+´efixed
+ 
+™ems
+ 
+äom
+‡ 
+¡»am
+, 
+usšg
+
+
+835 
+e™h”
+ 
+ba£
+-128 
+Ü
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+. 
+Ba£
+-128…»fixe 
+w™h
+ 
+a
+ 
+g
+
+
+836 
+¬e
+ 
+dœeùly
+ 
+com·¿bË
+ 
+to
+ 
+£rŸlizšg
+ 
+muÉË
+ 
+™ems
+ 
+š
+ 
+sucûssiÚ
+
+
+837 (
+u£
+ 
+the
+ <
+£e
+ 
+üef
+="F:PrÙoBuf.S”Ÿliz”.Li¡I‹mTag"/> 
+g
+ 
+to
+ 
+emuÏ‹
+h
+im¶ic™
+ 
+behaviÜ
+
+
+838 
+wh’
+ 
+£rŸlizšg
+ 
+a
+ 
+li¡
+/
+¬¿y
+). 
+Wh’
+‡ 
+g
+ 
+is
+
+
+839 
+¥ecif›d
+, 
+ªy
+ 
+»cÜds
+ 
+w™h
+ 
+difã»Á
+ 
+gs
+ 
+¬e
+ 
+s’y
+ 
+om™‹d
+. 
+The
+
+
+840 
+g
+ 
+is
+ 
+ignÜed
+. 
+The
+ag i 
+ignÜes
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+.
+
+841 </
+summ¬y
+>
+
+842 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+cÚššg
+ 
+the
+ 
+£rŸlized
+ 
+»cÜds
+.</param>
+
+843 <
+·¿m
+ 
+Çme
+="¡yË">
+The
+ 
+´efix
+ 
+¡yË
+ 
+u£d
+ 
+š
+ 
+the
+ 
+d©a
+.</param>
+
+844 <
+·¿m
+ 
+Çme
+="ex³ùedF›ld">
+The
+ 
+g
+ 
+of
+ 
+»cÜds
+ 
+to
+  (
+nÚ
+-
+pos™ive
+, 
+th’
+ 
+no
+ag 
+is
+
+
+845 
+ex³ùed
+ 
+ªd
+ 
+®l
+ 
+»cÜds
+ 
+¬e
+ 
+»tuºed
+).</
+·¿m
+>
+
+846 <
+·¿m
+ 
+Çme
+="»sŞv”">
+On
+ 
+a
+ 
+f›ld
+-
+by
+-f›ld 
+basis
+, 
+the
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+	`de£rŸlize
+ (
+ÿn
+ 
+be
+ 
+nuÎ
+ "ty³" 
+is
+ 
+¥ecif›d
+). </param>
+
+847 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+	`de£rŸlize
+ (
+ÿn
+ 
+be
+ 
+nuÎ
+ "»sŞv”" 
+is
+ 
+¥ecif›d
+).</param>
+
+848 <
+»tuºs
+>
+The
+ 
+£qu’û
+ 
+of
+ 
+de£rŸlized
+ 
+objeùs
+.</returns>
+
+849 <
+·¿m
+ 
+Çme
+="cÚ‹xt">
+Add™iÚ®
+ 
+šfÜm©iÚ
+ 
+about
+ 
+this
+ 
+£rŸliz©iÚ
+ 
+İ”©iÚ
+.</param>
+
+850 </
+memb”
+>
+
+851 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeItems``1(System.IO.Stream,ProtoBuf.PrefixStyle,System.Int32)">
+
+852 <
+summ¬y
+>
+
+853 
+R—ds
+ 
+a
+ 
+£qu’û
+ 
+of
+ 
+cÚ£cutive
+ 
+Ëngth
+-
+´efixed
+ 
+™ems
+ 
+äom
+‡ 
+¡»am
+, 
+usšg
+
+
+854 
+e™h”
+ 
+ba£
+-128 
+Ü
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+. 
+Ba£
+-128…»fixe 
+w™h
+ 
+a
+ 
+g
+
+
+855 
+¬e
+ 
+dœeùly
+ 
+com·¿bË
+ 
+to
+ 
+£rŸlizšg
+ 
+muÉË
+ 
+™ems
+ 
+š
+ 
+sucûssiÚ
+
+
+856 (
+u£
+ 
+the
+ <
+£e
+ 
+üef
+="F:PrÙoBuf.S”Ÿliz”.Li¡I‹mTag"/> 
+g
+ 
+to
+ 
+emuÏ‹
+h
+im¶ic™
+ 
+behaviÜ
+
+
+857 
+wh’
+ 
+£rŸlizšg
+ 
+a
+ 
+li¡
+/
+¬¿y
+). 
+Wh’
+‡ 
+g
+ 
+is
+
+
+858 
+¥ecif›d
+, 
+ªy
+ 
+»cÜds
+ 
+w™h
+ 
+difã»Á
+ 
+gs
+ 
+¬e
+ 
+s’y
+ 
+om™‹d
+. 
+The
+
+
+859 
+g
+ 
+is
+ 
+ignÜed
+. 
+The
+ag i 
+ignÜes
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+.
+
+860 </
+summ¬y
+>
+
+861 <
+ty³·¿m
+ 
+Çme
+="T">
+The
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+de£rŸlize
+.</typeparam>
+
+862 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+cÚššg
+ 
+the
+ 
+£rŸlized
+ 
+»cÜds
+.</param>
+
+863 <
+·¿m
+ 
+Çme
+="¡yË">
+The
+ 
+´efix
+ 
+¡yË
+ 
+u£d
+ 
+š
+ 
+the
+ 
+d©a
+.</param>
+
+864 <
+·¿m
+ 
+Çme
+="ex³ùedF›ld">
+The
+ 
+g
+ 
+of
+ 
+»cÜds
+ 
+to
+  (
+nÚ
+-
+pos™ive
+, 
+th’
+ 
+no
+ag 
+is
+
+
+865 
+ex³ùed
+ 
+ªd
+ 
+®l
+ 
+»cÜds
+ 
+¬e
+ 
+»tuºed
+).</
+·¿m
+>
+
+866 <
+»tuºs
+>
+The
+ 
+£qu’û
+ 
+of
+ 
+de£rŸlized
+ 
+objeùs
+.</returns>
+
+867 </
+memb”
+>
+
+868 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeserializeItems``1(System.IO.Stream,ProtoBuf.PrefixStyle,System.Int32,ProtoBuf.SerializationContext)">
+
+869 <
+summ¬y
+>
+
+870 
+R—ds
+ 
+a
+ 
+£qu’û
+ 
+of
+ 
+cÚ£cutive
+ 
+Ëngth
+-
+´efixed
+ 
+™ems
+ 
+äom
+‡ 
+¡»am
+, 
+usšg
+
+
+871 
+e™h”
+ 
+ba£
+-128 
+Ü
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+. 
+Ba£
+-128…»fixe 
+w™h
+ 
+a
+ 
+g
+
+
+872 
+¬e
+ 
+dœeùly
+ 
+com·¿bË
+ 
+to
+ 
+£rŸlizšg
+ 
+muÉË
+ 
+™ems
+ 
+š
+ 
+sucûssiÚ
+
+
+873 (
+u£
+ 
+the
+ <
+£e
+ 
+üef
+="F:PrÙoBuf.S”Ÿliz”.Li¡I‹mTag"/> 
+g
+ 
+to
+ 
+emuÏ‹
+h
+im¶ic™
+ 
+behaviÜ
+
+
+874 
+wh’
+ 
+£rŸlizšg
+ 
+a
+ 
+li¡
+/
+¬¿y
+). 
+Wh’
+‡ 
+g
+ 
+is
+
+
+875 
+¥ecif›d
+, 
+ªy
+ 
+»cÜds
+ 
+w™h
+ 
+difã»Á
+ 
+gs
+ 
+¬e
+ 
+s’y
+ 
+om™‹d
+. 
+The
+
+
+876 
+g
+ 
+is
+ 
+ignÜed
+. 
+The
+ag i 
+ignÜes
+ 
+fixed
+-
+Ëngth
+ 
+´efixes
+.
+
+877 </
+summ¬y
+>
+
+878 <
+ty³·¿m
+ 
+Çme
+="T">
+The
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+de£rŸlize
+.</typeparam>
+
+879 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+cÚššg
+ 
+the
+ 
+£rŸlized
+ 
+»cÜds
+.</param>
+
+880 <
+·¿m
+ 
+Çme
+="¡yË">
+The
+ 
+´efix
+ 
+¡yË
+ 
+u£d
+ 
+š
+ 
+the
+ 
+d©a
+.</param>
+
+881 <
+·¿m
+ 
+Çme
+="ex³ùedF›ld">
+The
+ 
+g
+ 
+of
+ 
+»cÜds
+ 
+to
+  (
+nÚ
+-
+pos™ive
+, 
+th’
+ 
+no
+ag 
+is
+
+
+882 
+ex³ùed
+ 
+ªd
+ 
+®l
+ 
+»cÜds
+ 
+¬e
+ 
+»tuºed
+).</
+·¿m
+>
+
+883 <
+»tuºs
+>
+The
+ 
+£qu’û
+ 
+of
+ 
+de£rŸlized
+ 
+objeùs
+.</returns>
+
+884 <
+·¿m
+ 
+Çme
+="cÚ‹xt">
+Add™iÚ®
+ 
+šfÜm©iÚ
+ 
+about
+ 
+this
+ 
+£rŸliz©iÚ
+ 
+İ”©iÚ
+.</param>
+
+885 </
+memb”
+>
+
+886 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.SerializeWithLengthPrefix(System.IO.Stream,System.Object,System.Type,ProtoBuf.PrefixStyle,System.Int32)">
+
+887 <
+summ¬y
+>
+
+888 
+Wr™es
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»´e£Á©iÚ
+ 
+of
+ 
+the
+ 
+giv’
+ 
+š¡ªû
+ 
+to
+h
+suµl›d
+ 
+¡»am
+,
+
+889 
+w™h
+ 
+a
+ 
+Ëngth
+-
+´efix
+. 
+This
+ 
+is
+ 
+u£ful
+ 
+sock‘
+ 
+´og¿mmšg
+,
+
+890 
+as
+ 
+De£rŸlizeW™hL’gthP»fix
+ 
+ÿn
+ 
+be
+ 
+u£d
+ 
+to
+ 
+»ad
+ 
+the
+ 
+sšgË
+ 
+objeù
+ 
+back
+
+
+891 
+äom
+ 
+ª
+ 
+Úgošg
+ 
+¡»am
+.
+
+892 </
+summ¬y
+>
+
+893 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+bešg
+ 
+£rŸlized
+.</param>
+
+894 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`£rŸlized
+ (
+ÿÂÙ
+ b
+nuÎ
+).</param>
+
+895 <
+·¿m
+ 
+Çme
+="¡yË">
+How
+ 
+to
+ 
+’code
+ 
+the
+ 
+Ëngth
+ 
+´efix
+.</param>
+
+896 <
+·¿m
+ 
+Çme
+="de¡">
+The
+ 
+de¡š©iÚ
+ 
+¡»am
+ 
+to
+ 
+wr™e
+o.</param>
+
+897 <
+·¿m
+ 
+Çme
+="f›ldNumb”">
+The
+ 
+g
+ 
+u£d
+ 
+as
+ 
+a
+ 
+´efix
+ 
+to
+ 
+—ch
+ 
+	`»cÜd
+ (
+Úly
+ u£d 
+w™h
+ 
+ba£
+-128 
+¡yË
+ 
+´efixes
+).</param>
+
+898 </
+memb”
+>
+
+899 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.SerializeWithLengthPrefix(System.IO.Stream,System.Object,System.Type,ProtoBuf.PrefixStyle,System.Int32,ProtoBuf.SerializationContext)">
+
+900 <
+summ¬y
+>
+
+901 
+Wr™es
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»´e£Á©iÚ
+ 
+of
+ 
+the
+ 
+giv’
+ 
+š¡ªû
+ 
+to
+h
+suµl›d
+ 
+¡»am
+,
+
+902 
+w™h
+ 
+a
+ 
+Ëngth
+-
+´efix
+. 
+This
+ 
+is
+ 
+u£ful
+ 
+sock‘
+ 
+´og¿mmšg
+,
+
+903 
+as
+ 
+De£rŸlizeW™hL’gthP»fix
+ 
+ÿn
+ 
+be
+ 
+u£d
+ 
+to
+ 
+»ad
+ 
+the
+ 
+sšgË
+ 
+objeù
+ 
+back
+
+
+904 
+äom
+ 
+ª
+ 
+Úgošg
+ 
+¡»am
+.
+
+905 </
+summ¬y
+>
+
+906 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+bešg
+ 
+£rŸlized
+.</param>
+
+907 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`£rŸlized
+ (
+ÿÂÙ
+ b
+nuÎ
+).</param>
+
+908 <
+·¿m
+ 
+Çme
+="¡yË">
+How
+ 
+to
+ 
+’code
+ 
+the
+ 
+Ëngth
+ 
+´efix
+.</param>
+
+909 <
+·¿m
+ 
+Çme
+="de¡">
+The
+ 
+de¡š©iÚ
+ 
+¡»am
+ 
+to
+ 
+wr™e
+o.</param>
+
+910 <
+·¿m
+ 
+Çme
+="f›ldNumb”">
+The
+ 
+g
+ 
+u£d
+ 
+as
+ 
+a
+ 
+´efix
+ 
+to
+ 
+—ch
+ 
+	`»cÜd
+ (
+Úly
+ u£d 
+w™h
+ 
+ba£
+-128 
+¡yË
+ 
+´efixes
+).</param>
+
+911 <
+·¿m
+ 
+Çme
+="cÚ‹xt">
+Add™iÚ®
+ 
+šfÜm©iÚ
+ 
+about
+ 
+this
+ 
+£rŸliz©iÚ
+ 
+İ”©iÚ
+.</param>
+
+912 </
+memb”
+>
+
+913 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Deserialize(System.IO.Stream,System.Object,System.Type)">
+
+914 <
+summ¬y
+>
+
+915 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+which
+ 
+may
+ 
+be
+ 
+nuÎ
+).
+
+916 </
+summ¬y
+>
+
+917 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+918 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+919 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+920 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+921 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+922 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+923 </
+memb”
+>
+
+924 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Deserialize(System.IO.Stream,System.Object,System.Type,ProtoBuf.SerializationContext)">
+
+925 <
+summ¬y
+>
+
+926 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+which
+ 
+may
+ 
+be
+ 
+nuÎ
+).
+
+927 </
+summ¬y
+>
+
+928 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+929 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+930 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+931 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+932 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+933 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+934 <
+·¿m
+ 
+Çme
+="cÚ‹xt">
+Add™iÚ®
+ 
+šfÜm©iÚ
+ 
+about
+ 
+this
+ 
+£rŸliz©iÚ
+ 
+İ”©iÚ
+.</param>
+
+935 </
+memb”
+>
+
+936 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Deserialize(System.IO.Stream,System.Object,System.Type,System.Int32)">
+
+937 <
+summ¬y
+>
+
+938 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+which
+ 
+may
+ 
+be
+ 
+nuÎ
+).
+
+939 </
+summ¬y
+>
+
+940 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+941 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+942 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+943 <
+·¿m
+ 
+Çme
+="Ëngth">
+The
+ 
+numb”
+ 
+of
+ 
+by‹s
+ 
+to
+ 
+cÚsume
+.</param>
+
+944 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+945 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+946 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+947 </
+memb”
+>
+
+948 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Deserialize(System.IO.Stream,System.Object,System.Type,System.Int32,ProtoBuf.SerializationContext)">
+
+949 <
+summ¬y
+>
+
+950 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+which
+ 
+may
+ 
+be
+ 
+nuÎ
+).
+
+951 </
+summ¬y
+>
+
+952 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+953 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+954 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+955 <
+·¿m
+ 
+Çme
+="Ëngth">
+The
+ 
+numb”
+ 
+of
+ 
+by‹s
+ 
+to
+ 
+	`cÚsume
+ (
+Ü
+ -1Ø
+»ad
+Ø
+the
+ 
+’d
+ oàth
+¡»am
+).</param>
+
+956 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+957 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+958 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+959 <
+·¿m
+ 
+Çme
+="cÚ‹xt">
+Add™iÚ®
+ 
+šfÜm©iÚ
+ 
+about
+ 
+this
+ 
+£rŸliz©iÚ
+ 
+İ”©iÚ
+.</param>
+
+960 </
+memb”
+>
+
+961 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Deserialize(ProtoBuf.ProtoReader,System.Object,System.Type)">
+
+962 <
+summ¬y
+>
+
+963 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»ad”
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+which
+ 
+may
+ 
+be
+ 
+nuÎ
+).
+
+964 </
+summ¬y
+>
+
+965 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+966 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+967 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+»ad”
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+968 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+969 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+970 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+971 </
+memb”
+>
+
+972 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.TryDeserializeAuxiliaryType(ProtoBuf.ProtoReader,ProtoBuf.DataFormat,System.Int32,System.Type,System.Object@,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+
+973 <
+summ¬y
+>
+
+974 
+This
+ 
+is
+ 
+the
+ 
+mÜe
+ "com¶‘e" 
+v”siÚ
+ 
+of
+ 
+De£rŸlize
+, 
+which
+ 
+hªdËs
+ 
+sšgË
+ 
+š¡ªûs
+ oà
+m­³d
+ 
+ty³s
+.
+
+975 
+The
+ 
+v®ue
+ 
+is
+ 
+»ad
+ 
+as
+ 
+a
+ 
+com¶‘e
+ 
+f›ld
+, 
+šşudšg
+ f›ld-
+h—d”
+ 
+	`ªd
+ (
+sub
+-
+objeùs
+)‡
+
+976 
+Ëngth
+-
+´efix
+..
+kmc
+
+
+978 
+In
+ 
+add™iÚ
+ 
+to
+ 
+th©
+, 
+this
+ 
+´ovides
+ 
+suµÜt
+ :
+
+979 - 
+basic
+ 
+v®ues
+; 
+šdividu®
+ / 
+¡ršg
+ / 
+Guid
+ / 
+‘c
+
+
+980 - 
+ILi¡
+ 
+£ts
+ 
+of
+ 
+ªy
+ 
+ty³
+ 
+hªdËd
+ 
+by
+ 
+TryDe£rŸlizeAuxŸryTy³
+
+
+981 </
+summ¬y
+>
+
+982 </
+memb”
+>
+
+983 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Create">
+
+984 <
+summ¬y
+>
+
+985 
+C»©es
+ 
+a
+ 
+Ãw
+ 
+ruÁime
+ 
+mod–
+, 
+to
+ 
+which
+ 
+the
+ 
+ÿÎ”
+
+
+986 
+ÿn
+ 
+add
+ 
+suµÜt
+ 
+a
+ 
+¿nge
+ 
+of
+ 
+ty³s
+. 
+A
+ 
+mod–
+
+
+987 
+ÿn
+ 
+be
+ 
+u£d
+ "a is", 
+Ü
+ cª b
+comped
+ 
+
+988 
+İtim®
+ 
+³rfÜmªû
+.
+
+989 </
+summ¬y
+>
+
+990 </
+memb”
+>
+
+991 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.ResolveProxies(System.Type)">
+
+992 <
+summ¬y
+>
+
+993 
+Aµl›s
+ 
+commÚ
+ 
+´oxy
+ 
+sûÇrios
+, 
+»sŞvšg
+ 
+the
+ 
+aùu®
+ 
+ty³
+ 
+to
+ 
+cÚsid”
+
+
+994 </
+summ¬y
+>
+
+995 </
+memb”
+>
+
+996 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.IsDefined(System.Type)">
+
+997 <
+summ¬y
+>
+
+998 
+Indiÿ‹s
+ 
+wh‘h”
+ 
+the
+ 
+suµl›d
+ 
+ty³
+ 
+is
+ 
+ex¶ic™ly
+ 
+mod–Ëd
+ 
+by
+h
+mod–
+
+
+999 </
+summ¬y
+>
+
+1000 </
+memb”
+>
+
+1001 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.GetKey(System.Type@)">
+
+1002 <
+summ¬y
+>
+
+1003 
+Provides
+ 
+the
+ 
+key
+ 
+th©
+ 
+»´e£Ás
+ 
+a
+ 
+giv’
+ 
+ty³
+ 
+š
+h
+cu¼’t
+ 
+mod–
+.
+
+1004 
+The
+ 
+ty³
+ 
+is
+ 
+®so
+ 
+nÜm®ized
+ 
+´ox›s
+ 
+©
+ 
+the
+ 
+§me
+ 
+time
+.
+
+1005 </
+summ¬y
+>
+
+1006 </
+memb”
+>
+
+1007 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.GetKeyImpl(System.Type)">
+
+1008 <
+summ¬y
+>
+
+1009 
+Provides
+ 
+the
+ 
+key
+ 
+th©
+ 
+»´e£Ás
+ 
+a
+ 
+giv’
+ 
+ty³
+ 
+š
+h
+cu¼’t
+ 
+mod–
+.
+
+1010 </
+summ¬y
+>
+
+1011 </
+memb”
+>
+
+1012 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Serialize(System.Int32,System.Object,ProtoBuf.ProtoWriter)">
+
+1013 <
+summ¬y
+>
+
+1014 
+Wr™es
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+»´e£Á©iÚ
+ 
+of
+ 
+the
+ 
+giv’
+ 
+š¡ªû
+ 
+to
+h
+suµl›d
+ 
+¡»am
+.
+
+1015 </
+summ¬y
+>
+
+1016 <
+·¿m
+ 
+Çme
+="key">
+R•»£Ás
+ 
+the
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+1017 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`£rŸlized
+ (
+ÿÂÙ
+ b
+nuÎ
+).</param>
+
+1018 <
+·¿m
+ 
+Çme
+="de¡">
+The
+ 
+de¡š©iÚ
+ 
+¡»am
+ 
+to
+ 
+wr™e
+o.</param>
+
+1019 </
+memb”
+>
+
+1020 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.Deserialize(System.Int32,System.Object,ProtoBuf.ProtoReader)">
+
+1021 <
+summ¬y
+>
+
+1022 
+Aµl›s
+ 
+a
+ 
+´ÙocŞ
+-
+bufãr
+ 
+¡»am
+ 
+to
+ 
+ª
+ 
+exi¡šg
+ 
+	`š¡ªû
+ (
+which
+ 
+may
+ 
+be
+ 
+nuÎ
+).
+
+1023 </
+summ¬y
+>
+
+1024 <
+·¿m
+ 
+Çme
+="key">
+R•»£Ás
+ 
+the
+ 
+	$ty³
+ (
+šşudšg
+ 
+šh”™ªû
+è
+to
+ 
+cÚsid”
+.</
+·¿m
+>
+
+1025 <
+·¿m
+ 
+Çme
+="v®ue">
+The
+ 
+exi¡šg
+ 
+š¡ªû
+ 
+to
+ 
+be
+ 
+	`modif›d
+ (
+ÿn
+ b
+nuÎ
+).</param>
+
+1026 <
+·¿m
+ 
+Çme
+="sourû">
+The
+ 
+bš¬y
+ 
+¡»am
+ 
+to
+ 
+­¶y
+Ø
+the
+ 
+	`š¡ªû
+ (
+ÿÂÙ
+ 
+be
+ 
+nuÎ
+).</param>
+
+1027 <
+»tuºs
+>
+The
+ 
+upd©ed
+ 
+š¡ªû
+; 
+this
+ 
+may
+ 
+be
+ 
+difã»Á
+ 
+to
+ 
+the
+ in¡ªû 
+¬gum’t
+ 
+
+1028 
+e™h”
+ 
+the
+ 
+Üigš®
+ 
+š¡ªû
+ 
+was
+ 
+nuÎ
+, 
+Ü
+h
+¡»am
+ 
+defšes
+ 
+a
+ 
+known
+ 
+sub
+-
+ty³
+ 
+of
+he
+
+1029 
+Üigš®
+ 
+š¡ªû
+.</
+»tuºs
+>
+
+1030 </
+memb”
+>
+
+1031 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.DeepClone(System.Object)">
+
+1032 <
+summ¬y
+>
+
+1033 
+C»©e
+ 
+a
+ 
+d“p
+ 
+şÚe
+ 
+of
+ 
+the
+ 
+suµl›d
+ 
+š¡ªû
+; 
+ªy
+ 
+sub
+-
+™ems
+ 
+¬e
+ 
+®so
+ 
+şÚed
+.
+
+1034 </
+summ¬y
+>
+
+1035 </
+memb”
+>
+
+1036 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.ThrowUnexpectedSubtype(System.Type,System.Type)">
+
+1037 <
+summ¬y
+>
+
+1038 
+Indiÿ‹s
+ 
+th©
+ 
+ª
+ 
+šh”™ªû
+ 
+Œ“
+ 
+exi¡s
+, 
+the
+ 
+exaù
+ 
+ty³
+ 
+’couÁ”ed
+ 
+was
+ 
+nÙ
+
+
+1039 
+¥ecif›d
+ 
+š
+ 
+th©
+ 
+h›¿rchy
+ 
+ªd
+ 
+ÿÂÙ
+ 
+be
+ 
+´oûs£d
+.
+
+1040 </
+summ¬y
+>
+
+1041 </
+memb”
+>
+
+1042 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.ThrowUnexpectedType(System.Type)">
+
+1043 <
+summ¬y
+>
+
+1044 
+Indiÿ‹s
+ 
+th©
+ 
+the
+ 
+giv’
+ 
+ty³
+ 
+was
+ 
+nÙ
+ 
+ex³ùed
+, 
+ªd
+ 
+ÿÂÙ
+ 
+be
+ 
+´oûs£d
+.
+
+1045 </
+summ¬y
+>
+
+1046 </
+memb”
+>
+
+1047 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.ThrowCannotCreateInstance(System.Type)">
+
+1048 <
+summ¬y
+>
+
+1049 
+Indiÿ‹s
+ 
+th©
+ 
+the
+ 
+giv’
+ 
+ty³
+ 
+ÿÂÙ
+ 
+be
+ 
+cÚ¡ruùed
+; 
+™
+ 
+may
+ 
+¡l
+ b
+possibË
+ 
+to
+
+
+1050 
+de£rŸlize
+ 
+što
+ 
+exi¡šg
+ 
+š¡ªûs
+.
+
+1051 </
+summ¬y
+>
+
+1052 </
+memb”
+>
+
+1053 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.CanSerializeContractType(System.Type)">
+
+1054 <
+summ¬y
+>
+
+1055 
+R‘uºs
+ 
+Œue
+ 
+the
+ 
+ty³
+ 
+suµl›d
+ 
+is
+ 
+e™h”
+ 
+a
+ 
+»cogni£d
+ 
+cÚŒaù
+ype,
+
+1056 
+Ü
+ 
+a
+ *
+li¡
+* 
+of
+‡ 
+»cogni£d
+ 
+cÚŒaù
+ 
+ty³
+.
+
+1057 </
+summ¬y
+>
+
+1058 <
+»m¬ks
+>
+NÙe
+ 
+th©
+ 
+´im™ives
+ 
+®ways
+  
+çl£
+, 
+ev’
+ 
+though
+ 
+the
+ 
+’gše
+
+
+1059 
+wl
+, 
+fÜûd
+, 
+Œy
+ 
+to
+ 
+£rŸlize
+ 
+such
+</
+»m¬ks
+>
+
+1060 <
+»tuºs
+>
+True
+ 
+this
+ 
+ty³
+ 
+is
+ 
+»cogni£d
+ 
+as
+ 
+a
+ 
+£rŸlizabË
+ 
+’t™y
+, 
+çl£
+</returns>
+
+1061 </
+memb”
+>
+
+1062 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.CanSerialize(System.Type)">
+
+1063 <
+summ¬y
+>
+
+1064 
+R‘uºs
+ 
+Œue
+ 
+the
+ 
+ty³
+ 
+suµl›d
+ 
+is
+ 
+a
+ 
+basic
+y³ 
+w™h
+ 
+šbut
+ 
+hªdlšg
+,
+
+1065 
+a
+ 
+»cogni£d
+ 
+cÚŒaù
+ 
+ty³
+, 
+Ü
+‡ *
+li¡
+* 
+of
+‡ 
+basic
+ / contractype.
+
+1066 </
+summ¬y
+>
+
+1067 </
+memb”
+>
+
+1068 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.CanSerializeBasicType(System.Type)">
+
+1069 <
+summ¬y
+>
+
+1070 
+R‘uºs
+ 
+Œue
+ 
+the
+ 
+ty³
+ 
+suµl›d
+ 
+is
+ 
+a
+ 
+basic
+y³ 
+w™h
+ 
+šbut
+ 
+hªdlšg
+,
+
+1071 
+Ü
+ 
+a
+ *
+li¡
+* 
+of
+‡ 
+basic
+ 
+ty³
+ 
+w™h
+ 
+šbut
+ 
+hªdlšg
+
+
+1072 </
+summ¬y
+>
+
+1073 </
+memb”
+>
+
+1074 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.GetSchema(System.Type)">
+
+1075 <
+summ¬y
+>
+
+1076 
+Sugge¡
+ 
+a
+ .
+´Ùo
+ 
+defš™iÚ
+ 
+the
+ 
+giv’
+ 
+ty³
+
+
+1077 </
+summ¬y
+>
+
+1078 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+to
+ 
+g’”©e
+ 
+a
+ .
+´Ùo
+ 
+defš™iÚ
+ , 
+Ü
+ <
+c
+>
+nuÎ
+</c>Øg’”©¨.´ÙØ
+th©
+ 
+»´e£Ás
+ 
+the
+ 
+’tœe
+ 
+mod–
+</param>
+
+1079 <
+»tuºs
+>
+The
+ .
+´Ùo
+ 
+defš™iÚ
+ 
+as
+ 
+a
+ 
+¡ršg
+</returns>
+
+1080 </
+memb”
+>
+
+1081 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.TypeModel.CreateFormatter(System.Type)">
+
+1082 <
+summ¬y
+>
+
+1083 
+C»©es
+ 
+a
+ 
+Ãw
+ 
+IFÜm©‹r
+ 
+th©
+ 
+u£s
+ 
+´ÙocŞ
+-
+bufãr
+ [
+de
+]
+£rŸliz©iÚ
+.
+
+1084 </
+summ¬y
+>
+
+1085 <
+»tuºs
+>
+A
+ 
+Ãw
+ 
+IFÜm©‹r
+ 
+to
+ 
+be
+ 
+u£d
+ 
+duršg
+ [
+de
+]
+£rŸliz©iÚ
+.</returns>
+
+1086 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+of
+ 
+objeù
+ 
+to
+ 
+be
+ [
+de
+]
+de£rŸlized
+ 
+by
+ 
+the
+ 
+fÜm©‹r
+.</param>
+
+1087 </
+memb”
+>
+
+1088 <
+memb”
+ 
+Çme
+="E:ProtoBuf.Meta.TypeModel.DynamicTypeFormatting">
+
+1089 <
+summ¬y
+>
+
+1090 
+U£d
+ 
+to
+ 
+´ovide
+ 
+cu¡om
+ 
+£rviûs
+ 
+wr™šg
+ 
+ªd
+ 
+·rsšg
+ 
+ty³
+ 
+Çmes
+ 
+wh’
+ 
+usšg
+ 
+dyÇmic
+ 
+ty³s
+. 
+BÙh
+…¬sšg‡nd 
+fÜm©tšg
+
+
+1091 
+¬e
+ 
+´ovided
+ 
+Ú
+ 
+a
+ 
+sšgË
+ 
+API
+ 
+as
+ 
+™
+ 
+is
+ 
+es£ÁŸl
+ 
+th©
+ 
+bÙh
+‡» 
+m­³d
+ 
+id’tiÿÎy
+ 
+©
+ 
+®l
+ 
+times
+.
+
+1092 </
+summ¬y
+>
+
+1093 </
+memb”
+>
+
+1094 <
+memb”
+ 
+Çme
+="T:ProtoBuf.Meta.TypeModel.CallbackType">
+
+1095 <
+summ¬y
+>
+
+1096 
+Indiÿ‹s
+ 
+the
+ 
+ty³
+ 
+of
+ 
+ÿÎback
+ 
+to
+ 
+be
+ 
+u£d
+
+
+1097 </
+summ¬y
+>
+
+1098 </
+memb”
+>
+
+1099 <
+memb”
+ 
+Çme
+="F:ProtoBuf.Meta.TypeModel.CallbackType.BeforeSerialize">
+
+1100 <
+summ¬y
+>
+
+1101 
+Invoked
+ 
+befÜe
+ 
+ª
+ 
+objeù
+ 
+is
+ 
+£rŸlized
+
+
+1102 </
+summ¬y
+>
+
+1103 </
+memb”
+>
+
+1104 <
+memb”
+ 
+Çme
+="F:ProtoBuf.Meta.TypeModel.CallbackType.AfterSerialize">
+
+1105 <
+summ¬y
+>
+
+1106 
+Invoked
+ 
+aá”
+ 
+ª
+ 
+objeù
+ 
+is
+ 
+£rŸlized
+
+
+1107 </
+summ¬y
+>
+
+1108 </
+memb”
+>
+
+1109 <
+memb”
+ 
+Çme
+="F:ProtoBuf.Meta.TypeModel.CallbackType.BeforeDeserialize">
+
+1110 <
+summ¬y
+>
+
+1111 
+Invoked
+ 
+befÜe
+ 
+ª
+ 
+objeù
+ 
+is
+ 
+	`de£rŸlized
+ (
+Ü
+ 
+wh’
+ 
+a
+ 
+Ãw
+ 
+š¡ªû
+ i 
+ü—‹d
+)
+
+1112 </
+summ¬y
+>
+
+1113 </
+memb”
+>
+
+1114 <
+memb”
+ 
+Çme
+="F:ProtoBuf.Meta.TypeModel.CallbackType.AfterDeserialize">
+
+1115 <
+summ¬y
+>
+
+1116 
+Invoked
+ 
+aá”
+ 
+ª
+ 
+objeù
+ 
+is
+ 
+de£rŸlized
+
+
+1117 </
+summ¬y
+>
+
+1118 </
+memb”
+>
+
+1119 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.RuntimeTypeModel.GetTypes">
+
+1120 <
+summ¬y
+>
+
+1121 
+R‘uºs
+ 
+a
+ 
+£qu’û
+ 
+of
+ 
+the
+ 
+Ty³
+ 
+š¡ªûs
+ 
+th©
+ 
+ÿn
+ 
+be
+
+
+1122 
+´oûs£d
+ 
+by
+ 
+this
+ 
+mod–
+.
+
+1123 </
+summ¬y
+>
+
+1124 </
+memb”
+>
+
+1125 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.RuntimeTypeModel.GetSchema(System.Type)">
+
+1126 <
+summ¬y
+>
+
+1127 
+Sugge¡
+ 
+a
+ .
+´Ùo
+ 
+defš™iÚ
+ 
+the
+ 
+giv’
+ 
+ty³
+
+
+1128 </
+summ¬y
+>
+
+1129 <
+·¿m
+ 
+Çme
+="ty³">
+The
+ 
+ty³
+ 
+to
+ 
+g’”©e
+ 
+a
+ .
+´Ùo
+ 
+defš™iÚ
+ , 
+Ü
+ <
+c
+>
+nuÎ
+</c>Øg’”©¨.´ÙØ
+th©
+ 
+»´e£Ás
+ 
+the
+ 
+’tœe
+ 
+mod–
+</param>
+
+1130 <
+»tuºs
+>
+The
+ .
+´Ùo
+ 
+defš™iÚ
+ 
+as
+ 
+a
+ 
+¡ršg
+</returns>
+
+1131 </
+memb”
+>
+
+1132 <
+memb”
+ 
+Çme
+="M:ProtoBuf.Meta.RuntimeTypeModel.Add(System.Type,System.Boolean)">
+
+1133 <
+summ¬y
+>
+
+1134 
+Adds
+ 
+suµÜt
+ 
+ª
+ 
+add™iÚ®
+ 
+ty³
+ 
+š
+ 
+this
+ 
+mod–
+, 
+İtiÚ®ly
+
+
+1135 
+­µlyšg
+ 
+šbut
+ 
+·‰”ns
+. 
+If
+ 
+the
+ 
+ty³
+ 
+is
+ 
+®»ady
+ 
+known
+ 
+to
+he
+
+1136 
+mod–
+, 
+the
+ 
+exi¡šg
+ 
+ty³
+ 
+is
+ 
+»tuºed
+ **
+w™hout
+** 
+­¶yšg
+
+
+1137 
+ªy
+ 
+add™iÚ®
+ 
+behaviour
+.
+
+1138 </
+summ¬y
+>
+
+1139 <
+»m¬ks
+>
+Inbut
+ 
+·‰”ns
+ 
+šşude
+:
+
+1140 [
+PrÙoCÚŒaù
+]/[
+	`PrÙoMemb”
+(
+n
+)]
+
+1141 [
+D©aCÚŒaù
+]/[
+	`D©aMemb”
+(
+Ord”
+=
+n
+)]
+
+1142 [
+XmlTy³
+]/[
+	`XmlEËm’t
+(
+Ord”
+=
+n
+)]
+
+1143 [
+On
+{
+Des
+|
+S
+}”Ÿliz{šg|ed}]
+
+1144 
+ShouldS”Ÿlize
+*
+
+	@proto/export.sh
+
+1 
+echo
+ 
+expÜt
+ 
+´Ùobuf
+
+
+2 
+	g´Ùoc
+ -
+o
+ 
+	gmsg
+.
+pb
+ msg.
+´Ùo
+
+
+3 
+	gı
+ -
+f
+ 
+	gmsg
+.
+´Ùo
+ 
+	gş›Á_´Ùo
+/
+
+4 
+echo
+ 
+	gdÚe
+.
+
+	@run.sh
+
+1 
+cd
+ 
+	g´Ùo
+ && ./
+	gexpÜt
+.
+	gsh
+ && 
+	gcd
+ ..
+
+2 
+	gcd
+ ../
+	gskyÃt
+
+
+3 ./
+	gskyÃt
+ ../
+	gb©e_c™y
+/
+	gcÚfig
+/config
+
+	@script/agent.lua
+
+2 
+	g·ckage
+.
+	g·th
+ = "./exam¶es/?.lua;./süt/?.lua;" .. 
+·ckage
+.
+·th
+
+
+3 
+loÿl
+ 
+skyÃt
+ = 
+»quœe
+ "skynet"
+
+4 
+loÿl
+ 
+Ãack
+ = 
+»quœe
+ "netpack"
+
+5 
+loÿl
+ 
+sock‘
+ = 
+»quœe
+ "socket"
+
+6 
+loÿl
+ 
+¥rÙo
+ = 
+»quœe
+ "sproto"
+
+7 
+loÿl
+ 
+¥rÙŞßd”
+ = 
+»quœe
+ "sprotoloader"
+
+8 
+loÿl
+ 
+´Ùobuf
+ = 
+»quœe
+ "protobuf"
+
+10 
+loÿl
+ 
+WATCHDOG
+
+
+11 
+loÿl
+ 
+ho¡
+
+
+12 
+loÿl
+ 
+£nd_»que¡
+
+
+14 
+loÿl
+ 
+CMD
+ = 
+»quœe
+ "message_handler"
+
+15 
+loÿl
+ 
+REQUEST
+ = {}
+
+16 
+loÿl
+ 
+ş›Á_fd
+
+
+18 
+skyÃt
+.
+»gi¡”_´ÙocŞ
+ {
+
+19 
+Çme
+ = "client",
+
+20 
+	gid
+ = 
+skyÃt
+.
+PTYPE_CLIENT
+,
+
+21 
+	guÅack
+ = 
+funùiÚ
+ (
+msg
+, 
+sz
+)
+
+22  
+	gskyÃt
+.
+to¡ršg
+(
+msg
+, 
+sz
+)
+
+23 
+	g’d
+,
+
+24 
+	gdi¥©ch
+ = 
+funùiÚ
+ (
+£ssiÚ
+, 
+add»ss
+, 
+bufãr
+, ...)
+
+25 
+loÿl
+ 
+	gp
+ = 
+´Ùobuf
+.
+decode
+("Package", 
+bufãr
+)
+
+26 
+´št
+("»c›v·ckage",
+p
+.
+Çme
+)
+
+27 
+loÿl
+ 
+	gµ
+ = 
+´Ùobuf
+.
+decode
+(
+p
+.
+Çme
+,….
+d©a
+)
+
+28 
+loÿl
+ 
+	gf
+ = 
+CMD
+[
+p
+.
+Çme
+]
+
+29 
+nÙ
+ 
+f
+ 
+th’
+
+
+30 
+´št
+("mes§ghªdË¸nÙƒxi¡. Package:"..
+p
+.
+Çme
+)
+
+32 
+’d
+
+
+33 
+f
+(
+µ
+)
+
+34 
+’d
+
+
+37 
+funùiÚ
+ 
+	gCMD
+.
+	$¡¬t
+(
+cÚf
+)
+
+38 
+loÿl
+ 
+fd
+ = 
+cÚf
+.
+ş›Á
+
+
+39 
+loÿl
+ 
+g©e
+ = 
+cÚf
+.gate
+
+40 
+WATCHDOG
+ = 
+cÚf
+.
+w©chdog
+
+
+41 
+ş›Á_fd
+ = 
+fd
+
+
+42 
+	$£nd_h–lo
+()
+
+44 
+skyÃt
+.
+	`ÿÎ
+(
+g©e
+, "lua", "fÜw¬d", 
+fd
+)
+
+45 
+’d
+
+
+47 
+funùiÚ
+ 
+	$£nd_h–lo
+()
+
+48 
+skyÃt
+.
+	`fÜk
+(
+	$funùiÚ
+()
+
+49 
+Œue
+ do
+
+50 
+	`£nd_·ckage
+("S2C_Pšg",{
+time
+ = 
+os
+.
+	`time
+()
+	}
+})
+
+51 
+	gskyÃt
+.
+	$¦“p
+(500)
+
+52 
+’d
+
+
+53 
+’d
+)
+
+54 
+’d
+
+
+56 
+´Ùobuf
+.
+»gi¡”_fe
+ "../battle_city/proto/msg.pb"
+
+57 
+funùiÚ
+ 
+	$£nd_·ckage
+(
+mes§ge
+, 
+t
+)
+
+58 
+bufãr
+ = 
+´Ùobuf
+.
+	$’code
+(
+mes§ge
+, 
+t
+)
+
+59 
+sock‘
+.
+	`wr™e
+(
+ş›Á_fd
+, 
+´Ùobuf
+.
+	`’code
+("Package",{
+Çme
+ = 
+mes§ge
+, 
+d©a
+ = 
+bufãr
+}))
+
+60 
+’d
+
+
+62 
+funùiÚ
+ 
+	gCMD
+.
+discÚÃù
+()
+
+63 -- 
+	gtodo
+: dØ
+som‘hšg
+ 
+befÜe
+ 
+ex™
+
+
+64 
+skyÃt
+.
+	$ex™
+()
+
+65 
+’d
+
+
+67 
+skyÃt
+.
+	`¡¬t
+(
+	$funùiÚ
+()
+
+68 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+_
+,_, 
+commªd
+, ...)
+
+69 
+loÿl
+ 
+f
+ = 
+CMD
+[
+commªd
+]
+
+70 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(...)))
+
+71 
+’d
+)
+
+72 
+’d
+)
+
+	@script/db.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+mÚgo
+ = 
+»quœe
+ "mongo"
+
+3 
+loÿl
+ 
+bsÚ
+ = 
+»quœe
+ "bson"
+
+5 
+loÿl
+ 
+ho¡
+, 
+	gdb_Çme
+ = "127.0.0.1", "test"
+
+7 
+funùiÚ
+ 
+	$‹¡_š£¹_w™hout_šdex
+()
+
+8 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+ho¡})
+
+10 
+	gdb
+[
+db_Çme
+].
+	g‹¡db
+:
+drİIndex
+("*")
+
+11 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+13 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 1
+	}
+});
+
+14 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+16 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 1
+	}
+});
+
+17 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+18 
+’d
+
+
+20 
+funùiÚ
+ 
+	$‹¡_š£¹_w™h_šdex
+()
+
+21 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+ho¡})
+
+23 
+	gdb
+[
+db_Çme
+].
+	g‹¡db
+:
+drİIndex
+("*")
+
+24 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+26 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`’su»Index
+({
+‹¡_key
+ = 1
+	}
+}, {
+	gunique
+ = 
+Œue
+, 
+	gÇme
+ = "test_key_index"})
+
+28 
+loÿl
+ 
+	g»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+§ã_š£¹
+({
+‹¡_key
+ = 1})
+
+29 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+31 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 1
+	}
+})
+
+32 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 0)
+
+33 
+’d
+
+
+35 
+funùiÚ
+ 
+	$‹¡_fšd_ªd_»move
+()
+
+36 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+ho¡})
+
+38 
+db
+[
+db_Çme
+].
+‹¡db
+:
+drİIndex
+("*")
+
+39 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+41 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`’su»Index
+({
+‹¡_key
+ = 1
+	}
+}, {
+	gunique
+ = 
+Œue
+, 
+	gÇme
+ = "test_key_index"})
+
+43 
+loÿl
+ 
+	g»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+§ã_š£¹
+({
+‹¡_key
+ = 1})
+
+44 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+46 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 2
+	}
+})
+
+47 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+49 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšdOÃ
+({
+‹¡_key
+ = 1
+	}
+})
+
+50 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+‹¡_key
+ == 1)
+
+52 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšd
+({
+‹¡_key
+ = {['$gt'] = 0}
+	}
+}):
+sÜt
+({‹¡_key = -1}):
+	$sk
+(1):
+	$lim™
+(1)
+
+53 
+	`as£¹
+(
+»t
+:
+	`couÁ
+() == 2)
+
+54 
+	`as£¹
+(
+»t
+:
+	`couÁ
+(
+Œue
+) == 1)
+
+55 
+»t
+:
+	$hasNext
+(è
+th’
+
+
+56 
+»t
+ =„‘:
+	$Ãxt
+()
+
+57 
+’d
+
+
+58 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+‹¡_key
+ == 1)
+
+60 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`d–‘e
+({
+‹¡_key
+ = 1
+	}
+})
+
+61 
+db
+[
+db_Çme
+].
+‹¡db
+:
+d–‘e
+({
+‹¡_key
+ = 2})
+
+63 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+fšdOÃ
+({
+‹¡_key
+ = 1})
+
+64 
+	$as£¹
+(
+»t
+ =ğ
+n
+)
+
+65 
+’d
+
+
+68 
+funùiÚ
+ 
+	$‹¡_expœe_šdex
+()
+
+69 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+ho¡})
+
+71 
+db
+[
+db_Çme
+].
+‹¡db
+:
+drİIndex
+("*")
+
+72 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+74 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`’su»Index
+({
+‹¡_key
+ = 1
+	}
+}, {
+	gunique
+ = 
+Œue
+, 
+	gÇme
+ = "‹¡_key_šdex", 
+	gexpœeAá”SecÚds
+ = 1, })
+
+75 
+	gdb
+[
+db_Çme
+].
+	g‹¡db
+:
+’su»Index
+({
+‹¡_d©e
+ = 1}, {
+expœeAá”SecÚds
+ = 1, })
+
+77 
+loÿl
+ 
+	g»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+§ã_š£¹
+({
+‹¡_key
+ = 1, 
+‹¡_d©e
+ = 
+bsÚ
+.
+d©e
+(
+os
+.
+time
+())})
+
+78 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+80 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšdOÃ
+({
+‹¡_key
+ = 1
+	}
+})
+
+81 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+‹¡_key
+ == 1)
+
+83 
+i
+ = 1, 1000 do
+
+84 
+skyÃt
+.
+	`¦“p
+(11);
+
+86 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšdOÃ
+({
+‹¡_key
+ = 1
+	}
+})
+
+87 
+»t
+ =ğ
+n
+ 
+th’
+
+
+89 
+’d
+
+
+90 
+’d
+
+
+92 
+as£¹
+(
+çl£
+, "testƒxpire index failed");
+
+93 
+’d
+
+
+95 
+	gskyÃt
+.
+¡¬t
+(
+	$funùiÚ
+()
+
+96 
+	`´št
+("mongodbest")
+
+97 
+	$‹¡_š£¹_w™hout_šdex
+()
+
+98 
+	$‹¡_š£¹_w™h_šdex
+()
+
+99 
+	$‹¡_fšd_ªd_»move
+()
+
+100 
+	$‹¡_expœe_šdex
+()
+
+102 
+	`´št
+("mongodbest finish.");
+
+103 
+’d
+)
+
+	@script/main.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+¥rÙŞßd”
+ = 
+»quœe
+ "sprotoloader"
+
+3 
+loÿl
+ 
+´Ùobuf
+ = 
+»quœe
+ "protobuf"
+
+5 
+loÿl
+ 
+max_ş›Á
+ = 64
+
+7 
+funùiÚ
+ 
+	$‹¡
+()
+
+8 
+´Ùobuf
+.
+»gi¡”_fe
+ "proto/msg.pb"
+
+10 
+d©a
+ = {
+b
+ = 666
+	}
+}
+
+12 
+	gbufãr
+ = 
+´Ùobuf
+.
+’code
+("h–lo",
+d©a
+)
+
+13 
+´št
+("’code:"..
+bufãr
+)
+
+15 
+	gdecode
+ = 
+´Ùobuf
+.
+decode
+("h–lo", 
+bufãr
+)
+
+16 
+´št
+("decode"..
+decode
+.
+b
+)
+
+18 
+’d
+
+
+20 
+	gskyÃt
+.
+¡¬t
+(
+	$funùiÚ
+()
+
+21 
+	`´št
+("Server start!!")
+
+22 --
+loÿl
+ 
+‹¡
+ = 
+skyÃt
+.
+	`Ãw£rviû
+("testservice")
+
+23 --
+skyÃt
+.
+	`ÿÎ
+(
+‹¡
+, "lua", "test")
+
+25 --
+skyÃt
+.
+	`unique£rviû
+("protoloader")
+
+26 
+loÿl
+ 
+cÚsŞe
+ = 
+skyÃt
+.
+	`Ãw£rviû
+("console")
+
+27 
+skyÃt
+.
+	`Ãw£rviû
+("debug_console",8000)
+
+28 --
+skyÃt
+.
+	`Ãw£rviû
+("simpledb")
+
+29 
+loÿl
+ 
+w©chdog
+ = 
+skyÃt
+.
+	`Ãw£rviû
+("watchdog")
+
+30 
+skyÃt
+.
+	`ÿÎ
+(
+w©chdog
+, "lua", "start", {
+
+31 
+pÜt
+ = 10000,
+
+32 
+maxş›Á
+ = 
+max_ş›Á
+,
+
+33 
+nod–ay
+ = 
+Œue
+,
+
+34 
+	}
+})
+
+35 
+´št
+("Watchdog†isten on ", 10000)
+
+37 
+loÿl
+ 
+db
+ = 
+skyÃt
+.
+Ãw£rviû
+("db")
+
+39 
+skyÃt
+.
+	$ex™
+()
+
+40 
+’d
+)
+
+	@script/message_handler.lua
+
+3 
+loÿl
+ 
+	gCMD
+ = {}
+
+5 
+funùiÚ
+ 
+CMD
+.
+	$C2S_H–lo
+(
+p
+)
+
+6 
+	`´št
+("ş›Á say h–lo"..
+p
+.
+a
+)
+
+7 
+’d
+
+
+9 
+funùiÚ
+ 
+CMD
+.
+	$C2S_Logš
+(
+p
+)
+
+11 
+’d
+
+
+51  
+CMD
+
+
+	@script/player/player.lua
+
+	@script/testservice.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+3 
+loÿl
+ 
+CMD
+ = {}
+
+5 
+funùiÚ
+ 
+CMD
+.
+	$‹¡
+(
+sourû
+)
+
+6 
+	`´št
+("test")
+
+7 
+’d
+
+
+9 
+skyÃt
+.
+	`¡¬t
+(
+	$funùiÚ
+()
+
+10 
+	`´št
+ ("test service start")
+
+11 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+£ssiÚ
+, 
+sourû
+, 
+commªd
+, ...)
+
+12 
+	`´št
+("ÿÎ sessiÚ"..
+£ssiÚ
+)
+
+13 
+loÿl
+ 
+f
+ = 
+	$as£¹
+(
+CMD
+[
+commªd
+])
+
+14 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(
+sourû
+, ...)))
+
+15 
+’d
+)
+
+16 
+’d
+)
+
+	@script/watchdog.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+Ãack
+ = 
+»quœe
+ "netpack"
+
+4 
+loÿl
+ 
+CMD
+ = {}
+
+5 
+loÿl
+ 
+SOCKET
+ = {}
+
+6 
+loÿl
+ 
+g©e
+
+
+7 
+loÿl
+ 
+ag’t
+ = {}
+
+9 
+funùiÚ
+ 
+SOCKET
+.
+	$İ’
+(
+fd
+, 
+addr
+)
+
+10 
+skyÃt
+.
+	`”rÜ
+("New cl›Á from : " .. 
+addr
+)
+
+11 
+ag’t
+[
+fd
+] = 
+skyÃt
+.
+	`Ãw£rviû
+("agent")
+
+12 
+skyÃt
+.
+	`ÿÎ
+(
+ag’t
+[
+fd
+], "lua", "¡¬t", { 
+g©e
+ = g©e, 
+ş›Á
+ = fd, 
+w©chdog
+ = skyÃt.
+	`£lf
+(è
+	}
+})
+
+13 
+’d
+
+
+15 
+loÿl
+ 
+funùiÚ
+ 
+	$şo£_ag’t
+(
+fd
+)
+
+16 
+loÿl
+ 
+a
+ = 
+ag’t
+[
+fd
+]
+
+17 
+ag’t
+[
+fd
+] = 
+n
+
+
+18 
+a
+ 
+th’
+
+
+19 
+skyÃt
+.
+	`ÿÎ
+(
+g©e
+, "lua", "kick", 
+fd
+)
+
+20 -- 
+discÚÃù
+ 
+Ãv”
+ 
+
+21 
+skyÃt
+.
+	`£nd
+(
+a
+, "lua", "disconnect")
+
+22 
+’d
+
+
+23 
+’d
+
+
+25 
+funùiÚ
+ 
+SOCKET
+.
+	$şo£
+(
+fd
+)
+
+26 
+	`´št
+("sock‘ clo£",
+fd
+)
+
+27 
+	$şo£_ag’t
+(
+fd
+)
+
+28 
+’d
+
+
+30 
+funùiÚ
+ 
+SOCKET
+.
+	$”rÜ
+(
+fd
+, 
+msg
+)
+
+31 
+	`´št
+("sock‘ƒ¼Ü",
+fd
+, 
+msg
+)
+
+32 
+	$şo£_ag’t
+(
+fd
+)
+
+33 
+’d
+
+
+35 
+funùiÚ
+ 
+SOCKET
+.
+	`w¬nšg
+(
+fd
+, 
+size
+)
+
+36 -- 
+size
+ 
+K
+ 
+by‹s
+ 
+havn
+'t send out in fd
+
+37 
+	`´št
+("sock‘ w¬nšg", 
+fd
+, 
+size
+)
+
+38 
+’d
+
+
+40 
+funùiÚ
+ 
+SOCKET
+.
+	$d©a
+(
+fd
+, 
+msg
+)
+
+41 
+’d
+
+
+43 
+funùiÚ
+ 
+CMD
+.
+	$¡¬t
+(
+cÚf
+)
+
+44 
+skyÃt
+.
+	`ÿÎ
+(
+g©e
+, "lua", "İ’" , 
+cÚf
+)
+
+45 
+’d
+
+
+47 
+funùiÚ
+ 
+CMD
+.
+	$şo£
+(
+fd
+)
+
+48 
+	$şo£_ag’t
+(
+fd
+)
+
+49 
+’d
+
+
+51 
+skyÃt
+.
+	`¡¬t
+(
+	$funùiÚ
+()
+
+52 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+£ssiÚ
+, 
+sourû
+, 
+cmd
+, 
+subcmd
+, ...)
+
+53 
+	$´št
+(
+cmd
+)
+
+54 
+	$´št
+(
+subcmd
+)
+
+55 
+cmd
+ =ğ"sock‘" 
+th’
+
+
+56 
+loÿl
+ 
+f
+ = 
+SOCKET
+[
+subcmd
+]
+
+57 
+	`f
+(...)
+
+58 -- 
+sock‘
+ 
+­i
+ 
+dÚ
+'t‚eed„eturn
+
+60 
+loÿl
+ 
+f
+ = 
+	$as£¹
+(
+CMD
+[
+cmd
+])
+
+61 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(
+subcmd
+, ...)))
+
+62 
+’d
+
+
+63 
+’d
+)
+
+65 
+g©e
+ = 
+skyÃt
+.
+	`Ãw£rviû
+("gate")
+
+66 
+’d
+)
+
+	@service/login.lua
+
+	@
+1
+.
+0
+14
+279
+install.sh
+luaclib/pbc-lua53.c
+lualib/protobuf.lua
+proto/client_proto/ProtoGen/protobuf-net.xml
+proto/export.sh
+run.sh
+script/agent.lua
+script/db.lua
+script/main.lua
+script/message_handler.lua
+script/player/player.lua
+script/testservice.lua
+script/watchdog.lua
+service/login.lua
