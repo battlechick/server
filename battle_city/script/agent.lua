@@ -14,6 +14,7 @@ local send_request
 local CMD = require "message_handler" 
 local REQUEST = {}
 local client_fd
+local player
 
 skynet.register_protocol {
 	name = "client",
@@ -30,7 +31,7 @@ skynet.register_protocol {
       print("message handler not exist. Package:"..p.name)
       return
     end
-    f(pp)
+    f(pp, player, self)
 	end
 }
 
@@ -43,6 +44,13 @@ function CMD.start(conf)
  
 	skynet.call(gate, "lua", "forward", fd)
 end
+
+function CMD.C2S_Login(p, player)
+  print("C2S_Login")
+  print(p)
+  skynet.call(".login","lua","login",p.accountName, p.accountPwd)
+end
+
 
 function send_hello()
   skynet.fork(function()
