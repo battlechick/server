@@ -1,4 +1,4 @@
 cd proto && ./export.sh && cd ..
 cd ../skynet
-./skynet ../virgin/config/config
+./skynet ../battle_city/config/config
 

@@ -34,7 +34,7 @@ skynet.start(function()
 	})
 	print("Watchdog listen on ", 10000)
 
-  --local db = skynet.newservice("db")
+  local db = skynet.newservice("db")
 
 	skynet.exit()
 end)

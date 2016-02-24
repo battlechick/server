@@ -47,7 +47,7 @@ end
 function send_hello()
   skynet.fork(function()
     while true do
-      send_package("S2C_Hello",{b = "s2c"})
+      send_package("S2C_Ping",{time = os.time()})
       skynet.sleep(500)
     end
   end)

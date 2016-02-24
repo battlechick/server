@@ -3,11 +3,26 @@ message Package {
 	optional bytes data = 2;
 }
 
-message S2C_Hello {
-    optional string b = 1;
+message S2C_Ping {
+	optional int32 time = 1;
 }
 
-message C2S_Hello {
-    optional string a = 1;
+message C2S_Ping {
+	optional int32 time = 1;
 }
+
+message C2S_RegisterAccount {
+	optional string accountName = 1;
+	optional string accountPwd = 2;
+}
+
+message S2C_RegisterAccountResult {
+	optional bool result = 1;
+}
+
+message C2S_Login {
+	optional string accountName = 1;
+	optional string accountPwd = 2;
+}
+
 

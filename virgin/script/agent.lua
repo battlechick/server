@@ -53,7 +53,7 @@ function send_hello()
   end)
 end
 
-protobuf.register_file "proto/msg.pb"  
+protobuf.register_file "../virgin/proto/msg.pb"  
 function send_package(message, t)
   buffer = protobuf.encode(message, t)
   socket.write(client_fd, protobuf.encode("Package",{name = message, data = buffer}))

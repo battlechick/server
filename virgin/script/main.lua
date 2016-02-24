@@ -22,7 +22,7 @@ skynet.start(function()
   --local test = skynet.newservice("testservice")
   --skynet.call(test, "lua", "test")
   
-	skynet.uniqueservice("protoloader")
+	--skynet.uniqueservice("protoloader")
 	local console = skynet.newservice("console")
 	skynet.newservice("debug_console",8000)
 	--skynet.newservice("simpledb")
@@ -34,7 +34,7 @@ skynet.start(function()
 	})
 	print("Watchdog listen on ", 10000)
 
-  local db = skynet.newservice("db")
+  --local db = skynet.newservice("db")
 
 	skynet.exit()
 end)

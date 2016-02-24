@@ -2,7 +2,7 @@ local skynet = require "skynet"
 local mongo = require "mongo"
 local bson = require "bson"
 
-local host, db_name = "127.0.0.1", "test"
+local host, db_name = "127.0.0.1", "battle_city"
 
 function test_insert_without_index()
   local db = mongo.client({host = host})
@@ -93,10 +93,7 @@ function test_expire_index()
 end
 
 skynet.start(function()
-  test_insert_without_index()
-  test_insert_with_index()
-  test_find_and_remove()
-  test_expire_index()
+  print("mongodb test")
 
   print("mongodb test finish.");
 end)

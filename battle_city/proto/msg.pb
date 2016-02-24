@@ -1,10 +1,10 @@
 
-b
+f
 	msg.proto"%
 Package
 name (	
-data ("
-	S2C_Hello	
-b (	"
-	C2S_Hello	
-a (	
+data ("
+S2C_Ping
+time ("
+C2S_Ping
+time (
