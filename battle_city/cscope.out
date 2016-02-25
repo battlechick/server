@@ -1,4 +1,4 @@
-cscope 15 $HOME/server/battle_city -q 0000001087 0000108109
+cscope 15 $HOME/server/battle_city -q 0000001107 0000110550
 	@install.sh
 
 2 
@@ -21732,24 +21732,14 @@ cd
 	@script/agent.lua
 
 2 
-	g·ckage
-.
-	g·th
- = "./exam¶es/?.lua;./süt/?.lua;" .. 
-·ckage
-.
-·th
-
-
-3 
 loÿl
  
-skyÃt
+	gskyÃt
  = 
 »quœe
  "skynet"
 
-4 
+3 
 loÿl
  
 Ãack
@@ -21757,7 +21747,7 @@ loÿl
 »quœe
  "netpack"
 
-5 
+4 
 loÿl
  
 sock‘
@@ -21765,7 +21755,7 @@ sock‘
 »quœe
  "socket"
 
-6 
+5 
 loÿl
  
 ¥rÙo
@@ -21773,7 +21763,7 @@ loÿl
 »quœe
  "sproto"
 
-7 
+6 
 loÿl
  
 ¥rÙŞßd”
@@ -21781,7 +21771,7 @@ loÿl
 »quœe
  "sprotoloader"
 
-8 
+7 
 loÿl
  
 ´Ùobuf
@@ -21789,25 +21779,25 @@ loÿl
 »quœe
  "protobuf"
 
-10 
+9 
 loÿl
  
 WATCHDOG
 
 
-11 
+10 
 loÿl
  
 ho¡
 
 
-12 
+11 
 loÿl
  
 £nd_»que¡
 
 
-14 
+13 
 loÿl
  
 CMD
@@ -21815,16 +21805,22 @@ CMD
 »quœe
  "message_handler"
 
-15 
+14 
 loÿl
  
 REQUEST
  = {}
 
-16 
+15 
 loÿl
  
 ş›Á_fd
+
+
+16 
+loÿl
+ 
+¶ay”
 
 
 18 
@@ -21953,10 +21949,14 @@ p
 f
 (
 µ
+, 
+¶ay”
+, 
+£lf
 )
 
 34 
-’d
+	g’d
 
 
 37 
@@ -22022,10 +22022,48 @@ fd
 47 
 funùiÚ
  
+CMD
+.
+	$C2S_Logš
+(
+p
+, 
+¶ay”
+)
+
+48 
+	`´št
+("C2S_Login")
+
+49 
+	$´št
+(
+p
+)
+
+50 
+skyÃt
+.
+	`ÿÎ
+(".logš","lua","logš",
+p
+.
+accouÁName
+,….
+accouÁPwd
+)
+
+51 
+’d
+
+
+54 
+funùiÚ
+ 
 	$£nd_h–lo
 ()
 
-48 
+55 
 skyÃt
 .
 	`fÜk
@@ -22033,11 +22071,11 @@ skyÃt
 	$funùiÚ
 ()
 
-49 
+56 
 Œue
  do
 
-50 
+57 
 	`£nd_·ckage
 ("S2C_Pšg",{
 time
@@ -22049,31 +22087,31 @@ os
 	}
 })
 
-51 
+58 
 	gskyÃt
 .
 	$¦“p
 (500)
 
-52 
+59 
 ’d
 
 
-53 
+60 
 ’d
 )
 
-54 
+61 
 ’d
 
 
-56 
+63 
 ´Ùobuf
 .
 »gi¡”_fe
  "../battle_city/proto/msg.pb"
 
-57 
+64 
 funùiÚ
  
 	$£nd_·ckage
@@ -22083,7 +22121,7 @@ mes§ge
 t
 )
 
-58 
+65 
 bufãr
  = 
 ´Ùobuf
@@ -22095,7 +22133,7 @@ mes§ge
 t
 )
 
-59 
+66 
 sock‘
 .
 	`wr™e
@@ -22115,11 +22153,11 @@ d©a
 bufãr
 }))
 
-60 
+67 
 ’d
 
 
-62 
+69 
 funùiÚ
  
 	gCMD
@@ -22127,7 +22165,7 @@ funùiÚ
 discÚÃù
 ()
 
-63 -- 
+70 -- 
 	gtodo
 : dØ
 som‘hšg
@@ -22137,17 +22175,17 @@ befÜe
 ex™
 
 
-64 
+71 
 skyÃt
 .
 	$ex™
 ()
 
-65 
+72 
 ’d
 
 
-67 
+74 
 skyÃt
 .
 	`¡¬t
@@ -22155,7 +22193,7 @@ skyÃt
 	$funùiÚ
 ()
 
-68 
+75 
 skyÃt
 .
 	`di¥©ch
@@ -22167,7 +22205,7 @@ _
 commªd
 , ...)
 
-69 
+76 
 loÿl
  
 f
@@ -22177,7 +22215,7 @@ CMD
 commªd
 ]
 
-70 
+77 
 skyÃt
 .
 	`»t
@@ -22187,761 +22225,509 @@ skyÃt
 	$f
 (...)))
 
-71 
+78 
 ’d
 )
 
-72 
+79 
 ’d
 )
 
-	@script/db.lua
+	@script/global.lua
 
 1 
 loÿl
  
-	gskyÃt
+	g´št
  = 
-»quœe
- "skynet"
+´št
+
 
 2 
 loÿl
  
-mÚgo
+tcÚÿt
  = 
-»quœe
- "mongo"
+bË
+.
+cÚÿt
+
 
 3 
 loÿl
  
-bsÚ
+tš£¹
  = 
-»quœe
- "bson"
+bË
+.
+š£¹
+
+
+4 
+loÿl
+ 
+¤•
+ = 
+¡ršg
+.
+»p
+
 
 5 
 loÿl
  
-ho¡
-, 
-	gdb_Çme
- = "127.0.0.1", "test"
+ty³
+ =ype
+
+6 
+loÿl
+ 
+·œs
+ =…airs
 
 7 
-funùiÚ
+loÿl
  
-	$‹¡_š£¹_w™hout_šdex
-()
+to¡ršg
+ =ostring
 
 8 
 loÿl
  
-db
- = 
-mÚgo
-.
-	`ş›Á
-({
-ho¡
- = 
-	}
-ho¡})
+Ãxt
+ =‚ext
 
 10 
-	gdb
-[
-db_Çme
-].
-	g‹¡db
-:
-drİIndex
-("*")
+funùiÚ
+ 
+	$dump_tbl
+(
+roÙ
+)
 
 11 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drİ
-()
+loÿl
+ 
+ÿche
+ = { [
+roÙ
+] = "." 
+	}
+}
+
+12 
+loÿl
+ 
+funùiÚ
+ 
+	$_dump
+(
+t
+,
+¥aû
+,
+Çme
+)
 
 13 
 loÿl
  
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 1
+‹mp
+ = {
 	}
-});
+}
 
-14 
-	$as£¹
-(
-»t
+14 
+k
+,
+v
  
-ªd
-„‘.
-n
- == 1)
+š
+ 
+	$·œs
+(
+t
+) do
 
-16 
+15 
 loÿl
  
-»t
+key
  = 
-db
+	$to¡ršg
+(
+k
+)
+
+16 
+ÿche
 [
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 1
-	}
-});
+v
+] 
+th’
+
 
 17 
-	$as£¹
+	`tš£¹
 (
-»t
- 
-ªd
-„‘.
-n
- == 1)
+‹mp
+,"+" .. 
+key
+ .. " {" .. 
+ÿche
+[
+v
+].."}")
 
 18 
-’d
+–£if
+ 
+	`ty³
+(
+v
+è=ğ"bË" 
+th’
+
+
+19 
+loÿl
+ 
+Ãw_key
+ = 
+Çme
+ .. "." .. 
+key
 
 
 20 
-funùiÚ
- 
-	$‹¡_š£¹_w™h_šdex
-()
+ÿche
+[
+v
+] = 
+Ãw_key
+
 
 21 
-loÿl
- 
-db
- = 
-mÚgo
-.
-	`ş›Á
-({
-ho¡
- = 
-	}
-ho¡})
+	`tš£¹
+(
+‹mp
+,"+" .. 
+key
+ .. 
+	`_dump
+(
+v
+,
+¥aû
+ .. (
+	$Ãxt
+(
+t
+,
+k
+è
+ªd
+ "|" 
+Ü
+ " " ).. 
+	`¤•
+(" ",#key),
+Ãw_key
+))
 
 23 
-	gdb
-[
-db_Çme
-].
-	g‹¡db
-:
-drİIndex
-("*")
+	`tš£¹
+(
+‹mp
+,"+" .. 
+key
+ .. " [" .. 
+	`to¡ršg
+(
+v
+).."]")
 
 24 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drİ
-()
-
-26 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`’su»Index
-({
-‹¡_key
- = 1
-	}
-}, {
-	gunique
- = 
-Œue
-, 
-	gÇme
- = "test_key_index"})
-
-28 
-loÿl
- 
-	g»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-§ã_š£¹
-({
-‹¡_key
- = 1})
-
-29 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-31 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 1
-	}
-})
-
-32 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 0)
-
-33 
 ’d
 
 
-35 
+25 
+’d
+
+
+26  
+	`tcÚÿt
+(
+‹mp
+,"\n"..
+¥aû
+)
+
+27 
+’d
+
+
+28 
+	`´št
+(
+	`_dump
+(
+roÙ
+, "",""))
+
+29 
+’d
+
+
+32 
+loÿl
+ 
+_şass
+={
+	}
+}
+
+34 
 funùiÚ
  
-	$‹¡_fšd_ªd_»move
-()
+	$şass
+(
+su³r
+)
+
+35 
+loÿl
+ 
+şass_ty³
+={
+	}
+}
 
 36 
-loÿl
- 
-db
- = 
-mÚgo
+şass_ty³
 .
-	`ş›Á
-({
-ho¡
- = 
-	}
-ho¡})
+ùÜ
+=
+çl£
+
+
+37 
+şass_ty³
+.
+su³r
+=super
 
 38 
-db
-[
-db_Çme
-].
-‹¡db
-:
-drİIndex
-("*")
+şass_ty³
+.
+Ãw
+=
+	$funùiÚ
+(...)
 
 39 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drİ
-()
+loÿl
+ 
+obj
+={
+	}
+}
 
 41 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`’su»Index
-({
-‹¡_key
- = 1
-	}
-}, {
-	gunique
- = 
-Œue
-, 
-	gÇme
- = "test_key_index"})
-
-43 
 loÿl
  
-	g»t
+ü—‹
+
+
+42 
+ü—‹
  = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-§ã_š£¹
-({
-‹¡_key
- = 1})
+	$funùiÚ
+(
+c
+,...)
+
+43 
+c
+.
+su³r
+ 
+th’
+
 
 44 
-	$as£¹
+	$ü—‹
 (
-»t
- 
-ªd
-„‘.
-n
- == 1)
+c
+.
+su³r
+,...)
 
-46 
-loÿl
+45 
+’d
+
+
+46 
+c
+.
+ùÜ
  
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 2
-	}
-})
+th’
+
 
 47 
-	$as£¹
+c
+.
+	$ùÜ
 (
-»t
- 
-ªd
-„‘.
-n
- == 1)
+obj
+,...)
+
+48 
+’d
+
 
 49 
-loÿl
- 
-»t
- = 
-db
+’d
+
+
+51 
+	$ü—‹
+(
+şass_ty³
+,...)
+
+52 
+’d
+
+
+53 
+	`£tm‘©abË
+(
+obj
+,{ 
+__šdex
+=
+_şass
 [
-db_Çme
-].
-‹¡db
-:
-	`fšdOÃ
-({
-‹¡_key
- = 1
+şass_ty³
+] 
 	}
 })
 
-50 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-‹¡_key
- == 1)
+54  
+obj
 
-52 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšd
-({
-‹¡_key
- = {['$gt'] = 0}
-	}
-}):
-sÜt
-({‹¡_key = -1}):
-	$sk
-(1):
-	$lim™
-(1)
 
-53 
-	`as£¹
-(
-»t
-:
-	`couÁ
-() == 2)
-
-54 
-	`as£¹
-(
-»t
-:
-	`couÁ
-(
-Œue
-) == 1)
-
-55 
-»t
-:
-	$hasNext
-(è
-th’
+55 
+’d
 
 
 56 
-»t
- =„‘:
-	$Ãxt
-()
+loÿl
+ 
+	gvtbl
+={}
 
 57 
-’d
+_şass
+[
+şass_ty³
+]=
+vtbl
 
 
-58 
-	$as£¹
+59 
+£tm‘©abË
 (
-»t
- 
-ªd
-„‘.
-‹¡_key
- == 1)
-
-60 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`d–‘e
-({
-‹¡_key
- = 1
-	}
-})
-
-61 
-db
-[
-db_Çme
-].
-‹¡db
-:
-d–‘e
-({
-‹¡_key
- = 2})
-
-63 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-fšdOÃ
-({
-‹¡_key
- = 1})
-
-64 
-	$as£¹
+şass_ty³
+,{
+__Ãwšdex
+=
+funùiÚ
 (
-»t
- =ğ
-n
+t
+,
+k
+,
+v
 )
 
-65 
+60 
+vtbl
+[
+k
+]=
+v
+
+
+61 
 ’d
-
-
-68 
-funùiÚ
- 
-	$‹¡_expœe_šdex
-()
-
-69 
-loÿl
- 
-db
- = 
-mÚgo
-.
-	`ş›Á
-({
-ho¡
- = 
-	}
-ho¡})
-
-71 
-db
-[
-db_Çme
-].
-‹¡db
-:
-drİIndex
-("*")
-
-72 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drİ
-()
-
-74 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`’su»Index
-({
-‹¡_key
- = 1
-	}
-}, {
-	gunique
- = 
-Œue
-, 
-	gÇme
- = "‹¡_key_šdex", 
-	gexpœeAá”SecÚds
- = 1, })
-
-75 
-	gdb
-[
-db_Çme
-].
-	g‹¡db
-:
-’su»Index
-({
-‹¡_d©e
- = 1}, {
-expœeAá”SecÚds
- = 1, })
-
-77 
-loÿl
- 
-	g»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-§ã_š£¹
-({
-‹¡_key
- = 1, 
-‹¡_d©e
- = 
-bsÚ
-.
-d©e
-(
-os
-.
-time
-())})
-
-78 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-80 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšdOÃ
-({
-‹¡_key
- = 1
-	}
 })
 
-81 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-‹¡_key
- == 1)
-
-83 
-i
- = 1, 1000 do
-
-84 
-skyÃt
-.
-	`¦“p
-(11);
-
-86 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšdOÃ
-({
-‹¡_key
- = 1
-	}
-})
-
-87 
-»t
- =ğ
-n
+63 
+su³r
  
 th’
 
 
-89 
-’d
-
-
-90 
-’d
-
-
-92 
-as£¹
+64 
+£tm‘©abË
 (
-çl£
-, "testƒxpire index failed");
-
-93 
-’d
-
-
-95 
-	gskyÃt
-.
-¡¬t
+vtbl
+,{
+__šdex
+=
+funùiÚ
 (
-	$funùiÚ
-()
-
-96 
-	`´št
-("mongodbest")
-
-97 
-	$‹¡_š£¹_w™hout_šdex
-()
-
-98 
-	$‹¡_š£¹_w™h_šdex
-()
-
-99 
-	$‹¡_fšd_ªd_»move
-()
-
-100 
-	$‹¡_expœe_šdex
-()
-
-102 
-	`´št
-("mongodbest finish.");
-
-103 
-’d
+t
+,
+k
 )
+
+65 
+loÿl
+ 
+»t
+=
+_şass
+[
+su³r
+][
+k
+]
+
+66 
+vtbl
+[
+k
+]=
+»t
+
+
+67  
+»t
+
+
+68 
+’d
+})
+
+69 
+’d
+
+
+71  
+şass_ty³
+
+
+72 
+’d
+
+
+74 
+´št
+("require global")
 
 	@script/main.lua
 
@@ -22954,6 +22740,10 @@ loÿl
  "skynet"
 
 2 
+»quœe
+ "skynet.manager"
+
+3 
 loÿl
  
 ¥rÙŞßd”
@@ -22961,7 +22751,7 @@ loÿl
 »quœe
  "sprotoloader"
 
-3 
+4 
 loÿl
  
 ´Ùobuf
@@ -22969,25 +22759,25 @@ loÿl
 »quœe
  "protobuf"
 
-5 
+6 
 loÿl
  
 max_ş›Á
  = 64
 
-7 
+9 
 funùiÚ
  
 	$‹¡
 ()
 
-8 
+10 
 ´Ùobuf
 .
 »gi¡”_fe
  "proto/msg.pb"
 
-10 
+12 
 d©a
  = {
 b
@@ -22995,7 +22785,7 @@ b
 	}
 }
 
-12 
+14 
 	gbufãr
  = 
 ´Ùobuf
@@ -23005,13 +22795,13 @@ b
 d©a
 )
 
-13 
+15 
 ´št
 ("’code:"..
 bufãr
 )
 
-15 
+17 
 	gdecode
  = 
 ´Ùobuf
@@ -23021,7 +22811,7 @@ decode
 bufãr
 )
 
-16 
+18 
 ´št
 ("decode"..
 decode
@@ -23029,111 +22819,85 @@ decode
 b
 )
 
-18 
+20 
 ’d
 
 
-20 
+22 
 	gskyÃt
 .
 ¡¬t
 (
-	$funùiÚ
+funùiÚ
 ()
 
-21 
-	`´št
-("Server start!!")
-
-22 --
-loÿl
- 
-‹¡
- = 
+24 --
 skyÃt
 .
-	`Ãw£rviû
-("testservice")
-
-23 --
-skyÃt
-.
-	`ÿÎ
-(
-‹¡
-, "lua", "test")
-
-25 --
-skyÃt
-.
-	`unique£rviû
+unique£rviû
 ("protoloader")
 
-26 
+25 
 loÿl
  
 cÚsŞe
  = 
 skyÃt
 .
-	`Ãw£rviû
+Ãw£rviû
 ("console")
 
-27 
+26 
 skyÃt
 .
-	`Ãw£rviû
+Ãw£rviû
 ("debug_console",8000)
 
-28 --
+27 --
 skyÃt
 .
-	`Ãw£rviû
+Ãw£rviû
 ("simpledb")
 
-29 
+28 
 loÿl
  
 w©chdog
  = 
 skyÃt
 .
-	`Ãw£rviû
+Ãw£rviû
 ("watchdog")
 
-30 
+29 
 skyÃt
 .
-	`ÿÎ
+ÿÎ
 (
 w©chdog
 , "lua", "start", {
 
-31 
+30 
 pÜt
  = 10000,
 
-32 
+31 
 maxş›Á
  = 
 max_ş›Á
 ,
 
-33 
+32 
 nod–ay
  = 
 Œue
 ,
 
 34 
-	}
-})
-
-35 
 ´št
 ("Watchdog†isten on ", 10000)
 
-37 
+36 
 loÿl
  
 db
@@ -23141,15 +22905,41 @@ db
 skyÃt
 .
 Ãw£rviû
-("db")
+("db","127.0.0.1", "battle_city")
+
+37 
+skyÃt
+.
+Çme
+(".db",
+db
+)
+
+38 
+loÿl
+ 
+logš
+ = 
+skyÃt
+.
+Ãw£rviû
+("login")
 
 39 
+skyÃt
+.
+Çme
+(".logš", 
+logš
+)
+
+40 
 skyÃt
 .
 	$ex™
 ()
 
-40 
+41 
 ’d
 )
 
@@ -23183,123 +22973,11 @@ a
 ’d
 
 
-9 
-funùiÚ
- 
-CMD
-.
-	$C2S_Logš
-(
-p
-)
-
-11 
-’d
-
-
-51  
+46  
 CMD
 
 
 	@script/player/player.lua
-
-	@script/testservice.lua
-
-1 
-loÿl
- 
-	gskyÃt
- = 
-»quœe
- "skynet"
-
-3 
-loÿl
- 
-CMD
- = {}
-
-5 
-funùiÚ
- 
-CMD
-.
-	$‹¡
-(
-sourû
-)
-
-6 
-	`´št
-("test")
-
-7 
-’d
-
-
-9 
-skyÃt
-.
-	`¡¬t
-(
-	$funùiÚ
-()
-
-10 
-	`´št
- ("test service start")
-
-11 
-skyÃt
-.
-	`di¥©ch
-("lua", 
-	$funùiÚ
-(
-£ssiÚ
-, 
-sourû
-, 
-commªd
-, ...)
-
-12 
-	`´št
-("ÿÎ sessiÚ"..
-£ssiÚ
-)
-
-13 
-loÿl
- 
-f
- = 
-	$as£¹
-(
-CMD
-[
-commªd
-])
-
-14 
-skyÃt
-.
-	`»t
-(skyÃt.
-	`·ck
-(
-	$f
-(
-sourû
-, ...)))
-
-15 
-’d
-)
-
-16 
-’d
-)
 
 	@script/watchdog.lua
 
@@ -23637,25 +23315,13 @@ cmd
 subcmd
 , ...)
 
-53 
-	$´št
-(
-cmd
-)
-
-54 
-	$´št
-(
-subcmd
-)
-
-55 
+53 
 cmd
  =ğ"sock‘" 
 th’
 
 
-56 
+54 
 loÿl
  
 f
@@ -23665,11 +23331,11 @@ SOCKET
 subcmd
 ]
 
-57 
+55 
 	`f
 (...)
 
-58 -- 
+56 -- 
 sock‘
  
 ­i
@@ -23677,7 +23343,7 @@ sock‘
 dÚ
 't‚eed„eturn
 
-60 
+58 
 loÿl
  
 f
@@ -23689,7 +23355,7 @@ CMD
 cmd
 ])
 
-61 
+59 
 skyÃt
 .
 	`»t
@@ -23701,15 +23367,15 @@ skyÃt
 subcmd
 , ...)))
 
-62 
+60 
 ’d
 
 
-63 
+61 
 ’d
 )
 
-65 
+63 
 g©e
  = 
 skyÃt
@@ -23717,18 +23383,1028 @@ skyÃt
 	`Ãw£rviû
 ("gate")
 
-66 
+64 
+’d
+)
+
+	@service/db.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+mÚgo
+ = 
+»quœe
+ "mongo"
+
+3 
+loÿl
+ 
+bsÚ
+ = 
+»quœe
+ "bson"
+
+5 
+loÿl
+ 
+ho¡
+, 
+	gdb_Çme
+ = ...
+
+7 
+funùiÚ
+ 
+	$‹¡_š£¹_w™hout_šdex
+()
+
+8 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+host})
+
+10 
+	gdb
+[
+db_Çme
+].
+	g‹¡db
+:
+drİIndex
+("*")
+
+11 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+13 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 1
+	}
+});
+
+14 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+16 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 1
+	}
+});
+
+17 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+18 
+’d
+
+
+20 
+funùiÚ
+ 
+	$‹¡_š£¹_w™h_šdex
+()
+
+21 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+host})
+
+23 
+	gdb
+[
+db_Çme
+].
+	g‹¡db
+:
+drİIndex
+("*")
+
+24 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+26 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`’su»Index
+({
+‹¡_key
+ = 1
+	}
+}, {
+	gunique
+ = 
+Œue
+, 
+	gÇme
+ = "test_key_index"})
+
+28 
+loÿl
+ 
+	g»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+§ã_š£¹
+({
+‹¡_key
+ = 1})
+
+29 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+31 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 1
+	}
+})
+
+32 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 0)
+
+33 
+’d
+
+
+35 
+funùiÚ
+ 
+	$‹¡_fšd_ªd_»move
+()
+
+36 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+host})
+
+38 
+db
+[
+db_Çme
+].
+‹¡db
+:
+drİIndex
+("*")
+
+39 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+41 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`’su»Index
+({
+‹¡_key
+ = 1
+	}
+}, {
+	gunique
+ = 
+Œue
+, 
+	gÇme
+ = "test_key_index"})
+
+43 
+loÿl
+ 
+	g»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+§ã_š£¹
+({
+‹¡_key
+ = 1})
+
+44 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+46 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`§ã_š£¹
+({
+‹¡_key
+ = 2
+	}
+})
+
+47 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+49 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšdOÃ
+({
+‹¡_key
+ = 1
+	}
+})
+
+50 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+‹¡_key
+ == 1)
+
+52 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšd
+({
+‹¡_key
+ = {['$gt'] = 0}
+	}
+}):
+sÜt
+({‹¡_key = -1}):
+	$sk
+(1):
+	$lim™
+(1)
+
+53 
+	`as£¹
+(
+»t
+:
+	`couÁ
+() == 2)
+
+54 
+	`as£¹
+(
+»t
+:
+	`couÁ
+(
+Œue
+) == 1)
+
+55 
+»t
+:
+	$hasNext
+(è
+th’
+
+
+56 
+»t
+ =„‘:
+	$Ãxt
+()
+
+57 
+’d
+
+
+58 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+‹¡_key
+ == 1)
+
+60 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`d–‘e
+({
+‹¡_key
+ = 1
+	}
+})
+
+61 
+db
+[
+db_Çme
+].
+‹¡db
+:
+d–‘e
+({
+‹¡_key
+ = 2})
+
+63 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+fšdOÃ
+({
+‹¡_key
+ = 1})
+
+64 
+	$as£¹
+(
+»t
+ =ğ
+n
+)
+
+65 
+’d
+
+
+68 
+funùiÚ
+ 
+	$‹¡_expœe_šdex
+()
+
+69 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+host})
+
+71 
+db
+[
+db_Çme
+].
+‹¡db
+:
+drİIndex
+("*")
+
+72 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	$drİ
+()
+
+74 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`’su»Index
+({
+‹¡_key
+ = 1
+	}
+}, {
+	gunique
+ = 
+Œue
+, 
+	gÇme
+ = "‹¡_key_šdex", 
+	gexpœeAá”SecÚds
+ = 1, })
+
+75 
+	gdb
+[
+db_Çme
+].
+	g‹¡db
+:
+’su»Index
+({
+‹¡_d©e
+ = 1}, {
+expœeAá”SecÚds
+ = 1, })
+
+77 
+loÿl
+ 
+	g»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+§ã_š£¹
+({
+‹¡_key
+ = 1, 
+‹¡_d©e
+ = 
+bsÚ
+.
+d©e
+(
+os
+.
+time
+())})
+
+78 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+n
+ == 1)
+
+80 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšdOÃ
+({
+‹¡_key
+ = 1
+	}
+})
+
+81 
+	$as£¹
+(
+»t
+ 
+ªd
+„‘.
+‹¡_key
+ == 1)
+
+83 
+i
+ = 1, 1000 do
+
+84 
+skyÃt
+.
+	`¦“p
+(11);
+
+86 
+loÿl
+ 
+»t
+ = 
+db
+[
+db_Çme
+].
+‹¡db
+:
+	`fšdOÃ
+({
+‹¡_key
+ = 1
+	}
+})
+
+87 
+»t
+ =ğ
+n
+ 
+th’
+
+
+89 
+’d
+
+
+90 
+’d
+
+
+92 
+as£¹
+(
+çl£
+, "testƒxpire index failed");
+
+93 
+’d
+
+
+95 
+loÿl
+ 
+	gCMD
+ = {}
+
+96 
+funùiÚ
+ 
+	$cŞËùiÚ
+(
+Çme
+)
+
+97 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`ş›Á
+({
+ho¡
+ = 
+	}
+host})
+
+98  
+	gdb
+[
+db_Çme
+][
+Çme
+]
+
+99 
+’d
+
+
+101 
+funùiÚ
+ 
+	gCMD
+.
+	$qu”y_accouÁ
+(
+accouÁ_Çme
+, 
+accouÁ_pwd
+)
+
+102 
+loÿl
+ 
+cŞ
+ = 
+	`cŞËùiÚ
+("account")
+
+103 
+loÿl
+ 
+»t
+ = 
+cŞ
+:
+	`fšdOÃ
+({
+Çme
+ = 
+accouÁ_Çme
+})
+
+104 
+nÙ
+ 
+»t
+ 
+th’
+
+
+105 
+cŞ
+.
+§ã_š£¹
+({
+Çme
+ = 
+accouÁ_Çme
+, 
+pwd
+ = 
+accouÁ_pwd
+})
+
+106 
+	g»t
+ = 
+cŞ
+:
+fšdOÃ
+({
+Çme
+ = 
+accouÁ_Çme
+})
+
+107 
+’d
+
+
+108  
+»t
+
+
+109 
+’d
+
+
+111 
+skyÃt
+.
+¡¬t
+(
+	$funùiÚ
+()
+
+112 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+_
+,_, 
+commªd
+, ...)
+
+113 
+loÿl
+ 
+f
+ = 
+CMD
+[
+commªd
+]
+
+114 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(...)))
+
+115 
+’d
+)
+
+116 
 ’d
 )
 
 	@service/login.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+CMD
+ = {}
+
+4 
+funùiÚ
+ 
+CMD
+.
+	$logš
+(
+accouÁ_Çme
+, 
+accouÁ_pwd
+)
+
+5 
+»t
+ = 
+skyÃt
+.
+	`ÿÎ
+(".db", "lua", "qu”y_accouÁ", 
+accouÁ_Çme
+, 
+accouÁ_pwd
+)
+
+6 
+nÙ
+ 
+»t
+ 
+Ü
+„‘.
+pwd
+ ~ğ
+accouÁ_pwd
+ 
+th’
+
+
+7 
+	`´št
+("logš fa,‡ccouÁ‚ame:"..
+accouÁ_Çme
+)
+
+9 
+’d
+
+
+10 
+’d
+
+
+12 
+funùiÚ
+ 
+CMD
+.
+	$»gi¡”_accouÁ
+(
+accouÁ_Çme
+, 
+accouÁ_pwd
+)
+
+14 
+’d
+
+
+17 
+skyÃt
+.
+	`¡¬t
+(
+	$funùiÚ
+()
+
+18 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+_
+,_, 
+commªd
+, ...)
+
+19 
+loÿl
+ 
+f
+ = 
+CMD
+[
+commªd
+]
+
+20 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(...)))
+
+21 
+’d
+)
+
+22 
+’d
+)
 
 	@
 1
 .
 0
 14
-279
+275
 install.sh
 luaclib/pbc-lua53.c
 lualib/protobuf.lua
@@ -23736,10 +24412,10 @@ proto/client_proto/ProtoGen/protobuf-net.xml
 proto/export.sh
 run.sh
 script/agent.lua
-script/db.lua
+script/global.lua
 script/main.lua
 script/message_handler.lua
 script/player/player.lua
-script/testservice.lua
 script/watchdog.lua
+service/db.lua
 service/login.lua

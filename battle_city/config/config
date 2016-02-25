@@ -11,6 +11,7 @@ bootstrap = "snlua bootstrap"	-- The service for bootstrap
 standalone = "0.0.0.0:2013"
 luaservice = root.."service/?.lua;"..root.."liblua/?.lua;"..workspace.."service/?.lua;"..workspace.."script/?.lua"
 lualoader = "lualib/loader.lua"
+preload = workspace.."script/global.lua"
 snax = workspace.."script/?.lua"
 cpath = root.."cservice/?.so;"..root.."luaclib/?.so;"..workspace.."luaclib/?.so"
 lua_path = "./lualib/?.lua;"..workspace.."lualib/?.lua;"..workspace.."script/?.lua"

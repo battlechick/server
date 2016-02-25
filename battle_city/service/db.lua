@@ -92,17 +92,18 @@ function test_expire_index()
   assert(false, "test expire index failed");
 end
 
+local CMD = {}
 function collection(name)
   local db = mongo.client({host = host})
   return db[db_name][name]
 end
 
 function CMD.query_account(account_name, account_pwd)
-  local account_tbl = collection("account")
-  local ret = account_tbl.findOne({name = account_name})
+  local col = collection("account")
+  local ret = col:findOne({name = account_name})
   if not ret then
-    account_tbl.safe_insert({name = account_name, pwd = account_pwd})
-    ret = account_tbl.findOne({name = account_name})
+    col.safe_insert({name = account_name, pwd = account_pwd})
+    ret = col:findOne({name = account_name})
   end
   return ret
 end
@@ -110,5 +111,6 @@ end
 skynet.start(function()
   skynet.dispatch("lua", function(_,_, command, ...)
     local f = CMD[command]
-    skynet.ret(skynet,pack(f(...)))
+    skynet.ret(skynet.pack(f(...)))
+  end)
 end)

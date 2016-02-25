@@ -50,8 +50,6 @@ end
 
 skynet.start(function()
 	skynet.dispatch("lua", function(session, source, cmd, subcmd, ...)
-    print(cmd)
-    print(subcmd)
 		if cmd == "socket" then
 			local f = SOCKET[subcmd]
 			f(...)

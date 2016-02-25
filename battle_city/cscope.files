@@ -4,11 +4,11 @@
 ./proto/client_proto/ProtoGen/protobuf-net.xml
 ./proto/export.sh
 ./luaclib/pbc-lua53.c
+./service/db.lua
 ./service/login.lua
 ./script/watchdog.lua
 ./script/message_handler.lua
 ./script/agent.lua
-./script/db.lua
-./script/testservice.lua
 ./script/main.lua
 ./script/player/player.lua
+./script/global.lua
