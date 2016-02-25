@@ -2,7 +2,7 @@ local skynet = require "skynet"
 local mongo = require "mongo"
 local bson = require "bson"
 
-local host, db_name = "127.0.0.1", "battle_city"
+local host, db_name = ... 
 
 function test_insert_without_index()
   local db = mongo.client({host = host})
@@ -92,8 +92,23 @@ function test_expire_index()
   assert(false, "test expire index failed");
 end
 
-skynet.start(function()
-  print("mongodb test")
+function collection(name)
+  local db = mongo.client({host = host})
+  return db[db_name][name]
+end
 
-  print("mongodb test finish.");
+function CMD.query_account(account_name, account_pwd)
+  local account_tbl = collection("account")
+  local ret = account_tbl.findOne({name = account_name})
+  if not ret then
+    account_tbl.safe_insert({name = account_name, pwd = account_pwd})
+    ret = account_tbl.findOne({name = account_name})
+  end
+  return ret
+end
+
+skynet.start(function()
+  skynet.dispatch("lua", function(_,_, command, ...)
+    local f = CMD[command]
+    skynet.ret(skynet,pack(f(...)))
 end)
