@@ -1,10 +1,10 @@
 local skynet = require "skynet"
-require "skynet.manager"
-
 local CMD = {}
 
 function CMD.login(account_name, account_pwd)
   print("login "..account_name)
+  ret = skynet.call(".db", "lua", "query_account", account_name, account_pwd)
+  print(ret)
 end
 
 function CMD.register_account(account_name, account_pwd)
@@ -17,5 +17,4 @@ skynet.start(function()
      local f = CMD[command]
      skynet.ret(skynet.pack(f(...)))
   end) 
-  skynet.register ".login"
 end)
