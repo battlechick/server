@@ -4,100 +4,25 @@ local bson = require "bson"
 
 local host, db_name = ... 
 
-function test_insert_without_index()
-  local db = mongo.client({host = host})
-
-  db[db_name].testdb:dropIndex("*")
-  db[db_name].testdb:drop()
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 1});
-  assert(ret and ret.n == 1)
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 1});
-  assert(ret and ret.n == 1)
-end
-
-function test_insert_with_index()
-  local db = mongo.client({host = host})
-
-  db[db_name].testdb:dropIndex("*")
-  db[db_name].testdb:drop()
-
-  db[db_name].testdb:ensureIndex({test_key = 1}, {unique = true, name = "test_key_index"})
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 1})
-  assert(ret and ret.n == 1)
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 1})
-  assert(ret and ret.n == 0)
-end
-
-function test_find_and_remove()
-  local db = mongo.client({host = host})
-
-  db[db_name].testdb:dropIndex("*")
-  db[db_name].testdb:drop()
-
-  db[db_name].testdb:ensureIndex({test_key = 1}, {unique = true, name = "test_key_index"})
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 1})
-  assert(ret and ret.n == 1)
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 2})
-  assert(ret and ret.n == 1)
-
-  local ret = db[db_name].testdb:findOne({test_key = 1})
-  assert(ret and ret.test_key == 1)
-
-  local ret = db[db_name].testdb:find({test_key = {['$gt'] = 0}}):sort({test_key = -1}):skip(1):limit(1)
-  assert(ret:count() == 2)
-  assert(ret:count(true) == 1)
-  if ret:hasNext() then
-    ret = ret:next()
-  end
-  assert(ret and ret.test_key == 1)
-
-  db[db_name].testdb:delete({test_key = 1})
-  db[db_name].testdb:delete({test_key = 2})
-
-  local ret = db[db_name].testdb:findOne({test_key = 1})
-  assert(ret == nil)
-end
-
-
-function test_expire_index()
-  local db = mongo.client({host = host})
-
-  db[db_name].testdb:dropIndex("*")
-  db[db_name].testdb:drop()
-
-  db[db_name].testdb:ensureIndex({test_key = 1}, {unique = true, name = "test_key_index", expireAfterSeconds = 1, })
-  db[db_name].testdb:ensureIndex({test_date = 1}, {expireAfterSeconds = 1, })
-
-  local ret = db[db_name].testdb:safe_insert({test_key = 1, test_date = bson.date(os.time())})
-  assert(ret and ret.n == 1)
-
-  local ret = db[db_name].testdb:findOne({test_key = 1})
-  assert(ret and ret.test_key == 1)
-
-  for i = 1, 1000 do
-    skynet.sleep(11);
-
-    local ret = db[db_name].testdb:findOne({test_key = 1})
-    if ret == nil then
-      return
-    end
-  end
-
-  assert(false, "test expire index failed");
-end
-
-local CMD = {}
 function collection(name)
   local db = mongo.client({host = host})
   return db[db_name][name]
 end
 
+function get_global_data(key)
+  local col = collection("base")
+  local tbl = col:findOne({table_name = "global"})
+  return tbl[key]
+end
+
+function save_global_data(key, value)
+  local col = collection("base")
+  local update_doc = {}
+  update_doc[key] = value
+  return col:findAndModify({query = {table_name = "global"}, update = {["$set"] = update_doc}})
+end
+
+local CMD = {}
 function CMD.query_account(account_name, account_pwd)
   local col = collection("account")
   local ret = col:findOne({name = account_name})
@@ -106,6 +31,28 @@ function CMD.query_account(account_name, account_pwd)
     ret = col:findOne({name = account_name})
   end
   return ret
+end
+
+function CMD.save_account(account)
+  local col = collection("account")
+  return col:findAndModify({query = {name = account.name}, update = account})
+end
+
+function CMD.query_player(player_id)
+  local col = collection("player")  
+  return col:findOne({player_id = player_id})
+end
+
+function CMD.save_player(player)
+  local col = collection("player")
+  return col:findAndModify({query = {player_id = player.player_id}, update = player})
+end
+
+function CMD.auto_player_id()
+  local auto_id = get_global_data("auto_player_id") or 0
+  auto_id = auto_id + 1
+  save_global_data("auto_player_id", auto_id)
+  return auto_id
 end
 
 skynet.start(function()

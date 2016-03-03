@@ -1,10 +1,13 @@
 local skynet = require "skynet"
-require "skynet.manager"
+local cluster = require "cluster" 
 local sprotoloader = require "sprotoloader"
 local protobuf = require "protobuf"
+local config = require "config"
+config = config.master
 
 local max_client = 64
 
+require "skynet.manager"
 
 function test()
   protobuf.register_file "proto/msg.pb"
@@ -20,22 +23,14 @@ function test()
 end
 
 skynet.start(function()
-  
-	--skynet.uniqueservice("protoloader")
 	local console = skynet.newservice("console")
 	skynet.newservice("debug_console",8000)
-	--skynet.newservice("simpledb")
-	local watchdog = skynet.newservice("watchdog")
-	skynet.call(watchdog, "lua", "start", {
-		port = 10000,
-		maxclient = max_client,
-		nodelay = true,
-	})
-	print("Watchdog listen on ", 10000)
 
-  local db = skynet.newservice("db","127.0.0.1", "battle_city")
+  local db = skynet.newservice("db", config.db.address, config.db.db_name)
   skynet.name(".db",db) 
-  local login = skynet.newservice("login")
-  skynet.name(".login", login)
+
+  skynet.uniqueservice("agentpool", config.gate_list)
+  
+  cluster.open "master"
 	skynet.exit()
 end)

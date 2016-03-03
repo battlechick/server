@@ -1,4 +1,104 @@
-cscope 15 $HOME/server/battle_city -q 0000001107 0000110550
+cscope 15 $HOME/server/battle_city -q 0000001147 0000114294
+	@config/clustername.lua
+
+1 
+	gma¡”
+ = "127.0.0.1:2500"
+
+2 
+logš
+ = "127.0.0.1:2501"
+
+3 
+b©Že
+ = "127.0.0.1:2502"
+
+	@config/config.lua
+
+3 
+	glogš
+ = {
+
+4 
+g©e_li¡
+ = {
+
+6 
+add»ss
+ = "0.0.0.0",
+
+7 
+	gpÜt
+ = 10000,
+
+8 
+	gmaxþ›Á
+ = 2048,
+
+13 
+	gma¡”
+ = {
+
+14 
+g©e_li¡
+ = {
+
+16 
+add»ss
+ = "0.0.0.0",
+
+17 
+	gpÜt
+ = "10001",
+
+18 
+	gmaxþ›Á
+ = 2048,
+
+21 
+	gadd»ss
+ = "0.0.0.0",
+
+22 
+	gpÜt
+ = "10002",
+
+23 
+	gmaxþ›Á
+ = 2048,
+
+28 
+	gb©Že
+ = {
+
+29 
+g©e_li¡
+ = {
+
+31 
+add»ss
+ = "0.0.0.0",
+
+32 
+	gpÜt
+ = "10003",
+
+33 
+	gmaxþ›Á
+ = 2048,
+
+36 
+	gadd»ss
+ = "0.0.0.0",
+
+37 
+	gpÜt
+ = "10004",
+
+38 
+	gmaxþ›Á
+ = 2048,
+
 	@install.sh
 
 2 
@@ -21696,6 +21796,18 @@ f
 /
 
 4 
+cd
+ 
+	gþ›Á_´Ùo
+ && 
+svn
+ 
+	gci
+ -
+	gm
+ ""
+
+5 
 echo
  
 	gdÚe
@@ -21704,30 +21816,38 @@ echo
 	@run.sh
 
 1 
+	gcÚfig
+=
+$1
+
+
+3 
 cd
  
-	g´Ùo
+´Ùo
  && ./
-	gexpÜt
+expÜt
 .
-	gsh
- && 
-	gcd
- ..
+sh
+ && cd ..
 
-2 
-	gcd
+4 
+cd
  ../
-	gskyÃt
+skyÃt
 
 
-3 ./
-	gskyÃt
+5 ./
+skyÃt
  ../
-	gb©Že_c™y
+b©Že_c™y
 /
-	gcÚfig
-/config
+cÚfig
+/
+$
+{cÚfig}.
+cfg
+
 
 	@script/agent.lua
 
@@ -21780,24 +21900,28 @@ loÿl
  "protobuf"
 
 9 
+»quœe
+ "player.player"
+
+11 
 loÿl
  
 WATCHDOG
 
 
-10 
+12 
 loÿl
  
 ho¡
 
 
-11 
+13 
 loÿl
  
 £nd_»que¡
 
 
-13 
+15 
 loÿl
  
 CMD
@@ -21805,35 +21929,35 @@ CMD
 »quœe
  "message_handler"
 
-14 
+16 
 loÿl
  
 REQUEST
  = {}
 
-15 
+17 
 loÿl
  
 þ›Á_fd
 
 
-16 
+18 
 loÿl
  
 ¶ay”
 
 
-18 
+20 
 skyÃt
 .
 »gi¡”_´ÙocÞ
  {
 
-19 
+21 
 Çme
  = "client",
 
-20 
+22 
 	gid
  = 
 skyÃt
@@ -21841,7 +21965,7 @@ skyÃt
 PTYPE_CLIENT
 ,
 
-21 
+23 
 	guÅack
  = 
 funùiÚ
@@ -21851,7 +21975,7 @@ msg
 sz
 )
 
-22  
+24  
 	gskyÃt
 .
 to¡ršg
@@ -21861,11 +21985,11 @@ msg
 sz
 )
 
-23 
+25 
 	g’d
 ,
 
-24 
+26 
 	gdi¥©ch
  = 
 funùiÚ
@@ -21877,7 +22001,7 @@ add»ss
 bufãr
 , ...)
 
-25 
+27 
 loÿl
  
 	gp
@@ -21889,7 +22013,7 @@ decode
 bufãr
 )
 
-26 
+28 --
 ´št
 ("»c›v·ckage",
 p
@@ -21897,7 +22021,7 @@ p
 Çme
 )
 
-27 
+29 
 loÿl
  
 	gµ
@@ -21913,7 +22037,7 @@ p
 d©a
 )
 
-28 
+30 
 loÿl
  
 	gf
@@ -21925,7 +22049,7 @@ p
 Çme
 ]
 
-29 
+31 
 nÙ
  
 f
@@ -21933,7 +22057,7 @@ f
 th’
 
 
-30 
+32 
 ´št
 ("mes§ghªdË¸nÙƒxi¡. Package:"..
 p
@@ -21941,25 +22065,55 @@ p
 Çme
 )
 
-32 
+34 
 ’d
 
 
-33 
+35 
+loÿl
+ 
+»t
+ = 
 f
 (
 µ
 , 
 ¶ay”
-, 
-£lf
 )
 
-34 
-	g’d
+36 
+	gp
+.
+	g½cId
+ ~ð0 
+th’
 
 
 37 
+£nd_·ckage
+("Re¥Ú£"..
+¡ršg
+.
+sub
+(
+p
+.
+Çme
+, 8, -1), 
+»t
+,….
+½cId
+)
+
+38 
+’d
+
+
+39 
+	g’d
+
+
+42 
 funùiÚ
  
 	gCMD
@@ -21969,7 +22123,7 @@ funùiÚ
 cÚf
 )
 
-38 
+43 
 loÿl
  
 fd
@@ -21979,7 +22133,7 @@ cÚf
 þ›Á
 
 
-39 
+44 
 loÿl
  
 g©e
@@ -21987,7 +22141,7 @@ g©e
 cÚf
 .gate
 
-40 
+45 
 WATCHDOG
  = 
 cÚf
@@ -21995,17 +22149,17 @@ cÚf
 w©chdog
 
 
-41 
+46 
 þ›Á_fd
  = 
 fd
 
 
-42 
+47 
 	$£nd_h–lo
 ()
 
-44 
+49 
 skyÃt
 .
 	`ÿÎ
@@ -22015,11 +22169,11 @@ g©e
 fd
 )
 
-45 
+50 
 ’d
 
 
-47 
+52 
 funùiÚ
  
 CMD
@@ -22027,24 +22181,38 @@ CMD
 	$C2S_Logš
 (
 p
-, 
+)
+
+53 
 ¶ay”
-)
+ 
+th’
 
-48 
+
+54 
 	`´št
-("C2S_Login")
+("already†ogin")
 
-49 
-	$´št
+55 
+	`¶ay”_£nd
 (
-p
-)
+¶ay”
+, "S2C_Logš", {
+»suÉ
+ = 
+çl£
+})
 
-50 
+57 
+’d
+
+
+58 
+	g¶ay”
+ = 
 skyÃt
 .
-	`ÿÎ
+ÿÎ
 (".logš","lua","logš",
 p
 .
@@ -22053,87 +22221,37 @@ accouÁName
 accouÁPwd
 )
 
-51 
-’d
-
-
-54 
-funùiÚ
+59 
+¶ay”
  
-	$£nd_h–lo
-()
-
-55 
-skyÃt
-.
-	`fÜk
-(
-	$funùiÚ
-()
-
-56 
-Œue
- do
-
-57 
-	`£nd_·ckage
-("S2C_Pšg",{
-time
- = 
-os
-.
-	`time
-()
-	}
-})
-
-58 
-	gskyÃt
-.
-	$¦“p
-(500)
-
-59 
-’d
+th’
 
 
 60 
-’d
+	g¶ay”
+.
+	g£nd_func
+ = 
+	$funùiÚ
+(
+mes§ge_ty³
+, 
+tbl
 )
 
 61 
-’d
-
-
-63 
-´Ùobuf
-.
-»gi¡”_fže
- "../battle_city/proto/msg.pb"
-
-64 
-funùiÚ
- 
-	$£nd_·ckage
-(
-mes§ge
-, 
-t
-)
-
-65 
 bufãr
  = 
 ´Ùobuf
 .
 	$’code
 (
-mes§ge
+mes§ge_ty³
 , 
-t
+tbl
 )
 
-66 
+62 
 sock‘
 .
 	`wr™e
@@ -22146,18 +22264,168 @@ sock‘
 ("Package",{
 Çme
  = 
-mes§ge
+mes§ge_ty³
 , 
 d©a
  = 
 bufãr
 }))
 
+63 
+’d
+
+
+64 
+¶ay”_£nd
+(
+¶ay”
+, "S2C_Logš", {
+»suÉ
+ = 
+Œue
+})
+
+66 
+£nd_·ckage
+("S2C_Logš", {
+»suÉ
+ = 
+çl£
+})
+
 67 
 ’d
 
 
+68 
+	$´št
+(
+¶ay”
+)
+
 69 
+’d
+
+
+72 
+funùiÚ
+ 
+	$£nd_h–lo
+()
+
+73 
+skyÃt
+.
+	`fÜk
+(
+	$funùiÚ
+()
+
+74 
+Œue
+ do
+
+75 
+	`£nd_·ckage
+("S2C_Pšg",{
+time
+ = 
+os
+.
+	`time
+()
+	}
+})
+
+76 
+	gskyÃt
+.
+	$¦“p
+(500)
+
+77 
+’d
+
+
+78 
+’d
+)
+
+79 
+’d
+
+
+81 
+´Ùobuf
+.
+»gi¡”_fže
+ "../battle_city/proto/msg.pb"
+
+82 
+funùiÚ
+ 
+	`£nd_·ckage
+(
+mes§ge_ty³
+, 
+tbl
+, 
+½c_id
+)
+
+83 --
+	`´št
+("£nd_·ckage:"..
+mes§ge_ty³
+)
+
+84 
+½c_id
+ =„pc_id 
+Ü
+ 0
+
+85 
+bufãr
+ = 
+´Ùobuf
+.
+	$’code
+(
+mes§ge_ty³
+, 
+tbl
+)
+
+86 
+sock‘
+.
+	`wr™e
+(
+þ›Á_fd
+, 
+´Ùobuf
+.
+	`’code
+("Package",{
+Çme
+ = 
+mes§ge_ty³
+, 
+½cId
+ = 
+½c_id
+, 
+d©a
+ = 
+bufãr
+}))
+
+87 
+’d
+
+
+89 
 funùiÚ
  
 	gCMD
@@ -22165,7 +22433,7 @@ funùiÚ
 discÚÃù
 ()
 
-70 -- 
+90 -- 
 	gtodo
 : dØ
 som‘hšg
@@ -22175,17 +22443,17 @@ befÜe
 ex™
 
 
-71 
+91 
 skyÃt
 .
 	$ex™
 ()
 
-72 
+92 
 ’d
 
 
-74 
+94 
 skyÃt
 .
 	`¡¬t
@@ -22193,7 +22461,7 @@ skyÃt
 	$funùiÚ
 ()
 
-75 
+95 
 skyÃt
 .
 	`di¥©ch
@@ -22205,7 +22473,7 @@ _
 commªd
 , ...)
 
-76 
+96 
 loÿl
  
 f
@@ -22215,7 +22483,7 @@ CMD
 commªd
 ]
 
-77 
+97 
 skyÃt
 .
 	`»t
@@ -22225,13 +22493,69 @@ skyÃt
 	$f
 (...)))
 
-78 
+98 
 ’d
 )
 
-79 
+99 
 ’d
 )
+
+	@script/battle/battle_handler.lua
+
+3 
+loÿl
+ 
+	gCMD
+ = {}
+
+5 
+funùiÚ
+ 
+CMD
+.
+	$C2S_H–lo
+(
+·ckage
+)
+
+6 
+	`´št
+("þ›Á say h–lo"..
+·ckage
+.
+a
+)
+
+7 
+’d
+
+
+9 
+funùiÚ
+ 
+CMD
+.
+	$Reque¡_C»©eRoom
+(
+·ckage
+, 
+¶ay”
+)
+
+10  {
+»suÉ
+ = 
+Œue
+}
+
+11 
+’d
+
+
+49  
+	gCMD
+
 
 	@script/global.lua
 
@@ -22726,8 +23050,324 @@ k
 
 
 74 
+funùiÚ
+ 
+by‹s_to_št
+(
+¡r
+,
+’dŸn
+,sigÃdè-- 
+u£
+ 
+Ëngth
+ 
+of
+ 
+¡ršg
+ 
+to
+ 
+	gd‘”mše
+ 8,16,32,64 
+b™s
+
+
+75 
+loÿl
+ 
+	gt
+={
+¡r
+:
+by‹
+(1,-1)}
+
+76 
+’dŸn
+=="big" 
+th’
+ --
+»v”£
+ 
+by‹s
+
+
+77 
+loÿl
+ 
+‰
+={}
+
+78 
+k
+=1,#t do
+
+79 
+	g‰
+[#t-
+k
++1]=
+t
+[k]
+
+80 
+’d
+
+
+81 
+t
+=
+‰
+
+
+82 
+’d
+
+
+83 
+loÿl
+ 
+n
+=0
+
+84 
+k
+=1,#t do
+
+85 
+	gn
+=
+n
++
+t
+[
+k
+]*2^((k-1)*8)
+
+86 
+’d
+
+
+87 sigÃd 
+th’
+
+
+88 
+n
+ = (À> 2^(#t-1è-1è
+ªd
+ (À- 2^#tè
+Ü
+‚ -- 
+Ï¡
+ 
+b™
+ 
+£t
+, 
+	gÃg©ive
+.
+
+89 
+’d
+
+
+90  
+n
+
+
+91 
+’d
+
+
+93 
+funùiÚ
+ 
+	$št_to_by‹s
+(
+num
+,
+’dŸn
+,signed)
+
+94 
+num
+<0 
+ªd
+ 
+nÙ
+ sigÃd 
+th’
+‚um=-num 
 ´št
-("require global")
+"w¬nšg, drÝpšg sigÀäom‚umb” cÚv”tšgØunsigÃd" 
+’d
+
+
+95 
+loÿl
+ 
+»s
+={
+	}
+}
+
+96 
+loÿl
+ 
+n
+ = 
+m©h
+.
+ûž
+(
+£Ëù
+(2,m©h.
+äexp
+(
+num
+))/8è-- 
+numb”
+ 
+of
+ 
+by‹s
+ 
+to
+ 
+be
+ 
+	gu£d
+.
+
+97 sigÃd 
+ªd
+ 
+	gnum
+ < 0 
+th’
+
+
+98 
+	gnum
+ = 
+num
+ + 2^
+n
+
+
+99 
+’d
+
+
+100 
+k
+=
+n
+,1,-1 dØ-- 256 = 2^8 
+b™s
+ 
+³r
+ .
+
+101 
+loÿl
+ 
+mul
+=2^(8*(
+k
+-1))
+
+102 
+»s
+[
+k
+]=
+m©h
+.
+æoÜ
+(
+num
+/
+mul
+)
+
+103 
+num
+òum-
+»s
+[
+k
+]*
+mul
+
+
+104 
+’d
+
+
+105 
+	$as£¹
+(
+num
+==0)
+
+106 
+’dŸn
+ =ð"big" 
+th’
+
+
+107 
+loÿl
+ 
+t
+={
+	}
+}
+
+108 
+k
+=1,
+n
+ do
+
+109 
+	gt
+[
+k
+]=
+»s
+[
+n
+-k+1]
+
+110 
+’d
+
+
+111 
+»s
+=
+t
+
+
+112 
+’d
+
+
+113  
+¡ršg
+.(
+	$uÅack
+(
+»s
+))
+
+114 
+’d
+
 
 	@script/main.lua
 
@@ -22740,8 +23380,12 @@ loÿl
  "skynet"
 
 2 
+loÿl
+ 
+þu¡”
+ = 
 »quœe
- "skynet.manager"
+ "cluster"
 
 3 
 loÿl
@@ -22759,25 +23403,43 @@ loÿl
 »quœe
  "protobuf"
 
+5 
+loÿl
+ 
+cÚfig
+ = 
+»quœe
+ "config"
+
 6 
+cÚfig
+ = cÚfig.
+ma¡”
+
+
+8 
 loÿl
  
 max_þ›Á
  = 64
 
-9 
+10 
+»quœe
+ "skynet.manager"
+
+12 
 funùiÚ
  
 	$‹¡
 ()
 
-10 
+13 
 ´Ùobuf
 .
 »gi¡”_fže
  "proto/msg.pb"
 
-12 
+15 
 d©a
  = {
 b
@@ -22785,7 +23447,7 @@ b
 	}
 }
 
-14 
+17 
 	gbufãr
  = 
 ´Ùobuf
@@ -22795,13 +23457,13 @@ b
 d©a
 )
 
-15 
+18 
 ´št
 ("’code:"..
 bufãr
 )
 
-17 
+20 
 	gdecode
  = 
 ´Ùobuf
@@ -22811,7 +23473,7 @@ decode
 bufãr
 )
 
-18 
+21 
 ´št
 ("decode"..
 decode
@@ -22819,131 +23481,231 @@ decode
 b
 )
 
-20 
+23 
 ’d
 
 
-22 
+25 
 	gskyÃt
 .
 ¡¬t
 (
-funùiÚ
+	$funùiÚ
 ()
 
-24 --
-skyÃt
-.
-unique£rviû
-("protoloader")
-
-25 
+26 
 loÿl
  
 cÚsÞe
  = 
 skyÃt
 .
-Ãw£rviû
+	`Ãw£rviû
 ("console")
 
-26 
+27 
 skyÃt
 .
-Ãw£rviû
+	`Ãw£rviû
 ("debug_console",8000)
 
-27 --
-skyÃt
-.
-Ãw£rviû
-("simpledb")
-
-28 
-loÿl
- 
-w©chdog
- = 
-skyÃt
-.
-Ãw£rviû
-("watchdog")
-
 29 
-skyÃt
-.
-ÿÎ
-(
-w©chdog
-, "lua", "start", {
-
-30 
-pÜt
- = 10000,
-
-31 
-maxþ›Á
- = 
-max_þ›Á
-,
-
-32 
-nod–ay
- = 
-Œue
-,
-
-34 
-´št
-("Watchdog†isten on ", 10000)
-
-36 
 loÿl
  
 db
  = 
 skyÃt
 .
-Ãw£rviû
+	`Ãw£rviû
 ("db","127.0.0.1", "battle_city")
 
-37 
+30 
 skyÃt
 .
-Çme
+	`Çme
 (".db",
 db
 )
 
-38 
-loÿl
- 
-logš
- = 
+32 
 skyÃt
 .
-Ãw£rviû
-("login")
-
-39 
-skyÃt
+	`unique£rviû
+("ag’oÞ", 
+cÚfig
 .
-Çme
-(".logš", 
-logš
+g©e_li¡
 )
 
-40 
+34 
+þu¡”
+.
+Ý’
+ "master"
+
+35 
 skyÃt
 .
 	$ex™
 ()
 
-41 
+36 
 ’d
 )
 
-	@script/message_handler.lua
+	@script/player/player.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+»quœe
+ "player.player_test"
+
+4 
+funùiÚ
+ 
+	$¶ay”_Ãw
+()
+
+5 
+	`´št
+("player‚ew")
+
+6 
+loÿl
+ 
+£lf
+ = {
+	}
+}
+
+7 
+£lf
+.
+¶ay”_id
+ = 
+skyÃt
+.
+ÿÎ
+(".db", "lua", "auto_player_id")
+
+8 
+	g£lf
+.
+	g£nd_func
+ = 
+nž
+
+
+9 
+’d
+
+
+11 
+funùiÚ
+ 
+	$¶ay”_logš
+(
+£lf
+)
+
+12 
+	`´št
+("player†ogin")
+
+13 
+’d
+
+
+15 
+funùiÚ
+ 
+	$¶ay”_logout
+(
+£lf
+)
+
+16 
+	`´št
+("player†ogout")
+
+17 
+’d
+
+
+19 
+funùiÚ
+ 
+	$¶ay”_£nd
+(
+£lf
+, 
+mes§ge_ty³
+, 
+tbl
+)
+
+20 
+	$as£¹
+(
+£lf
+.
+£nd_func
+)
+
+21 
+£lf
+.
+	$£nd_func
+(
+mes§ge_ty³
+, 
+tbl
+)
+
+22 
+’d
+
+
+24 
+funùiÚ
+ 
+	$¶ay”_½c
+(
+£lf
+)
+
+26 
+’d
+
+
+28 
+funùiÚ
+ 
+	$¶ay”_§ve
+(
+£lf
+)
+
+29 
+skyÃt
+.
+	`ÿÎ
+(".db", "lua", "§ve_¶ay”", 
+£lf
+)
+
+30 
+’d
+
+
+	@script/player/player_handler.lua
 
 3 
 loÿl
@@ -22958,13 +23720,13 @@ CMD
 .
 	$C2S_H–lo
 (
-p
+·ckage
 )
 
 6 
 	`´št
 ("þ›Á say h–lo"..
-p
+·ckage
 .
 a
 )
@@ -22973,11 +23735,55 @@ a
 ’d
 
 
-46  
+9 
+funùiÚ
+ 
 CMD
+.
+	$Reque¡_C»©eRoom
+(
+·ckage
+, 
+¶ay”
+)
+
+10  {
+»suÉ
+ = 
+Œue
+}
+
+11 
+’d
 
 
-	@script/player/player.lua
+49  
+	gCMD
+
+
+	@script/player/player_test.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+3 
+funùiÚ
+ 
+	$¶ay”_‹¡
+()
+
+4 
+	`´št
+("playerest")
+
+5 
+’d
+
 
 	@script/watchdog.lua
 
@@ -23387,6 +24193,226 @@ skyÃt
 ’d
 )
 
+	@service/abort.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+þu¡”
+ = 
+»quœe
+ "cluster"
+
+4 
+»quœe
+ "skynet.manager"
+
+6 
+skyÃt
+.
+¡¬t
+(
+	$funùiÚ
+()
+
+7 
+	`´št
+("save data")
+
+8 
+þu¡”
+.
+	`ÿÎ
+("login", ".login", "abort")
+
+9 --
+skyÃt
+.
+	$abÜt
+()
+
+10 
+’d
+)
+
+	@service/agentpool.lua
+
+	@service/battle.lua
+
+	@service/build_db.lua
+
+1 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+2 
+loÿl
+ 
+mÚgo
+ = 
+»quœe
+ "mongo"
+
+3 
+loÿl
+ 
+bsÚ
+ = 
+»quœe
+ "bson"
+
+5 
+loÿl
+ 
+ho¡
+, 
+	gdb_Çme
+ = "127.0.0.1", "battle_city"
+
+7 
+	gskyÃt
+.
+¡¬t
+(
+	$funùiÚ
+()
+
+8 
+loÿl
+ 
+db
+ = 
+mÚgo
+.
+	`þ›Á
+({
+ho¡
+ = 
+	}
+ho¡})[
+db_Çme
+]
+
+9 
+db
+.
+ba£
+:
+drÝIndex
+("*")
+
+10 
+db
+.
+ba£
+:
+’su»Index
+({
+bË_Çme
+ = 1}, {
+unique
+ = 
+Œue
+})
+
+11 
+loÿl
+ 
+»t
+ = 
+db
+.
+ba£
+:
+fšdOÃ
+({
+bË_Çme
+ = "global"})
+
+12 
+nÙ
+ 
+»t
+ 
+th’
+
+
+13 
+db
+.
+ba£
+:
+§ã_š£¹
+({
+bË_Çme
+ = "glob®", 
+auto_¶ay”_id
+ = 0})
+
+14 
+’d
+
+
+15 
+db
+.
+accouÁ
+:
+drÝIndex
+("*")
+
+16 
+db
+.
+accouÁ
+:
+’su»Index
+({
+Çme
+ = 1}, {
+unique
+ = 
+Œue
+})
+
+17 
+db
+.
+¶ay”
+:
+drÝIndex
+("*")
+
+18 
+db
+.
+¶ay”
+:
+’su»Index
+({
+¶ay”_id
+ = 1}, {
+unique
+ = 
+Œue
+})
+
+19 
+’d
+)
+
 	@service/db.lua
 
 1 
@@ -23424,8 +24450,10 @@ ho¡
 7 
 funùiÚ
  
-	$‹¡_š£¹_w™hout_šdex
-()
+	$cÞËùiÚ
+(
+Çme
+)
 
 8 
 loÿl
@@ -23439,695 +24467,9 @@ mÚgo
 ho¡
  = 
 	}
-host})
+ho¡})
 
-10 
-	gdb
-[
-db_Çme
-].
-	g‹¡db
-:
-drÝIndex
-("*")
-
-11 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drÝ
-()
-
-13 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 1
-	}
-});
-
-14 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-16 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 1
-	}
-});
-
-17 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-18 
-’d
-
-
-20 
-funùiÚ
- 
-	$‹¡_š£¹_w™h_šdex
-()
-
-21 
-loÿl
- 
-db
- = 
-mÚgo
-.
-	`þ›Á
-({
-ho¡
- = 
-	}
-host})
-
-23 
-	gdb
-[
-db_Çme
-].
-	g‹¡db
-:
-drÝIndex
-("*")
-
-24 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drÝ
-()
-
-26 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`’su»Index
-({
-‹¡_key
- = 1
-	}
-}, {
-	gunique
- = 
-Œue
-, 
-	gÇme
- = "test_key_index"})
-
-28 
-loÿl
- 
-	g»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-§ã_š£¹
-({
-‹¡_key
- = 1})
-
-29 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-31 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 1
-	}
-})
-
-32 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 0)
-
-33 
-’d
-
-
-35 
-funùiÚ
- 
-	$‹¡_fšd_ªd_»move
-()
-
-36 
-loÿl
- 
-db
- = 
-mÚgo
-.
-	`þ›Á
-({
-ho¡
- = 
-	}
-host})
-
-38 
-db
-[
-db_Çme
-].
-‹¡db
-:
-drÝIndex
-("*")
-
-39 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drÝ
-()
-
-41 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`’su»Index
-({
-‹¡_key
- = 1
-	}
-}, {
-	gunique
- = 
-Œue
-, 
-	gÇme
- = "test_key_index"})
-
-43 
-loÿl
- 
-	g»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-§ã_š£¹
-({
-‹¡_key
- = 1})
-
-44 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-46 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`§ã_š£¹
-({
-‹¡_key
- = 2
-	}
-})
-
-47 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-49 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšdOÃ
-({
-‹¡_key
- = 1
-	}
-})
-
-50 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-‹¡_key
- == 1)
-
-52 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšd
-({
-‹¡_key
- = {['$gt'] = 0}
-	}
-}):
-sÜt
-({‹¡_key = -1}):
-	$sk
-(1):
-	$lim™
-(1)
-
-53 
-	`as£¹
-(
-»t
-:
-	`couÁ
-() == 2)
-
-54 
-	`as£¹
-(
-»t
-:
-	`couÁ
-(
-Œue
-) == 1)
-
-55 
-»t
-:
-	$hasNext
-(è
-th’
-
-
-56 
-»t
- =„‘:
-	$Ãxt
-()
-
-57 
-’d
-
-
-58 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-‹¡_key
- == 1)
-
-60 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`d–‘e
-({
-‹¡_key
- = 1
-	}
-})
-
-61 
-db
-[
-db_Çme
-].
-‹¡db
-:
-d–‘e
-({
-‹¡_key
- = 2})
-
-63 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-fšdOÃ
-({
-‹¡_key
- = 1})
-
-64 
-	$as£¹
-(
-»t
- =ð
-nž
-)
-
-65 
-’d
-
-
-68 
-funùiÚ
- 
-	$‹¡_expœe_šdex
-()
-
-69 
-loÿl
- 
-db
- = 
-mÚgo
-.
-	`þ›Á
-({
-ho¡
- = 
-	}
-host})
-
-71 
-db
-[
-db_Çme
-].
-‹¡db
-:
-drÝIndex
-("*")
-
-72 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	$drÝ
-()
-
-74 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`’su»Index
-({
-‹¡_key
- = 1
-	}
-}, {
-	gunique
- = 
-Œue
-, 
-	gÇme
- = "‹¡_key_šdex", 
-	gexpœeAá”SecÚds
- = 1, })
-
-75 
-	gdb
-[
-db_Çme
-].
-	g‹¡db
-:
-’su»Index
-({
-‹¡_d©e
- = 1}, {
-expœeAá”SecÚds
- = 1, })
-
-77 
-loÿl
- 
-	g»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-§ã_š£¹
-({
-‹¡_key
- = 1, 
-‹¡_d©e
- = 
-bsÚ
-.
-d©e
-(
-os
-.
-time
-())})
-
-78 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-n
- == 1)
-
-80 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšdOÃ
-({
-‹¡_key
- = 1
-	}
-})
-
-81 
-	$as£¹
-(
-»t
- 
-ªd
-„‘.
-‹¡_key
- == 1)
-
-83 
-i
- = 1, 1000 do
-
-84 
-skyÃt
-.
-	`¦“p
-(11);
-
-86 
-loÿl
- 
-»t
- = 
-db
-[
-db_Çme
-].
-‹¡db
-:
-	`fšdOÃ
-({
-‹¡_key
- = 1
-	}
-})
-
-87 
-»t
- =ð
-nž
- 
-th’
-
-
-89 
-’d
-
-
-90 
-’d
-
-
-92 
-as£¹
-(
-çl£
-, "testƒxpire index failed");
-
-93 
-’d
-
-
-95 
-loÿl
- 
-	gCMD
- = {}
-
-96 
-funùiÚ
- 
-	$cÞËùiÚ
-(
-Çme
-)
-
-97 
-loÿl
- 
-db
- = 
-mÚgo
-.
-	`þ›Á
-({
-ho¡
- = 
-	}
-host})
-
-98  
+9  
 	gdb
 [
 db_Çme
@@ -24135,14 +24477,112 @@ db_Çme
 Çme
 ]
 
-99 
+10 
 ’d
 
 
-101 
+12 
 funùiÚ
  
+	$g‘_glob®_d©a
+(
+key
+)
+
+13 
+loÿl
+ 
+cÞ
+ = 
+	`cÞËùiÚ
+("base")
+
+14 
+loÿl
+ 
+tbl
+ = 
+cÞ
+:
+	`fšdOÃ
+({
+bË_Çme
+ = "glob®"
+	}
+})
+
+15  
+tbl
+[
+key
+]
+
+16 
+’d
+
+
+18 
+funùiÚ
+ 
+	$§ve_glob®_d©a
+(
+key
+, 
+v®ue
+)
+
+19 
+loÿl
+ 
+cÞ
+ = 
+	`cÞËùiÚ
+("base")
+
+20 
+loÿl
+ 
+upd©e_doc
+ = {
+	}
+}
+
+21 
+upd©e_doc
+[
+key
+] = 
+v®ue
+
+
+22  
+cÞ
+:
+fšdAndModify
+({
+qu”y
+ = {
+bË_Çme
+ = "glob®"}, 
+upd©e
+ = {["$£t"] = 
+upd©e_doc
+}})
+
+23 
+’d
+
+
+25 
+loÿl
+ 
 	gCMD
+ = {}
+
+26 
+funùiÚ
+ 
+CMD
 .
 	$qu”y_accouÁ
 (
@@ -24151,7 +24591,7 @@ accouÁ_Çme
 accouÁ_pwd
 )
 
-102 
+27 
 loÿl
  
 cÞ
@@ -24159,7 +24599,7 @@ cÞ
 	`cÞËùiÚ
 ("account")
 
-103 
+28 
 loÿl
  
 »t
@@ -24173,7 +24613,7 @@ cÞ
 accouÁ_Çme
 })
 
-104 
+29 
 nÙ
  
 »t
@@ -24181,7 +24621,7 @@ nÙ
 th’
 
 
-105 
+30 
 cÞ
 .
 §ã_š£¹
@@ -24195,7 +24635,7 @@ pwd
 accouÁ_pwd
 })
 
-106 
+31 
 	g»t
  = 
 cÞ
@@ -24207,27 +24647,171 @@ fšdOÃ
 accouÁ_Çme
 })
 
-107 
+32 
 ’d
 
 
-108  
+33  
 »t
 
 
-109 
+34 
 ’d
 
 
-111 
+36 
+funùiÚ
+ 
+CMD
+.
+	$§ve_accouÁ
+(
+accouÁ
+)
+
+37 
+loÿl
+ 
+cÞ
+ = 
+	`cÞËùiÚ
+("account")
+
+38  
+cÞ
+:
+	`fšdAndModify
+({
+qu”y
+ = {
+Çme
+ = 
+accouÁ
+.Çme}, 
+upd©e
+ = 
+	}
+accouÁ})
+
+39 
+’d
+
+
+41 
+funùiÚ
+ 
+	gCMD
+.
+	$qu”y_¶ay”
+(
+¶ay”_id
+)
+
+42 
+loÿl
+ 
+cÞ
+ = 
+	`cÞËùiÚ
+("player")
+
+43  
+cÞ
+:
+	`fšdOÃ
+({
+¶ay”_id
+ = 
+	}
+¶ay”_id})
+
+44 
+’d
+
+
+46 
+funùiÚ
+ 
+CMD
+.
+	$§ve_¶ay”
+(
+¶ay”
+)
+
+47 
+loÿl
+ 
+cÞ
+ = 
+	`cÞËùiÚ
+("player")
+
+48  
+cÞ
+:
+	`fšdAndModify
+({
+qu”y
+ = {
+¶ay”_id
+ = 
+¶ay”
+.¶ay”_id}, 
+upd©e
+ = 
+	}
+¶ay”})
+
+49 
+’d
+
+
+51 
+funùiÚ
+ 
+	gCMD
+.
+	$auto_¶ay”_id
+()
+
+52 
+loÿl
+ 
+auto_id
+ = 
+	`g‘_glob®_d©a
+("auto_¶ay”_id"è
+Ü
+ 0
+
+53 
+auto_id
+ =‡uto_id + 1
+
+54 
+	`§ve_glob®_d©a
+("auto_¶ay”_id", 
+auto_id
+)
+
+55  
+auto_id
+
+
+56 
+’d
+
+
+58 
 skyÃt
 .
-¡¬t
+	`¡¬t
 (
 	$funùiÚ
 ()
 
-112 
+59 
 skyÃt
 .
 	`di¥©ch
@@ -24239,7 +24823,7 @@ _
 commªd
 , ...)
 
-113 
+60 
 loÿl
  
 f
@@ -24249,7 +24833,7 @@ CMD
 commªd
 ]
 
-114 
+61 
 skyÃt
 .
 	`»t
@@ -24259,11 +24843,79 @@ skyÃt
 	$f
 (...)))
 
-115 
+62 
 ’d
 )
 
-116 
+63 
+’d
+)
+
+	@service/lobby.lua
+
+2 
+loÿl
+ 
+	gskyÃt
+ = 
+»quœe
+ "skynet"
+
+3 
+»quœe
+ "skynet.manager"
+
+5 
+skyÃt
+.
+¡¬t
+(
+	$funùiÚ
+()
+
+6 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+_
+,_,
+commªd
+, ...)
+
+7 
+loÿl
+ 
+f
+ = 
+CMD
+[
+commªd
+]
+
+8 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(...)))
+
+9 
+’d
+)
+
+10 
+skyÃt
+.
+Çme
+ ".lobby"
+
+11 
 ’d
 )
 
@@ -24280,10 +24932,40 @@ loÿl
 2 
 loÿl
  
+þu¡”
+ = 
+»quœe
+ "cluster"
+
+3 
+loÿl
+ 
+cÚfig
+ = 
+»quœe
+ "config"
+
+4 
+cÚfig
+ = cÚfig.
+logš
+
+
+5 
+loÿl
+ 
 CMD
  = {}
 
-4 
+7 
+»quœe
+ "skynet.manager"
+
+8 
+»quœe
+ "player.player"
+
+10 
 funùiÚ
  
 CMD
@@ -24295,8 +24977,10 @@ accouÁ_Çme
 accouÁ_pwd
 )
 
-5 
-»t
+11 
+loÿl
+ 
+accouÁ
  = 
 skyÃt
 .
@@ -24307,13 +24991,13 @@ accouÁ_Çme
 accouÁ_pwd
 )
 
-6 
+12 
 nÙ
  
-»t
+accouÁ
  
 Ü
-„‘.
+‡ccouÁ.
 pwd
  ~ð
 accouÁ_pwd
@@ -24321,21 +25005,71 @@ accouÁ_pwd
 th’
 
 
-7 
+13 
 	`´št
 ("logš faž,‡ccouÁ‚ame:"..
 accouÁ_Çme
 )
 
-9 
+15 
 ’d
 
 
-10 
+16 
+loÿl
+ 
+¶ay”
+ = 
+skyÃt
+.
+	`ÿÎ
+(".db", "lua", "qu”y_¶ay”", 
+accouÁ
+.
+¶ay”_id
+)
+
+17 
+nÙ
+ 
+¶ay”
+ 
+th’
+
+
+18 
+¶ay”
+ = 
+	$¶ay”_Ãw
+()
+
+19 
 ’d
 
 
-12 
+20  
+accouÁ
+, 
+¶ay”
+
+
+21 
+’d
+
+
+23 
+funùiÚ
+ 
+CMD
+.
+	$logout
+()
+
+25 
+’d
+
+
+27 
 funùiÚ
  
 CMD
@@ -24347,11 +25081,33 @@ accouÁ_Çme
 accouÁ_pwd
 )
 
-14 
+29 
 ’d
 
 
-17 
+31 
+funùiÚ
+ 
+CMD
+.
+	$abÜt
+()
+
+32 
+	`´št
+("abort")
+
+33 
+skyÃt
+.
+	$abÜt
+()
+
+34 
+’d
+
+
+37 
 skyÃt
 .
 	`¡¬t
@@ -24359,7 +25115,7 @@ skyÃt
 	$funùiÚ
 ()
 
-18 
+38 
 skyÃt
 .
 	`di¥©ch
@@ -24371,7 +25127,7 @@ _
 commªd
 , ...)
 
-19 
+39 
 loÿl
  
 f
@@ -24381,7 +25137,7 @@ CMD
 commªd
 ]
 
-20 
+40 
 skyÃt
 .
 	`»t
@@ -24391,20 +25147,56 @@ skyÃt
 	$f
 (...)))
 
-21 
+41 
 ’d
 )
 
-22 
+42 
+skyÃt
+.".login"
+
+43 
+þu¡”
+.
+Ý’
+ "login"
+
+45 
+loÿl
+ 
+w©chdog
+ = 
+skyÃt
+.
+	`Ãw£rviû
+("watchdog")
+
+46 
+skyÃt
+.
+	`ÿÎ
+(
+w©chdog
+, "lua", "¡¬t", 
+cÚfig
+.
+g©e_li¡
+[1])
+
+47 
 ’d
 )
+
+	@service/master.lua
 
 	@
 1
 .
 0
-14
-275
+24
+502
+config/clustername.lua
+config/config.lua
 install.sh
 luaclib/pbc-lua53.c
 lualib/protobuf.lua
@@ -24412,10 +25204,18 @@ proto/client_proto/ProtoGen/protobuf-net.xml
 proto/export.sh
 run.sh
 script/agent.lua
+script/battle/battle_handler.lua
 script/global.lua
 script/main.lua
-script/message_handler.lua
 script/player/player.lua
+script/player/player_handler.lua
+script/player/player_test.lua
 script/watchdog.lua
+service/abort.lua
+service/agentpool.lua
+service/battle.lua
+service/build_db.lua
 service/db.lua
+service/lobby.lua
 service/login.lua
+service/master.lua

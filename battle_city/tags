@@ -6,13 +6,22 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 CC	Makefile	/^CC = gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS = -O2 -fPIC -Wall$/;"	m
-CMD.C2S_Hello	script/message_handler.lua	/^function CMD.C2S_Hello(p)$/;"	f
-CMD.C2S_Login	script/agent.lua	/^function CMD.C2S_Login(p, player)$/;"	f
+CMD.C2S_Hello	script/battle/battle_handler.lua	/^function CMD.C2S_Hello(package)$/;"	f
+CMD.C2S_Hello	script/player/player_handler.lua	/^function CMD.C2S_Hello(package)$/;"	f
+CMD.C2S_Login	script/agent.lua	/^function CMD.C2S_Login(p)$/;"	f
+CMD.Request_CreateRoom	script/battle/battle_handler.lua	/^function CMD.Request_CreateRoom(package, player)$/;"	f
+CMD.Request_CreateRoom	script/player/player_handler.lua	/^function CMD.Request_CreateRoom(package, player)$/;"	f
+CMD.abort	service/login.lua	/^function CMD.abort()$/;"	f
+CMD.auto_player_id	service/db.lua	/^function CMD.auto_player_id()$/;"	f
 CMD.close	script/watchdog.lua	/^function CMD.close(fd)$/;"	f
 CMD.disconnect	script/agent.lua	/^function CMD.disconnect()$/;"	f
 CMD.login	service/login.lua	/^function CMD.login(account_name, account_pwd)$/;"	f
+CMD.logout	service/login.lua	/^function CMD.logout()$/;"	f
 CMD.query_account	service/db.lua	/^function CMD.query_account(account_name, account_pwd)$/;"	f
+CMD.query_player	service/db.lua	/^function CMD.query_player(player_id)$/;"	f
 CMD.register_account	service/login.lua	/^function CMD.register_account(account_name, account_pwd)$/;"	f
+CMD.save_account	service/db.lua	/^function CMD.save_account(account)$/;"	f
+CMD.save_player	service/db.lua	/^function CMD.save_player(player)$/;"	f
 CMD.start	script/agent.lua	/^function CMD.start(conf)$/;"	f
 CMD.start	script/watchdog.lua	/^function CMD.start(conf)$/;"	f
 LUADIR	Makefile	/^LUADIR = ..\/skynet\/3rd\/lua\/$/;"	m
@@ -115,6 +124,7 @@ _writer[4] 	lualib/protobuf.lua	/^_writer[4] = function(msg) return _writer.stri
 _writer[5] 	lualib/protobuf.lua	/^_writer[5] = function(msg) return _writer.string end$/;"	f
 _writer[6] 	lualib/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
 alloca	luaclib/pbc-lua53.c	16;"	d	file:
+bytes_to_int	script/global.lua	/^function bytes_to_int(str,endian,signed) -- use length of string to determine 8,16,32,64 bits$/;"	f
 cap_msg	luaclib/pbc-lua53.c	/^	int cap_msg;$/;"	m	struct:gcobj	file:
 cap_pat	luaclib/pbc-lua53.c	/^	int cap_pat;$/;"	m	struct:gcobj	file:
 checkuserdata	luaclib/pbc-lua53.c	/^checkuserdata(lua_State *L, int index) {$/;"	f	file:
@@ -135,21 +145,28 @@ encode_message	lualib/protobuf.lua	/^local function encode_message(CObj, message
 env	luaclib/pbc-lua53.c	/^	struct pbc_env * env;$/;"	m	struct:gcobj	typeref:struct:gcobj::pbc_env	file:
 expand	lualib/protobuf.lua	/^local function expand(tbl)$/;"	f
 gcobj	luaclib/pbc-lua53.c	/^struct gcobj {$/;"	s	file:
+get_global_data	service/db.lua	/^function get_global_data(key)$/;"	f
+int_to_bytes	script/global.lua	/^function int_to_bytes(num,endian,signed)$/;"	f
 luaopen_protobuf_c	luaclib/pbc-lua53.c	/^luaopen_protobuf_c(lua_State *L) {$/;"	f
 msg	luaclib/pbc-lua53.c	/^	struct pbc_rmessage ** msg;$/;"	m	struct:gcobj	typeref:struct:gcobj::pbc_rmessage	file:
 new_array	luaclib/pbc-lua53.c	/^new_array(lua_State *L, int id, const char *key) {$/;"	f	file:
 pat	luaclib/pbc-lua53.c	/^	struct pbc_pattern ** pat;$/;"	m	struct:gcobj	typeref:struct:gcobj::pbc_pattern	file:
+player.send_func 	script/agent.lua	/^    player.send_func = function(message_type, tbl)$/;"	f
+player_login	script/player/player.lua	/^function player_login(self)$/;"	f
+player_logout	script/player/player.lua	/^function player_logout(self)$/;"	f
+player_new	script/player/player.lua	/^function player_new()$/;"	f
+player_rpc	script/player/player.lua	/^function player_rpc(self)$/;"	f
+player_save	script/player/player.lua	/^function player_save(self)$/;"	f
+player_send	script/player/player.lua	/^function player_send(self, message_type, tbl)$/;"	f
+player_test	script/player/player_test.lua	/^function player_test()$/;"	f
 push_value	luaclib/pbc-lua53.c	/^push_value(lua_State *L, int type, const char * type_name, union pbc_value *v) {$/;"	f	file:
+save_global_data	service/db.lua	/^function save_global_data(key, value)$/;"	f
 send_hello	script/agent.lua	/^function send_hello()$/;"	f
-send_package	script/agent.lua	/^function send_package(message, t)$/;"	f
+send_package	script/agent.lua	/^function send_package(message_type, tbl, rpc_id)$/;"	f
 set_default	lualib/protobuf.lua	/^local function set_default(typename, tbl)$/;"	f
 setmetatable(class_type,{__newindex	script/global.lua	/^  setmetatable(class_type,{__newindex=function(t,k,v)$/;"	f
 setmetatable(vtbl,{__index	script/global.lua	/^    setmetatable(vtbl,{__index=function(t,k)$/;"	f
 size_msg	luaclib/pbc-lua53.c	/^	int size_msg;$/;"	m	struct:gcobj	file:
 size_pat	luaclib/pbc-lua53.c	/^	int size_pat;$/;"	m	struct:gcobj	file:
 test	script/main.lua	/^function test()$/;"	f
-test_expire_index	service/db.lua	/^function test_expire_index()$/;"	f
-test_find_and_remove	service/db.lua	/^function test_find_and_remove()$/;"	f
-test_insert_with_index	service/db.lua	/^function test_insert_with_index()$/;"	f
-test_insert_without_index	service/db.lua	/^function test_insert_without_index()$/;"	f
 unpack 	script/agent.lua	/^	unpack = function (msg, sz)$/;"	f

@@ -1,8 +1,10 @@
 local skynet = require "skynet"
+local cluster = require "cluster"
 
 require "skynet.manager"
 
 skynet.start(function()
   print("save data")
-  skynet.abort()
+  cluster.call("login", ".login", "abort")
+  --skynet.abort()
 end)

@@ -1,6 +1,7 @@
 message Package {
 	optional string name = 1;
-	optional bytes data = 2;
+	optional int32 rpcId = 2;
+	optional bytes data = 3;
 }
 
 message S2C_Ping {
@@ -16,13 +17,44 @@ message C2S_RegisterAccount {
 	optional string accountPwd = 2;
 }
 
-message S2C_RegisterAccountResult {
+message S2C_RegisterAccount {
 	optional bool result = 1;
 }
 
 message C2S_Login {
 	optional string accountName = 1;
 	optional string accountPwd = 2;
+}
+
+message S2C_Login {
+	optional bool result = 1;
+}
+
+message Request {
+}
+message Response {
+}
+
+message Request_RoomList {
+}
+
+message Response_RoomList {
+	
+}
+
+message Request_CreateRoom {
+}
+
+message Response_CreateRoom {
+	optional bool result = 1;
+}
+
+message Request_JoinRoom {
+
+}
+
+message Response_JoinRoom {
+
 }
 
 

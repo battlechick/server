@@ -6,6 +6,8 @@ local sproto = require "sproto"
 local sprotoloader = require "sprotoloader"
 local protobuf = require "protobuf"
 
+require "player.player"
+
 local WATCHDOG
 local host
 local send_request
@@ -23,14 +25,17 @@ skynet.register_protocol {
 	end,
 	dispatch = function (session, address, buffer, ...)
     local p = protobuf.decode("Package", buffer)
-    print("recieve package",p.name)
+    --print("recieve package",p.name)
     local pp = protobuf.decode(p.name, p.data)
     local f = CMD[p.name]
     if not f then
       print("message handler not exist. Package:"..p.name)
       return
     end
-    f(pp, player, self)
+    local ret = f(pp, player)
+    if p.rpcId ~= 0 then
+      send_package("Response"..string.sub(p.name, 8, -1), ret, p.rpcId)
+    end
 	end
 }
 
@@ -44,10 +49,22 @@ function CMD.start(conf)
 	skynet.call(gate, "lua", "forward", fd)
 end
 
-function CMD.C2S_Login(p, player)
-  print("C2S_Login")
-  print(p)
-  skynet.call(".login","lua","login",p.accountName, p.accountPwd)
+function CMD.C2S_Login(p)
+  if player then
+    print("already login")
+    player_send(player, "S2C_Login", {result = false})
+    return
+  end
+  player = skynet.call(".login","lua","login",p.accountName, p.accountPwd)
+  if player then
+    player.send_func = function(message_type, tbl)
+      buffer = protobuf.encode(message_type, tbl)
+      socket.write(client_fd, protobuf.encode("Package",{name = message_type, data = buffer}))
+    end
+    player_send(player, "S2C_Login", {result = true})
+  else
+    send_package("S2C_Login", {result = false})
+  end
 end
 
 
@@ -61,9 +78,11 @@ function send_hello()
 end
 
 protobuf.register_file "../battle_city/proto/msg.pb"  
-function send_package(message, t)
-  buffer = protobuf.encode(message, t)
-  socket.write(client_fd, protobuf.encode("Package",{name = message, data = buffer}))
+function send_package(message_type, tbl, rpc_id)
+  --print("send_package:"..message_type)
+  rpc_id = rpc_id or 0
+  buffer = protobuf.encode(message_type, tbl)
+  socket.write(client_fd, protobuf.encode("Package",{name = message_type, rpcId = rpc_id, data = buffer}))
 end
 
 function CMD.disconnect()
