@@ -13,17 +13,21 @@ CMD.Request_CreateRoom	script/battle/battle_handler.lua	/^function CMD.Request_C
 CMD.Request_CreateRoom	script/player/player_handler.lua	/^function CMD.Request_CreateRoom(package, player)$/;"	f
 CMD.abort	service/login.lua	/^function CMD.abort()$/;"	f
 CMD.auto_player_id	service/db.lua	/^function CMD.auto_player_id()$/;"	f
+CMD.battle_start	script/agent.lua	/^function CMD.battle_start(conf)$/;"	f
 CMD.close	script/watchdog.lua	/^function CMD.close(fd)$/;"	f
 CMD.disconnect	script/agent.lua	/^function CMD.disconnect()$/;"	f
+CMD.is_full	script/watchdog.lua	/^function CMD.is_full()$/;"	f
 CMD.login	service/login.lua	/^function CMD.login(account_name, account_pwd)$/;"	f
+CMD.login_start	script/agent.lua	/^function CMD.login_start(conf)$/;"	f
 CMD.logout	service/login.lua	/^function CMD.logout()$/;"	f
+CMD.master_start	script/agent.lua	/^function CMD.master_start(conf)$/;"	f
 CMD.query_account	service/db.lua	/^function CMD.query_account(account_name, account_pwd)$/;"	f
 CMD.query_player	service/db.lua	/^function CMD.query_player(player_id)$/;"	f
 CMD.register_account	service/login.lua	/^function CMD.register_account(account_name, account_pwd)$/;"	f
+CMD.request_gate_address	service/agentpool.lua	/^function CMD.request_gate_address()$/;"	f
 CMD.save_account	service/db.lua	/^function CMD.save_account(account)$/;"	f
 CMD.save_player	service/db.lua	/^function CMD.save_player(player)$/;"	f
-CMD.start	script/agent.lua	/^function CMD.start(conf)$/;"	f
-CMD.start	script/watchdog.lua	/^function CMD.start(conf)$/;"	f
+CMD.start	script/watchdog.lua	/^function CMD.start(conf, cmd)$/;"	f
 LUADIR	Makefile	/^LUADIR = ..\/skynet\/3rd\/lua\/$/;"	m
 M.check	lualib/protobuf.lua	/^function M.check(typename , field)$/;"	f
 M.decode	lualib/protobuf.lua	/^function M.decode(typename, buffer, length)$/;"	f
@@ -123,6 +127,7 @@ _writer[3] 	lualib/protobuf.lua	/^_writer[3] = function(msg) return _writer.bool
 _writer[4] 	lualib/protobuf.lua	/^_writer[4] = function(msg) return _writer.string end$/;"	f
 _writer[5] 	lualib/protobuf.lua	/^_writer[5] = function(msg) return _writer.string end$/;"	f
 _writer[6] 	lualib/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
+accountPwd (	"	proto/msg.pb	/^accountPwd (	":$/;"	l
 alloca	luaclib/pbc-lua53.c	16;"	d	file:
 bytes_to_int	script/global.lua	/^function bytes_to_int(str,endian,signed) -- use length of string to determine 8,16,32,64 bits$/;"	f
 cap_msg	luaclib/pbc-lua53.c	/^	int cap_msg;$/;"	m	struct:gcobj	file:

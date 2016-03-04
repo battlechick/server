@@ -29,8 +29,8 @@ skynet.start(function()
   local db = skynet.newservice("db", config.db.address, config.db.db_name)
   skynet.name(".db",db) 
 
-  skynet.uniqueservice("agentpool", config.gate_list)
-  
+  local agentpool = skynet.uniqueservice("agentpool")
+
   cluster.open "master"
 	skynet.exit()
 end)

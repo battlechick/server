@@ -13,13 +13,15 @@ function CMD.login(account_name, account_pwd)
   local account = skynet.call(db, "lua", "query_account", account_name, account_pwd)
   if not account or account.pwd ~= account_pwd then
     print("login fail, account name:"..account_name)    
-    return
+    return false
   end
-  local player = skynet.call(db, "lua", "query_player", account.player_id)
+  address, port = cluster.call("master", ".agentpool","request_gate_address")
+  return true, address, port, account.player_id
+--[[  local player = skynet.call(db, "lua", "query_player", account.player_id)
   if not player then
     player = player_new()
   end
-  return account, player
+  return account, player]]
 end
 
 function CMD.logout()
@@ -47,5 +49,5 @@ skynet.start(function()
   db = skynet.newservice("db", config.db.address, config.db.db_name)
   
   local watchdog = skynet.newservice("watchdog")
-  skynet.call(watchdog, "lua", "start", config.gate_list[1])
+  skynet.call(watchdog, "lua", "start", config.gate_list[1], "login_start")
 end)

@@ -28,6 +28,22 @@ message C2S_Login {
 
 message S2C_Login {
 	optional bool result = 1;
+	optional string address = 2;
+	optional int32 port = 3;
+	optional int32 playerId = 4;
+}
+
+message C2S_Online {
+	optional int32 playerId = 1;
+}
+
+message S2C_Online {
+	optional bool result = 1;
+	optional string playerName = 2; 
+}
+
+message S2C_LoadScene {
+	optional string name = 1;
 }
 
 message Request {

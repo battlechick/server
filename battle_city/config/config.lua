@@ -1,3 +1,5 @@
+local ip = "121.42.162.95"
+
 return{
   login = {
     db = {
@@ -7,7 +9,7 @@ return{
 
     gate_list = {
       {
-        address = "0.0.0.0",
+        address = ip,
         port = 10000,
         maxclient = 2048,
       }
@@ -22,12 +24,12 @@ return{
 
     gate_list = {
       {
-        address = "0.0.0.0",
+        address = ip,
         port = "10001",
         maxclient = 2048,
       },
       {
-        address = "0.0.0.0",
+        address = ip,
         port = "10002",
         maxclient = 2048,
       }
@@ -37,12 +39,12 @@ return{
   battle = {
     gate_list = {
       {
-        address = "0.0.0.0",
+        address = ip,
         port = "10003",
         maxclient = 2048,
       },
       {
-        address = "0.0.0.0",
+        address = ip,
         port = "10004",
         maxclient = 2048,
       }

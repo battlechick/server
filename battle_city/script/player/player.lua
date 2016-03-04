@@ -5,7 +5,9 @@ function player_new()
   print("player new")
   local self = {}
   self.player_id = skynet.call(".db", "lua", "auto_player_id")
+  self.player_name = ""
   self.send_func = nil
+  return self
 end
 
 function player_login(self)
@@ -26,5 +28,5 @@ function player_rpc(self)
 end
 
 function player_save(self)
-  skynet.call(".db", "lua", "save_player", self)
+  --skynet.call(".db", "lua", "save_player", self)
 end

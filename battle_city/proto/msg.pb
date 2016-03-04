@@ -1,5 +1,5 @@
 
-Õ
+÷
 	msg.proto"4
 Package
 name (	
@@ -18,9 +18,22 @@ accountPwd (	"%
 	C2S_Login
 accountName (	
 
-accountPwd (	"
+accountPwd (	"L
 	S2C_Login
-result ("	
+result (
+address (	
+port (
+playerId ("
+
+C2S_Online
+playerId ("0
+
+S2C_Online
+result (
+
+playerName (	"
+S2C_LoadScene
+name (	"	
 Request"
 
 Response"
