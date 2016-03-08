@@ -16,7 +16,7 @@
 ./service/login.lua
 ./script/watchdog.lua
 ./script/agent.lua
-./script/main.lua
+./script/player/player_room.lua
 ./script/player/player_handler.lua
 ./script/player/player.lua
 ./script/player/player_test.lua

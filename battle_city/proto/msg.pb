@@ -1,5 +1,5 @@
 
-˜
+Å
 	msg.proto"4
 Package
 name (	
@@ -36,11 +36,27 @@ playerName (	"
 name (	"	
 Request"
 
-Response"
-Request_RoomList"
-Response_RoomList"
-Request_CreateRoom"%
+Response".
+Player
+playerId (
+
+playerName (	"4
+Request_RoomList
+startIdx (
+endIdx ("ö
+Response_RoomList-
+roomList (2.Response_RoomList.RoomInfoV
+RoomInfo
+roomId (
+roomName (	
+
+totalCount (
+currentCount ("
+Request_CreateRoom"5
 Response_CreateRoom
-result ("
-Request_JoinRoom"
-Response_JoinRoom
+result (
+roomId (""
+Request_JoinRoom
+roomId ("#
+Response_JoinRoom
+result (

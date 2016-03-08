@@ -27,7 +27,7 @@ function CMD.query_account(account_name, account_pwd)
   local col = collection("account")
   local ret = col:findOne({name = account_name})
   if not ret then
-    col.safe_insert({name = account_name, pwd = account_pwd})
+    col:safe_insert({name = account_name, pwd = account_pwd})
     ret = col:findOne({name = account_name})
   end
   return ret

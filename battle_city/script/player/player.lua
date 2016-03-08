@@ -1,12 +1,13 @@
 local skynet = require "skynet"
 require "player.player_test"
+require "player.player_room"
 
 function player_new()
   print("player new")
   local self = {}
   self.player_id = skynet.call(".db", "lua", "auto_player_id")
-  self.player_name = ""
-  self.send_func = nil
+  self.player_name = tostring(self.player_id) 
+  self.room_id = 0
   return self
 end
 

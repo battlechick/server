@@ -87,10 +87,7 @@ function CMD.C2S_Online(p)
   if not player then
     player = player_new()
   end
-  player.send_func = function(message_type, tbl)
-    buffer = protobuf.encode(message_type, tbl)
-    socket.write(client_fd, protobuf.encode("Package",{name = message_type, data = buffer}))
-  end
+  
   send_package("S2C_Online", {result = true, playerName = player.player_name})
 end
 
@@ -106,11 +103,13 @@ end
 
 protobuf.register_file "../battle_city/proto/msg.pb"  
 function send_package(message_type, tbl, rpc_id)
-  --print("send_package:"..message_type)
   rpc_id = rpc_id or 0
   buffer = protobuf.encode(message_type, tbl)
   socket.write(client_fd, protobuf.encode("Package",{name = message_type, rpcId = rpc_id, data = buffer}))
+  print("send_package:"..message_type.." data:"..buffer)
 end
+
+CMD.send_package = send_package
 
 function CMD.disconnect()
 	-- todo: do something before exit

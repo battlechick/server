@@ -51,26 +51,42 @@ message Request {
 message Response {
 }
 
+message Player {
+	optional int32 playerId = 1;
+	optional string playerName = 2;
+}
+
+
+
 message Request_RoomList {
+	optional int32 startIdx = 1;
+	optional int32 endIdx = 2;
 }
 
 message Response_RoomList {
-	
+		message RoomInfo {
+				required int32 roomId = 1;
+				required string roomName = 2;
+				required int32 totalCount = 3;
+				required int32 currentCount = 4;
+		}
+		repeated RoomInfo roomList = 5;	
 }
 
 message Request_CreateRoom {
 }
 
 message Response_CreateRoom {
-	optional bool result = 1;
+	required bool result = 1;
+	optional int32 roomId = 2;
 }
 
 message Request_JoinRoom {
-
+	optional int32 roomId = 1;
 }
 
 message Response_JoinRoom {
-
+	optional bool result = 1;
 }
 
 
