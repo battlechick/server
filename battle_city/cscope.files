@@ -6,6 +6,8 @@
 ./proto/client_proto/ProtoGen/protobuf-net.xml
 ./proto/export.sh
 ./luaclib/pbc-lua53.c
+./service/watchdog.lua
+./service/agent.lua
 ./service/master.lua
 ./service/db.lua
 ./service/build_db.lua
@@ -14,8 +16,6 @@
 ./service/agentpool.lua
 ./service/battle.lua
 ./service/login.lua
-./script/watchdog.lua
-./script/agent.lua
 ./script/player/player_room.lua
 ./script/player/player_handler.lua
 ./script/player/player.lua

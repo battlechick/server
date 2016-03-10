@@ -20,8 +20,7 @@ function player_logout(self)
 end
 
 function player_send(self, message_type, tbl)
-  assert(self.send_func)
-  self.send_func(message_type, tbl)
+  skynet.call(".agent"..self.player_id, "lua", "send_package", message_type, tbl) 
 end
 
 function player_rpc(self)

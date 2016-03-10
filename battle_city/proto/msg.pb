@@ -1,49 +1,58 @@
 
-
+’	
 	msg.proto"4
 Package
-name (	
-rpcId (
-data ("
+name (	
+rpcId (
+data ("
 S2C_Ping
-time ("
+time ("
 C2S_Ping
-time (">
+time (">
 C2S_RegisterAccount
-accountName (	
+accountName (	
 
-accountPwd (	"%
+accountPwd (	"%
 S2C_RegisterAccount
-result ("4
+result ("4
 	C2S_Login
-accountName (	
+accountName (	
 
-accountPwd (	"L
+accountPwd (	"L
 	S2C_Login
-result (
-address (	
-port (
-playerId ("
+result (
+address (	
+port (
+playerId ("
 
 C2S_Online
-playerId ("0
+playerId ("0
 
 S2C_Online
-result (
+result (
 
-playerName (	"
+playerName (	"
 S2C_LoadScene
-name (	"	
-Request"
+name (	"¬
+S2C_RoomData
+roomId (
+roomName (	
+	captianId ((
 
-Response".
+playerList (2.S2C_RoomData.Player=
 Player
-playerId (
+playerId (
 
-playerName (	"4
+playerName (	
+ready ("
+C2S_BroadcastRoomData".
+Player
+playerId (
+
+playerName (	"4
 Request_RoomList
-startIdx (
-endIdx ("š
+startIdx (
+endIdx ("š
 Response_RoomList-
 roomList (2.Response_RoomList.RoomInfoV
 RoomInfo
@@ -57,6 +66,11 @@ totalCount (
 result (
 roomId (""
 Request_JoinRoom
-roomId ("#
+roomId ("#
 Response_JoinRoom
-result (
+result ("
+Request_StartGame"$
+Response_StartGame
+result ("#
+Request_PrepareGame
+flag (

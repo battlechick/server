@@ -12,7 +12,7 @@ function CMD.Request_CreateRoom(package, player)
   if player.room_id ~= 0 then
     return {result = false}
   end
-  local room_id = skynet.call(".lobby", "lua", "create_room", player)
+  local room_id = player_create_room(player)
   return {result = true, roomId = room_id}
 end
 
@@ -38,12 +38,28 @@ function CMD.Request_JoinRoom(package, player)
   return {result = ret}
 end
 
+function CMD.Request_QuitRoom(package, player)
+  local ret = player_quit_room(player)
+  return {result = ret}
+end
 
+function CMD.Request_PrepareGame(package, player)
+  local ret = player_prepare_game(player)
+  return {result = ret}
+end
 
+function CMD.Request_StartGame(package, player)
+  local ret = player_start_game(player)
+  return {result = ret}
+end
 
-
-
-
+function CMD.C2S_BroadcastRoomData(package, player)
+  if player.room_id == 0 then
+    print("player not in room")
+    return
+  end
+  skynet.call(".lobby", "lua", "broadcast_room_data", player.room_id)
+end
 
 
 

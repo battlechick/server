@@ -1,66 +1,77 @@
 message Package {
-	optional string name = 1;
-	optional int32 rpcId = 2;
-	optional bytes data = 3;
+		required string name = 1;
+		required int32 rpcId = 2;
+		required bytes data = 3;
 }
 
 message S2C_Ping {
-	optional int32 time = 1;
+		required int32 time = 1;
 }
 
 message C2S_Ping {
-	optional int32 time = 1;
+		required int32 time = 1;
 }
 
 message C2S_RegisterAccount {
-	optional string accountName = 1;
-	optional string accountPwd = 2;
+		required string accountName = 1;
+		required string accountPwd = 2;
 }
 
 message S2C_RegisterAccount {
-	optional bool result = 1;
+		required bool result = 1;
 }
 
 message C2S_Login {
-	optional string accountName = 1;
-	optional string accountPwd = 2;
+		required string accountName = 1;
+		required string accountPwd = 2;
 }
 
 message S2C_Login {
-	optional bool result = 1;
-	optional string address = 2;
-	optional int32 port = 3;
-	optional int32 playerId = 4;
+		required bool result = 1;
+		required string address = 2;
+		required int32 port = 3;
+		required int32 playerId = 4;
 }
 
 message C2S_Online {
-	optional int32 playerId = 1;
+		required int32 playerId = 1;
 }
 
 message S2C_Online {
-	optional bool result = 1;
-	optional string playerName = 2; 
+		required bool result = 1;
+		required string playerName = 2; 
 }
 
 message S2C_LoadScene {
-	optional string name = 1;
+		required string name = 1;
 }
 
-message Request {
+message S2C_RoomData {
+		message Player{
+				required int32 playerId = 1;
+				required string playerName = 2;
+				required bool ready = 3;
+		}
+		required int32 roomId = 4;
+		required string roomName = 5;
+		required int32 captianId = 6;
+		repeated Player playerList = 7;
 }
-message Response {
+
+message C2S_BroadcastRoomData {
 }
+
 
 message Player {
-	optional int32 playerId = 1;
-	optional string playerName = 2;
+		required int32 playerId = 1;
+		required string playerName = 2;
 }
 
 
 
 message Request_RoomList {
-	optional int32 startIdx = 1;
-	optional int32 endIdx = 2;
+		required int32 startIdx = 1;
+		required int32 endIdx = 2;
 }
 
 message Response_RoomList {
@@ -77,16 +88,27 @@ message Request_CreateRoom {
 }
 
 message Response_CreateRoom {
-	required bool result = 1;
-	optional int32 roomId = 2;
+		required bool result = 1;
+		optional int32 roomId = 2;
 }
 
 message Request_JoinRoom {
-	optional int32 roomId = 1;
+		required int32 roomId = 1;
 }
 
 message Response_JoinRoom {
-	optional bool result = 1;
+		required bool result = 1;
+}
+
+message Request_StartGame {
+}
+
+message Response_StartGame {
+		required bool result = 1;
+}
+
+message Request_PrepareGame {
+		required bool flag = 1;
 }
 
 
