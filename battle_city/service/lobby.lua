@@ -1,5 +1,6 @@
 
 local skynet = require "skynet"
+local cluster = require "cluster"
 require "skynet.manager"
 
 local table_insert = table.insert
@@ -9,16 +10,16 @@ local auto_room_id = 10001
 local rooms = {}
 local room_list = {}
 
-local CMD = {}
-function CMD.create_room(player)
+local cmd = {}
+function cmd.create_room(room_name, player_id)
   local room = {}
   room.room_id = auto_room_id
-  room.room_name = player.player_name .. "的房间"
+  room.room_name = room_name 
   room.total_count = 2
   room.cur_count = 0
   room.players = {}
-  room.captain = player
-  player.ready = true
+  room.status = "waiting"
+  room.captain = player_id
 
   rooms[room.room_id] = room
   table_insert(room_list, room)
@@ -26,7 +27,7 @@ function CMD.create_room(player)
   return room.room_id
 end
 
-function CMD.get_room_list(start_idx, end_idx)
+function cmd.get_room_list(start_idx, end_idx)
   local tbl = {}
   for i = start_idx, end_idx, 1 do
     if i > #room_list then
@@ -37,35 +38,61 @@ function CMD.get_room_list(start_idx, end_idx)
   return tbl
 end
 
-function CMD.join_room(room_id, player)
-  if player.room_id ~= 0 then
-    return false
-  end
+function cmd.join_room(room_id, player_id, player_name)
   local room = rooms[room_id]
-  if not room then
+  if not room or room.players[player_id] then
     return false
   end
-  room.players[player.player_id] = player
+  local player = {
+    player_id = player_id,
+    player_name = player_name,
+    ready = false
+  }
+  room.players[player_id] = player
   room.cur_count = room.cur_count + 1
 
   broadcast_room_data(room)
   return true
 end
 
-function CMD.quit_room(room_id, player_id)
-  if player.room_id ~= 0 then
-    return false
-  end
-  local room = rooms[player.room_id]
+function cmd.quit_room(room_id, player_id)
+  local room = rooms[room_id]
   room.players[player_id] = nil
-  check_empty(room)
+  if check_empty(room) then
+    rooms[room_id] = nil
+  end
   room.cur_count = room.cur_count - 1
   return true
 end
 
-function CMD.broadcast_room_data(room_id)
+function cmd.broadcast_room_data(room_id)
   local room = rooms[room_id]
   broadcast_room_data(room)
+end
+
+function cmd.prepare_game(room_id, player_id, flag)
+  local room = rooms[room_id]
+  if not room then return false end
+  local player = room.players[player_id]
+  if not player then return false end
+  player.ready = flag
+end
+
+function cmd.start_game(room_id, player_id)
+  local room = rooms[room_id]
+  if not room then return false end 
+  if room.captain ~= player_id then
+    return false
+  end
+  local battle, address, port = cluster.call("battle", ".battlemng", "create", room) 
+  if battle ~= 0 then
+    room.status = "loading"
+    broadcast(room, "S2C_LoadBattle", {battle = battle, address = address, port = port}) 
+  else
+    return false
+  end
+
+  return true
 end
 
 function check_empty(room)
@@ -73,14 +100,18 @@ function check_empty(room)
     return
   end
   rooms[room.room_id] = nil
-  table_remove(room_list, room)
+  for i,v in ipairs(room_list) do
+    if v == room then
+      table_remove(room_list, i)
+    end
+  end
 end
 
 function broadcast_room_data(room)
   local tbl = {
     roomId = room.room_id,
     roomName = room.room_name,
-    captianId = room.captain.player_id,
+    captianId = room.captain,
     playerList = {}
   }
   for _, player in pairs(room.players) do
@@ -107,7 +138,7 @@ end
 
 skynet.start(function() 
   skynet.dispatch("lua", function(_,_,command, ...)
-     local f = CMD[command]
+     local f = cmd[command]
      skynet.ret(skynet.pack(f(...)))
   end)
   skynet.register ".lobby"

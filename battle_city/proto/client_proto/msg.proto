@@ -39,7 +39,8 @@ message C2S_Online {
 
 message S2C_Online {
 		required bool result = 1;
-		required string playerName = 2; 
+		required int32 playerId = 2;
+		required string playerName = 3; 
 }
 
 message S2C_LoadScene {
@@ -61,12 +62,25 @@ message S2C_RoomData {
 message C2S_BroadcastRoomData {
 }
 
+message S2C_LoadBattle {
+		required int32 battle = 1;
+		required string address = 2;
+		required int32 port = 3;
+}
+
+message C2S_JoinBattle {
+		required int32 playerId = 1;
+		required int32 battle = 2;
+}
+
+message S2C_StartBattle {
+		
+}
 
 message Player {
 		required int32 playerId = 1;
 		required string playerName = 2;
 }
-
 
 
 message Request_RoomList {

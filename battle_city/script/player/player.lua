@@ -1,32 +1,33 @@
 local skynet = require "skynet"
+
+Player = class() 
+
 require "player.player_test"
 require "player.player_room"
 
-function player_new()
+function Player:ctor()
   print("player new")
-  local self = {}
   self.player_id = skynet.call(".db", "lua", "auto_player_id")
   self.player_name = tostring(self.player_id) 
   self.room_id = 0
-  return self
 end
 
-function player_login(self)
+function Player:login()
   print("player login")
 end
 
-function player_logout(self)
+function Player:logout()
   print("player logout")
 end
 
-function player_send(self, message_type, tbl)
+function Player:send(message_type, tbl)
   skynet.call(".agent"..self.player_id, "lua", "send_package", message_type, tbl) 
 end
 
-function player_rpc(self)
+function Player:rpc(self)
 
 end
 
-function player_save(self)
+function Player_save(self)
   --skynet.call(".db", "lua", "save_player", self)
 end

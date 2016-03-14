@@ -1,54 +1,57 @@
 local skynet = require "skynet"
 
-function player_create_room(player)
-  if player.room_id ~= 0 then
+function Player:create_room()
+  if self.room_id ~= 0 then
     return false
   end
   
-  local room_id = skynet.call(".lobby", "lua", "create_room", player)
-  print("player"..player.player_id.." create room"..room_id)
+  local room_id = skynet.call(".lobby", "lua", "create_room", self.player_name.."的房间", self.player_id)
   if room_id  == 0 then
     return false
   end
 
-  player_join_room(player, room_id)
+  self:join_room(room_id)
+  self:prepare_game(true)
+  skynet.call(".lobby", "lua", "broadcast_room_data", room_id)
   return true
 end
 
-function player_join_room(player, room_id)
-  if player.room_id ~= 0 then
+function Player:join_room(room_id)
+  if self.room_id ~= 0 then
     return false
   end
-  local ret = skynet.call(".lobby", "lua", "join_room", room_id, player)
+  local ret = skynet.call(".lobby", "lua", "join_room", room_id, self.player_id, self.player_name)
   if ret then
-    player.room_id = room_id
+    self.room_id = room_id
+  else
+    print("player cannot join room")
   end
-  print("player"..player.player_id.." join room"..room_id)
+  print("player"..self.player_id.." join room"..room_id)
   return ret
 end
 
-function player_quit_room(player)
-  if player.room_id == 0 then
+function Player:quit_room()
+  if self.room_id == 0 then
     return false
   end
-  local ret = skynet.call(".lobby", "lua", "quit_room", player.room_id, player.player_id)
+  local ret = skynet.call(".lobby", "lua", "quit_room", self.room_id, self.player_id)
   if ret then
-     player.room_id = 0
+     self.room_id = 0
   end
   return ret
 end
 
-function player_prepare_game(player)
-  if player.room_id == 0 then
+function Player:prepare_game(flag)
+  if self.room_id == 0 then
     return false
   end
-  return skynet.call(".lobby", "lua", "prepare", player.room_id, player.player_id)
+  return skynet.call(".lobby", "lua", "prepare_game", self.room_id, self.player_id, flag)
 end
 
-function player_start_game(player)
-  if player.room_id == 0 then
+function Player:start_game()
+  if self.room_id == 0 then
     return false
   end
-  return skynet.call(".lobby", "lua", "start", player.room_id, player.player_id)
+  return skynet.call(".lobby", "lua", "start_game", self.room_id, self.player_id)
 end
 

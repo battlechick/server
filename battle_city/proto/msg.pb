@@ -1,5 +1,6 @@
 
-’	
+¬
+
 	msg.proto"4
 Package
 name (	
@@ -26,12 +27,13 @@ accountPwd (	"L
 playerId ("
 
 C2S_Online
-playerId ("0
+playerId ("B
 
 S2C_Online
-result (
+result (
+playerId (
 
-playerName (	"
+playerName (	"
 S2C_LoadScene
 name (	"¬
 S2C_RoomData
@@ -45,7 +47,15 @@ playerList (2.S2C_RoomData.Player=
 
 playerName (	
 ready ("
-C2S_BroadcastRoomData".
+C2S_BroadcastRoomData"?
+S2C_LoadBattle
+battle (
+address (	
+port ("2
+C2S_JoinBattle
+playerId (
+battle ("
+S2C_StartBattle".
 Player
 playerId (
 

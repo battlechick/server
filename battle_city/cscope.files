@@ -7,6 +7,7 @@
 ./proto/export.sh
 ./luaclib/pbc-lua53.c
 ./service/watchdog.lua
+./service/battlemng.lua
 ./service/agent.lua
 ./service/master.lua
 ./service/db.lua
@@ -14,11 +15,11 @@
 ./service/abort.lua
 ./service/lobby.lua
 ./service/agentpool.lua
-./service/battle.lua
 ./service/login.lua
 ./script/player/player_room.lua
 ./script/player/player_handler.lua
 ./script/player/player.lua
 ./script/player/player_test.lua
 ./script/global.lua
+./script/battle/battle.lua
 ./script/battle/battle_handler.lua

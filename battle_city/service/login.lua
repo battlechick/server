@@ -2,14 +2,14 @@ local skynet = require "skynet"
 local cluster = require "cluster"
 local config = require "config"
 config = config.login
-local CMD = {}
+local cmd = {}
 
 require "skynet.manager"
 require "player.player"
 
 local db
 
-function CMD.login(account_name, account_pwd)
+function cmd.login(account_name, account_pwd)
   local account = skynet.call(db, "lua", "query_account", account_name, account_pwd)
   if not account or account.pwd ~= account_pwd then
     print("login fail, account name:"..account_name)    
@@ -24,15 +24,15 @@ function CMD.login(account_name, account_pwd)
   return account, player]]
 end
 
-function CMD.logout()
+function cmd.logout()
   
 end
 
-function CMD.register_account(account_name, account_pwd)
+function cmd.register_account(account_name, account_pwd)
   
 end
 
-function CMD.abort()
+function cmd.abort()
   print("abort")
   skynet.abort()
 end
@@ -40,7 +40,7 @@ end
 
 skynet.start(function()
   skynet.dispatch("lua", function(_,_, command, ...)
-     local f = CMD[command]
+     local f = cmd[command]
      skynet.ret(skynet.pack(f(...)))
   end) 
   skynet.register ".login"

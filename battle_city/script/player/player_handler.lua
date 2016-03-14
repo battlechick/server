@@ -2,21 +2,21 @@
 local skynet = require "skynet"
 local table_insert = table.insert
 
-local CMD = {}
+local cmd = {}
 
-function CMD.C2S_Hello(package)
+function cmd.C2S_Hello(package)
   print("client say hello"..package.a)
 end
 
-function CMD.Request_CreateRoom(package, player)
+function cmd.Request_CreateRoom(package, player)
   if player.room_id ~= 0 then
     return {result = false}
   end
-  local room_id = player_create_room(player)
+  local room_id = player:create_room()
   return {result = true, roomId = room_id}
 end
 
-function CMD.Request_RoomList(package, player)
+function cmd.Request_RoomList(package, player)
   local start_idx = package.startIdx
   local end_idx = package.endIdx
   local room_list = skynet.call(".lobby", "lua", "get_room_list", start_idx, end_idx)
@@ -33,27 +33,27 @@ function CMD.Request_RoomList(package, player)
   return {roomList = tbl}
 end
 
-function CMD.Request_JoinRoom(package, player)
-  local ret = player_join_room(player, package.roomId)
+function cmd.Request_JoinRoom(package, player)
+  local ret = player:join_room(package.roomId)
   return {result = ret}
 end
 
-function CMD.Request_QuitRoom(package, player)
-  local ret = player_quit_room(player)
+function cmd.Request_QuitRoom(package, player)
+  local ret = player:quit_room()
   return {result = ret}
 end
 
-function CMD.Request_PrepareGame(package, player)
-  local ret = player_prepare_game(player)
+function cmd.Request_PrepareGame(package, player)
+  local ret = player:prepare_game(package.flag)
   return {result = ret}
 end
 
-function CMD.Request_StartGame(package, player)
-  local ret = player_start_game(player)
+function cmd.Request_StartGame(package, player)
+  local ret = player:start_game()
   return {result = ret}
 end
 
-function CMD.C2S_BroadcastRoomData(package, player)
+function cmd.C2S_BroadcastRoomData(package, player)
   if player.room_id == 0 then
     print("player not in room")
     return
@@ -89,4 +89,4 @@ end
 
 
 
-return CMD
+return cmd

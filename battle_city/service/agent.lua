@@ -14,10 +14,11 @@ local host
 local send_request
 
 local player_handler = require "player.player_handler"
-local CMD = {}
+local cmd = {}
 local REQUEST = {}
 local client_fd
 local player
+local battle -- 战斗服务地址
 
 skynet.register_protocol {
 	name = "client",
@@ -29,7 +30,7 @@ skynet.register_protocol {
     local p = protobuf.decode("Package", buffer)
     print("recieve package",p.name)
     local pp = protobuf.decode(p.name, p.data)
-    local f = CMD[p.name] or player_handler[p.name]
+    local f = cmd[p.name] or player_handler[p.name]
     if not f then
       print("message handler not exist. Package:"..p.name)
       return
@@ -41,7 +42,7 @@ skynet.register_protocol {
 	end
 }
 
-function CMD.login_start(conf)
+function cmd.login_start(conf)
   local fd = conf.client
   local gate = conf.gate
   WATCHDOG = conf.watchdog
@@ -51,7 +52,7 @@ function CMD.login_start(conf)
   skynet.call(gate, "lua", "forward", fd)
 end
 
-function CMD.master_start(conf)
+function cmd.master_start(conf)
   local fd = conf.client
   local gate = conf.gate
   WATCHDOG = conf.watchdog
@@ -63,7 +64,7 @@ function CMD.master_start(conf)
   --send_hello()
 end
 
-function CMD.battle_start(conf)
+function cmd.battle_start(conf)
   local fd = conf.client
   local gate = conf.gate
   WATCHDOG = conf.watchdog
@@ -71,10 +72,11 @@ function CMD.battle_start(conf)
   print("battle start")
 
   skynet.call(gate, "lua", "forward", fd)
+  send_package("S2C_LoadScene", {name = "Battle"})
   --send_hello()
 end
 
-function CMD.C2S_Login(p)
+function cmd.C2S_Login(p)
   print("client login")
   local result, address, port, player_id = skynet.call(".login","lua","login",p.accountName, p.accountPwd)
   send_package("S2C_Login", {result = result, address = address, port = port, playerId = player_id})
@@ -82,16 +84,29 @@ function CMD.C2S_Login(p)
   skynet.exit()
 end
 
-function CMD.C2S_Online(p)
+function cmd.C2S_Online(p)
   local player_id = p.playerId
   player = skynet.call(".db", "lua", "query_player", player_id)
   if not player then
-    player = player_new()
+    player = Player.new()
   end
   
   skynet.register(".agent"..player.player_id)
   print("register agent"..player.player_id)
-  send_package("S2C_Online", {result = true, playerName = player.player_name})
+  send_package("S2C_Online", {
+    result = true, 
+    playerId =player.player_id, 
+    playerName = player.player_name
+  })
+end
+
+function cmd.C2S_JoinBattle(p)
+  local player_id = p.playerId
+  battle = p.battle  
+  skynet.register(".agent"..player_id)
+  local ret = skynet.call(battle, "lua", "join_battle", player_id)
+  if ret then
+  end
 end
 
 function send_hello()
@@ -112,20 +127,20 @@ function send_package(message_type, tbl, rpc_id)
   print("send_package:"..message_type.." data:"..buffer)
 end
 
-CMD.send_package = send_package
+cmd.send_package = send_package
 
-function CMD.disconnect()
+function cmd.disconnect()
 	-- todo: do something before exit
   if player then
-    player_quit_room(player)
-    player_save(player)
+    player:quit_room(player)
+    --player:save(player)
   end
 	skynet.exit()
 end
 
 skynet.start(function()
 	skynet.dispatch("lua", function(_,_, command, ...)
-		local f = CMD[command]
+		local f = cmd[command]
 		skynet.ret(skynet.pack(f(...)))
 	end)
 end)

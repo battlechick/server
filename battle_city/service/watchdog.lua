@@ -1,7 +1,7 @@
 local skynet = require "skynet"
 local netpack = require "netpack"
 
-local CMD = {}
+local cmd = {}
 local SOCKET = {}
 local gate
 local config
@@ -45,17 +45,17 @@ end
 function SOCKET.data(fd, msg)
 end
 
-function CMD.start(conf, cmd)
+function cmd.start(conf, cmd)
   config = conf
   agent_start_cmd = cmd
 	skynet.call(gate, "lua", "open" , conf)
 end
 
-function CMD.close(fd)
+function cmd.close(fd)
 	close_agent(fd)
 end
 
-function CMD.is_full()
+function cmd.is_full()
   if agent_count >= config.maxclient then
     return false
   else
@@ -64,13 +64,13 @@ function CMD.is_full()
 end
 
 skynet.start(function()
-	skynet.dispatch("lua", function(session, source, cmd, subcmd, ...)
-		if cmd == "socket" then
+	skynet.dispatch("lua", function(session, source, command, subcmd, ...)
+		if command == "socket" then
 			local f = SOCKET[subcmd]
 			f(...)
 			-- socket api don't need return
 		else
-			local f = assert(CMD[cmd])
+			local f = assert(cmd[command])
 			skynet.ret(skynet.pack(f(subcmd, ...)))
 		end
 	end)
