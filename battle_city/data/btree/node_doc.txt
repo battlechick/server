@@ -1,0 +1,3 @@
+[{"name":"AiRoot","nickname":"根节点","describe":"AI的根节点,执行所有子节点","classify":"复合节点","inputs":"rate/int/100/执行频率(毫秒次)","outputs":"","limit":999},
+{"name":"Sequence","nickname":"顺序执行","describe":"执行所有子节点直到返回false","classify":"复合节点","inputs":"","outputs":"","limit":999},
+{"name":"Selector","nickname":"选择执行","describe":"执行所有子节点直到返回true","classify":"复合节点","inputs":"","outputs":"","limit":999}]
