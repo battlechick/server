@@ -4,17 +4,43 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+BehaviorNode:after_run	script/behavior_tree/behavior_node.lua	/^function BehaviorNode:after_run()$/;"	f
+BehaviorNode:before_run	script/behavior_tree/behavior_node.lua	/^function BehaviorNode:before_run()$/;"	f
+BehaviorNode:ctor	script/behavior_tree/behavior_node.lua	/^function BehaviorNode:ctor()$/;"	f
+BehaviorNode:exec	script/behavior_tree/behavior_node.lua	/^function BehaviorNode:exec()$/;"	f
+BehaviorNode:init	script/behavior_tree/behavior_node.lua	/^function BehaviorNode:init(node_data, tree)$/;"	f
+BehaviorNode:run	script/behavior_tree/behavior_node.lua	/^function BehaviorNode:run()$/;"	f
+BehaviorTree:ctor	script/behavior_tree/behavior_tree.lua	/^function BehaviorTree:ctor(tree_data, owner)$/;"	f
+BehaviorTree:exec	script/behavior_tree/behavior_tree.lua	/^function BehaviorTree:exec()$/;"	f
+BehaviorTree:get_var	script/behavior_tree/behavior_tree.lua	/^function BehaviorTree:get_var(key)$/;"	f
+BehaviorTree:set_var	script/behavior_tree/behavior_tree.lua	/^function BehaviorTree:set_var(key, value)$/;"	f
 CC	Makefile	/^CC = gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS = -O2 -fPIC -Wall$/;"	m
+CJSON_MODNAME	luaclib/lua_cjson.c	50;"	d	file:
+CJSON_VERSION	luaclib/lua_cjson.c	54;"	d	file:
 CMD.C2S_Hello	script/battle/battle_handler.lua	/^function CMD.C2S_Hello(package)$/;"	f
 CMD.Request_CreateRoom	script/battle/battle_handler.lua	/^function CMD.Request_CreateRoom(package, player)$/;"	f
+DEFAULT_DECODE_INVALID_NUMBERS	luaclib/lua_cjson.c	68;"	d	file:
+DEFAULT_DECODE_INVALID_NUMBERS	luaclib/lua_cjson.c	73;"	d	file:
+DEFAULT_DECODE_INVALID_NUMBERS	luaclib/lua_cjson.c	74;"	d	file:
+DEFAULT_DECODE_MAX_DEPTH	luaclib/lua_cjson.c	66;"	d	file:
+DEFAULT_ENCODE_INVALID_NUMBERS	luaclib/lua_cjson.c	67;"	d	file:
+DEFAULT_ENCODE_KEEP_BUFFER	luaclib/lua_cjson.c	69;"	d	file:
+DEFAULT_ENCODE_MAX_DEPTH	luaclib/lua_cjson.c	65;"	d	file:
+DEFAULT_ENCODE_NUMBER_PRECISION	luaclib/lua_cjson.c	70;"	d	file:
+DEFAULT_SPARSE_CONVERT	luaclib/lua_cjson.c	62;"	d	file:
+DEFAULT_SPARSE_RATIO	luaclib/lua_cjson.c	63;"	d	file:
+DEFAULT_SPARSE_SAFE	luaclib/lua_cjson.c	64;"	d	file:
 LUADIR	Makefile	/^LUADIR = ..\/skynet\/3rd\/lua\/$/;"	m
 M.check	lualib/protobuf.lua	/^function M.check(typename , field)$/;"	f
+M.create_tree	script/behavior_tree/bt_manager.lua	/^function M.create_tree(owner, tree_id)$/;"	f
 M.decode	lualib/protobuf.lua	/^function M.decode(typename, buffer, length)$/;"	f
 M.encode	lualib/protobuf.lua	/^function M.encode( message, t , func , ...)$/;"	f
 M.enum_id	lualib/protobuf.lua	/^function M.enum_id(enum_type, enum_name)$/;"	f
+M.export_node_doc	script/behavior_tree/bt_manager.lua	/^function M.export_node_doc()$/;"	f
 M.extract	lualib/protobuf.lua	/^function M.extract(tbl)$/;"	f
 M.lasterror	lualib/protobuf.lua	/^function M.lasterror()$/;"	f
+M.load_trees	script/behavior_tree/bt_manager.lua	/^function M.load_trees()$/;"	f
 M.pack	lualib/protobuf.lua	/^function M.pack(pattern, ...)$/;"	f
 M.register	lualib/protobuf.lua	/^function M.register(buffer)$/;"	f
 M.register_file	lualib/protobuf.lua	/^function M.register_file(filename)$/;"	f
@@ -30,12 +56,32 @@ Player:rpc	script/player/player.lua	/^function Player:rpc(self)$/;"	f
 Player:send	script/player/player.lua	/^function Player:send(message_type, tbl)$/;"	f
 Player:start_game	script/player/player_room.lua	/^function Player:start_game()$/;"	f
 Player_save	script/player/player.lua	/^function Player_save(self)$/;"	f
+Root:ctor	script/behavior_tree/behavior_node.lua	/^function Root:ctor()$/;"	f
+Root:run	script/behavior_tree/behavior_node.lua	/^function Root:run()$/;"	f
 SOCKET.close	service/watchdog.lua	/^function SOCKET.close(fd)$/;"	f
 SOCKET.data	service/watchdog.lua	/^function SOCKET.data(fd, msg)$/;"	f
 SOCKET.error	service/watchdog.lua	/^function SOCKET.error(fd, msg)$/;"	f
 SOCKET.open	service/watchdog.lua	/^function SOCKET.open(fd, addr)$/;"	f
 SOCKET.warning	service/watchdog.lua	/^function SOCKET.warning(fd, size)$/;"	f
+Selector:ctor	script/behavior_tree/behavior_node.lua	/^function Selector:ctor()$/;"	f
+Selector:run	script/behavior_tree/behavior_node.lua	/^function Selector:run()$/;"	f
+Sequence:ctor	script/behavior_tree/behavior_node.lua	/^function Sequence:ctor()$/;"	f
+Sequence:run	script/behavior_tree/behavior_node.lua	/^function Sequence:run()$/;"	f
 TARGET	Makefile	/^TARGET = luaclib\/protobuf.so$/;"	m
+T_ARR_BEGIN	luaclib/lua_cjson.c	/^    T_ARR_BEGIN,$/;"	e	enum:__anon1	file:
+T_ARR_END	luaclib/lua_cjson.c	/^    T_ARR_END,$/;"	e	enum:__anon1	file:
+T_BOOLEAN	luaclib/lua_cjson.c	/^    T_BOOLEAN,$/;"	e	enum:__anon1	file:
+T_COLON	luaclib/lua_cjson.c	/^    T_COLON,$/;"	e	enum:__anon1	file:
+T_COMMA	luaclib/lua_cjson.c	/^    T_COMMA,$/;"	e	enum:__anon1	file:
+T_END	luaclib/lua_cjson.c	/^    T_END,$/;"	e	enum:__anon1	file:
+T_ERROR	luaclib/lua_cjson.c	/^    T_ERROR,$/;"	e	enum:__anon1	file:
+T_NULL	luaclib/lua_cjson.c	/^    T_NULL,$/;"	e	enum:__anon1	file:
+T_NUMBER	luaclib/lua_cjson.c	/^    T_NUMBER,$/;"	e	enum:__anon1	file:
+T_OBJ_BEGIN	luaclib/lua_cjson.c	/^    T_OBJ_BEGIN,$/;"	e	enum:__anon1	file:
+T_OBJ_END	luaclib/lua_cjson.c	/^    T_OBJ_END,$/;"	e	enum:__anon1	file:
+T_STRING	luaclib/lua_cjson.c	/^    T_STRING,$/;"	e	enum:__anon1	file:
+T_UNKNOWN	luaclib/lua_cjson.c	/^    T_UNKNOWN$/;"	e	enum:__anon1	file:
+T_WHITESPACE	luaclib/lua_cjson.c	/^    T_WHITESPACE,$/;"	e	enum:__anon1	file:
 _R_meta:__index	lualib/protobuf.lua	/^function _R_meta:__index(key)$/;"	f
 __index 	lualib/protobuf.lua	/^	__index = function(self, key)$/;"	f
 __index 	lualib/protobuf.lua	/^	__index = function(t, key)$/;"	f
@@ -119,18 +165,25 @@ _writer[4] 	lualib/protobuf.lua	/^_writer[4] = function(msg) return _writer.stri
 _writer[5] 	lualib/protobuf.lua	/^_writer[5] = function(msg) return _writer.string end$/;"	f
 _writer[6] 	lualib/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
 alloca	luaclib/pbc-lua53.c	16;"	d	file:
+boolean	luaclib/lua_cjson.c	/^        int boolean;$/;"	m	union:__anon4::__anon5	file:
+broadcast	script/battle/battle.lua	/^function broadcast(message_type, tbl)$/;"	f
 broadcast	service/lobby.lua	/^function broadcast(room, message_type, tbl)$/;"	f
 broadcast_room_data	service/lobby.lua	/^function broadcast_room_data(room)$/;"	f
 bytes_to_int	script/global.lua	/^function bytes_to_int(str,endian,signed) -- use length of string to determine 8,16,32,64 bits$/;"	f
 cap_msg	luaclib/pbc-lua53.c	/^	int cap_msg;$/;"	m	struct:gcobj	file:
 cap_pat	luaclib/pbc-lua53.c	/^	int cap_pat;$/;"	m	struct:gcobj	file:
+cfg	luaclib/lua_cjson.c	/^    json_config_t *cfg;$/;"	m	struct:__anon3	file:
+ch2token	luaclib/lua_cjson.c	/^    json_token_type_t ch2token[256];$/;"	m	struct:__anon2	file:
+char2escape	luaclib/lua_cjson.c	/^static const char *char2escape[256] = {$/;"	v	file:
 check_empty	service/lobby.lua	/^function check_empty(room)$/;"	f
+check_load_finished	script/battle/battle.lua	/^function check_load_finished()$/;"	f
 checkuserdata	luaclib/pbc-lua53.c	/^checkuserdata(lua_State *L, int index) {$/;"	f	file:
-class	script/global.lua	/^function class(super)$/;"	f
+class	script/global.lua	/^function class(super, class_name)$/;"	f
 class_type.new	script/global.lua	/^  class_type.new=function(...) $/;"	f
 close_agent	service/watchdog.lua	/^local function close_agent(fd)$/;"	f
 cmd.C2S_BroadcastRoomData	script/player/player_handler.lua	/^function cmd.C2S_BroadcastRoomData(package, player)$/;"	f
 cmd.C2S_Hello	script/player/player_handler.lua	/^function cmd.C2S_Hello(package)$/;"	f
+cmd.C2S_JoinBattle	service/agent.lua	/^function cmd.C2S_JoinBattle(p)$/;"	f
 cmd.C2S_Login	service/agent.lua	/^function cmd.C2S_Login(p)$/;"	f
 cmd.C2S_Online	service/agent.lua	/^function cmd.C2S_Online(p)$/;"	f
 cmd.Request_CreateRoom	script/player/player_handler.lua	/^function cmd.Request_CreateRoom(package, player)$/;"	f
@@ -148,8 +201,9 @@ cmd.create	service/battlemng.lua	/^function cmd.create(room)$/;"	f
 cmd.create_room	service/lobby.lua	/^function cmd.create_room(room_name, player_id)$/;"	f
 cmd.disconnect	service/agent.lua	/^function cmd.disconnect()$/;"	f
 cmd.get_room_list	service/lobby.lua	/^function cmd.get_room_list(start_idx, end_idx)$/;"	f
-cmd.init	script/battle/battle.lua	/^function cmd.init(room)$/;"	f
+cmd.init	script/battle/battle.lua	/^function cmd.init(_room)$/;"	f
 cmd.is_full	service/watchdog.lua	/^function cmd.is_full()$/;"	f
+cmd.join_battle	script/battle/battle.lua	/^function cmd.join_battle(player_id)$/;"	f
 cmd.join_room	service/lobby.lua	/^function cmd.join_room(room_id, player_id, player_name)$/;"	f
 cmd.login	service/login.lua	/^function cmd.login(account_name, account_pwd)$/;"	f
 cmd.login_start	service/agent.lua	/^function cmd.login_start(conf)$/;"	f
@@ -165,9 +219,15 @@ cmd.save_account	service/db.lua	/^function cmd.save_account(account)$/;"	f
 cmd.save_player	service/db.lua	/^function cmd.save_player(player)$/;"	f
 cmd.start	service/watchdog.lua	/^function cmd.start(conf, cmd)$/;"	f
 cmd.start_game	service/lobby.lua	/^function cmd.start_game(room_id, player_id)$/;"	f
+codepoint_to_utf8	luaclib/lua_cjson.c	/^static int codepoint_to_utf8(char *utf8, int codepoint)$/;"	f	file:
 collection	service/db.lua	/^function collection(name)$/;"	f
 create 	script/global.lua	/^      create = function(c,...)$/;"	f
+current_depth	luaclib/lua_cjson.c	/^    int current_depth;$/;"	m	struct:__anon3	file:
+data	luaclib/lua_cjson.c	/^    const char *data;$/;"	m	struct:__anon3	file:
 decode_cb	luaclib/pbc-lua53.c	/^decode_cb(void *ud, int type, const char * type_name, union pbc_value *v, int id, const char *key) {$/;"	f	file:
+decode_hex4	luaclib/lua_cjson.c	/^static int decode_hex4(const char *hex)$/;"	f	file:
+decode_invalid_numbers	luaclib/lua_cjson.c	/^    int decode_invalid_numbers;$/;"	m	struct:__anon2	file:
+decode_max_depth	luaclib/lua_cjson.c	/^    int decode_max_depth;$/;"	m	struct:__anon2	file:
 decode_message	lualib/protobuf.lua	/^local function decode_message( message , buffer, length)$/;"	f
 decode_message_cb	lualib/protobuf.lua	/^local function decode_message_cb(typename, buffer)$/;"	f
 decode_message_mt.__index	lualib/protobuf.lua	/^function decode_message_mt.__index(tbl, key)$/;"	f
@@ -175,17 +235,79 @@ decode_message_mt.__pairs	lualib/protobuf.lua	/^function decode_message_mt.__pai
 default_table	lualib/protobuf.lua	/^local function default_table(typename)$/;"	f
 dispatch 	service/agent.lua	/^	dispatch = function (session, address, buffer, ...)$/;"	f
 dump_tbl	script/global.lua	/^function dump_tbl(root)$/;"	f
+encode_buf	luaclib/lua_cjson.c	/^    strbuf_t encode_buf;$/;"	m	struct:__anon2	file:
+encode_invalid_numbers	luaclib/lua_cjson.c	/^    int encode_invalid_numbers;     \/* 2 => Encode as "null" *\/$/;"	m	struct:__anon2	file:
+encode_keep_buffer	luaclib/lua_cjson.c	/^    int encode_keep_buffer;$/;"	m	struct:__anon2	file:
+encode_max_depth	luaclib/lua_cjson.c	/^    int encode_max_depth;$/;"	m	struct:__anon2	file:
 encode_message	lualib/protobuf.lua	/^local function encode_message(CObj, message_type, t)$/;"	f
+encode_number_precision	luaclib/lua_cjson.c	/^    int encode_number_precision;$/;"	m	struct:__anon2	file:
+encode_sparse_convert	luaclib/lua_cjson.c	/^    int encode_sparse_convert;$/;"	m	struct:__anon2	file:
+encode_sparse_ratio	luaclib/lua_cjson.c	/^    int encode_sparse_ratio;$/;"	m	struct:__anon2	file:
+encode_sparse_safe	luaclib/lua_cjson.c	/^    int encode_sparse_safe;$/;"	m	struct:__anon2	file:
 env	luaclib/pbc-lua53.c	/^	struct pbc_env * env;$/;"	m	struct:gcobj	typeref:struct:gcobj::pbc_env	file:
+escape2char	luaclib/lua_cjson.c	/^    char escape2char[256];  \/* Decoding *\/$/;"	m	struct:__anon2	file:
 expand	lualib/protobuf.lua	/^local function expand(tbl)$/;"	f
 gcobj	luaclib/pbc-lua53.c	/^struct gcobj {$/;"	s	file:
 get_global_data	service/db.lua	/^function get_global_data(key)$/;"	f
+hexdigit2int	luaclib/lua_cjson.c	/^static int hexdigit2int(char hex)$/;"	f	file:
+index	luaclib/lua_cjson.c	/^    int index;$/;"	m	struct:__anon4	file:
 int_to_bytes	script/global.lua	/^function int_to_bytes(num,endian,signed)$/;"	f
+isinf	luaclib/lua_cjson.c	59;"	d	file:
+json_append_array	luaclib/lua_cjson.c	/^static void json_append_array(lua_State *l, json_config_t *cfg, int current_depth,$/;"	f	file:
+json_append_data	luaclib/lua_cjson.c	/^static void json_append_data(lua_State *l, json_config_t *cfg,$/;"	f	file:
+json_append_number	luaclib/lua_cjson.c	/^static void json_append_number(lua_State *l, json_config_t *cfg,$/;"	f	file:
+json_append_object	luaclib/lua_cjson.c	/^static void json_append_object(lua_State *l, json_config_t *cfg,$/;"	f	file:
+json_append_string	luaclib/lua_cjson.c	/^static void json_append_string(lua_State *l, strbuf_t *json, int lindex)$/;"	f	file:
+json_append_unicode_escape	luaclib/lua_cjson.c	/^static int json_append_unicode_escape(json_parse_t *json)$/;"	f	file:
+json_arg_init	luaclib/lua_cjson.c	/^static json_config_t *json_arg_init(lua_State *l, int args)$/;"	f	file:
+json_cfg_decode_invalid_numbers	luaclib/lua_cjson.c	/^static int json_cfg_decode_invalid_numbers(lua_State *l)$/;"	f	file:
+json_cfg_decode_max_depth	luaclib/lua_cjson.c	/^static int json_cfg_decode_max_depth(lua_State *l)$/;"	f	file:
+json_cfg_encode_invalid_numbers	luaclib/lua_cjson.c	/^static int json_cfg_encode_invalid_numbers(lua_State *l)$/;"	f	file:
+json_cfg_encode_keep_buffer	luaclib/lua_cjson.c	/^static int json_cfg_encode_keep_buffer(lua_State *l)$/;"	f	file:
+json_cfg_encode_max_depth	luaclib/lua_cjson.c	/^static int json_cfg_encode_max_depth(lua_State *l)$/;"	f	file:
+json_cfg_encode_number_precision	luaclib/lua_cjson.c	/^static int json_cfg_encode_number_precision(lua_State *l)$/;"	f	file:
+json_cfg_encode_sparse_array	luaclib/lua_cjson.c	/^static int json_cfg_encode_sparse_array(lua_State *l)$/;"	f	file:
+json_check_encode_depth	luaclib/lua_cjson.c	/^static void json_check_encode_depth(lua_State *l, json_config_t *cfg,$/;"	f	file:
+json_config_t	luaclib/lua_cjson.c	/^} json_config_t;$/;"	t	typeref:struct:__anon2	file:
+json_create_config	luaclib/lua_cjson.c	/^static void json_create_config(lua_State *l)$/;"	f	file:
+json_decode	luaclib/lua_cjson.c	/^static int json_decode(lua_State *l)$/;"	f	file:
+json_decode_ascend	luaclib/lua_cjson.c	/^static inline void json_decode_ascend(json_parse_t *json)$/;"	f	file:
+json_decode_descend	luaclib/lua_cjson.c	/^static void json_decode_descend(lua_State *l, json_parse_t *json, int slots)$/;"	f	file:
+json_destroy_config	luaclib/lua_cjson.c	/^static int json_destroy_config(lua_State *l)$/;"	f	file:
+json_encode	luaclib/lua_cjson.c	/^static int json_encode(lua_State *l)$/;"	f	file:
+json_encode_exception	luaclib/lua_cjson.c	/^static void json_encode_exception(lua_State *l, json_config_t *cfg, strbuf_t *json, int lindex,$/;"	f	file:
+json_enum_option	luaclib/lua_cjson.c	/^static int json_enum_option(lua_State *l, int optindex, int *setting,$/;"	f	file:
+json_fetch_config	luaclib/lua_cjson.c	/^static json_config_t *json_fetch_config(lua_State *l)$/;"	f	file:
+json_integer_option	luaclib/lua_cjson.c	/^static int json_integer_option(lua_State *l, int optindex, int *setting,$/;"	f	file:
+json_is_invalid_number	luaclib/lua_cjson.c	/^static int json_is_invalid_number(json_parse_t *json)$/;"	f	file:
+json_next_number_token	luaclib/lua_cjson.c	/^static void json_next_number_token(json_parse_t *json, json_token_t *token)$/;"	f	file:
+json_next_string_token	luaclib/lua_cjson.c	/^static void json_next_string_token(json_parse_t *json, json_token_t *token)$/;"	f	file:
+json_next_token	luaclib/lua_cjson.c	/^static void json_next_token(json_parse_t *json, json_token_t *token)$/;"	f	file:
+json_parse_array_context	luaclib/lua_cjson.c	/^static void json_parse_array_context(lua_State *l, json_parse_t *json)$/;"	f	file:
+json_parse_object_context	luaclib/lua_cjson.c	/^static void json_parse_object_context(lua_State *l, json_parse_t *json)$/;"	f	file:
+json_parse_t	luaclib/lua_cjson.c	/^} json_parse_t;$/;"	t	typeref:struct:__anon3	file:
+json_process_value	luaclib/lua_cjson.c	/^static void json_process_value(lua_State *l, json_parse_t *json,$/;"	f	file:
+json_protect_conversion	luaclib/lua_cjson.c	/^static int json_protect_conversion(lua_State *l)$/;"	f	file:
+json_set_token_error	luaclib/lua_cjson.c	/^static void json_set_token_error(json_token_t *token, json_parse_t *json,$/;"	f	file:
+json_throw_parse_error	luaclib/lua_cjson.c	/^static void json_throw_parse_error(lua_State *l, json_parse_t *json,$/;"	f	file:
+json_token_t	luaclib/lua_cjson.c	/^} json_token_t;$/;"	t	typeref:struct:__anon4	file:
+json_token_type_name	luaclib/lua_cjson.c	/^static const char *json_token_type_name[] = {$/;"	v	file:
+json_token_type_t	luaclib/lua_cjson.c	/^} json_token_type_t;$/;"	t	typeref:enum:__anon1	file:
+json_verify_invalid_number_setting	luaclib/lua_cjson.c	/^void json_verify_invalid_number_setting(lua_State *l, int *setting)$/;"	f
+json_verify_invalid_number_setting	luaclib/lua_cjson.c	333;"	d	file:
+luaL_setfuncs	luaclib/lua_cjson.c	/^static void luaL_setfuncs (lua_State *l, const luaL_Reg *reg, int nup)$/;"	f	file:
+lua_array_length	luaclib/lua_cjson.c	/^static int lua_array_length(lua_State *l, json_config_t *cfg, strbuf_t *json)$/;"	f	file:
+lua_cjson_new	luaclib/lua_cjson.c	/^static int lua_cjson_new(lua_State *l)$/;"	f	file:
+lua_cjson_safe_new	luaclib/lua_cjson.c	/^static int lua_cjson_safe_new(lua_State *l)$/;"	f	file:
+luaopen_cjson	luaclib/lua_cjson.c	/^int luaopen_cjson(lua_State *l)$/;"	f
+luaopen_cjson_safe	luaclib/lua_cjson.c	/^int luaopen_cjson_safe(lua_State *l)$/;"	f
 luaopen_protobuf_c	luaclib/pbc-lua53.c	/^luaopen_protobuf_c(lua_State *L) {$/;"	f
 msg	luaclib/pbc-lua53.c	/^	struct pbc_rmessage ** msg;$/;"	m	struct:gcobj	typeref:struct:gcobj::pbc_rmessage	file:
 new_array	luaclib/pbc-lua53.c	/^new_array(lua_State *L, int id, const char *key) {$/;"	f	file:
+number	luaclib/lua_cjson.c	/^        double number;$/;"	m	union:__anon4::__anon5	file:
 pat	luaclib/pbc-lua53.c	/^	struct pbc_pattern ** pat;$/;"	m	struct:gcobj	typeref:struct:gcobj::pbc_pattern	file:
 player_test	script/player/player_test.lua	/^function player_test()$/;"	f
+ptr	luaclib/lua_cjson.c	/^    const char *ptr;$/;"	m	struct:__anon3	file:
 push_value	luaclib/pbc-lua53.c	/^push_value(lua_State *L, int type, const char * type_name, union pbc_value *v) {$/;"	f	file:
 save_global_data	service/db.lua	/^function save_global_data(key, value)$/;"	f
 send_hello	service/agent.lua	/^function send_hello()$/;"	f
@@ -196,4 +318,11 @@ setmetatable(class_type,{__newindex	script/global.lua	/^  setmetatable(class_typ
 setmetatable(vtbl,{__index	script/global.lua	/^    setmetatable(vtbl,{__index=function(t,k)$/;"	f
 size_msg	luaclib/pbc-lua53.c	/^	int size_msg;$/;"	m	struct:gcobj	file:
 size_pat	luaclib/pbc-lua53.c	/^	int size_pat;$/;"	m	struct:gcobj	file:
+start	script/battle/battle.lua	/^function start()$/;"	f
+string	luaclib/lua_cjson.c	/^        const char *string;$/;"	m	union:__anon4::__anon5	file:
+string.split	script/global.lua	/^function string.split(str, delim, maxNb)   $/;"	f
+string_len	luaclib/lua_cjson.c	/^    int string_len;$/;"	m	struct:__anon4	file:
+tmp	luaclib/lua_cjson.c	/^    strbuf_t *tmp;    \/* Temporary storage for strings *\/$/;"	m	struct:__anon3	file:
+type	luaclib/lua_cjson.c	/^    json_token_type_t type;$/;"	m	struct:__anon4	file:
 unpack 	service/agent.lua	/^	unpack = function (msg, sz)$/;"	f
+value	luaclib/lua_cjson.c	/^    } value;$/;"	m	struct:__anon4	typeref:union:__anon4::__anon5	file:

@@ -2,34 +2,20 @@
 require "behavior_tree.behavior_node"
 require "behavior_tree.behavior_tree"
 
+local json = require "cjson"
+
 local M = {}
 -- 导出节点说明配置
 function M.export_node_doc()
   local data = "["
-  
-  for name, obj in pairs(CLASS_SET) do
-    local doc = obj.doc
-    if doc then
-      local function format(key, value)
-        if type(value) == "string" then
-          return "\""..key.."\":\""..tostring(value).."\""
-        else
-          return "\""..key.."\":"..tostring(value)
-        end
+  for name, c in pairs(_G) do
+    if type(c) == "table" and c.super == BehaviorNode then
+      local obj = c.new()
+      local doc = obj.doc
+      if doc then
+        doc.name = name
+        data = data .. json.encode(doc) .. ",\n" 
       end
-      nickname = doc.nickname or "" 
-      describe = doc.describe or ""
-      classify = doc.classify or ""
-      inputs = doc.inputs or ""
-      outputs = doc.outputs or ""
-      limit = doc.limit or 0
-      data = data .. "{" .. table.concat({format("name", name), 
-          format("nickname", nickname),
-          format("describe", describe),
-          format("classify", classify),
-          format("inputs", inputs), 
-          format("outputs", outputs), 
-          format("limit", limit)}, ',').. "},\n"
     end
   end
 
@@ -37,15 +23,37 @@ function M.export_node_doc()
     data = string.sub(data, 1,-3)
     data = data .. "]"
   end
-  print(data)
 
   local file = io.open(WORKSPACE.."data/btree/node_doc.txt", "w")
   file:write(data)
+end
 
-  local json = require "cjson"
-  dump_tbl(json.decode(data))
+local id2tree_data = {}
+function M.load_trees()
+  local dir = WORKSPACE.."data/btree/tree/"
+  local s = io.popen("ls ".. dir)
+  local fileLists = s:read("*all")
+  while true do
+    _,end_pos, filename = string.find(fileLists, "([^\n\r]+.txt)", start_pos)
+    if not end_pos then 
+      break
+    end
+    local file = io.open(dir..filename, "r")
+    local str = file:read()
+    local data = json.decode(str)
+    id2tree_data[data.tree_id] = data
+    start_pos = end_pos + 1
+  end
 
+end
 
+function M.create_tree(tree_id, owner)
+  local tree_data = id2tree_data[tree_id]
+  if not tree_data then
+    print("behavior tree not exist, tree_id:"..tree_id)
+    return
+  end
+  return BehaviorTree.new(tree_data, owner)
 end
 
 return M

@@ -1,72 +1,77 @@
-
+-- 行为树节点基类
 BehaviorNode = class()
---[[
---节点文档说明，导出配置
-  BehaviorNode.doc = {
-  name = ""           -- 
-  nickname = "",      -- 节点名称(XX节点)
-  describe = "",      -- 节点描述(bababa...)
-  classify = "",      -- 节点分类(行为节点)
-  inputs = "",        -- 输入(a/int/0/常量, aa/key//变量)
-  outputs = "",       -- 输出(a///变量)
-  limit = 0,          -- 子节点限制
-}]]
-function BehaviorNode:ctor(tree_id, node_id, node_data)
-  self.tree_id = tree_id
-  self.node_id = node_id
+function BehaviorNode:ctor()
+  --节点文档说明，导出配置
+  self.doc = {
+    name = "",          -- 
+    nickname = "",      -- 节点名称(XX节点)
+    describe = "",      -- 节点描述(bababa...)
+    classify = "",      -- 节点分类(行为节点)
+    args_desc = {},     -- 输入(a/常量/int/0, aa/变量/key/)
+    limit = 0,          -- 子节点限制
+  }
+end
+function BehaviorNode:init(node_data, tree)
+  self.tree = tree
+  self.data = node_data
+  self.node_id = node_data.node_id
   self.children = {}
+  for _, child_data in ipairs(node_data.children) do
+    local node_name = child_data.name
+    if not _G[node_name] then
+      print("behavior node not exist: "..node_name)
+      return
+    end
+    local child = _G[node_name].new()
+    child:init(child_data, tree)
+    table.insert(self.children, child)
+  end
+end
+function BehaviorNode:exec()
+  self:before_run()
+  self:run()
+  self:after_run()
+end
+function BehaviorNode:before_run()
+  for i, desc in ipairs(self.doc.args_desc) do
+    local arr = string.split(desc, '/')
+    local key = arr[1]
+    local t = arr[3]
+    local var_flag = self.data[i]
+    local arg =  self.data[i]
+    local value = nil
+    if var_flag then
+      value = self.tree:get_var(arg)
+    else
+      if t == "int" or t == "float" then
+        value = tonumber(arg)
+      else
+        value = arg
+      end
+    end
+    self[key] = value
+  end
 end
 function BehaviorNode:run()
   return true
 end
+function BehaviorNode:after_run()
+  for i , desc in ipairs(self.doc.args_desc) do
+    local arr = string.split(desc, '/')
+    local key = arr[1]
+    local t = arr[3]
+    local var_flag = self.data[i]
+    local arg =  self.data[i]
+    local value = self[key]
 
-
-AiRoot = class(BehaviorNode, "AiRoot")
-AiRoot.doc = {
-  nickname = "根节点", 
-  describe = "AI的根节点,执行所有子节点", 
-  inputs = "rate/int/100/执行频率(毫秒次)",
-  classify = "复合节点",
-  limit = 999,
-}
-function AiRoot:run()
-  for _, child in ipairs(self.children) do
-    child:run()
-  end
-  return true
-end
-
-
-Sequence = class(BehaviorNode, "Sequence")
-Sequence.doc = {
-  nickname = "顺序执行",
-  describe = "执行所有子节点直到返回false",
-  classify = "复合节点",
-  limit = 999,
-}
-function Sequence:run()
-  for _, child in ipairs(self.children) do
-    if not child:run() then
-      return false
+    if var_flag then
+      self.tree:set_var(arg, value)
     end
+
   end
-  return true
 end
 
-Selector = class(BehaviorNode, "Selector")
-Selector.doc = {
-  nickname = "选择执行",
-  describe = "执行所有子节点直到返回true",
-  classify = "复合节点",
-  limit = 999,
-}
-function Selector:run()
-  for _, child in ipairs(self.children) do
-    if child:run() then
-      return true
-    end
-  end
-  return false
-end
-
+require "behavior_tree/node/common"
+require "behavior_tree/node/map"
+require "behavior_tree/node/ai"
 

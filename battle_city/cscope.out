@@ -1,4 +1,4 @@
-cscope 15 $HOME/server/battle_city -q 0000001204 0000124275
+cscope 15 $HOME/server/battle_city -q 0000001450 0000159780
 	@config/clustername.lua
 
 1 
@@ -195,9 +195,4803 @@ cd
 $
 {
 w‹k•a˚
+}/../
+lua
+-
+cjs⁄
+ && 
+make
+
+
+8 
+˝
+ 
+cjs⁄
+.
+so
+ 
+$
+{
+w‹k•a˚
+}/
+lua˛ib
+/
+
+9 
+˝
+ 
+lua_cjs⁄
+.
+c
+ 
+$
+{
+w‹k•a˚
+}/
+lua˛ib
+/
+
+11 
+cd
+ 
+$
+{
+w‹k•a˚
 } && 
 make
 
+
+	@luaclib/lua_cjson.c
+
+39 
+	~<as£π.h
+>
+
+40 
+	~<°rög.h
+>
+
+41 
+	~<m©h.h
+>
+
+42 
+	~<limôs.h
+>
+
+43 
+	~<lua.h
+>
+
+44 
+	~<œuxlib.h
+>
+
+46 
+	~"°rbuf.h
+"
+
+47 
+	~"Âc⁄v.h
+"
+
+49 #i‚de‡
+CJSON_MODNAME
+
+
+50 
+	#CJSON_MODNAME
+ "cjs⁄"
+
+	)
+
+53 #i‚de‡
+CJSON_VERSION
+
+
+54 
+	#CJSON_VERSION
+ "2.1.0"
+
+	)
+
+58 #i‡!
+deföed
+(
+isöf
+Ë&& (deföed(
+USE_INTERNAL_ISINF
+Ë|| deföed(
+MISSING_ISINF
+))
+
+59 
+	#isöf
+(
+x
+Ë(!
+	`i¢™
+(xË&& i¢™((xË- (x)))
+
+	)
+
+62 
+	#DEFAULT_SPARSE_CONVERT
+ 0
+
+	)
+
+63 
+	#DEFAULT_SPARSE_RATIO
+ 2
+
+	)
+
+64 
+	#DEFAULT_SPARSE_SAFE
+ 10
+
+	)
+
+65 
+	#DEFAULT_ENCODE_MAX_DEPTH
+ 1000
+
+	)
+
+66 
+	#DEFAULT_DECODE_MAX_DEPTH
+ 1000
+
+	)
+
+67 
+	#DEFAULT_ENCODE_INVALID_NUMBERS
+ 0
+
+	)
+
+68 
+	#DEFAULT_DECODE_INVALID_NUMBERS
+ 1
+
+	)
+
+69 
+	#DEFAULT_ENCODE_KEEP_BUFFER
+ 1
+
+	)
+
+70 
+	#DEFAULT_ENCODE_NUMBER_PRECISION
+ 14
+
+	)
+
+72 #ifde‡
+DISABLE_INVALID_NUMBERS
+
+
+73 #unde‡
+DEFAULT_DECODE_INVALID_NUMBERS
+
+
+74 
+	#DEFAULT_DECODE_INVALID_NUMBERS
+ 0
+
+	)
+
+78 
+	mT_OBJ_BEGIN
+,
+
+79 
+	mT_OBJ_END
+,
+
+80 
+	mT_ARR_BEGIN
+,
+
+81 
+	mT_ARR_END
+,
+
+82 
+	mT_STRING
+,
+
+83 
+	mT_NUMBER
+,
+
+84 
+	mT_BOOLEAN
+,
+
+85 
+	mT_NULL
+,
+
+86 
+	mT_COLON
+,
+
+87 
+	mT_COMMA
+,
+
+88 
+	mT_END
+,
+
+89 
+	mT_WHITESPACE
+,
+
+90 
+	mT_ERROR
+,
+
+91 
+	mT_UNKNOWN
+
+
+92 } 
+	tjs⁄_tokí_ty≥_t
+;
+
+94 c⁄° *
+	gjs⁄_tokí_ty≥_«me
+[] = {
+
+109 
+NULL
+
+
+113 
+js⁄_tokí_ty≥_t
+ 
+	mch2tokí
+[256];
+
+114 
+	mesˇ≥2ch¨
+[256];
+
+118 
+°rbuf_t
+ 
+	mícode_buf
+;
+
+120 
+	mícode_•¨£_c⁄vît
+;
+
+121 
+	mícode_•¨£_øtio
+;
+
+122 
+	mícode_•¨£_ß„
+;
+
+123 
+	mícode_max_dïth
+;
+
+124 
+	mícode_övÆid_numbîs
+;
+
+125 
+	mícode_numbî_¥ecisi⁄
+;
+
+126 
+	mícode_kìp_buf„r
+;
+
+128 
+	mdecode_övÆid_numbîs
+;
+
+129 
+	mdecode_max_dïth
+;
+
+130 } 
+	tjs⁄_c⁄fig_t
+;
+
+133 c⁄° *
+	md©a
+;
+
+134 c⁄° *
+	m±r
+;
+
+135 
+°rbuf_t
+ *
+	mtmp
+;
+
+136 
+js⁄_c⁄fig_t
+ *
+	mcfg
+;
+
+137 
+	mcuºít_dïth
+;
+
+138 } 
+	tjs⁄_∑r£_t
+;
+
+141 
+js⁄_tokí_ty≥_t
+ 
+	mty≥
+;
+
+142 
+	mödex
+;
+
+144 c⁄° *
+	m°rög
+;
+
+145 
+	mnumbî
+;
+
+146 
+	mboﬁón
+;
+
+147 } 
+	mvÆue
+;
+
+148 
+	m°rög_Àn
+;
+
+149 } 
+	tjs⁄_tokí_t
+;
+
+151 c⁄° *
+	gch¨2esˇ≥
+[256] = {
+
+160 
+NULL
+, NULL, "\\\"", NULL, NULL, NULL, NULL, NULL,
+
+161 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, "\\/",
+
+162 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+163 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+164 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+165 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+166 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+167 
+NULL
+, NULL, NULL, NULL, "\\\\", NULL, NULL, NULL,
+
+168 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+169 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+170 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+171 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, "\\u007f",
+
+172 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+173 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+174 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+175 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+176 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+177 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+178 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+179 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+180 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+181 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+182 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+183 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+184 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+185 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+186 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+187 
+NULL
+, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
+
+192 
+js⁄_c⁄fig_t
+ *
+	$js⁄_„tch_c⁄fig
+(
+lua_Sèã
+ *
+l
+)
+
+194 
+js⁄_c⁄fig_t
+ *
+cfg
+;
+
+196 
+cfg
+ = 
+	`lua_tou£rd©a
+(
+l
+, 
+	`lua_upvÆueödex
+(1));
+
+197 i‡(!
+cfg
+)
+
+198 
+	`luaL_îr‹
+(
+l
+, "BUG: UnableÅo fetch CJSON configuration");
+
+200  
+cfg
+;
+
+201 
+	}
+}
+
+206 
+js⁄_c⁄fig_t
+ *
+	$js⁄_¨g_öô
+(
+lua_Sèã
+ *
+l
+, 
+¨gs
+)
+
+208 
+	`luaL_¨gcheck
+(
+l
+, 
+	`lua_gët›
+÷Ë<
+¨gs
+,árgs + 1,
+
+211 
+	`lua_gët›
+(
+l
+Ë< 
+¨gs
+)
+
+212 
+	`lua_pushnû
+(
+l
+);
+
+214  
+	`js⁄_„tch_c⁄fig
+(
+l
+);
+
+215 
+	}
+}
+
+218 
+	$js⁄_öãgî_›ti⁄
+(
+lua_Sèã
+ *
+l
+, 
+›tödex
+, *
+£âög
+,
+
+219 
+mö
+, 
+max
+)
+
+221 
+îrmsg
+[64];
+
+222 
+vÆue
+;
+
+224 i‡(!
+	`lua_i¢û
+(
+l
+, 
+›tödex
+)) {
+
+225 
+vÆue
+ = 
+	`luaL_checköãgî
+(
+l
+, 
+›tödex
+);
+
+226 
+	`¢¥ötf
+(
+îrmsg
+, ”ºmsg), "ex≥˘ed i¡egî bëwì¿%dánd %d", 
+mö
+, 
+max
+);
+
+227 
+	`luaL_¨gcheck
+(
+l
+, 
+mö
+ <
+vÆue
+ && vÆuê<
+max
+, 1, 
+îrmsg
+);
+
+228 *
+£âög
+ = 
+vÆue
+;
+
+231 
+	`lua_pushöãgî
+(
+l
+, *
+£âög
+);
+
+234 
+	}
+}
+
+237 
+	$js⁄_íum_›ti⁄
+(
+lua_Sèã
+ *
+l
+, 
+›tödex
+, *
+£âög
+,
+
+238 c⁄° **
+›ti⁄s
+, 
+boﬁ_åue
+)
+
+240 c⁄° *
+boﬁ_›ti⁄s
+[] = { "off", "⁄", 
+NULL
+ };
+
+242 i‡(!
+›ti⁄s
+) {
+
+243 
+›ti⁄s
+ = 
+boﬁ_›ti⁄s
+;
+
+244 
+boﬁ_åue
+ = 1;
+
+247 i‡(!
+	`lua_i¢û
+(
+l
+, 
+›tödex
+)) {
+
+248 i‡(
+boﬁ_åue
+ && 
+	`lua_isboﬁón
+(
+l
+, 
+›tödex
+))
+
+249 *
+£âög
+ = 
+	`lua_toboﬁón
+(
+l
+, 
+›tödex
+Ë* 
+boﬁ_åue
+;
+
+251 *
+£âög
+ = 
+	`luaL_check›ti⁄
+(
+l
+, 
+›tödex
+, 
+NULL
+, 
+›ti⁄s
+);
+
+254 i‡(
+boﬁ_åue
+ && (*
+£âög
+ == 0 || *setting == bool_true))
+
+255 
+	`lua_pushboﬁón
+(
+l
+, *
+£âög
+);
+
+257 
+	`lua_push°rög
+(
+l
+, 
+›ti⁄s
+[*
+£âög
+]);
+
+260 
+	}
+}
+
+266 
+	$js⁄_cfg_ícode_•¨£_¨øy
+(
+lua_Sèã
+ *
+l
+)
+
+268 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 3);
+
+270 
+	`js⁄_íum_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+ícode_•¨£_c⁄vît
+, 
+NULL
+, 1);
+
+271 
+	`js⁄_öãgî_›ti⁄
+(
+l
+, 2, &
+cfg
+->
+ícode_•¨£_øtio
+, 0, 
+INT_MAX
+);
+
+272 
+	`js⁄_öãgî_›ti⁄
+(
+l
+, 3, &
+cfg
+->
+ícode_•¨£_ß„
+, 0, 
+INT_MAX
+);
+
+275 
+	}
+}
+
+279 
+	$js⁄_cfg_ícode_max_dïth
+(
+lua_Sèã
+ *
+l
+)
+
+281 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 1);
+
+283  
+	`js⁄_öãgî_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+ícode_max_dïth
+, 1, 
+INT_MAX
+);
+
+284 
+	}
+}
+
+288 
+	$js⁄_cfg_decode_max_dïth
+(
+lua_Sèã
+ *
+l
+)
+
+290 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 1);
+
+292  
+	`js⁄_öãgî_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+decode_max_dïth
+, 1, 
+INT_MAX
+);
+
+293 
+	}
+}
+
+296 
+	$js⁄_cfg_ícode_numbî_¥ecisi⁄
+(
+lua_Sèã
+ *
+l
+)
+
+298 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 1);
+
+300  
+	`js⁄_öãgî_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+ícode_numbî_¥ecisi⁄
+, 1, 14);
+
+301 
+	}
+}
+
+304 
+	$js⁄_cfg_ícode_kìp_buf„r
+(
+lua_Sèã
+ *
+l
+)
+
+306 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 1);
+
+307 
+ﬁd_vÆue
+;
+
+309 
+ﬁd_vÆue
+ = 
+cfg
+->
+ícode_kìp_buf„r
+;
+
+311 
+	`js⁄_íum_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+ícode_kìp_buf„r
+, 
+NULL
+, 1);
+
+314 i‡(
+ﬁd_vÆue
+ ^ 
+cfg
+->
+ícode_kìp_buf„r
+) {
+
+315 i‡(
+cfg
+->
+ícode_kìp_buf„r
+)
+
+316 
+	`°rbuf_öô
+(&
+cfg
+->
+ícode_buf
+, 0);
+
+318 
+	`°rbuf_‰ì
+(&
+cfg
+->
+ícode_buf
+);
+
+322 
+	}
+}
+
+324 #i‡
+deföed
+(
+DISABLE_INVALID_NUMBERS
+Ë&& !deföed(
+USE_INTERNAL_FPCONV
+)
+
+325 
+	$js⁄_vîify_övÆid_numbî_£âög
+(
+lua_Sèã
+ *
+l
+, *
+£âög
+)
+
+327 i‡(*
+£âög
+ == 1) {
+
+328 *
+£âög
+ = 0;
+
+329 
+	`luaL_îr‹
+(
+l
+, "Infinity, NaN,ánd/or hexadecimalÇumbersáreÇot supported.");
+
+331 
+	}
+}
+
+333 
+	#js⁄_vîify_övÆid_numbî_£âög
+(
+l
+, 
+s
+Ëdÿ{ } 0)
+
+	)
+
+336 
+	$js⁄_cfg_ícode_övÆid_numbîs
+(
+lua_Sèã
+ *
+l
+)
+
+338 c⁄° *
+›ti⁄s
+[] = { "off", "⁄", "nuŒ", 
+NULL
+ };
+
+339 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 1);
+
+341 
+	`js⁄_íum_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+ícode_övÆid_numbîs
+, 
+›ti⁄s
+, 1);
+
+343 
+	`js⁄_vîify_övÆid_numbî_£âög
+(
+l
+, &
+cfg
+->
+ícode_övÆid_numbîs
+);
+
+346 
+	}
+}
+
+348 
+	$js⁄_cfg_decode_övÆid_numbîs
+(
+lua_Sèã
+ *
+l
+)
+
+350 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_¨g_öô
+(
+l
+, 1);
+
+352 
+	`js⁄_íum_›ti⁄
+(
+l
+, 1, &
+cfg
+->
+decode_övÆid_numbîs
+, 
+NULL
+, 1);
+
+354 
+	`js⁄_vîify_övÆid_numbî_£âög
+(
+l
+, &
+cfg
+->
+ícode_övÆid_numbîs
+);
+
+357 
+	}
+}
+
+359 
+	$js⁄_de°roy_c⁄fig
+(
+lua_Sèã
+ *
+l
+)
+
+361 
+js⁄_c⁄fig_t
+ *
+cfg
+;
+
+363 
+cfg
+ = 
+	`lua_tou£rd©a
+(
+l
+, 1);
+
+364 i‡(
+cfg
+)
+
+365 
+	`°rbuf_‰ì
+(&
+cfg
+->
+ícode_buf
+);
+
+366 
+cfg
+ = 
+NULL
+;
+
+369 
+	}
+}
+
+371 
+	$js⁄_¸óã_c⁄fig
+(
+lua_Sèã
+ *
+l
+)
+
+373 
+js⁄_c⁄fig_t
+ *
+cfg
+;
+
+374 
+i
+;
+
+376 
+cfg
+ = 
+	`lua_√wu£rd©a
+(
+l
+, (*cfg));
+
+379 
+	`lua_√wèbÀ
+(
+l
+);
+
+380 
+	`lua_pushcfun˘i⁄
+(
+l
+, 
+js⁄_de°roy_c⁄fig
+);
+
+381 
+	`lua_£tfõld
+(
+l
+, -2, "__gc");
+
+382 
+	`lua_£tmë©abÀ
+(
+l
+, -2);
+
+384 
+cfg
+->
+ícode_•¨£_c⁄vît
+ = 
+DEFAULT_SPARSE_CONVERT
+;
+
+385 
+cfg
+->
+ícode_•¨£_øtio
+ = 
+DEFAULT_SPARSE_RATIO
+;
+
+386 
+cfg
+->
+ícode_•¨£_ß„
+ = 
+DEFAULT_SPARSE_SAFE
+;
+
+387 
+cfg
+->
+ícode_max_dïth
+ = 
+DEFAULT_ENCODE_MAX_DEPTH
+;
+
+388 
+cfg
+->
+decode_max_dïth
+ = 
+DEFAULT_DECODE_MAX_DEPTH
+;
+
+389 
+cfg
+->
+ícode_övÆid_numbîs
+ = 
+DEFAULT_ENCODE_INVALID_NUMBERS
+;
+
+390 
+cfg
+->
+decode_övÆid_numbîs
+ = 
+DEFAULT_DECODE_INVALID_NUMBERS
+;
+
+391 
+cfg
+->
+ícode_kìp_buf„r
+ = 
+DEFAULT_ENCODE_KEEP_BUFFER
+;
+
+392 
+cfg
+->
+ícode_numbî_¥ecisi⁄
+ = 
+DEFAULT_ENCODE_NUMBER_PRECISION
+;
+
+394 #i‡
+DEFAULT_ENCODE_KEEP_BUFFER
+ > 0
+
+395 
+	`°rbuf_öô
+(&
+cfg
+->
+ícode_buf
+, 0);
+
+401 
+i
+ = 0; i < 256; i++)
+
+402 
+cfg
+->
+ch2tokí
+[
+i
+] = 
+T_ERROR
+;
+
+405 
+cfg
+->
+ch2tokí
+['{'] = 
+T_OBJ_BEGIN
+;
+
+406 
+cfg
+->
+ch2tokí
+['}'] = 
+T_OBJ_END
+;
+
+407 
+cfg
+->
+ch2tokí
+['['] = 
+T_ARR_BEGIN
+;
+
+408 
+cfg
+->
+ch2tokí
+[']'] = 
+T_ARR_END
+;
+
+409 
+cfg
+->
+ch2tokí
+[','] = 
+T_COMMA
+;
+
+410 
+cfg
+->
+ch2tokí
+[':'] = 
+T_COLON
+;
+
+411 
+cfg
+->
+ch2tokí
+['\0'] = 
+T_END
+;
+
+412 
+cfg
+->
+ch2tokí
+[' '] = 
+T_WHITESPACE
+;
+
+413 
+cfg
+->
+ch2tokí
+['\t'] = 
+T_WHITESPACE
+;
+
+414 
+cfg
+->
+ch2tokí
+['\n'] = 
+T_WHITESPACE
+;
+
+415 
+cfg
+->
+ch2tokí
+['\r'] = 
+T_WHITESPACE
+;
+
+418 
+cfg
+->
+ch2tokí
+['f'] = 
+T_UNKNOWN
+;
+
+419 
+cfg
+->
+ch2tokí
+['i'] = 
+T_UNKNOWN
+;
+
+420 
+cfg
+->
+ch2tokí
+['I'] = 
+T_UNKNOWN
+;
+
+421 
+cfg
+->
+ch2tokí
+['n'] = 
+T_UNKNOWN
+;
+
+422 
+cfg
+->
+ch2tokí
+['N'] = 
+T_UNKNOWN
+;
+
+423 
+cfg
+->
+ch2tokí
+['t'] = 
+T_UNKNOWN
+;
+
+424 
+cfg
+->
+ch2tokí
+['"'] = 
+T_UNKNOWN
+;
+
+425 
+cfg
+->
+ch2tokí
+['+'] = 
+T_UNKNOWN
+;
+
+426 
+cfg
+->
+ch2tokí
+['-'] = 
+T_UNKNOWN
+;
+
+427 
+i
+ = 0; i < 10; i++)
+
+428 
+cfg
+->
+ch2tokí
+['0' + 
+i
+] = 
+T_UNKNOWN
+;
+
+431 
+i
+ = 0; i < 256; i++)
+
+432 
+cfg
+->
+esˇ≥2ch¨
+[
+i
+] = 0;
+
+433 
+cfg
+->
+esˇ≥2ch¨
+['"'] = '"';
+
+434 
+cfg
+->
+esˇ≥2ch¨
+['\\'] = '\\';
+
+435 
+cfg
+->
+esˇ≥2ch¨
+['/'] = '/';
+
+436 
+cfg
+->
+esˇ≥2ch¨
+['b'] = '\b';
+
+437 
+cfg
+->
+esˇ≥2ch¨
+['t'] = '\t';
+
+438 
+cfg
+->
+esˇ≥2ch¨
+['n'] = '\n';
+
+439 
+cfg
+->
+esˇ≥2ch¨
+['f'] = '\f';
+
+440 
+cfg
+->
+esˇ≥2ch¨
+['r'] = '\r';
+
+441 
+cfg
+->
+esˇ≥2ch¨
+['u'] = 'u';
+
+442 
+	}
+}
+
+446 
+	$js⁄_ícode_ex˚±i⁄
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+, 
+°rbuf_t
+ *
+js⁄
+, 
+lödex
+,
+
+447 c⁄° *
+ªas⁄
+)
+
+449 i‡(!
+cfg
+->
+ícode_kìp_buf„r
+)
+
+450 
+	`°rbuf_‰ì
+(
+js⁄
+);
+
+451 
+	`luaL_îr‹
+(
+l
+, "Cannot serialise %s: %s",
+
+452 
+	`lua_ty≥«me
+(
+l
+, 
+	`lua_ty≥
+÷, 
+lödex
+)), 
+ªas⁄
+);
+
+453 
+	}
+}
+
+461 
+	$js⁄_≠≥nd_°rög
+(
+lua_Sèã
+ *
+l
+, 
+°rbuf_t
+ *
+js⁄
+, 
+lödex
+)
+
+463 c⁄° *
+esc°r
+;
+
+464 
+i
+;
+
+465 c⁄° *
+°r
+;
+
+466 
+size_t
+ 
+Àn
+;
+
+468 
+°r
+ = 
+	`lua_tﬁ°rög
+(
+l
+, 
+lödex
+, &
+Àn
+);
+
+474 
+	`°rbuf_ísuª_em±y_Àngth
+(
+js⁄
+, 
+Àn
+ * 6 + 2);
+
+476 
+	`°rbuf_≠≥nd_ch¨_unß„
+(
+js⁄
+, '\"');
+
+477 
+i
+ = 0; i < 
+Àn
+; i++) {
+
+478 
+esc°r
+ = 
+ch¨2esˇ≥
+[()
+°r
+[
+i
+]];
+
+479 i‡(
+esc°r
+)
+
+480 
+	`°rbuf_≠≥nd_°rög
+(
+js⁄
+, 
+esc°r
+);
+
+482 
+	`°rbuf_≠≥nd_ch¨_unß„
+(
+js⁄
+, 
+°r
+[
+i
+]);
+
+484 
+	`°rbuf_≠≥nd_ch¨_unß„
+(
+js⁄
+, '\"');
+
+485 
+	}
+}
+
+491 
+	$lua_¨øy_Àngth
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+, 
+°rbuf_t
+ *
+js⁄
+)
+
+493 
+k
+;
+
+494 
+max
+;
+
+495 
+ôems
+;
+
+497 
+max
+ = 0;
+
+498 
+ôems
+ = 0;
+
+500 
+	`lua_pushnû
+(
+l
+);
+
+502 
+	`lua_√xt
+(
+l
+, -2) != 0) {
+
+504 i‡(
+	`lua_ty≥
+(
+l
+, -2Ë=
+LUA_TNUMBER
+ &&
+
+505 (
+k
+ = 
+	`lua_t⁄umbî
+(
+l
+, -2))) {
+
+507 i‡(
+	`Êo‹
+(
+k
+) == k && k >= 1) {
+
+508 i‡(
+k
+ > 
+max
+)
+
+509 
+max
+ = 
+k
+;
+
+510 
+ôems
+++;
+
+511 
+	`lua_p›
+(
+l
+, 1);
+
+517 
+	`lua_p›
+(
+l
+, 2);
+
+522 i‡(
+cfg
+->
+ícode_•¨£_øtio
+ > 0 &&
+
+523 
+max
+ > 
+ôems
+ * 
+cfg
+->
+ícode_•¨£_øtio
+ &&
+
+524 
+max
+ > 
+cfg
+->
+ícode_•¨£_ß„
+) {
+
+525 i‡(!
+cfg
+->
+ícode_•¨£_c⁄vît
+)
+
+526 
+	`js⁄_ícode_ex˚±i⁄
+(
+l
+, 
+cfg
+, 
+js⁄
+, -1, "excessively sparseárray");
+
+531  
+max
+;
+
+532 
+	}
+}
+
+534 
+	$js⁄_check_ícode_dïth
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+,
+
+535 
+cuºít_dïth
+, 
+°rbuf_t
+ *
+js⁄
+)
+
+547 i‡(
+cuºít_dïth
+ <
+cfg
+->
+ícode_max_dïth
+ && 
+	`lua_check°ack
+(
+l
+, 3))
+
+550 i‡(!
+cfg
+->
+ícode_kìp_buf„r
+)
+
+551 
+	`°rbuf_‰ì
+(
+js⁄
+);
+
+553 
+	`luaL_îr‹
+(
+l
+, "Cannot serialise,ÉxcessiveÇesting (%d)",
+
+554 
+cuºít_dïth
+);
+
+555 
+	}
+}
+
+557 
+js⁄_≠≥nd_d©a
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+,
+
+558 
+cuºít_dïth
+, 
+°rbuf_t
+ *
+js⁄
+);
+
+564 
+	$js⁄_≠≥nd_¨øy
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+, 
+cuºít_dïth
+,
+
+565 
+°rbuf_t
+ *
+js⁄
+, 
+¨øy_Àngth
+)
+
+567 
+comma
+, 
+i
+;
+
+569 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, '[');
+
+571 
+comma
+ = 0;
+
+572 
+i
+ = 1; i <
+¨øy_Àngth
+; i++) {
+
+573 i‡(
+comma
+)
+
+574 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, ',');
+
+576 
+comma
+ = 1;
+
+578 
+	`lua_øwgëi
+(
+l
+, -1, 
+i
+);
+
+579 
+	`js⁄_≠≥nd_d©a
+(
+l
+, 
+cfg
+, 
+cuºít_dïth
+, 
+js⁄
+);
+
+580 
+	`lua_p›
+(
+l
+, 1);
+
+583 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, ']');
+
+584 
+	}
+}
+
+586 
+	$js⁄_≠≥nd_numbî
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+,
+
+587 
+°rbuf_t
+ *
+js⁄
+, 
+lödex
+)
+
+589 
+num
+ = 
+	`lua_t⁄umbî
+(
+l
+, 
+lödex
+);
+
+590 
+Àn
+;
+
+592 i‡(
+cfg
+->
+ícode_övÆid_numbîs
+ == 0) {
+
+594 i‡(
+	`isöf
+(
+num
+Ë|| 
+	`i¢™
+(num))
+
+595 
+	`js⁄_ícode_ex˚±i⁄
+(
+l
+, 
+cfg
+, 
+js⁄
+, 
+lödex
+, "mustÇot be NaN or Inf");
+
+596 } i‡(
+cfg
+->
+ícode_övÆid_numbîs
+ == 1) {
+
+599 i‡(
+	`i¢™
+(
+num
+)) {
+
+600 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "nan", 3);
+
+605 i‡(
+	`isöf
+(
+num
+Ë|| 
+	`i¢™
+(num)) {
+
+606 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "null", 4);
+
+611 
+	`°rbuf_ísuª_em±y_Àngth
+(
+js⁄
+, 
+FPCONV_G_FMT_BUFSIZE
+);
+
+612 
+Àn
+ = 
+	`Âc⁄v_g_fmt
+(
+	`°rbuf_em±y_±r
+(
+js⁄
+), 
+num
+, 
+cfg
+->
+ícode_numbî_¥ecisi⁄
+);
+
+613 
+	`°rbuf_exãnd_Àngth
+(
+js⁄
+, 
+Àn
+);
+
+614 
+	}
+}
+
+616 
+	$js⁄_≠≥nd_obje˘
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+,
+
+617 
+cuºít_dïth
+, 
+°rbuf_t
+ *
+js⁄
+)
+
+619 
+comma
+, 
+keyty≥
+;
+
+622 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, '{');
+
+624 
+	`lua_pushnû
+(
+l
+);
+
+626 
+comma
+ = 0;
+
+627 
+	`lua_√xt
+(
+l
+, -2) != 0) {
+
+628 i‡(
+comma
+)
+
+629 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, ',');
+
+631 
+comma
+ = 1;
+
+634 
+keyty≥
+ = 
+	`lua_ty≥
+(
+l
+, -2);
+
+635 i‡(
+keyty≥
+ =
+LUA_TNUMBER
+) {
+
+636 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, '"');
+
+637 
+	`js⁄_≠≥nd_numbî
+(
+l
+, 
+cfg
+, 
+js⁄
+, -2);
+
+638 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "\":", 2);
+
+639 } i‡(
+keyty≥
+ =
+LUA_TSTRING
+) {
+
+640 
+	`js⁄_≠≥nd_°rög
+(
+l
+, 
+js⁄
+, -2);
+
+641 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, ':');
+
+643 
+	`js⁄_ícode_ex˚±i⁄
+(
+l
+, 
+cfg
+, 
+js⁄
+, -2,
+
+649 
+	`js⁄_≠≥nd_d©a
+(
+l
+, 
+cfg
+, 
+cuºít_dïth
+, 
+js⁄
+);
+
+650 
+	`lua_p›
+(
+l
+, 1);
+
+654 
+	`°rbuf_≠≥nd_ch¨
+(
+js⁄
+, '}');
+
+655 
+	}
+}
+
+658 
+	$js⁄_≠≥nd_d©a
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_c⁄fig_t
+ *
+cfg
+,
+
+659 
+cuºít_dïth
+, 
+°rbuf_t
+ *
+js⁄
+)
+
+661 
+Àn
+;
+
+663 
+	`lua_ty≥
+(
+l
+, -1)) {
+
+664 
+LUA_TSTRING
+:
+
+665 
+	`js⁄_≠≥nd_°rög
+(
+l
+, 
+js⁄
+, -1);
+
+667 
+LUA_TNUMBER
+:
+
+668 
+	`js⁄_≠≥nd_numbî
+(
+l
+, 
+cfg
+, 
+js⁄
+, -1);
+
+670 
+LUA_TBOOLEAN
+:
+
+671 i‡(
+	`lua_toboﬁón
+(
+l
+, -1))
+
+672 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "true", 4);
+
+674 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "false", 5);
+
+676 
+LUA_TTABLE
+:
+
+677 
+cuºít_dïth
+++;
+
+678 
+	`js⁄_check_ícode_dïth
+(
+l
+, 
+cfg
+, 
+cuºít_dïth
+, 
+js⁄
+);
+
+679 
+Àn
+ = 
+	`lua_¨øy_Àngth
+(
+l
+, 
+cfg
+, 
+js⁄
+);
+
+680 i‡(
+Àn
+ > 0)
+
+681 
+	`js⁄_≠≥nd_¨øy
+(
+l
+, 
+cfg
+, 
+cuºít_dïth
+, 
+js⁄
+, 
+Àn
+);
+
+683 
+	`js⁄_≠≥nd_obje˘
+(
+l
+, 
+cfg
+, 
+cuºít_dïth
+, 
+js⁄
+);
+
+685 
+LUA_TNIL
+:
+
+686 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "null", 4);
+
+688 
+LUA_TLIGHTUSERDATA
+:
+
+689 i‡(
+	`lua_tou£rd©a
+(
+l
+, -1Ë=
+NULL
+) {
+
+690 
+	`°rbuf_≠≥nd_mem
+(
+js⁄
+, "null", 4);
+
+696 
+	`js⁄_ícode_ex˚±i⁄
+(
+l
+, 
+cfg
+, 
+js⁄
+, -1, "typeÇot supported");
+
+699 
+	}
+}
+
+701 
+	$js⁄_ícode
+(
+lua_Sèã
+ *
+l
+)
+
+703 
+js⁄_c⁄fig_t
+ *
+cfg
+ = 
+	`js⁄_„tch_c⁄fig
+(
+l
+);
+
+704 
+°rbuf_t
+ 
+loˇl_ícode_buf
+;
+
+705 
+°rbuf_t
+ *
+ícode_buf
+;
+
+706 *
+js⁄
+;
+
+707 
+Àn
+;
+
+709 
+	`luaL_¨gcheck
+(
+l
+, 
+	`lua_gët›
+(l) == 1, 1, "expected 1árgument");
+
+711 i‡(!
+cfg
+->
+ícode_kìp_buf„r
+) {
+
+713 
+ícode_buf
+ = &
+loˇl_ícode_buf
+;
+
+714 
+	`°rbuf_öô
+(
+ícode_buf
+, 0);
+
+717 
+ícode_buf
+ = &
+cfg
+->encode_buf;
+
+718 
+	`°rbuf_ª£t
+(
+ícode_buf
+);
+
+721 
+	`js⁄_≠≥nd_d©a
+(
+l
+, 
+cfg
+, 0, 
+ícode_buf
+);
+
+722 
+js⁄
+ = 
+	`°rbuf_°rög
+(
+ícode_buf
+, &
+Àn
+);
+
+724 
+	`lua_pushl°rög
+(
+l
+, 
+js⁄
+, 
+Àn
+);
+
+726 i‡(!
+cfg
+->
+ícode_kìp_buf„r
+)
+
+727 
+	`°rbuf_‰ì
+(
+ícode_buf
+);
+
+730 
+	}
+}
+
+734 
+js⁄_¥o˚ss_vÆue
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_∑r£_t
+ *
+js⁄
+,
+
+735 
+js⁄_tokí_t
+ *
+tokí
+);
+
+737 
+	$hexdigô2öt
+(
+hex
+)
+
+739 i‡('0' <
+hex
+ && hex <= '9')
+
+740  
+hex
+ - '0';
+
+743 
+hex
+ |= 0x20;
+
+744 i‡('a' <
+hex
+ && hex <= 'f')
+
+745  10 + 
+hex
+ - 'a';
+
+748 
+	}
+}
+
+750 
+	$decode_hex4
+(c⁄° *
+hex
+)
+
+752 
+digô
+[4];
+
+753 
+i
+;
+
+758 
+i
+ = 0; i < 4; i++) {
+
+759 
+digô
+[
+i
+] = 
+	`hexdigô2öt
+(
+hex
+[i]);
+
+760 i‡(
+digô
+[
+i
+] < 0) {
+
+765  (
+digô
+[0] << 12) +
+
+766 (
+digô
+[1] << 8) +
+
+767 (
+digô
+[2] << 4) +
+
+768 
+digô
+[3];
+
+769 
+	}
+}
+
+773 
+	$codïoöt_to_utf8
+(*
+utf8
+, 
+codïoöt
+)
+
+776 i‡(
+codïoöt
+ <= 0x7F) {
+
+777 
+utf8
+[0] = 
+codïoöt
+;
+
+782 i‡(
+codïoöt
+ <= 0x7FF) {
+
+783 
+utf8
+[0] = (
+codïoöt
+ >> 6) | 0xC0;
+
+784 
+utf8
+[1] = (
+codïoöt
+ & 0x3F) | 0x80;
+
+789 i‡(
+codïoöt
+ <= 0xFFFF) {
+
+790 
+utf8
+[0] = (
+codïoöt
+ >> 12) | 0xE0;
+
+791 
+utf8
+[1] = ((
+codïoöt
+ >> 6) & 0x3F) | 0x80;
+
+792 
+utf8
+[2] = (
+codïoöt
+ & 0x3F) | 0x80;
+
+797 i‡(
+codïoöt
+ <= 0x1FFFFF) {
+
+798 
+utf8
+[0] = (
+codïoöt
+ >> 18) | 0xF0;
+
+799 
+utf8
+[1] = ((
+codïoöt
+ >> 12) & 0x3F) | 0x80;
+
+800 
+utf8
+[2] = ((
+codïoöt
+ >> 6) & 0x3F) | 0x80;
+
+801 
+utf8
+[3] = (
+codïoöt
+ & 0x3F) | 0x80;
+
+806 
+	}
+}
+
+817 
+	$js⁄_≠≥nd_unicode_esˇ≥
+(
+js⁄_∑r£_t
+ *
+js⁄
+)
+
+819 
+utf8
+[4];
+
+820 
+codïoöt
+;
+
+821 
+suºog©e_low
+;
+
+822 
+Àn
+;
+
+823 
+esˇ≥_Àn
+ = 6;
+
+826 
+codïoöt
+ = 
+	`decode_hex4
+(
+js⁄
+->
+±r
+ + 2);
+
+827 i‡(
+codïoöt
+ < 0)
+
+836 i‡((
+codïoöt
+ & 0xF800) == 0xD800) {
+
+838 i‡(
+codïoöt
+ & 0x400)
+
+842 i‡(*(
+js⁄
+->
+±r
+ + 
+esˇ≥_Àn
+) != '\\' ||
+
+843 *(
+js⁄
+->
+±r
+ + 
+esˇ≥_Àn
+ + 1) != 'u') {
+
+848 
+suºog©e_low
+ = 
+	`decode_hex4
+(
+js⁄
+->
+±r
+ + 2 + 
+esˇ≥_Àn
+);
+
+849 i‡(
+suºog©e_low
+ < 0)
+
+853 i‡((
+suºog©e_low
+ & 0xFC00) != 0xDC00)
+
+857 
+codïoöt
+ = (codepoint & 0x3FF) << 10;
+
+858 
+suºog©e_low
+ &= 0x3FF;
+
+859 
+codïoöt
+ = (codïoöà| 
+suºog©e_low
+) + 0x10000;
+
+860 
+esˇ≥_Àn
+ = 12;
+
+864 
+Àn
+ = 
+	`codïoöt_to_utf8
+(
+utf8
+, 
+codïoöt
+);
+
+865 i‡(!
+Àn
+)
+
+869 
+	`°rbuf_≠≥nd_mem_unß„
+(
+js⁄
+->
+tmp
+, 
+utf8
+, 
+Àn
+);
+
+870 
+js⁄
+->
+±r
+ +
+esˇ≥_Àn
+;
+
+873 
+	}
+}
+
+875 
+	$js⁄_£t_tokí_îr‹
+(
+js⁄_tokí_t
+ *
+tokí
+, 
+js⁄_∑r£_t
+ *
+js⁄
+,
+
+876 c⁄° *
+îπy≥
+)
+
+878 
+tokí
+->
+ty≥
+ = 
+T_ERROR
+;
+
+879 
+tokí
+->
+ödex
+ = 
+js⁄
+->
+±r
+ - js⁄->
+d©a
+;
+
+880 
+tokí
+->
+vÆue
+.
+°rög
+ = 
+îπy≥
+;
+
+881 
+	}
+}
+
+883 
+	$js⁄_√xt_°rög_tokí
+(
+js⁄_∑r£_t
+ *
+js⁄
+, 
+js⁄_tokí_t
+ *
+tokí
+)
+
+885 *
+esˇ≥2ch¨
+ = 
+js⁄
+->
+cfg
+->escape2char;
+
+886 
+ch
+;
+
+889 
+	`as£π
+(*
+js⁄
+->
+±r
+ == '"');
+
+892 
+js⁄
+->
+±r
+++;
+
+898 
+	`°rbuf_ª£t
+(
+js⁄
+->
+tmp
+);
+
+900 (
+ch
+ = *
+js⁄
+->
+±r
+) != '"') {
+
+901 i‡(!
+ch
+) {
+
+903 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+, "unexpectedÉnd of string");
+
+908 i‡(
+ch
+ == '\\') {
+
+910 
+ch
+ = *(
+js⁄
+->
+±r
+ + 1);
+
+913 
+ch
+ = 
+esˇ≥2ch¨
+[()ch];
+
+914 i‡(
+ch
+ == 'u') {
+
+915 i‡(
+	`js⁄_≠≥nd_unicode_esˇ≥
+(
+js⁄
+) == 0)
+
+918 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+,
+
+922 i‡(!
+ch
+) {
+
+923 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+, "invalidÉscape code");
+
+928 
+js⁄
+->
+±r
+++;
+
+932 
+	`°rbuf_≠≥nd_ch¨_unß„
+(
+js⁄
+->
+tmp
+, 
+ch
+);
+
+933 
+js⁄
+->
+±r
+++;
+
+935 
+js⁄
+->
+±r
+++;
+
+937 
+	`°rbuf_ísuª_nuŒ
+(
+js⁄
+->
+tmp
+);
+
+939 
+tokí
+->
+ty≥
+ = 
+T_STRING
+;
+
+940 
+tokí
+->
+vÆue
+.
+°rög
+ = 
+	`°rbuf_°rög
+(
+js⁄
+->
+tmp
+, &tokí->
+°rög_Àn
+);
+
+941 
+	}
+}
+
+958 
+	$js⁄_is_övÆid_numbî
+(
+js⁄_∑r£_t
+ *
+js⁄
+)
+
+960 c⁄° *
+p
+ = 
+js⁄
+->
+±r
+;
+
+963 i‡(*
+p
+ == '+')
+
+967 i‡(*
+p
+ == '-')
+
+968 
+p
+++;
+
+971 i‡(*
+p
+ == '0') {
+
+972 
+ch2
+ = *(
+p
+ + 1);
+
+974 i‡((
+ch2
+ | 0x20) == 'x' ||
+
+975 ('0' <
+ch2
+ && ch2 <= '9'))
+
+979 } i‡(*
+p
+ <= '9') {
+
+984 i‡(!
+	`°∫ˇ£cmp
+(
+p
+, "inf", 3))
+
+986 i‡(!
+	`°∫ˇ£cmp
+(
+p
+, "nan", 3))
+
+992 
+	}
+}
+
+994 
+	$js⁄_√xt_numbî_tokí
+(
+js⁄_∑r£_t
+ *
+js⁄
+, 
+js⁄_tokí_t
+ *
+tokí
+)
+
+996 *
+íd±r
+;
+
+998 
+tokí
+->
+ty≥
+ = 
+T_NUMBER
+;
+
+999 
+tokí
+->
+vÆue
+.
+numbî
+ = 
+	`Âc⁄v_°πod
+(
+js⁄
+->
+±r
+, &
+íd±r
+);
+
+1000 i‡(
+js⁄
+->
+±r
+ =
+íd±r
+)
+
+1001 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+, "invalidÇumber");
+
+1003 
+js⁄
+->
+±r
+ = 
+íd±r
+;
+
+1006 
+	}
+}
+
+1012 
+	$js⁄_√xt_tokí
+(
+js⁄_∑r£_t
+ *
+js⁄
+, 
+js⁄_tokí_t
+ *
+tokí
+)
+
+1014 c⁄° 
+js⁄_tokí_ty≥_t
+ *
+ch2tokí
+ = 
+js⁄
+->
+cfg
+->ch2token;
+
+1015 
+ch
+;
+
+1019 
+ch
+ = ()*(
+js⁄
+->
+±r
+);
+
+1020 
+tokí
+->
+ty≥
+ = 
+ch2tokí
+[
+ch
+];
+
+1021 i‡(
+tokí
+->
+ty≥
+ !
+T_WHITESPACE
+)
+
+1023 
+js⁄
+->
+±r
+++;
+
+1028 
+tokí
+->
+ödex
+ = 
+js⁄
+->
+±r
+ - js⁄->
+d©a
+;
+
+1031 i‡(
+tokí
+->
+ty≥
+ =
+T_ERROR
+) {
+
+1032 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+, "invalidÅoken");
+
+1036 i‡(
+tokí
+->
+ty≥
+ =
+T_END
+) {
+
+1041 i‡(
+tokí
+->
+ty≥
+ !
+T_UNKNOWN
+) {
+
+1042 
+js⁄
+->
+±r
+++;
+
+1052 i‡(
+ch
+ == '"') {
+
+1053 
+	`js⁄_√xt_°rög_tokí
+(
+js⁄
+, 
+tokí
+);
+
+1055 } i‡(
+ch
+ == '-' || ('0' <= ch && ch <= '9')) {
+
+1056 i‡(!
+js⁄
+->
+cfg
+->
+decode_övÆid_numbîs
+ && 
+	`js⁄_is_övÆid_numbî
+(json)) {
+
+1057 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+, "invalidÇumber");
+
+1060 
+	`js⁄_√xt_numbî_tokí
+(
+js⁄
+, 
+tokí
+);
+
+1062 } i‡(!
+	`°∫cmp
+(
+js⁄
+->
+±r
+, "true", 4)) {
+
+1063 
+tokí
+->
+ty≥
+ = 
+T_BOOLEAN
+;
+
+1064 
+tokí
+->
+vÆue
+.
+boﬁón
+ = 1;
+
+1065 
+js⁄
+->
+±r
+ += 4;
+
+1067 } i‡(!
+	`°∫cmp
+(
+js⁄
+->
+±r
+, "false", 5)) {
+
+1068 
+tokí
+->
+ty≥
+ = 
+T_BOOLEAN
+;
+
+1069 
+tokí
+->
+vÆue
+.
+boﬁón
+ = 0;
+
+1070 
+js⁄
+->
+±r
+ += 5;
+
+1072 } i‡(!
+	`°∫cmp
+(
+js⁄
+->
+±r
+, "null", 4)) {
+
+1073 
+tokí
+->
+ty≥
+ = 
+T_NULL
+;
+
+1074 
+js⁄
+->
+±r
+ += 4;
+
+1076 } i‡(
+js⁄
+->
+cfg
+->
+decode_övÆid_numbîs
+ &&
+
+1077 
+	`js⁄_is_övÆid_numbî
+(
+js⁄
+)) {
+
+1083 
+	`js⁄_√xt_numbî_tokí
+(
+js⁄
+, 
+tokí
+);
+
+1088 
+	`js⁄_£t_tokí_îr‹
+(
+tokí
+, 
+js⁄
+, "invalidÅoken");
+
+1089 
+	}
+}
+
+1097 
+	$js⁄_throw_∑r£_îr‹
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_∑r£_t
+ *
+js⁄
+,
+
+1098 c⁄° *
+exp
+, 
+js⁄_tokí_t
+ *
+tokí
+)
+
+1100 c⁄° *
+found
+;
+
+1102 
+	`°rbuf_‰ì
+(
+js⁄
+->
+tmp
+);
+
+1104 i‡(
+tokí
+->
+ty≥
+ =
+T_ERROR
+)
+
+1105 
+found
+ = 
+tokí
+->
+vÆue
+.
+°rög
+;
+
+1107 
+found
+ = 
+js⁄_tokí_ty≥_«me
+[
+tokí
+->
+ty≥
+];
+
+1110 
+	`luaL_îr‹
+(
+l
+, "Expected %s but found %sát character %d",
+
+1111 
+exp
+, 
+found
+, 
+tokí
+->
+ödex
+ + 1);
+
+1112 
+	}
+}
+
+1114 
+ölöe
+ 
+	$js⁄_decode_as˚nd
+(
+js⁄_∑r£_t
+ *
+js⁄
+)
+
+1116 
+js⁄
+->
+cuºít_dïth
+--;
+
+1117 
+	}
+}
+
+1119 
+	$js⁄_decode_des˚nd
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_∑r£_t
+ *
+js⁄
+, 
+¶Ÿs
+)
+
+1121 
+js⁄
+->
+cuºít_dïth
+++;
+
+1123 i‡(
+js⁄
+->
+cuºít_dïth
+ <js⁄->
+cfg
+->
+decode_max_dïth
+ &&
+
+1124 
+	`lua_check°ack
+(
+l
+, 
+¶Ÿs
+)) {
+
+1128 
+	`°rbuf_‰ì
+(
+js⁄
+->
+tmp
+);
+
+1129 
+	`luaL_îr‹
+(
+l
+, "FoundÅoo manyÇested data structures (%d)át character %d",
+
+1130 
+js⁄
+->
+cuºít_dïth
+, js⁄->
+±r
+ - js⁄->
+d©a
+);
+
+1131 
+	}
+}
+
+1133 
+	$js⁄_∑r£_obje˘_c⁄ãxt
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_∑r£_t
+ *
+js⁄
+)
+
+1135 
+js⁄_tokí_t
+ 
+tokí
+;
+
+1139 
+	`js⁄_decode_des˚nd
+(
+l
+, 
+js⁄
+, 3);
+
+1141 
+	`lua_√wèbÀ
+(
+l
+);
+
+1143 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1146 i‡(
+tokí
+.
+ty≥
+ =
+T_OBJ_END
+) {
+
+1147 
+	`js⁄_decode_as˚nd
+(
+js⁄
+);
+
+1152 i‡(
+tokí
+.
+ty≥
+ !
+T_STRING
+)
+
+1153 
+	`js⁄_throw_∑r£_îr‹
+(
+l
+, 
+js⁄
+, "obje˘ key såög", &
+tokí
+);
+
+1156 
+	`lua_pushl°rög
+(
+l
+, 
+tokí
+.
+vÆue
+.
+°rög
+,Åokí.
+°rög_Àn
+);
+
+1158 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1159 i‡(
+tokí
+.
+ty≥
+ !
+T_COLON
+)
+
+1160 
+	`js⁄_throw_∑r£_îr‹
+(
+l
+, 
+js⁄
+, "cﬁ⁄", &
+tokí
+);
+
+1163 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1164 
+	`js⁄_¥o˚ss_vÆue
+(
+l
+, 
+js⁄
+, &
+tokí
+);
+
+1167 
+	`lua_øw£t
+(
+l
+, -3);
+
+1169 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1171 i‡(
+tokí
+.
+ty≥
+ =
+T_OBJ_END
+) {
+
+1172 
+	`js⁄_decode_as˚nd
+(
+js⁄
+);
+
+1176 i‡(
+tokí
+.
+ty≥
+ !
+T_COMMA
+)
+
+1177 
+	`js⁄_throw_∑r£_îr‹
+(
+l
+, 
+js⁄
+, "comm®‹ obje˘Énd", &
+tokí
+);
+
+1179 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1181 
+	}
+}
+
+1184 
+	$js⁄_∑r£_¨øy_c⁄ãxt
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_∑r£_t
+ *
+js⁄
+)
+
+1186 
+js⁄_tokí_t
+ 
+tokí
+;
+
+1187 
+i
+;
+
+1191 
+	`js⁄_decode_des˚nd
+(
+l
+, 
+js⁄
+, 2);
+
+1193 
+	`lua_√wèbÀ
+(
+l
+);
+
+1195 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1198 i‡(
+tokí
+.
+ty≥
+ =
+T_ARR_END
+) {
+
+1199 
+	`js⁄_decode_as˚nd
+(
+js⁄
+);
+
+1203 
+i
+ = 1; ; i++) {
+
+1204 
+	`js⁄_¥o˚ss_vÆue
+(
+l
+, 
+js⁄
+, &
+tokí
+);
+
+1205 
+	`lua_øw£ti
+(
+l
+, -2, 
+i
+);
+
+1207 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1209 i‡(
+tokí
+.
+ty≥
+ =
+T_ARR_END
+) {
+
+1210 
+	`js⁄_decode_as˚nd
+(
+js⁄
+);
+
+1214 i‡(
+tokí
+.
+ty≥
+ !
+T_COMMA
+)
+
+1215 
+	`js⁄_throw_∑r£_îr‹
+(
+l
+, 
+js⁄
+, "comm®‹áºayÉnd", &
+tokí
+);
+
+1217 
+	`js⁄_√xt_tokí
+(
+js⁄
+, &
+tokí
+);
+
+1219 
+	}
+}
+
+1222 
+	$js⁄_¥o˚ss_vÆue
+(
+lua_Sèã
+ *
+l
+, 
+js⁄_∑r£_t
+ *
+js⁄
+,
+
+1223 
+js⁄_tokí_t
+ *
+tokí
+)
+
+1225 
+tokí
+->
+ty≥
+) {
+
+1226 
+T_STRING
+:
+
+1227 
+	`lua_pushl°rög
+(
+l
+, 
+tokí
+->
+vÆue
+.
+°rög
+,Åokí->
+°rög_Àn
+);
+
+1229 
+T_NUMBER
+:
+
+1230 
+	`lua_pushnumbî
+(
+l
+, 
+tokí
+->
+vÆue
+.
+numbî
+);
+
+1232 
+T_BOOLEAN
+:
+
+1233 
+	`lua_pushboﬁón
+(
+l
+, 
+tokí
+->
+vÆue
+.
+boﬁón
+);
+
+1235 
+T_OBJ_BEGIN
+:
+
+1236 
+	`js⁄_∑r£_obje˘_c⁄ãxt
+(
+l
+, 
+js⁄
+);
+
+1238 
+T_ARR_BEGIN
+:
+
+1239 
+	`js⁄_∑r£_¨øy_c⁄ãxt
+(
+l
+, 
+js⁄
+);
+
+1241 
+T_NULL
+:
+
+1244 
+	`lua_pushlightu£rd©a
+(
+l
+, 
+NULL
+);
+
+1247 
+	`js⁄_throw_∑r£_îr‹
+(
+l
+, 
+js⁄
+, "vÆue", 
+tokí
+);
+
+1249 
+	}
+}
+
+1251 
+	$js⁄_decode
+(
+lua_Sèã
+ *
+l
+)
+
+1253 
+js⁄_∑r£_t
+ 
+js⁄
+;
+
+1254 
+js⁄_tokí_t
+ 
+tokí
+;
+
+1255 
+size_t
+ 
+js⁄_Àn
+;
+
+1257 
+	`luaL_¨gcheck
+(
+l
+, 
+	`lua_gët›
+(l) == 1, 1, "expected 1árgument");
+
+1259 
+js⁄
+.
+cfg
+ = 
+	`js⁄_„tch_c⁄fig
+(
+l
+);
+
+1260 
+js⁄
+.
+d©a
+ = 
+	`luaL_checkl°rög
+(
+l
+, 1, &
+js⁄_Àn
+);
+
+1261 
+js⁄
+.
+cuºít_dïth
+ = 0;
+
+1262 
+js⁄
+.
+±r
+ = js⁄.
+d©a
+;
+
+1269 i‡(
+js⁄_Àn
+ >2 && (!
+js⁄
+.
+d©a
+[0] || !json.data[1]))
+
+1270 
+	`luaL_îr‹
+(
+l
+, "JSONÖarser doesÇot support UTF-16 or UTF-32");
+
+1275 
+js⁄
+.
+tmp
+ = 
+	`°rbuf_√w
+(
+js⁄_Àn
+);
+
+1277 
+	`js⁄_√xt_tokí
+(&
+js⁄
+, &
+tokí
+);
+
+1278 
+	`js⁄_¥o˚ss_vÆue
+(
+l
+, &
+js⁄
+, &
+tokí
+);
+
+1281 
+	`js⁄_√xt_tokí
+(&
+js⁄
+, &
+tokí
+);
+
+1283 i‡(
+tokí
+.
+ty≥
+ !
+T_END
+)
+
+1284 
+	`js⁄_throw_∑r£_îr‹
+(
+l
+, &
+js⁄
+, "thêíd", &
+tokí
+);
+
+1286 
+	`°rbuf_‰ì
+(
+js⁄
+.
+tmp
+);
+
+1289 
+	}
+}
+
+1293 #i‡!
+deföed
+(
+LUA_VERSION_NUM
+) || LUA_VERSION_NUM < 502
+
+1298 
+	$luaL_£tfuncs
+ (
+lua_Sèã
+ *
+l
+, c⁄° 
+luaL_Reg
+ *
+ªg
+, 
+nup
+)
+
+1300 
+i
+;
+
+1302 
+	`luaL_check°ack
+(
+l
+, 
+nup
+, "too many upvalues");
+
+1303 ; 
+ªg
+->
+«me
+ !
+NULL
+;Ñeg++) {
+
+1304 
+i
+ = 0; i < 
+nup
+; i++)
+
+1305 
+	`lua_pushvÆue
+(
+l
+, -
+nup
+);
+
+1306 
+	`lua_pushc˛osuª
+(
+l
+, 
+ªg
+->
+func
+, 
+nup
+);
+
+1307 
+	`lua_£tfõld
+(
+l
+, -(
+nup
+ + 2), 
+ªg
+->
+«me
+);
+
+1309 
+	`lua_p›
+(
+l
+, 
+nup
+);
+
+1310 
+	}
+}
+
+1316 
+	$js⁄_¥Ÿe˘_c⁄vîsi⁄
+(
+lua_Sèã
+ *
+l
+)
+
+1318 
+îr
+;
+
+1321 
+	`luaL_¨gcheck
+(
+l
+, 
+	`lua_gët›
+(l) == 1, 1, "expected 1árgument");
+
+1324 
+	`lua_pushvÆue
+(
+l
+, 
+	`lua_upvÆueödex
+(1));
+
+1325 
+	`lua_ö£π
+(
+l
+, 1);
+
+1326 
+îr
+ = 
+	`lua_pˇŒ
+(
+l
+, 1, 1, 0);
+
+1327 i‡(!
+îr
+)
+
+1330 i‡(
+îr
+ =
+LUA_ERRRUN
+) {
+
+1331 
+	`lua_pushnû
+(
+l
+);
+
+1332 
+	`lua_ö£π
+(
+l
+, -2);
+
+1338  
+	`luaL_îr‹
+(
+l
+, "MemoryállocationÉrror in CJSONÖrotected call");
+
+1339 
+	}
+}
+
+1342 
+	$lua_cjs⁄_√w
+(
+lua_Sèã
+ *
+l
+)
+
+1344 
+luaL_Reg
+ 
+ªg
+[] = {
+
+1345 { "ícode", 
+js⁄_ícode
+ },
+
+1346 { "decode", 
+js⁄_decode
+ },
+
+1347 { "ícode_•¨£_¨øy", 
+js⁄_cfg_ícode_•¨£_¨øy
+ },
+
+1348 { "ícode_max_dïth", 
+js⁄_cfg_ícode_max_dïth
+ },
+
+1349 { "decode_max_dïth", 
+js⁄_cfg_decode_max_dïth
+ },
+
+1350 { "ícode_numbî_¥ecisi⁄", 
+js⁄_cfg_ícode_numbî_¥ecisi⁄
+ },
+
+1351 { "ícode_kìp_buf„r", 
+js⁄_cfg_ícode_kìp_buf„r
+ },
+
+1352 { "ícode_övÆid_numbîs", 
+js⁄_cfg_ícode_övÆid_numbîs
+ },
+
+1353 { "decode_övÆid_numbîs", 
+js⁄_cfg_decode_övÆid_numbîs
+ },
+
+1354 { "√w", 
+lua_cjs⁄_√w
+ },
+
+1355 { 
+NULL
+, NULL }
+
+1359 
+	`Âc⁄v_öô
+();
+
+1362 
+	`lua_√wèbÀ
+(
+l
+);
+
+1365 
+	`js⁄_¸óã_c⁄fig
+(
+l
+);
+
+1366 
+	`luaL_£tfuncs
+(
+l
+, 
+ªg
+, 1);
+
+1369 
+	`lua_pushlightu£rd©a
+(
+l
+, 
+NULL
+);
+
+1370 
+	`lua_£tfõld
+(
+l
+, -2, "null");
+
+1373 
+	`lua_pushlôîÆ
+(
+l
+, 
+CJSON_MODNAME
+);
+
+1374 
+	`lua_£tfõld
+(
+l
+, -2, "_NAME");
+
+1375 
+	`lua_pushlôîÆ
+(
+l
+, 
+CJSON_VERSION
+);
+
+1376 
+	`lua_£tfõld
+(
+l
+, -2, "_VERSION");
+
+1379 
+	}
+}
+
+1382 
+	$lua_cjs⁄_ß„_√w
+(
+lua_Sèã
+ *
+l
+)
+
+1384 c⁄° *
+func
+[] = { "decode", "ícode", 
+NULL
+ };
+
+1385 
+i
+;
+
+1387 
+	`lua_cjs⁄_√w
+(
+l
+);
+
+1390 
+	`lua_pushcfun˘i⁄
+(
+l
+, 
+lua_cjs⁄_ß„_√w
+);
+
+1391 
+	`lua_£tfõld
+(
+l
+, -2, "new");
+
+1393 
+i
+ = 0; 
+func
+[i]; i++) {
+
+1394 
+	`lua_gëfõld
+(
+l
+, -1, 
+func
+[
+i
+]);
+
+1395 
+	`lua_pushc˛osuª
+(
+l
+, 
+js⁄_¥Ÿe˘_c⁄vîsi⁄
+, 1);
+
+1396 
+	`lua_£tfõld
+(
+l
+, -2, 
+func
+[
+i
+]);
+
+1400 
+	}
+}
+
+1402 
+	$lua›í_cjs⁄
+(
+lua_Sèã
+ *
+l
+)
+
+1404 
+	`lua_cjs⁄_√w
+(
+l
+);
+
+1406 #ifde‡
+ENABLE_CJSON_GLOBAL
+
+
+1408 
+	`lua_pushvÆue
+(
+l
+, -1);
+
+1409 
+	`lua_£tglobÆ
+(
+l
+, 
+CJSON_MODNAME
+);
+
+1414 
+	}
+}
+
+1416 
+	$lua›í_cjs⁄_ß„
+(
+lua_Sèã
+ *
+l
+)
+
+1418 
+	`lua_cjs⁄_ß„_√w
+(
+l
+);
+
+1422 
+	}
+}
 
 	@luaclib/pbc-lua53.c
 
@@ -21899,21 +26693,241 @@ loˇl
 ªquúe
  "skynet"
 
+3 
+loˇl
+ 
+room
+
+
 4 
+loˇl
+ 
+∂ayîs
+
+
+6 
+loˇl
+ 
+cmd
+ = {}
+
+8 
 fun˘i⁄
  
 cmd
 .
 	$öô
 (
-room
+_room
 )
 
-6 
+9 
+room
+ = 
+_room
+
+
+10 
+∂ayîs
+ = 
+room
+.players
+
+12 
+∂ayî_id
+, 
+∂ayî
+ 
+ö
+ 
+	$∑ús
+(
+∂ayîs
+) do
+
+13 
+∂ayî
+.
+lﬂded
+ = 0
+
+14 
 íd
 
 
-8 
+15 
+íd
+
+
+17 
+fun˘i⁄
+ 
+cmd
+.
+	$joö_b©ée
+(
+∂ayî_id
+)
+
+18 
+loˇl
+ 
+∂ayî
+ = 
+∂ayîs
+[
+∂ayî_id
+]
+
+19 
+nŸ
+ 
+∂ayî
+ 
+thí
+
+
+20  
+Ál£
+
+
+21 
+íd
+
+
+22 
+∂ayî
+.
+lﬂded
+ = 100
+
+24 
+	$check_lﬂd_föished
+(Ë
+thí
+
+
+25 
+	$°¨t
+()
+
+26 
+íd
+
+
+27  
+åue
+
+
+28 
+íd
+
+
+30 
+fun˘i⁄
+ 
+	$check_lﬂd_föished
+()
+
+31 
+_
+, 
+∂ayî
+ 
+ö
+ 
+	$∑ús
+(
+∂ayîs
+) do
+
+32 
+∂ayî
+.
+lﬂded
+ < 100 
+thí
+
+
+33  
+Ál£
+
+
+34 
+íd
+
+
+35 
+íd
+
+
+36  
+åue
+
+
+37 
+íd
+
+
+39 
+fun˘i⁄
+ 
+	$°¨t
+()
+
+40 
+	`brﬂdˇ°
+("S2C_SèπB©ée", {
+	}
+})
+
+41 
+íd
+
+
+43 
+fun˘i⁄
+ 
+	$brﬂdˇ°
+(
+mesßge_ty≥
+, 
+tbl
+)
+
+44 
+∂ayî_id
+, 
+_
+ 
+ö
+ 
+	$∑ús
+(
+∂ayîs
+) do
+
+45 
+sky√t
+.
+	`ˇŒ
+(".agít"..
+∂ayî_id
+, "lua", "£nd_∑ckage", 
+mesßge_ty≥
+, 
+tbl
+)
+
+46 
+íd
+
+
+47 
+íd
+
+
+49 
 sky√t
 .
 	`°¨t
@@ -21921,7 +26935,7 @@ sky√t
 	$fun˘i⁄
 ()
 
-9 
+50 
 sky√t
 .
 	`di•©ch
@@ -21933,7 +26947,7 @@ _
 comm™d
 , ...)
 
-10 
+51 
 loˇl
  
 f
@@ -21943,7 +26957,7 @@ cmd
 comm™d
 ]
 
-11 
+52 
 sky√t
 .
 	`ªt
@@ -21953,11 +26967,11 @@ sky√t
 	$f
 (...)))
 
-12 
+53 
 íd
 )
 
-13 
+54 
 íd
 )
 
@@ -22016,6 +27030,1444 @@ CMD
 49  
 	gCMD
 
+
+	@script/behavior_tree/behavior_node.lua
+
+2 
+	gBehavi‹Node
+ = 
+	$˛ass
+()
+
+3 
+fun˘i⁄
+ 
+Behavi‹Node
+:
+	`˘‹
+()
+
+5 
+£lf
+.
+doc
+ = {
+
+6 
+«me
+ = "", --
+
+7 
+nick«me
+ = "", -- ËäÇÁÇπÂêçÁß∞(
+XX
+ËäÇÁÇπ)
+
+8 
+des¸ibe
+ = "", -- ËäÇÁÇπÊèèËø∞(
+bababa
+...)
+
+9 
+˛assify
+ = "", -- ËäÇÁÇπÂàÜÁ±ª(Ë°å‰∏∫ËäÇÁÇπ)
+
+10 
+¨gs_desc
+ = {}, -- ËæìÂÖ•(
+a
+/Â∏∏Èáè//0, 
+Ø
+/ÂèòÈáè/
+key
+/)
+
+11 
+limô
+ = 0, -- Â≠êËäÇÁÇπÈôêÂà∂
+
+12 
+	}
+}
+
+13 
+íd
+
+
+14 
+fun˘i⁄
+ 
+	gBehavi‹Node
+:
+	$öô
+(
+node_d©a
+, 
+åì
+)
+
+15 
+£lf
+.
+åì
+ =Åree
+
+16 
+£lf
+.
+d©a
+ = 
+node_d©a
+
+
+17 
+£lf
+.
+node_id
+ = 
+node_d©a
+.node_id
+
+18 
+£lf
+.
+chûdªn
+ = {
+	}
+}
+
+19 
+_
+, 
+chûd_d©a
+ 
+ö
+ 
+	$ùaús
+(
+node_d©a
+.
+chûdªn
+) do
+
+20 
+loˇl
+ 
+node_«me
+ = 
+chûd_d©a
+.
+«me
+
+
+21 
+nŸ
+ 
+_G
+[
+node_«me
+] 
+thí
+
+
+22 
+	`¥öt
+("behavi‹ÇodênŸÉxi°: "..
+node_«me
+)
+
+24 
+íd
+
+
+25 
+loˇl
+ 
+chûd
+ = 
+_G
+[
+node_«me
+].
+	$√w
+()
+
+26 
+chûd
+:
+	$öô
+(
+chûd_d©a
+, 
+åì
+)
+
+27 
+èbÀ
+.
+	$ö£π
+(
+£lf
+.
+chûdªn
+, 
+chûd
+)
+
+28 
+íd
+
+
+29 
+íd
+
+
+30 
+fun˘i⁄
+ 
+Behavi‹Node
+:
+	$exec
+()
+
+31 
+£lf
+:
+	$bef‹e_run
+()
+
+32 
+£lf
+:
+	$run
+()
+
+33 
+£lf
+:
+	$a·î_run
+()
+
+34 
+íd
+
+
+35 
+fun˘i⁄
+ 
+Behavi‹Node
+:
+	$bef‹e_run
+()
+
+36 
+i
+, 
+desc
+ 
+ö
+ 
+	$ùaús
+(
+£lf
+.
+doc
+.
+¨gs_desc
+) do
+
+37 
+loˇl
+ 
+¨r
+ = 
+°rög
+.
+	`•lô
+(
+desc
+, '/')
+
+38 
+loˇl
+ 
+key
+ = 
+¨r
+[1]
+
+39 
+loˇl
+ 
+t
+ = 
+¨r
+[3]
+
+40 
+loˇl
+ 
+v¨_Êag
+ = 
+£lf
+.
+d©a
+[
+i
+]
+
+41 
+loˇl
+ 
+¨g
+ = 
+£lf
+.
+d©a
+[
+i
+]
+
+42 
+loˇl
+ 
+vÆue
+ = 
+nû
+
+
+43 
+v¨_Êag
+ 
+thí
+
+
+44 
+vÆue
+ = 
+£lf
+.
+åì
+:
+	$gë_v¨
+(
+¨g
+)
+
+46 
+t
+ ="öt" 
+‹
+Å ="Êﬂt" 
+thí
+
+
+47 
+vÆue
+ = 
+	$t⁄umbî
+(
+¨g
+)
+
+49 
+vÆue
+ = 
+¨g
+
+
+50 
+íd
+
+
+51 
+íd
+
+
+52 
+£lf
+[
+key
+] = 
+vÆue
+
+
+53 
+íd
+
+
+54 
+íd
+
+
+55 
+fun˘i⁄
+ 
+Behavi‹Node
+:
+	$run
+()
+
+56  
+åue
+
+
+57 
+íd
+
+
+58 
+fun˘i⁄
+ 
+Behavi‹Node
+:
+	$a·î_run
+()
+
+59 
+i
+ , 
+desc
+ 
+ö
+ 
+	$ùaús
+(
+£lf
+.
+doc
+.
+¨gs_desc
+) do
+
+60 
+loˇl
+ 
+¨r
+ = 
+°rög
+.
+	`•lô
+(
+desc
+, '/')
+
+61 
+loˇl
+ 
+key
+ = 
+¨r
+[1]
+
+62 
+loˇl
+ 
+t
+ = 
+¨r
+[3]
+
+63 
+loˇl
+ 
+v¨_Êag
+ = 
+£lf
+.
+d©a
+[
+i
+]
+
+64 
+loˇl
+ 
+¨g
+ = 
+£lf
+.
+d©a
+[
+i
+]
+
+65 
+loˇl
+ 
+vÆue
+ = 
+£lf
+[
+key
+]
+
+67 
+v¨_Êag
+ 
+thí
+
+
+68 
+£lf
+.
+åì
+:
+	$£t_v¨
+(
+¨g
+, 
+vÆue
+)
+
+69 
+íd
+
+
+71 
+íd
+
+
+72 
+íd
+
+
+75 
+RoŸ
+ = 
+	$˛ass
+(
+Behavi‹Node
+)
+
+76 
+fun˘i⁄
+ 
+RoŸ
+:
+	$˘‹
+()
+
+77 
+£lf
+.
+doc
+ = {
+
+78 
+nick«me
+ = "Ê†πËäÇÁÇπ",
+
+79 
+des¸ibe
+ = "AIÁöÑÊ†πËäÇÁÇπ,ÊâßË°åÊâÄÊúâÂ≠êËäÇÁÇπ",
+
+80 
+¨gs_desc
+ = {"rate/int/100/ÊâßË°åÈ¢ëÁéá(ÊØ´ÁßíÊ¨°)"},
+
+81 
+˛assify
+ = "Â§çÂêàËäÇÁÇπ",
+
+82 
+limô
+ = 999,
+
+83 
+	}
+}
+
+84 
+íd
+
+
+85 
+fun˘i⁄
+ 
+	gRoŸ
+:
+	$run
+()
+
+86 
+_
+, 
+chûd
+ 
+ö
+ 
+	$ùaús
+(
+£lf
+.
+chûdªn
+) do
+
+87 
+chûd
+:
+	$run
+()
+
+88 
+íd
+
+
+89  
+åue
+
+
+90 
+íd
+
+
+93 
+Sequí˚
+ = 
+	$˛ass
+(
+Behavi‹Node
+)
+
+94 
+fun˘i⁄
+ 
+Sequí˚
+:
+	$˘‹
+()
+
+95 
+£lf
+.
+doc
+ = {
+
+96 
+nick«me
+ = "È°∫Â∫èÊâßË°å",
+
+97 
+des¸ibe
+ = "ÊâßË°åÊâÄÊúâÂ≠êËäÇÁÇπÁõ¥Âà∞ËøîÂõûfalse",
+
+98 
+˛assify
+ = "Â§çÂêàËäÇÁÇπ",
+
+99 
+limô
+ = 999,
+
+100 
+	}
+}
+
+101 
+íd
+
+
+102 
+fun˘i⁄
+ 
+	gSequí˚
+:
+	$run
+()
+
+103 
+_
+, 
+chûd
+ 
+ö
+ 
+	$ùaús
+(
+£lf
+.
+chûdªn
+) do
+
+104 
+nŸ
+ 
+chûd
+:
+	$run
+(Ë
+thí
+
+
+105  
+Ál£
+
+
+106 
+íd
+
+
+107 
+íd
+
+
+108  
+åue
+
+
+109 
+íd
+
+
+111 
+Sñe˘‹
+ = 
+	$˛ass
+(
+Behavi‹Node
+)
+
+112 
+fun˘i⁄
+ 
+Sñe˘‹
+:
+	$˘‹
+()
+
+113 
+£lf
+.
+doc
+ = {
+
+114 
+nick«me
+ = "ÈÄâÊã©ÊâßË°å",
+
+115 
+des¸ibe
+ = "ÊâßË°åÊâÄÊúâÂ≠êËäÇÁÇπÁõ¥Âà∞ËøîÂõûtrue",
+
+116 
+˛assify
+ = "Â§çÂêàËäÇÁÇπ",
+
+117 
+limô
+ = 999,
+
+118 
+	}
+}
+
+119 
+íd
+
+
+120 
+fun˘i⁄
+ 
+	gSñe˘‹
+:
+	$run
+()
+
+121 
+_
+, 
+chûd
+ 
+ö
+ 
+	$ùaús
+(
+£lf
+.
+chûdªn
+) do
+
+122 
+chûd
+:
+	$run
+(Ë
+thí
+
+
+123  
+åue
+
+
+124 
+íd
+
+
+125 
+íd
+
+
+126  
+Ál£
+
+
+127 
+íd
+
+
+	@script/behavior_tree/behavior_tree.lua
+
+2 
+	gBehavi‹Tªe
+ = 
+	$˛ass
+()
+
+4 
+fun˘i⁄
+ 
+Behavi‹Tªe
+:
+	$˘‹
+(
+åì_d©a
+, 
+ow√r
+)
+
+5 
+£lf
+.
+d©a
+ = 
+åì_d©a
+
+
+6 
+£lf
+.
+åì_id
+ = 
+åì_d©a
+.tree_id
+
+7 
+£lf
+.
+ow√r
+ = owner
+
+8 
+£lf
+.
+v¨s
+ = {
+	}
+}
+
+9 
+loˇl
+ 
+roŸ_«me
+ = 
+åì_d©a
+.
+roŸ
+.
+«me
+
+
+10 
+nŸ
+ 
+_G
+[
+roŸ_«me
+] 
+thí
+
+
+11 
+¥öt
+("behavi‹ÇodênŸÉxi°: "..
+roŸ_«me
+)
+
+13 
+íd
+
+
+14 
+£lf
+.
+roŸ
+ = 
+_G
+[
+åì_d©a
+.roŸ.
+«me
+].
+	$√w
+()
+
+15 
+£lf
+.
+roŸ
+:
+	$öô
+(
+åì_d©a
+.
+roŸ
+, 
+£lf
+)
+
+17 
+íd
+
+
+19 
+fun˘i⁄
+ 
+Behavi‹Tªe
+:
+	$exec
+()
+
+20 
+£lf
+.
+roŸ
+:
+	$exec
+()
+
+21 
+íd
+
+
+23 
+fun˘i⁄
+ 
+Behavi‹Tªe
+:
+	$gë_v¨
+(
+key
+)
+
+24 
+£lf
+.
+v¨s
+[
+key
+] 
+thí
+
+
+25  
+£lf
+.
+v¨s
+[
+key
+]
+
+26 
+íd
+
+
+27 
+£lf
+.
+ow√r
+ 
+thí
+
+
+28  
+£lf
+.
+ow√r
+[
+key
+]
+
+29 
+íd
+
+
+30 
+íd
+
+
+32 
+fun˘i⁄
+ 
+Behavi‹Tªe
+:
+	$£t_v¨
+(
+key
+, 
+vÆue
+)
+
+33 
+£lf
+.
+v¨s
+[
+key
+] 
+thí
+
+
+34 
+£lf
+.
+v¨s
+[
+key
+] = 
+vÆue
+
+
+36 
+íd
+
+
+37 
+£lf
+.
+ow√r
+ 
+™d
+ sñf.ow√r[
+key
+] 
+thí
+
+
+38 
+£lf
+.
+ow√r
+[
+key
+] = 
+vÆue
+
+
+39 
+íd
+
+
+40 
+£lf
+.
+v¨s
+[
+key
+] = 
+vÆue
+
+
+41 
+íd
+
+
+	@script/behavior_tree/bt_manager.lua
+
+2 
+	gªquúe
+ "behavior_tree.behavior_node"
+
+3 
+	gªquúe
+ "behavior_tree.behavior_tree"
+
+5 
+loˇl
+ 
+	gjs⁄
+ = 
+ªquúe
+ "cjson"
+
+7 
+loˇl
+ 
+M
+ = {}
+
+9 
+fun˘i⁄
+ 
+M
+.
+	$exp‹t_node_doc
+()
+
+10 
+loˇl
+ 
+d©a
+ = "["
+
+11 
+«me
+, 
+c
+ 
+ö
+ 
+	$∑ús
+(
+_G
+) do
+
+12 
+	`ty≥
+(
+c
+Ë="èbÀ" 
+™d
+ c.
+su≥r
+ =
+Behavi‹Node
+ 
+thí
+
+
+13 
+loˇl
+ 
+obj
+ = 
+c
+.
+	$√w
+()
+
+14 
+loˇl
+ 
+doc
+ = 
+obj
+.doc
+
+15 
+doc
+ 
+thí
+
+
+16 
+doc
+.
+«me
+ =Çame
+
+17 
+d©a
+ = d©®.. 
+js⁄
+.
+	`ícode
+(
+doc
+) .. ",\n"
+
+18 
+íd
+
+
+19 
+íd
+
+
+20 
+íd
+
+
+22 
+d©a
+ ~"[" 
+thí
+
+
+23 
+d©a
+ = 
+°rög
+.
+	`sub
+(data, 1,-3)
+
+24 
+d©a
+ = data .. "]"
+
+25 
+íd
+
+
+26 
+	$¥öt
+(
+d©a
+)
+
+28 
+loˇl
+ 
+fûe
+ = 
+io
+.
+	`›í
+(
+WORKSPACE
+.."data/btree/node_doc.txt", "w")
+
+29 
+fûe
+:
+	$wrôe
+(
+d©a
+)
+
+31 
+loˇl
+ 
+js⁄
+ = 
+ªquúe
+ "cjson"
+
+32 
+	`dump_tbl
+(
+js⁄
+.
+	$decode
+(
+d©a
+))
+
+34 
+íd
+
+
+36 
+loˇl
+ 
+id2åì_d©a
+ = {
+	}
+}
+
+37 
+fun˘i⁄
+ 
+M
+.
+	$lﬂd_åìs
+()
+
+38 
+loˇl
+ 
+dú
+ = 
+WORKSPACE
+.."data/btree/tree/"
+
+39 
+loˇl
+ 
+s
+ = 
+io
+.
+	`p›í
+("l†".. 
+dú
+)
+
+40 
+loˇl
+ 
+fûeLi°s
+ = 
+s
+:
+	`ªad
+("*all")
+
+41 
+åue
+ do
+
+42 
+_
+,
+íd_pos
+, 
+fûíame
+ = 
+°rög
+.
+	`föd
+(
+fûeLi°s
+, "([^\n\r]+.txt)", 
+°¨t_pos
+)
+
+43 
+nŸ
+ 
+íd_pos
+ 
+thí
+
+
+45 
+íd
+
+
+46 
+loˇl
+ 
+fûe
+ = 
+io
+.
+	`›í
+(
+dú
+..
+fûíame
+, "r")
+
+47 
+loˇl
+ 
+°r
+ = 
+fûe
+:
+	$ªad
+()
+
+48 
+loˇl
+ 
+d©a
+ = 
+js⁄
+.
+	$decode
+(
+°r
+)
+
+49 
+id2åì_d©a
+[
+d©a
+.
+åì_id
+] = data
+
+50 
+°¨t_pos
+ = 
+íd_pos
+ + 1
+
+51 
+íd
+
+
+53 
+íd
+
+
+55 
+fun˘i⁄
+ 
+M
+.
+	$¸óã_åì
+(
+ow√r
+, 
+åì_id
+)
+
+56 
+loˇl
+ 
+åì_d©a
+ = 
+id2åì_d©a
+[
+åì_id
+]
+
+57 
+nŸ
+ 
+åì_d©a
+ 
+thí
+
+
+58 
+	`¥öt
+("behavi‹ÅªênŸÉxi°,Åªe_id:"..
+åì_id
+)
+
+60 
+íd
+
+
+61  
+Behavi‹Tªe
+.
+	$√w
+(
+ow√r
+, 
+åì_d©a
+)
+
+62 
+íd
+
+
+64  
+M
+
+
+	@script/behavior_tree/node/ai.lua
+
+	@script/behavior_tree/node/common.lua
+
+	@script/behavior_tree/node/map.lua
 
 	@script/global.lua
 
@@ -22277,6 +28729,8 @@ fun˘i⁄
 	$˛ass
 (
 su≥r
+, 
+˛ass_«me
 )
 
 35 
@@ -22828,6 +29282,178 @@ t
 114 
 íd
 
+
+117 
+fun˘i⁄
+ 
+°rög
+.
+	$•lô
+(
+°r
+, 
+dñim
+, 
+maxNb
+)
+
+118 
+°rög
+.
+	`föd
+(
+°r
+, 
+dñim
+Ë=
+nû
+ 
+thí
+
+
+119  { 
+°r
+ 
+	}
+}
+
+120 
+íd
+
+
+121 
+maxNb
+ =
+nû
+ 
+‹
+ maxNb < 1 
+thí
+
+
+122 
+maxNb
+ = 0 -- 
+No
+ 
+limô
+
+
+123 
+íd
+
+
+124 
+loˇl
+ 
+ªsu…
+ = {}
+
+125 
+loˇl
+ 
+∑t
+ = "(.-)" .. 
+dñim
+ .. "()"
+
+126 
+loˇl
+ 
+nb
+ = 0
+
+127 
+loˇl
+ 
+œ°Pos
+
+
+128 
+∑π
+, 
+pos
+ 
+ö
+ 
+	g°rög
+.
+	$gföd
+(
+°r
+, 
+∑t
+) do
+
+129 
+nb
+ =Çb + 1
+
+130 
+ªsu…
+[
+nb
+] = 
+∑π
+
+
+131 
+œ°Pos
+ = 
+pos
+
+
+132 
+nb
+ =
+maxNb
+ 
+thí
+  
+íd
+
+
+133 
+íd
+
+
+134 
+nb
+ ~
+maxNb
+ 
+thí
+
+
+135 
+ªsu…
+[
+nb
+ + 1] = 
+°rög
+.
+	$sub
+(
+°r
+, 
+œ°Pos
+)
+
+136 
+íd
+
+
+137  
+ªsu…
+
+
+138 
+íd
+
+
+140 
+WORKSPACE
+ = "../battle_city/"
 
 	@script/player/player.lua
 
@@ -23487,15 +30113,23 @@ room_id
 åue
 )
 
-15  
+15 
+sky√t
+.
+	`ˇŒ
+(".lobby", "lua", "brﬂdˇ°_room_d©a", 
+room_id
+)
+
+16  
 åue
 
 
-16 
+17 
 íd
 
 
-18 
+19 
 fun˘i⁄
  
 Pœyî
@@ -23505,7 +30139,7 @@ Pœyî
 room_id
 )
 
-19 
+20 
 £lf
 .
 room_id
@@ -23513,15 +30147,15 @@ room_id
 thí
 
 
-20  
+21  
 Ál£
 
 
-21 
+22 
 íd
 
 
-22 
+23 
 loˇl
  
 ªt
@@ -23539,27 +30173,27 @@ room_id
 ∂ayî_«me
 )
 
-23 
+24 
 ªt
  
 thí
 
 
-24 
+25 
 £lf
 .
 room_id
  =Ñoom_id
 
-26 
+27 
 	`¥öt
 ("player cannot joinÑoom")
 
-27 
+28 
 íd
 
 
-28 
+29 
 	`¥öt
 ("∂ayî"..
 £lf
@@ -23569,15 +30203,15 @@ room_id
 room_id
 )
 
-29  
+30  
 ªt
 
 
-30 
+31 
 íd
 
 
-32 
+33 
 fun˘i⁄
  
 Pœyî
@@ -23585,7 +30219,7 @@ Pœyî
 	$quô_room
 ()
 
-33 
+34 
 £lf
 .
 room_id
@@ -23593,15 +30227,15 @@ room_id
 thí
 
 
-34  
+35  
 Ál£
 
 
-35 
+36 
 íd
 
 
-36 
+37 
 loˇl
  
 ªt
@@ -23617,31 +30251,31 @@ room_id
 ∂ayî_id
 )
 
-37 
+38 
 ªt
  
 thí
 
 
-38 
+39 
 £lf
 .
 room_id
  = 0
 
-39 
+40 
 íd
 
 
-40  
+41  
 ªt
 
 
-41 
+42 
 íd
 
 
-43 
+44 
 fun˘i⁄
  
 Pœyî
@@ -23651,7 +30285,7 @@ Pœyî
 Êag
 )
 
-44 
+45 
 £lf
 .
 room_id
@@ -23659,15 +30293,15 @@ room_id
 thí
 
 
-45  
+46  
 Ál£
 
 
-46 
+47 
 íd
 
 
-47  
+48  
 sky√t
 .
 	`ˇŒ
@@ -23681,11 +30315,11 @@ room_id
 Êag
 )
 
-48 
+49 
 íd
 
 
-50 
+51 
 fun˘i⁄
  
 Pœyî
@@ -23693,7 +30327,7 @@ Pœyî
 	$°¨t_game
 ()
 
-51 
+52 
 £lf
 .
 room_id
@@ -23701,15 +30335,15 @@ room_id
 thí
 
 
-52  
+53  
 Ál£
 
 
-53 
+54 
 íd
 
 
-54  
+55  
 sky√t
 .
 	`ˇŒ
@@ -23721,7 +30355,7 @@ room_id
 ∂ayî_id
 )
 
-55 
+56 
 íd
 
 
@@ -23748,56 +30382,6 @@ fun˘i⁄
 5 
 íd
 
-
-	@service/abort.lua
-
-1 
-loˇl
- 
-	gsky√t
- = 
-ªquúe
- "skynet"
-
-2 
-loˇl
- 
-˛u°î
- = 
-ªquúe
- "cluster"
-
-4 
-ªquúe
- "skynet.manager"
-
-6 
-sky√t
-.
-°¨t
-(
-	$fun˘i⁄
-()
-
-7 
-	`¥öt
-("save data")
-
-8 
-˛u°î
-.
-	`ˇŒ
-("login", ".login", "abort")
-
-9 --
-sky√t
-.
-	$ab‹t
-()
-
-10 
-íd
-)
 
 	@service/agent.lua
 
@@ -23907,17 +30491,23 @@ loˇl
 ∂ayî
 
 
-22 
+21 
+loˇl
+ 
+b©ée
+ -- ÊàòÊñóÊúçÂä°Âú∞ÂùÄ
+
+23 
 sky√t
 .
 ªgi°î_¥Ÿocﬁ
  {
 
-23 
+24 
 «me
  = "client",
 
-24 
+25 
 	gid
  = 
 sky√t
@@ -23925,7 +30515,7 @@ sky√t
 PTYPE_CLIENT
 ,
 
-25 
+26 
 	gu≈ack
  = 
 fun˘i⁄
@@ -23935,7 +30525,7 @@ msg
 sz
 )
 
-26  
+27  
 	gsky√t
 .
 to°rög
@@ -23945,11 +30535,11 @@ msg
 sz
 )
 
-27 
+28 
 	gíd
 ,
 
-28 
+29 
 	gdi•©ch
  = 
 fun˘i⁄
@@ -23961,7 +30551,7 @@ addªss
 buf„r
 , ...)
 
-29 
+30 
 loˇl
  
 	gp
@@ -23973,7 +30563,7 @@ decode
 buf„r
 )
 
-30 
+31 
 ¥öt
 ("ªcõvê∑ckage",
 p
@@ -23981,7 +30571,7 @@ p
 «me
 )
 
-31 
+32 
 loˇl
  
 	gµ
@@ -23997,7 +30587,7 @@ p
 d©a
 )
 
-32 
+33 
 loˇl
  
 	gf
@@ -24013,7 +30603,7 @@ p
 ∂ayî_h™dÀr
 [p.name]
 
-33 
+34 
 nŸ
  
 f
@@ -24021,7 +30611,7 @@ f
 thí
 
 
-34 
+35 
 ¥öt
 ("mesßgêh™dÀ∏nŸÉxi°. Package:"..
 p
@@ -24029,11 +30619,11 @@ p
 «me
 )
 
-36 
+37 
 íd
 
 
-37 
+38 
 loˇl
  
 ªt
@@ -24045,7 +30635,7 @@ f
 ∂ayî
 )
 
-38 
+39 
 	gp
 .
 	gΩcId
@@ -24053,7 +30643,7 @@ f
 thí
 
 
-39 
+40 
 £nd_∑ckage
 ("Re•⁄£"..
 °rög
@@ -24069,15 +30659,15 @@ p
 ΩcId
 )
 
-40 
+41 
 íd
 
 
-41 
+42 
 	gíd
 
 
-44 
+45 
 fun˘i⁄
  
 	gcmd
@@ -24087,7 +30677,7 @@ fun˘i⁄
 c⁄f
 )
 
-45 
+46 
 loˇl
  
 fd
@@ -24097,7 +30687,7 @@ c⁄f
 ˛õ¡
 
 
-46 
+47 
 loˇl
  
 g©e
@@ -24105,7 +30695,7 @@ g©e
 c⁄f
 .gate
 
-47 
+48 
 WATCHDOG
  = 
 c⁄f
@@ -24113,17 +30703,17 @@ c⁄f
 w©chdog
 
 
-48 
+49 
 ˛õ¡_fd
  = 
 fd
 
 
-49 
+50 
 	`¥öt
 ("login start")
 
-51 
+52 
 sky√t
 .
 	`ˇŒ
@@ -24133,11 +30723,11 @@ g©e
 fd
 )
 
-52 
+53 
 íd
 
 
-54 
+55 
 fun˘i⁄
  
 cmd
@@ -24147,7 +30737,7 @@ cmd
 c⁄f
 )
 
-55 
+56 
 loˇl
  
 fd
@@ -24157,7 +30747,7 @@ c⁄f
 ˛õ¡
 
 
-56 
+57 
 loˇl
  
 g©e
@@ -24165,7 +30755,7 @@ g©e
 c⁄f
 .gate
 
-57 
+58 
 WATCHDOG
  = 
 c⁄f
@@ -24173,17 +30763,17 @@ c⁄f
 w©chdog
 
 
-58 
+59 
 ˛õ¡_fd
  = 
 fd
 
 
-59 
+60 
 	`¥öt
 ("master start")
 
-61 
+62 
 sky√t
 .
 	`ˇŒ
@@ -24193,7 +30783,7 @@ g©e
 fd
 )
 
-62 
+63 
 	`£nd_∑ckage
 ("S2C_LﬂdS˚√", {
 «me
@@ -24201,15 +30791,15 @@ fd
 	}
 })
 
-63 --
+64 --
 	$£nd_hñlo
 ()
 
-64 
+65 
 íd
 
 
-66 
+67 
 fun˘i⁄
  
 cmd
@@ -24219,7 +30809,7 @@ cmd
 c⁄f
 )
 
-67 
+68 
 loˇl
  
 fd
@@ -24229,7 +30819,7 @@ c⁄f
 ˛õ¡
 
 
-68 
+69 
 loˇl
  
 g©e
@@ -24237,7 +30827,7 @@ g©e
 c⁄f
 .gate
 
-69 
+70 
 WATCHDOG
  = 
 c⁄f
@@ -24245,17 +30835,17 @@ c⁄f
 w©chdog
 
 
-70 
+71 
 ˛õ¡_fd
  = 
 fd
 
 
-71 
+72 
 	`¥öt
 ("battle start")
 
-73 
+74 
 sky√t
 .
 	`ˇŒ
@@ -24265,15 +30855,23 @@ g©e
 fd
 )
 
-74 --
+75 
+	`£nd_∑ckage
+("S2C_LﬂdS˚√", {
+«me
+ = "B©ée"
+	}
+})
+
+76 --
 	$£nd_hñlo
 ()
 
-75 
+77 
 íd
 
 
-77 
+79 
 fun˘i⁄
  
 cmd
@@ -24283,11 +30881,11 @@ cmd
 p
 )
 
-78 
+80 
 	`¥öt
 ("clientÜogin")
 
-79 
+81 
 loˇl
  
 ªsu…
@@ -24309,7 +30907,7 @@ accou¡Name
 accou¡Pwd
 )
 
-80 
+82 
 	`£nd_∑ckage
 ("S2C_Logö", {
 ªsu…
@@ -24323,7 +30921,7 @@ p‹t
 ∂ayî_id
 })
 
-81 
+83 
 	gsky√t
 .
 ˇŒ
@@ -24333,17 +30931,17 @@ WATCHDOG
 ˛õ¡_fd
 )
 
-82 
+84 
 	gsky√t
 .
 	$exô
 ()
 
-83 
+85 
 íd
 
 
-85 
+87 
 fun˘i⁄
  
 cmd
@@ -24353,7 +30951,7 @@ cmd
 p
 )
 
-86 
+88 
 loˇl
  
 ∂ayî_id
@@ -24363,7 +30961,7 @@ p
 ∂ayîId
 
 
-87 
+89 
 ∂ayî
  = 
 sky√t
@@ -24373,7 +30971,7 @@ sky√t
 ∂ayî_id
 )
 
-88 
+90 
 nŸ
  
 ∂ayî
@@ -24381,7 +30979,7 @@ nŸ
 thí
 
 
-89 
+91 
 ∂ayî
  = 
 Pœyî
@@ -24389,11 +30987,11 @@ Pœyî
 	$√w
 ()
 
-90 
+92 
 íd
 
 
-92 
+94 
 sky√t
 .(".agít"..
 ∂ayî
@@ -24401,7 +30999,7 @@ sky√t
 ∂ayî_id
 )
 
-93 
+95 
 	`¥öt
 ("ªgi°îágít"..
 ∂ayî
@@ -24409,31 +31007,107 @@ sky√t
 ∂ayî_id
 )
 
-94 
+96 
 	`£nd_∑ckage
-("S2C_O∆öe", {
+("S2C_Online", {
+
+97 
 ªsu…
  = 
 åue
-, 
+,
+
+98 
+∂ayîId
+ =
+∂ayî
+.
+∂ayî_id
+,
+
+99 
 ∂ayîName
  = 
 ∂ayî
 .
 ∂ayî_«me
+
+
+100 
+	}
 })
 
-95 
+101 
 íd
 
 
-97 
+103 
+fun˘i⁄
+ 
+	gcmd
+.
+	$C2S_JoöB©ée
+(
+p
+)
+
+104 
+loˇl
+ 
+∂ayî_id
+ = 
+p
+.
+∂ayîId
+
+
+105 
+b©ée
+ = 
+p
+.battle
+
+106 
+sky√t
+.(".agít"..
+∂ayî_id
+)
+
+107 
+loˇl
+ 
+ªt
+ = 
+sky√t
+.
+	`ˇŒ
+(
+b©ée
+, "lua", "joö_b©ée", 
+∂ayî_id
+)
+
+108 
+ªt
+ 
+thí
+
+
+109 
+íd
+
+
+110 
+íd
+
+
+112 
 fun˘i⁄
  
 	$£nd_hñlo
 ()
 
-98 
+113 
 sky√t
 .
 	`f‹k
@@ -24441,11 +31115,11 @@ sky√t
 	$fun˘i⁄
 ()
 
-99 
+114 
 åue
  do
 
-100 
+115 
 	`£nd_∑ckage
 ("S2C_Pög",{
 time
@@ -24457,37 +31131,37 @@ os
 	}
 })
 
-101 --
+116 --
 £nd_∑ckage
 ("S2C_LﬂdS˚√", {
 «me
  = "Lobby"})
 
-102 
+117 
 	gsky√t
 .
 	$¶ìp
 (500)
 
-103 
+118 
 íd
 
 
-104 
+119 
 íd
 )
 
-105 
+120 
 íd
 
 
-107 
+122 
 ¥Ÿobuf
 .
 ªgi°î_fûe
  "../battle_city/proto/msg.pb"
 
-108 
+123 
 fun˘i⁄
  
 	$£nd_∑ckage
@@ -24499,13 +31173,13 @@ tbl
 Ωc_id
 )
 
-109 
+124 
 Ωc_id
  =Ñpc_id 
 ‹
  0
 
-110 
+125 
 buf„r
  = 
 ¥Ÿobuf
@@ -24517,7 +31191,7 @@ mesßge_ty≥
 tbl
 )
 
-111 
+126 
 sockë
 .
 	`wrôe
@@ -24541,7 +31215,7 @@ d©a
 buf„r
 }))
 
-112 
+127 
 ¥öt
 ("£nd_∑ckage:"..
 mesßge_ty≥
@@ -24549,11 +31223,11 @@ mesßge_ty≥
 buf„r
 )
 
-113 
+128 
 íd
 
 
-115 
+130 
 	gcmd
 .
 	g£nd_∑ckage
@@ -24561,7 +31235,7 @@ buf„r
 £nd_∑ckage
 
 
-117 
+132 
 fun˘i⁄
  
 cmd
@@ -24569,7 +31243,7 @@ cmd
 disc⁄√˘
 ()
 
-118 -- 
+133 -- 
 todo
 : dÿ
 somëhög
@@ -24579,19 +31253,19 @@ bef‹e
 exô
 
 
-119 
+134 
 ∂ayî
  
 thí
 
 
-120 
+135 
 ∂ayî
 :
 quô_room
 (player)
 
-121 --
+136 --
 ∂ayî
 :
 	$ßve
@@ -24599,21 +31273,21 @@ quô_room
 ∂ayî
 )
 
-122 
+137 
 íd
 
 
-123 
+138 
 sky√t
 .
 	$exô
 ()
 
-124 
+139 
 íd
 
 
-126 
+141 
 sky√t
 .
 	`°¨t
@@ -24621,7 +31295,7 @@ sky√t
 	$fun˘i⁄
 ()
 
-127 
+142 
 sky√t
 .
 	`di•©ch
@@ -24633,7 +31307,7 @@ _
 comm™d
 , ...)
 
-128 
+143 
 loˇl
  
 f
@@ -24643,7 +31317,7 @@ cmd
 comm™d
 ]
 
-129 
+144 
 sky√t
 .
 	`ªt
@@ -24653,11 +31327,11 @@ sky√t
 	$f
 (...)))
 
-130 
+145 
 íd
 )
 
-131 
+146 
 íd
 )
 
@@ -24929,15 +31603,29 @@ loˇl
 loˇl
  
 c⁄fig
+ = 
+ªquúe
+ "config"
+
+4 
+loˇl
+ 
+c⁄fig
  = c⁄fig.
 b©ée
 
 
-5 
+6 
 ªquúe
  "skynet.manager"
 
-7 
+8 
+loˇl
+ 
+cmd
+ = {}
+
+10 
 fun˘i⁄
  
 cmd
@@ -24947,7 +31635,7 @@ cmd
 room
 )
 
-8 
+11 
 loˇl
  
 addªss
@@ -24959,7 +31647,7 @@ sky√t
 	`ˇŒ
 (".agentpool", "lua", "request_gate_address")
 
-9 
+12 
 nŸ
  
 addªss
@@ -24971,11 +31659,11 @@ p‹t
 thí
 
 
-11 
+14 
 íd
 
 
-12 
+15 
 loˇl
  
 b©ée
@@ -24985,7 +31673,7 @@ sky√t
 	`√w£rvi˚
 ("battle")
 
-13 
+16 
 sky√t
 .
 	`ˇŒ
@@ -24995,7 +31683,7 @@ b©ée
 room
 )
 
-14  
+17  
 b©ée
 , 
 addªss
@@ -25003,11 +31691,11 @@ addªss
 p‹t
 
 
-15 
+18 
 íd
 
 
-17 
+20 
 sky√t
 .
 	`°¨t
@@ -25015,7 +31703,7 @@ sky√t
 	$fun˘i⁄
 ()
 
-18 
+21 
 sky√t
 .
 	`di•©ch
@@ -25027,7 +31715,7 @@ _
 comm™d
 , ...)
 
-19 
+22 
 loˇl
  
 f
@@ -25037,7 +31725,7 @@ cmd
 comm™d
 ]
 
-20 
+23 
 sky√t
 .
 	`ªt
@@ -25047,15 +31735,15 @@ sky√t
 	$f
 (...)))
 
-21 
+24 
 íd
 )
 
-22 
+25 
 sky√t
 .".battlemng"
 
-24 
+27 
 loˇl
  
 agíçoﬁ
@@ -25065,179 +31753,13 @@ sky√t
 	`unique£rvi˚
 ("agentpool", "battle")
 
-26 
+29 
 ˛u°î
 .
 ›í
  "battle"
 
-27 
-íd
-)
-
-	@service/build_db.lua
-
-1 
-loˇl
- 
-	gsky√t
- = 
-ªquúe
- "skynet"
-
-2 
-loˇl
- 
-m⁄go
- = 
-ªquúe
- "mongo"
-
-3 
-loˇl
- 
-bs⁄
- = 
-ªquúe
- "bson"
-
-5 
-loˇl
- 
-ho°
-, 
-	gdb_«me
- = "127.0.0.1", "battle_city"
-
-7 
-	gsky√t
-.
-°¨t
-(
-	$fun˘i⁄
-()
-
-8 
-loˇl
- 
-db
- = 
-m⁄go
-.
-	`˛õ¡
-({
-ho°
- = 
-	}
-ho°})[
-db_«me
-]
-
-9 
-db
-.
-ba£
-:
-dr›Index
-("*")
-
-10 
-db
-.
-ba£
-:
-ísuªIndex
-({
-èbÀ_«me
- = 1}, {
-unique
- = 
-åue
-})
-
-11 
-loˇl
- 
-ªt
- = 
-db
-.
-ba£
-:
-födO√
-({
-èbÀ_«me
- = "global"})
-
-12 
-nŸ
- 
-ªt
- 
-thí
-
-
-13 
-db
-.
-ba£
-:
-ß„_ö£π
-({
-èbÀ_«me
- = "globÆ", 
-auto_∂ayî_id
- = 0})
-
-14 
-íd
-
-
-15 
-db
-.
-accou¡
-:
-dr›Index
-("*")
-
-16 
-db
-.
-accou¡
-:
-ísuªIndex
-({
-«me
- = 1}, {
-unique
- = 
-åue
-})
-
-17 
-db
-.
-∂ayî
-:
-dr›Index
-("*")
-
-18 
-db
-.
-∂ayî
-:
-ísuªIndex
-({
-∂ayî_id
- = 1}, {
-unique
- = 
-åue
-})
-
-19 
+30 
 íd
 )
 
@@ -26119,7 +32641,9 @@ room_id
 loˇl
  
 room
- =Ñoom[
+ = 
+rooms
+[
 room_id
 ]
 
@@ -26136,10 +32660,42 @@ thí
 
 
 76 
+loˇl
+ 
+∂ayî
+ = 
+room
+.
+∂ayîs
+[
+∂ayî_id
+]
+
+77 
+nŸ
+ 
+∂ayî
+ 
+thí
+  
+Ál£
+ 
 íd
 
 
 78 
+∂ayî
+.
+ªady
+ = 
+Êag
+
+
+79 
+íd
+
+
+81 
 fun˘i⁄
  
 cmd
@@ -26151,15 +32707,17 @@ room_id
 ∂ayî_id
 )
 
-79 
+82 
 loˇl
  
 room
- =Ñoom[
+ = 
+rooms
+[
 room_id
 ]
 
-80 
+83 
 nŸ
  
 room
@@ -26171,7 +32729,7 @@ thí
 íd
 
 
-81 
+84 
 room
 .
 ˇ±aö
@@ -26181,15 +32739,15 @@ room
 thí
 
 
-82  
+85  
 Ál£
 
 
-83 
+86 
 íd
 
 
-84 
+87 
 loˇl
  
 b©ée
@@ -26205,47 +32763,49 @@ p‹t
 room
 )
 
-85 
+88 
 b©ée
  ~0 
 thí
 
 
-86 
+89 
 room
 .
 °©us
  = "loading"
 
-87 
+90 
 	`brﬂdˇ°
 (
 room
 , "S2C_LﬂdB©ée", {
+b©ée
+ = b©ée, 
 addªss
  =áddªss, 
 p‹t
  = 
 	}
-port})
-
-89  
-Ál£
-
-
-90 
-íd
-
+p‹t})
 
 92  
-åue
+Ál£
 
 
 93 
 íd
 
 
-95 
+95  
+åue
+
+
+96 
+íd
+
+
+98 
 fun˘i⁄
  
 	$check_em±y
@@ -26253,7 +32813,7 @@ fun˘i⁄
 room
 )
 
-96 
+99 
 	$√xt
 (
 room
@@ -26263,11 +32823,11 @@ room
 thí
 
 
-98 
+101 
 íd
 
 
-99 
+102 
 rooms
 [
 room
@@ -26277,19 +32837,47 @@ room_id
 nû
 
 
-100 
+103 
+i
+,
+v
+ 
+ö
+ 
+	$ùaús
+(
+room_li°
+) do
+
+104 
+v
+ =
+room
+ 
+thí
+
+
+105 
 	$èbÀ_ªmove
 (
 room_li°
 , 
-room
+i
 )
 
-101 
+106 
 íd
 
 
-103 
+107 
+íd
+
+
+108 
+íd
+
+
+110 
 fun˘i⁄
  
 	$brﬂdˇ°_room_d©a
@@ -26297,13 +32885,13 @@ fun˘i⁄
 room
 )
 
-104 
+111 
 loˇl
  
 tbl
  = {
 
-105 
+112 
 roomId
  = 
 room
@@ -26311,7 +32899,7 @@ room
 room_id
 ,
 
-106 
+113 
 roomName
  = 
 room
@@ -26319,7 +32907,7 @@ room
 room_«me
 ,
 
-107 
+114 
 ˇ±ünId
  = 
 room
@@ -26327,15 +32915,15 @@ room
 ˇ±aö
 ,
 
-108 
+115 
 ∂ayîLi°
  = {}
 
-109 
+116 
 	}
 }
 
-110 
+117 
 	g_
 , 
 ∂ayî
@@ -26349,7 +32937,7 @@ room
 ∂ayîs
 ) do
 
-111 
+118 
 	`èbÀ_ö£π
 (
 tbl
@@ -26357,7 +32945,7 @@ tbl
 ∂ayîLi°
 , {
 
-112 
+119 
 ∂ayîId
  = 
 ∂ayî
@@ -26365,7 +32953,7 @@ tbl
 ∂ayî_id
 ,
 
-113 
+120 
 ∂ayîName
  = 
 ∂ayî
@@ -26373,21 +32961,21 @@ tbl
 ∂ayî_«me
 ,
 
-114 
+121 
 ªady
  = 
 ∂ayî
 .ready,
 
-115 
+122 
 	}
 })
 
-116 
+123 
 íd
 
 
-117 
+124 
 brﬂdˇ°
 (
 room
@@ -26395,11 +32983,11 @@ room
 tbl
 )
 
-118 
+125 
 íd
 
 
-120 
+127 
 fun˘i⁄
  
 	$brﬂdˇ°
@@ -26411,11 +32999,11 @@ mesßge_ty≥
 tbl
 )
 
-121 
+128 
 	`¥öt
 ("broadcast")
 
-122 
+129 
 ∂ayî_id
 , 
 _
@@ -26429,13 +33017,13 @@ room
 ∂ayîs
 ) do
 
-123 
+130 
 	`¥öt
 ("ˇŒágít"..
 ∂ayî_id
 )
 
-124 
+131 
 sky√t
 .
 	`ˇŒ
@@ -26447,15 +33035,15 @@ mesßge_ty≥
 tbl
 )
 
-125 
+132 
 íd
 
 
-126 
+133 
 íd
 
 
-128 
+135 
 fun˘i⁄
  
 	$£nd_∑ckage
@@ -26467,7 +33055,7 @@ mesßge_ty≥
 tbl
 )
 
-129 
+136 
 sky√t
 .
 	`ˇŒ
@@ -26479,11 +33067,11 @@ mesßge_ty≥
 tbl
 )
 
-130 
+137 
 íd
 
 
-132 
+139 
 sky√t
 .
 	`°¨t
@@ -26491,7 +33079,7 @@ sky√t
 	$fun˘i⁄
 ()
 
-133 
+140 
 sky√t
 .
 	`di•©ch
@@ -26503,7 +33091,7 @@ _
 comm™d
 , ...)
 
-134 
+141 
 loˇl
  
 f
@@ -26513,7 +33101,7 @@ cmd
 comm™d
 ]
 
-135 
+142 
 sky√t
 .
 	`ªt
@@ -26523,15 +33111,15 @@ sky√t
 	$f
 (...)))
 
-136 
+143 
 íd
 )
 
-137 
+144 
 sky√t
 .".lobby"
 
-138 
+145 
 íd
 )
 
@@ -26888,16 +33476,32 @@ c⁄fig
  "config"
 
 5 
+loˇl
+ 
+js⁄
+ = 
+ªquúe
+ "cjson"
+
+6 
 c⁄fig
  = c⁄fig.
 ma°î
 
 
-7 
+8 
 ªquúe
  "skynet.manager"
 
 9 
+loˇl
+ 
+bt_m™agî
+ = 
+ªquúe
+ "behavior_tree.bt_manager"
+
+11 
 sky√t
 .
 °¨t
@@ -26905,7 +33509,7 @@ sky√t
 	$fun˘i⁄
 ()
 
-10 
+12 
 loˇl
  
 c⁄sﬁe
@@ -26915,13 +33519,13 @@ sky√t
 	`√w£rvi˚
 ("console")
 
-11 
+13 
 sky√t
 .
 	`√w£rvi˚
 ("debug_console",8000)
 
-13 
+15 
 loˇl
  
 db
@@ -26937,7 +33541,7 @@ addªss
 db_«me
 )
 
-14 
+16 
 sky√t
 .
 	`«me
@@ -26945,7 +33549,7 @@ sky√t
 db
 )
 
-16 
+18 
 loˇl
  
 lobby
@@ -26955,7 +33559,7 @@ sky√t
 	`unique£rvi˚
 ("lobby")
 
-18 
+20 
 loˇl
  
 agíçoﬁ
@@ -26965,19 +33569,271 @@ sky√t
 	`unique£rvi˚
 ("agentpool", "master")
 
-21 
+22 
 ˛u°î
 .
 ›í
  "master"
 
-22 
+24 
+bt_m™agî
+.
+	$exp‹t_node_doc
+()
+
+25 
+bt_m™agî
+.
+	$lﬂd_åìs
+()
+
+26 
+k
+,
+v
+ 
+ö
+ 
+	$∑ús
+(
+RoŸ
+) do
+
+27 
+	$¥öt
+(
+k
+, 
+v
+)
+
+28 
+íd
+
+
+29 
 sky√t
 .
 	$exô
 ()
 
-23 
+30 
+íd
+)
+
+	@service/util/abort.lua
+
+1 
+loˇl
+ 
+	gsky√t
+ = 
+ªquúe
+ "skynet"
+
+2 
+loˇl
+ 
+˛u°î
+ = 
+ªquúe
+ "cluster"
+
+4 
+ªquúe
+ "skynet.manager"
+
+6 
+sky√t
+.
+°¨t
+(
+	$fun˘i⁄
+()
+
+7 
+	`¥öt
+("save data")
+
+8 
+˛u°î
+.
+	`ˇŒ
+("login", ".login", "abort")
+
+9 --
+sky√t
+.
+	$ab‹t
+()
+
+10 
+íd
+)
+
+	@service/util/build_db.lua
+
+1 
+loˇl
+ 
+	gsky√t
+ = 
+ªquúe
+ "skynet"
+
+2 
+loˇl
+ 
+m⁄go
+ = 
+ªquúe
+ "mongo"
+
+3 
+loˇl
+ 
+bs⁄
+ = 
+ªquúe
+ "bson"
+
+5 
+loˇl
+ 
+ho°
+, 
+	gdb_«me
+ = "127.0.0.1", "battle_city"
+
+7 
+	gsky√t
+.
+°¨t
+(
+	$fun˘i⁄
+()
+
+8 
+loˇl
+ 
+db
+ = 
+m⁄go
+.
+	`˛õ¡
+({
+ho°
+ = 
+	}
+ho°})[
+db_«me
+]
+
+9 
+db
+.
+ba£
+:
+dr›Index
+("*")
+
+10 
+db
+.
+ba£
+:
+ísuªIndex
+({
+èbÀ_«me
+ = 1}, {
+unique
+ = 
+åue
+})
+
+11 
+loˇl
+ 
+ªt
+ = 
+db
+.
+ba£
+:
+födO√
+({
+èbÀ_«me
+ = "global"})
+
+12 
+nŸ
+ 
+ªt
+ 
+thí
+
+
+13 
+db
+.
+ba£
+:
+ß„_ö£π
+({
+èbÀ_«me
+ = "globÆ", 
+auto_∂ayî_id
+ = 0})
+
+14 
+íd
+
+
+15 
+db
+.
+accou¡
+:
+dr›Index
+("*")
+
+16 
+db
+.
+accou¡
+:
+ísuªIndex
+({
+«me
+ = 1}, {
+unique
+ = 
+åue
+})
+
+17 
+db
+.
+∂ayî
+:
+dr›Index
+("*")
+
+18 
+db
+.
+∂ayî
+:
+ísuªIndex
+({
+∂ayî_id
+ = 1}, {
+unique
+ = 
+åue
+})
+
+19 
 íd
 )
 
@@ -27471,11 +34327,12 @@ sky√t
 1
 .
 0
-25
-546
+32
+794
 config/clustername.lua
 config/config.lua
 install.sh
+luaclib/lua_cjson.c
 luaclib/pbc-lua53.c
 lualib/protobuf.lua
 proto/client_proto/ProtoGen/protobuf-net.xml
@@ -27483,18 +34340,24 @@ proto/export.sh
 run.sh
 script/battle/battle.lua
 script/battle/battle_handler.lua
+script/behavior_tree/behavior_node.lua
+script/behavior_tree/behavior_tree.lua
+script/behavior_tree/bt_manager.lua
+script/behavior_tree/node/ai.lua
+script/behavior_tree/node/common.lua
+script/behavior_tree/node/map.lua
 script/global.lua
 script/player/player.lua
 script/player/player_handler.lua
 script/player/player_room.lua
 script/player/player_test.lua
-service/abort.lua
 service/agent.lua
 service/agentpool.lua
 service/battlemng.lua
-service/build_db.lua
 service/db.lua
 service/lobby.lua
 service/login.lua
 service/master.lua
+service/util/abort.lua
+service/util/build_db.lua
 service/watchdog.lua
