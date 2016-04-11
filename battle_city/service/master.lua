@@ -8,10 +8,11 @@ config = config.master
 require "skynet.manager"
 require "player.player"
 local bt_manager = require "behavior_tree.bt_manager"
+local map_manager = require "battle.map_manager"
 
 skynet.start(function()
-	local console = skynet.newservice("console")
-	skynet.newservice("debug_console",8000)
+  local console = skynet.newservice("console")
+  skynet.newservice("debug_console",8000)
 
   local db = skynet.newservice("db", config.db.address, config.db.db_name)
   skynet.name(".db",db) 
@@ -27,5 +28,7 @@ skynet.start(function()
   local player = Player.new()
   local tree = bt_manager.create_tree(1, player)
   tree:exec()
-	skynet.exit()
+
+  map_manager.load_maps()
+  skynet.exit()
 end)

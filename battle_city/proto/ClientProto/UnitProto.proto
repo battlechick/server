@@ -1,0 +1,18 @@
+/**
+* @file:   UnitProto.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package deploy;
+
+message UnitProto{
+    /** 单位id */
+    required int32 id = 1 [default = 0];
+    /** 单位名称 */
+    required string name = 2 [default = ""];
+}
+
+message UnitProto_ARRAY {
+    repeated UnitProto items = 1;
+}

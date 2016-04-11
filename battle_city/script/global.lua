@@ -7,6 +7,22 @@ local pairs = pairs
 local tostring = tostring
 local next = next
 
+-- 一些全局变量 
+WORKSPACE = "../battle_city/"
+
+UNIT_TYPE_ERROR = 0
+UNIT_TYPE_TILE = 1
+UNIT_TYPE_PLAYER = 2
+UNIT_TYPE_TANK = 3
+UNIT_TYPE_BULLET = 4
+
+
+
+
+
+
+
+
 function dump_tbl(root)
   local cache = {  [root] = "." }
   local function _dump(t,space,name)
@@ -134,5 +150,4 @@ function string.split(s, delim)
 
   return t
 end
-WORKSPACE = "../battle_city/"
 

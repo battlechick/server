@@ -28,5 +28,7 @@
 ./script/behavior_tree/node/map.lua
 ./script/behavior_tree/behavior_node.lua
 ./script/global.lua
+./script/battle/map.lua
 ./script/battle/battle.lua
 ./script/battle/battle_handler.lua
+./script/battle/map_manager.lua

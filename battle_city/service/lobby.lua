@@ -13,6 +13,7 @@ local room_list = {}
 local cmd = {}
 function cmd.create_room(room_name, player_id)
   local room = {}
+  room.map_id = 1
   room.room_id = auto_room_id
   room.room_name = room_name 
   room.total_count = 2

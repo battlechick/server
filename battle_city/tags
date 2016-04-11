@@ -33,18 +33,22 @@ DEFAULT_SPARSE_RATIO	luaclib/lua_cjson.c	63;"	d	file:
 DEFAULT_SPARSE_SAFE	luaclib/lua_cjson.c	64;"	d	file:
 LUADIR	Makefile	/^LUADIR = ..\/skynet\/3rd\/lua\/$/;"	m
 M.check	lualib/protobuf.lua	/^function M.check(typename , field)$/;"	f
-M.create_tree	script/behavior_tree/bt_manager.lua	/^function M.create_tree(owner, tree_id)$/;"	f
+M.create_tree	script/behavior_tree/bt_manager.lua	/^function M.create_tree(tree_id, owner)$/;"	f
 M.decode	lualib/protobuf.lua	/^function M.decode(typename, buffer, length)$/;"	f
 M.encode	lualib/protobuf.lua	/^function M.encode( message, t , func , ...)$/;"	f
 M.enum_id	lualib/protobuf.lua	/^function M.enum_id(enum_type, enum_name)$/;"	f
 M.export_node_doc	script/behavior_tree/bt_manager.lua	/^function M.export_node_doc()$/;"	f
 M.extract	lualib/protobuf.lua	/^function M.extract(tbl)$/;"	f
+M.get_map_data	script/battle/map_manager.lua	/^function M.get_map_data(map_id)$/;"	f
 M.lasterror	lualib/protobuf.lua	/^function M.lasterror()$/;"	f
+M.load_maps	script/battle/map_manager.lua	/^function M.load_maps()$/;"	f
 M.load_trees	script/behavior_tree/bt_manager.lua	/^function M.load_trees()$/;"	f
 M.pack	lualib/protobuf.lua	/^function M.pack(pattern, ...)$/;"	f
 M.register	lualib/protobuf.lua	/^function M.register(buffer)$/;"	f
 M.register_file	lualib/protobuf.lua	/^function M.register_file(filename)$/;"	f
 M.unpack	lualib/protobuf.lua	/^function M.unpack(pattern, buffer, length)$/;"	f
+Map:ctor	script/battle/map.lua	/^function Map:ctor()$/;"	f
+Map:init	script/battle/map.lua	/^function Map:init(map_data)$/;"	f
 Player:create_room	script/player/player_room.lua	/^function Player:create_room()$/;"	f
 Player:ctor	script/player/player.lua	/^function Player:ctor()$/;"	f
 Player:join_room	script/player/player_room.lua	/^function Player:join_room(room_id)$/;"	f
@@ -56,17 +60,17 @@ Player:rpc	script/player/player.lua	/^function Player:rpc(self)$/;"	f
 Player:send	script/player/player.lua	/^function Player:send(message_type, tbl)$/;"	f
 Player:start_game	script/player/player_room.lua	/^function Player:start_game()$/;"	f
 Player_save	script/player/player.lua	/^function Player_save(self)$/;"	f
-Root:ctor	script/behavior_tree/behavior_node.lua	/^function Root:ctor()$/;"	f
-Root:run	script/behavior_tree/behavior_node.lua	/^function Root:run()$/;"	f
+Root:ctor	script/behavior_tree/node/common.lua	/^function Root:ctor()$/;"	f
+Root:run	script/behavior_tree/node/common.lua	/^function Root:run()$/;"	f
 SOCKET.close	service/watchdog.lua	/^function SOCKET.close(fd)$/;"	f
 SOCKET.data	service/watchdog.lua	/^function SOCKET.data(fd, msg)$/;"	f
 SOCKET.error	service/watchdog.lua	/^function SOCKET.error(fd, msg)$/;"	f
 SOCKET.open	service/watchdog.lua	/^function SOCKET.open(fd, addr)$/;"	f
 SOCKET.warning	service/watchdog.lua	/^function SOCKET.warning(fd, size)$/;"	f
-Selector:ctor	script/behavior_tree/behavior_node.lua	/^function Selector:ctor()$/;"	f
-Selector:run	script/behavior_tree/behavior_node.lua	/^function Selector:run()$/;"	f
-Sequence:ctor	script/behavior_tree/behavior_node.lua	/^function Sequence:ctor()$/;"	f
-Sequence:run	script/behavior_tree/behavior_node.lua	/^function Sequence:run()$/;"	f
+Selector:ctor	script/behavior_tree/node/common.lua	/^function Selector:ctor()$/;"	f
+Selector:run	script/behavior_tree/node/common.lua	/^function Selector:run()$/;"	f
+Sequence:ctor	script/behavior_tree/node/common.lua	/^function Sequence:ctor()$/;"	f
+Sequence:run	script/behavior_tree/node/common.lua	/^function Sequence:run()$/;"	f
 TARGET	Makefile	/^TARGET = luaclib\/protobuf.so$/;"	m
 T_ARR_BEGIN	luaclib/lua_cjson.c	/^    T_ARR_BEGIN,$/;"	e	enum:__anon1	file:
 T_ARR_END	luaclib/lua_cjson.c	/^    T_ARR_END,$/;"	e	enum:__anon1	file:
@@ -251,6 +255,7 @@ gcobj	luaclib/pbc-lua53.c	/^struct gcobj {$/;"	s	file:
 get_global_data	service/db.lua	/^function get_global_data(key)$/;"	f
 hexdigit2int	luaclib/lua_cjson.c	/^static int hexdigit2int(char hex)$/;"	f	file:
 index	luaclib/lua_cjson.c	/^    int index;$/;"	m	struct:__anon4	file:
+init_map	script/battle/battle.lua	/^function init_map()$/;"	f
 int_to_bytes	script/global.lua	/^function int_to_bytes(num,endian,signed)$/;"	f
 isinf	luaclib/lua_cjson.c	59;"	d	file:
 json_append_array	luaclib/lua_cjson.c	/^static void json_append_array(lua_State *l, json_config_t *cfg, int current_depth,$/;"	f	file:
@@ -320,7 +325,7 @@ size_msg	luaclib/pbc-lua53.c	/^	int size_msg;$/;"	m	struct:gcobj	file:
 size_pat	luaclib/pbc-lua53.c	/^	int size_pat;$/;"	m	struct:gcobj	file:
 start	script/battle/battle.lua	/^function start()$/;"	f
 string	luaclib/lua_cjson.c	/^        const char *string;$/;"	m	union:__anon4::__anon5	file:
-string.split	script/global.lua	/^function string.split(str, delim, maxNb)   $/;"	f
+string.split	script/global.lua	/^function string.split(s, delim)$/;"	f
 string_len	luaclib/lua_cjson.c	/^    int string_len;$/;"	m	struct:__anon4	file:
 tmp	luaclib/lua_cjson.c	/^    strbuf_t *tmp;    \/* Temporary storage for strings *\/$/;"	m	struct:__anon3	file:
 type	luaclib/lua_cjson.c	/^    json_token_type_t type;$/;"	m	struct:__anon4	file:
