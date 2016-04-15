@@ -1,134 +1,134 @@
 message Package {
-		required string name = 1;
-		required int32 rpcId = 2;
-		required bytes data = 3;
+    required string name = 1;
+    required int32 rpcId = 2;
+    required bytes data = 3;
 }
 
 message S2C_Ping {
-		required int32 time = 1;
+    required int32 time = 1;
 }
 
 message C2S_Ping {
-		required int32 time = 1;
+    required int32 time = 1;
 }
 
 message C2S_RegisterAccount {
-		required string accountName = 1;
-		required string accountPwd = 2;
+    required string accountName = 1;
+    required string accountPwd = 2;
 }
 
 message S2C_RegisterAccount {
-		required bool result = 1;
+    required bool result = 1;
 }
 
 message C2S_Login {
-		required string accountName = 1;
-		required string accountPwd = 2;
+    required string accountName = 1;
+    required string accountPwd = 2;
 }
 
 message S2C_Login {
-		required bool result = 1;
-		required string address = 2;
-		required int32 port = 3;
-		required int32 playerId = 4;
+    required bool result = 1;
+    required string address = 2;
+    required int32 port = 3;
+    required int32 playerId = 4;
 }
 
 message C2S_Online {
-		required int32 playerId = 1;
+    required int32 playerId = 1;
 }
 
 message S2C_Online {
-		required bool result = 1;
-		required int32 playerId = 2;
-		required string playerName = 3; 
+    required bool result = 1;
+    required int32 playerId = 2;
+    required string playerName = 3; 
 }
 
 message S2C_LoadScene {
-		required string name = 1;
+    required string name = 1;
 }
 
 message S2C_RoomData {
-		message Player{
-				required int32 playerId = 1;
-				required string playerName = 2;
-				required bool ready = 3;
-		}
-		required int32 roomId = 4;
-		required string roomName = 5;
-		required int32 captianId = 6;
-		repeated Player playerList = 7;
+    message Player{
+        required int32 playerId = 1;
+        required string playerName = 2;
+        required bool ready = 3;
+    }
+    required int32 roomId = 4;
+    required string roomName = 5;
+    required int32 captianId = 6;
+    repeated Player playerList = 7;
 }
 
 message C2S_BroadcastRoomData {
 }
 
 message S2C_LoadBattle {
-		required int32 battle = 1;
-		required string address = 2;
-		required int32 port = 3;
+    required int32 battle = 1;
+    required string address = 2;
+    required int32 port = 3;
 }
 
 message C2S_JoinBattle {
-		required int32 playerId = 1;
-		required int32 battle = 2;
+    required int32 playerId = 1;
+    required int32 battle = 2;
 }
 
 message S2C_StartBattle {
-        message UnitInfo{
-                required int32 guid = 1;
-                required int32 unit_type = 2;
-                required string data = 3;
-        }
-        required int32 count = 1;
-        
+    message UnitInfo{
+        required int32 guid = 1;
+        required int32 unit_type = 2;
+        required string data = 3;
+    }
+    required int32 count = 4;
+    repeated UnitInfo unitList = 5;
 }
 
 message Player {
-		required int32 playerId = 1;
-		required string playerName = 2;
+    required int32 playerId = 1;
+    required string playerName = 2;
 }
 
 
 message Request_RoomList {
-		required int32 startIdx = 1;
-		required int32 endIdx = 2;
+    required int32 startIdx = 1;
+    required int32 endIdx = 2;
 }
 
 message Response_RoomList {
-		message RoomInfo {
-				required int32 roomId = 1;
-				required string roomName = 2;
-				required int32 totalCount = 3;
-				required int32 currentCount = 4;
-		}
-		repeated RoomInfo roomList = 5;	
+    message RoomInfo {
+        required int32 roomId = 1;
+        required string roomName = 2;
+        required int32 totalCount = 3;
+        required int32 currentCount = 4;
+    }
+    repeated RoomInfo roomList = 5;	
 }
 
 message Request_CreateRoom {
 }
 
 message Response_CreateRoom {
-		required bool result = 1;
-		optional int32 roomId = 2;
+    required bool result = 1;
+    optional int32 roomId = 2;
 }
 
 message Request_JoinRoom {
-		required int32 roomId = 1;
+    required int32 roomId = 1;
 }
 
 message Response_JoinRoom {
-		required bool result = 1;
+    required bool result = 1;
 }
 
 message Request_StartGame {
 }
 
 message Response_StartGame {
-		required bool result = 1;
+    required bool result = 1;
 }
 
 message Request_PrepareGame {
-		required bool flag = 1;
+    required bool flag = 1;
 }
 
 

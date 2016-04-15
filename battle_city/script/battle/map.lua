@@ -28,4 +28,5 @@ Tile = class(Unit)
 function Tile:ctor(block_id, x, y)
     self.unit_type = UNIT_TYPE_TILE
     self.position = {x = x, y = y}
+    self.proto = data_manager.get_proto("MapBlockProto")
 end

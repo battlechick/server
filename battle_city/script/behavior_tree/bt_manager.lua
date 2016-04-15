@@ -24,13 +24,13 @@ function M.export_node_doc()
         data = data .. "]"
     end
 
-    local file = io.open(WORKSPACE.."data/ServerBtree/node_doc.txt", "w")
+    local file = io.open(WORKSPACE.."data/Btree/node_doc.txt", "w")
     file:write(data)
 end
 
 local id2tree_data = {}
 function M.load_trees()
-    local dir = WORKSPACE.."data/ServerBtree/Tree/"
+    local dir = WORKSPACE.."data/Btree/Tree/"
     local s = io.popen("ls ".. dir)
     local fileLists = s:read("*all")
     start_pos = 1
@@ -40,7 +40,7 @@ function M.load_trees()
             break
         end
         local file = io.open(dir..filename, "r")
-        local str = file:read()
+        local str = file:read("*a")
         local data = json.decode(str)
         id2tree_data[data.tree_id] = data
         start_pos = end_pos + 1

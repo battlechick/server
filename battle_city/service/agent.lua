@@ -119,7 +119,7 @@ function send_hello()
   end)
 end
 
-protobuf.register_file "../battle_city/proto/msg.pb"  
+protobuf.register_file "../battle_city/proto/Msg.pb"  
 function send_package(message_type, tbl, rpc_id)
   rpc_id = rpc_id or 0
   buffer = protobuf.encode(message_type, tbl)

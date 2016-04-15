@@ -1,0 +1,4249 @@
+2016-03-25 13:50:06,655|INFO|112|_initlog|
+
+
+
+2016-03-25 13:50:06,655|INFO|113|_initlog|logger is inited!
+2016-03-25 13:50:06,658|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:50:06,658|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:50:06,658|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:50:06,658|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:50:06,658|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:50:06,658|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:52:06,220|INFO|112|_initlog|
+
+
+
+2016-03-25 13:52:06,220|INFO|113|_initlog|logger is inited!
+2016-03-25 13:52:06,223|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:52:06,223|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:52:06,223|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:52:06,223|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:52:06,223|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:52:06,223|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:53:01,719|INFO|112|_initlog|
+
+
+
+2016-03-25 13:53:01,719|INFO|113|_initlog|logger is inited!
+2016-03-25 13:53:01,721|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:53:01,721|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:53:01,721|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:53:01,721|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:53:01,721|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:53:01,721|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:54:50,221|INFO|112|_initlog|
+
+
+
+2016-03-25 13:54:50,221|INFO|113|_initlog|logger is inited!
+2016-03-25 13:54:50,226|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:54:50,226|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:54:50,226|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:54:50,226|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:54:50,226|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:54:50,226|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:55:25,309|INFO|112|_initlog|
+
+
+
+2016-03-25 13:55:25,309|INFO|113|_initlog|logger is inited!
+2016-03-25 13:55:25,312|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:55:25,312|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:55:25,312|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:55:25,312|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:55:25,312|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:55:25,312|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:56:03,928|INFO|112|_initlog|
+
+
+
+2016-03-25 13:56:03,928|INFO|113|_initlog|logger is inited!
+2016-03-25 13:56:03,931|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:56:03,933|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:56:03,933|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:56:03,933|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:56:03,933|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:56:03,933|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:56:36,763|INFO|112|_initlog|
+
+
+
+2016-03-25 13:56:36,763|INFO|113|_initlog|logger is inited!
+2016-03-25 13:56:36,766|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:56:36,766|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:56:36,766|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:56:36,766|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:56:36,766|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:56:36,766|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:57:43,063|INFO|112|_initlog|
+
+
+
+2016-03-25 13:57:43,063|INFO|113|_initlog|logger is inited!
+2016-03-25 13:57:43,066|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 13:57:43,066|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 13:57:43,066|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 13:57:43,066|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 13:57:43,066|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 13:57:43,066|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 13:58:25,822|INFO|112|_initlog|
+
+
+
+2016-03-25 13:58:25,823|INFO|113|_initlog|logger is inited!
+2016-03-25 13:59:31,453|INFO|112|_initlog|
+
+
+
+2016-03-25 13:59:31,453|INFO|113|_initlog|logger is inited!
+2016-03-25 14:00:06,145|INFO|112|_initlog|
+
+
+
+2016-03-25 14:00:06,145|INFO|113|_initlog|logger is inited!
+2016-03-25 14:00:46,049|INFO|112|_initlog|
+
+
+
+2016-03-25 14:00:46,049|INFO|113|_initlog|logger is inited!
+2016-03-25 14:00:46,052|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:00:46,052|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:00:46,052|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:00:46,053|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:00:46,053|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:00:46,053|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:01:48,102|INFO|112|_initlog|
+
+
+
+2016-03-25 14:01:48,102|INFO|113|_initlog|logger is inited!
+2016-03-25 14:01:48,105|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:01:48,105|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:01:48,105|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:01:48,105|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:01:48,105|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:01:48,107|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:04:33,884|INFO|112|_initlog|
+
+
+
+2016-03-25 14:04:33,884|INFO|113|_initlog|logger is inited!
+2016-03-25 14:04:33,888|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:04:33,888|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:04:33,888|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:04:33,888|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:04:33,888|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:04:33,888|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:05:18,127|INFO|112|_initlog|
+
+
+
+2016-03-25 14:05:18,127|INFO|113|_initlog|logger is inited!
+2016-03-25 14:05:18,130|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:05:18,130|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:05:18,130|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:05:18,130|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:05:18,130|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:05:18,130|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:05:40,013|INFO|112|_initlog|
+
+
+
+2016-03-25 14:05:40,013|INFO|113|_initlog|logger is inited!
+2016-03-25 14:05:40,016|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:05:40,016|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:05:40,016|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:05:40,016|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:05:40,017|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:05:40,017|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:07:02,391|INFO|112|_initlog|
+
+
+
+2016-03-25 14:07:02,391|INFO|113|_initlog|logger is inited!
+2016-03-25 14:07:02,394|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:07:02,394|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:07:02,394|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:07:02,394|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:07:02,394|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:07:02,394|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:07:15,413|INFO|112|_initlog|
+
+
+
+2016-03-25 14:07:15,413|INFO|113|_initlog|logger is inited!
+2016-03-25 14:07:15,415|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:07:15,415|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:07:15,415|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:07:15,415|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:07:15,415|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:07:15,415|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:07:35,482|INFO|112|_initlog|
+
+
+
+2016-03-25 14:07:35,483|INFO|113|_initlog|logger is inited!
+2016-03-25 14:07:35,484|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:07:35,486|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:07:35,486|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:07:35,486|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:07:35,486|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:07:35,486|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:07:43,022|INFO|112|_initlog|
+
+
+
+2016-03-25 14:07:43,022|INFO|113|_initlog|logger is inited!
+2016-03-25 14:07:43,025|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:07:43,025|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:07:43,025|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:07:43,025|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:07:43,025|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:07:43,025|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:07:59,756|INFO|112|_initlog|
+
+
+
+2016-03-25 14:07:59,756|INFO|113|_initlog|logger is inited!
+2016-03-25 14:07:59,759|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:07:59,759|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:07:59,759|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:07:59,759|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:07:59,759|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:07:59,759|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:08:11,982|INFO|112|_initlog|
+
+
+
+2016-03-25 14:08:11,982|INFO|113|_initlog|logger is inited!
+2016-03-25 14:08:11,984|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:08:11,984|INFO|210|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:08:11,984|INFO|210|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:08:11,984|INFO|218|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:08:11,984|INFO|210|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:08:11,984|INFO|218|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:22:37,828|INFO|112|_initlog|
+
+
+
+2016-03-25 14:22:37,828|INFO|113|_initlog|logger is inited!
+2016-03-25 14:22:37,832|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:22:37,832|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:22:37,832|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:22:37,832|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:22:37,832|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:22:37,832|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:23:20,822|INFO|112|_initlog|
+
+
+
+2016-03-25 14:23:20,822|INFO|113|_initlog|logger is inited!
+2016-03-25 14:23:20,825|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:23:20,825|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:23:20,825|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:23:20,825|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:23:20,825|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:23:20,825|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:23:51,052|INFO|112|_initlog|
+
+
+
+2016-03-25 14:23:51,052|INFO|113|_initlog|logger is inited!
+2016-03-25 14:23:51,055|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:23:51,055|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:23:51,055|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:23:51,055|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:23:51,055|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:23:51,055|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:23:51,118|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-03-25 14:23:57,372|INFO|112|_initlog|
+
+
+
+2016-03-25 14:23:57,372|INFO|113|_initlog|logger is inited!
+2016-03-25 14:23:57,375|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:23:57,375|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:23:57,375|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:23:57,375|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:23:57,375|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:23:57,375|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:23:57,437|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-03-25 14:24:20,720|INFO|112|_initlog|
+
+
+
+2016-03-25 14:24:20,720|INFO|113|_initlog|logger is inited!
+2016-03-25 14:24:20,723|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:24:20,723|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:24:20,723|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:24:20,723|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:24:20,723|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:24:20,723|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:24:20,786|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-03-25 14:24:29,986|INFO|112|_initlog|
+
+
+
+2016-03-25 14:24:29,986|INFO|113|_initlog|logger is inited!
+2016-03-25 14:24:29,989|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-03-25 14:24:29,989|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-03-25 14:24:29,989|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-03-25 14:24:29,989|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-03-25 14:24:29,989|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-03-25 14:24:29,989|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-03-25 14:24:30,049|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-03-25 14:24:30,049|INFO|492|_ParseLine|4
+2016-03-25 14:24:30,049|INFO|508|_ParseField|4|1
+2016-03-25 14:24:30,049|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,049|INFO|634|_GetFieldValue|4|1|1.0
+2016-03-25 14:24:30,049|INFO|508|_ParseField|4|2
+2016-03-25 14:24:30,049|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,049|INFO|634|_GetFieldValue|4|2|角色1
+2016-03-25 14:24:30,049|INFO|492|_ParseLine|5
+2016-03-25 14:24:30,049|INFO|508|_ParseField|5|1
+2016-03-25 14:24:30,049|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,049|INFO|634|_GetFieldValue|5|1|2.0
+2016-03-25 14:24:30,049|INFO|508|_ParseField|5|2
+2016-03-25 14:24:30,049|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,049|INFO|634|_GetFieldValue|5|2|角色2
+2016-03-25 14:24:30,049|INFO|492|_ParseLine|6
+2016-03-25 14:24:30,051|INFO|508|_ParseField|6|1
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|6|1|3.0
+2016-03-25 14:24:30,051|INFO|508|_ParseField|6|2
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|6|2|角色3
+2016-03-25 14:24:30,051|INFO|492|_ParseLine|7
+2016-03-25 14:24:30,051|INFO|508|_ParseField|7|1
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|7|1|4.0
+2016-03-25 14:24:30,051|INFO|508|_ParseField|7|2
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|7|2|角色4
+2016-03-25 14:24:30,051|INFO|492|_ParseLine|8
+2016-03-25 14:24:30,051|INFO|508|_ParseField|8|1
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|8|1|5.0
+2016-03-25 14:24:30,051|INFO|508|_ParseField|8|2
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|8|2|角色5
+2016-03-25 14:24:30,051|INFO|492|_ParseLine|9
+2016-03-25 14:24:30,051|INFO|508|_ParseField|9|1
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|9|1|6.0
+2016-03-25 14:24:30,051|INFO|508|_ParseField|9|2
+2016-03-25 14:24:30,051|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,051|INFO|634|_GetFieldValue|9|2|角色6
+2016-03-25 14:24:30,052|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-03-25 14:24:30,052|INFO|492|_ParseLine|4
+2016-03-25 14:24:30,052|INFO|508|_ParseField|4|1
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|4|1|101.0
+2016-03-25 14:24:30,052|INFO|508|_ParseField|4|2
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|4|2|建筑1
+2016-03-25 14:24:30,052|INFO|492|_ParseLine|5
+2016-03-25 14:24:30,052|INFO|508|_ParseField|5|1
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|5|1|102.0
+2016-03-25 14:24:30,052|INFO|508|_ParseField|5|2
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|5|2|建筑2
+2016-03-25 14:24:30,052|INFO|492|_ParseLine|6
+2016-03-25 14:24:30,052|INFO|508|_ParseField|6|1
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|6|1|103.0
+2016-03-25 14:24:30,052|INFO|508|_ParseField|6|2
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|6|2|建筑3
+2016-03-25 14:24:30,052|INFO|492|_ParseLine|7
+2016-03-25 14:24:30,052|INFO|508|_ParseField|7|1
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|7|1|104.0
+2016-03-25 14:24:30,052|INFO|508|_ParseField|7|2
+2016-03-25 14:24:30,052|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,052|INFO|634|_GetFieldValue|7|2|建筑4
+2016-03-25 14:24:30,052|INFO|492|_ParseLine|8
+2016-03-25 14:24:30,052|INFO|508|_ParseField|8|1
+2016-03-25 14:24:30,053|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,053|INFO|634|_GetFieldValue|8|1|105.0
+2016-03-25 14:24:30,053|INFO|508|_ParseField|8|2
+2016-03-25 14:24:30,053|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,053|INFO|634|_GetFieldValue|8|2|建筑5
+2016-03-25 14:24:30,053|INFO|492|_ParseLine|9
+2016-03-25 14:24:30,053|INFO|508|_ParseField|9|1
+2016-03-25 14:24:30,053|INFO|509|_ParseField|required|int32|id
+2016-03-25 14:24:30,053|INFO|634|_GetFieldValue|9|1|106.0
+2016-03-25 14:24:30,053|INFO|508|_ParseField|9|2
+2016-03-25 14:24:30,053|INFO|509|_ParseField|required|string|name
+2016-03-25 14:24:30,053|INFO|634|_GetFieldValue|9|2|建筑6
+2016-03-25 14:24:30,053|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "\345\273\272\347\255\2211"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 11:43:04,003|INFO|112|_initlog|
+
+
+
+2016-04-15 11:43:04,003|INFO|113|_initlog|logger is inited!
+2016-04-15 11:43:04,007|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 11:43:04,007|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 11:43:04,007|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 11:43:04,007|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 11:43:04,007|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 11:43:04,007|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 11:43:19,359|INFO|112|_initlog|
+
+
+
+2016-04-15 11:43:19,359|INFO|113|_initlog|logger is inited!
+2016-04-15 11:43:19,362|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 11:43:19,362|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 11:43:19,362|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 11:43:19,362|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 11:43:19,362|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 11:43:19,362|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 11:43:19,482|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 11:43:19,482|INFO|492|_ParseLine|4
+2016-04-15 11:43:19,482|INFO|508|_ParseField|4|1
+2016-04-15 11:43:19,482|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,482|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 11:43:19,482|INFO|508|_ParseField|4|2
+2016-04-15 11:43:19,482|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,482|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 11:43:19,482|INFO|492|_ParseLine|5
+2016-04-15 11:43:19,482|INFO|508|_ParseField|5|1
+2016-04-15 11:43:19,482|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,482|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 11:43:19,482|INFO|508|_ParseField|5|2
+2016-04-15 11:43:19,482|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,482|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 11:43:19,482|INFO|492|_ParseLine|6
+2016-04-15 11:43:19,482|INFO|508|_ParseField|6|1
+2016-04-15 11:43:19,482|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,482|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 11:43:19,483|INFO|508|_ParseField|6|2
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 11:43:19,483|INFO|492|_ParseLine|7
+2016-04-15 11:43:19,483|INFO|508|_ParseField|7|1
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 11:43:19,483|INFO|508|_ParseField|7|2
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 11:43:19,483|INFO|492|_ParseLine|8
+2016-04-15 11:43:19,483|INFO|508|_ParseField|8|1
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 11:43:19,483|INFO|508|_ParseField|8|2
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 11:43:19,483|INFO|492|_ParseLine|9
+2016-04-15 11:43:19,483|INFO|508|_ParseField|9|1
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 11:43:19,483|INFO|508|_ParseField|9|2
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 11:43:19,483|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 11:43:19,483|INFO|492|_ParseLine|4
+2016-04-15 11:43:19,483|INFO|508|_ParseField|4|1
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 11:43:19,483|INFO|508|_ParseField|4|2
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|4|2|建筑1
+2016-04-15 11:43:19,483|INFO|492|_ParseLine|5
+2016-04-15 11:43:19,483|INFO|508|_ParseField|5|1
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 11:43:19,483|INFO|508|_ParseField|5|2
+2016-04-15 11:43:19,483|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,483|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 11:43:19,483|INFO|492|_ParseLine|6
+2016-04-15 11:43:19,484|INFO|508|_ParseField|6|1
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 11:43:19,484|INFO|508|_ParseField|6|2
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 11:43:19,484|INFO|492|_ParseLine|7
+2016-04-15 11:43:19,484|INFO|508|_ParseField|7|1
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 11:43:19,484|INFO|508|_ParseField|7|2
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 11:43:19,484|INFO|492|_ParseLine|8
+2016-04-15 11:43:19,484|INFO|508|_ParseField|8|1
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 11:43:19,484|INFO|508|_ParseField|8|2
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 11:43:19,484|INFO|492|_ParseLine|9
+2016-04-15 11:43:19,484|INFO|508|_ParseField|9|1
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|int32|id
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 11:43:19,484|INFO|508|_ParseField|9|2
+2016-04-15 11:43:19,484|INFO|509|_ParseField|required|string|name
+2016-04-15 11:43:19,484|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 11:43:19,484|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "\345\273\272\347\255\2211"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 14:54:10,601|INFO|112|_initlog|
+
+
+
+2016-04-15 14:54:10,601|INFO|113|_initlog|logger is inited!
+2016-04-15 14:54:10,605|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 14:54:10,605|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 14:54:10,605|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 14:54:10,605|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 14:54:10,605|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 14:54:10,605|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 14:54:10,726|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 14:54:10,727|INFO|492|_ParseLine|4
+2016-04-15 14:54:10,727|INFO|508|_ParseField|4|1
+2016-04-15 14:54:10,727|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,727|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 14:54:10,727|INFO|508|_ParseField|4|2
+2016-04-15 14:54:10,727|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,727|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 14:54:10,727|INFO|492|_ParseLine|5
+2016-04-15 14:54:10,727|INFO|508|_ParseField|5|1
+2016-04-15 14:54:10,727|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,727|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 14:54:10,727|INFO|508|_ParseField|5|2
+2016-04-15 14:54:10,727|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,727|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 14:54:10,727|INFO|492|_ParseLine|6
+2016-04-15 14:54:10,727|INFO|508|_ParseField|6|1
+2016-04-15 14:54:10,727|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,727|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 14:54:10,727|INFO|508|_ParseField|6|2
+2016-04-15 14:54:10,727|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,727|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 14:54:10,727|INFO|492|_ParseLine|7
+2016-04-15 14:54:10,729|INFO|508|_ParseField|7|1
+2016-04-15 14:54:10,729|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,729|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 14:54:10,729|INFO|508|_ParseField|7|2
+2016-04-15 14:54:10,729|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,729|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 14:54:10,729|INFO|492|_ParseLine|8
+2016-04-15 14:54:10,729|INFO|508|_ParseField|8|1
+2016-04-15 14:54:10,729|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,729|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 14:54:10,729|INFO|508|_ParseField|8|2
+2016-04-15 14:54:10,729|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,729|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 14:54:10,729|INFO|492|_ParseLine|9
+2016-04-15 14:54:10,729|INFO|508|_ParseField|9|1
+2016-04-15 14:54:10,729|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,729|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 14:54:10,729|INFO|508|_ParseField|9|2
+2016-04-15 14:54:10,729|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,729|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 14:54:10,729|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 14:54:10,730|INFO|492|_ParseLine|4
+2016-04-15 14:54:10,730|INFO|508|_ParseField|4|1
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 14:54:10,730|INFO|508|_ParseField|4|2
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|4|2|建筑1
+2016-04-15 14:54:10,730|INFO|492|_ParseLine|5
+2016-04-15 14:54:10,730|INFO|508|_ParseField|5|1
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 14:54:10,730|INFO|508|_ParseField|5|2
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 14:54:10,730|INFO|492|_ParseLine|6
+2016-04-15 14:54:10,730|INFO|508|_ParseField|6|1
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 14:54:10,730|INFO|508|_ParseField|6|2
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 14:54:10,730|INFO|492|_ParseLine|7
+2016-04-15 14:54:10,730|INFO|508|_ParseField|7|1
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 14:54:10,730|INFO|508|_ParseField|7|2
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 14:54:10,730|INFO|492|_ParseLine|8
+2016-04-15 14:54:10,730|INFO|508|_ParseField|8|1
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 14:54:10,730|INFO|508|_ParseField|8|2
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 14:54:10,730|INFO|492|_ParseLine|9
+2016-04-15 14:54:10,730|INFO|508|_ParseField|9|1
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:10,730|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 14:54:10,730|INFO|508|_ParseField|9|2
+2016-04-15 14:54:10,730|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:10,732|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 14:54:10,732|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "\345\273\272\347\255\2211"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 14:54:36,539|INFO|112|_initlog|
+
+
+
+2016-04-15 14:54:36,539|INFO|113|_initlog|logger is inited!
+2016-04-15 14:54:36,543|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 14:54:36,543|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 14:54:36,543|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 14:54:36,543|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 14:54:36,543|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 14:54:36,543|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 14:54:36,631|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 14:54:36,631|INFO|492|_ParseLine|4
+2016-04-15 14:54:36,631|INFO|508|_ParseField|4|1
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 14:54:36,631|INFO|508|_ParseField|4|2
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 14:54:36,631|INFO|492|_ParseLine|5
+2016-04-15 14:54:36,631|INFO|508|_ParseField|5|1
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 14:54:36,631|INFO|508|_ParseField|5|2
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 14:54:36,631|INFO|492|_ParseLine|6
+2016-04-15 14:54:36,631|INFO|508|_ParseField|6|1
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 14:54:36,631|INFO|508|_ParseField|6|2
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 14:54:36,631|INFO|492|_ParseLine|7
+2016-04-15 14:54:36,631|INFO|508|_ParseField|7|1
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 14:54:36,631|INFO|508|_ParseField|7|2
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 14:54:36,631|INFO|492|_ParseLine|8
+2016-04-15 14:54:36,631|INFO|508|_ParseField|8|1
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 14:54:36,631|INFO|508|_ParseField|8|2
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 14:54:36,631|INFO|492|_ParseLine|9
+2016-04-15 14:54:36,631|INFO|508|_ParseField|9|1
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,631|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 14:54:36,631|INFO|508|_ParseField|9|2
+2016-04-15 14:54:36,631|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,632|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 14:54:36,632|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 14:54:36,632|INFO|492|_ParseLine|4
+2016-04-15 14:54:36,632|INFO|508|_ParseField|4|1
+2016-04-15 14:54:36,632|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,632|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 14:54:36,632|INFO|508|_ParseField|4|2
+2016-04-15 14:54:36,632|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,632|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 14:54:36,632|INFO|492|_ParseLine|5
+2016-04-15 14:54:36,632|INFO|508|_ParseField|5|1
+2016-04-15 14:54:36,632|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,632|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 14:54:36,634|INFO|508|_ParseField|5|2
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 14:54:36,634|INFO|492|_ParseLine|6
+2016-04-15 14:54:36,634|INFO|508|_ParseField|6|1
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 14:54:36,634|INFO|508|_ParseField|6|2
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 14:54:36,634|INFO|492|_ParseLine|7
+2016-04-15 14:54:36,634|INFO|508|_ParseField|7|1
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 14:54:36,634|INFO|508|_ParseField|7|2
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 14:54:36,634|INFO|492|_ParseLine|8
+2016-04-15 14:54:36,634|INFO|508|_ParseField|8|1
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 14:54:36,634|INFO|508|_ParseField|8|2
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 14:54:36,634|INFO|492|_ParseLine|9
+2016-04-15 14:54:36,634|INFO|508|_ParseField|9|1
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|int32|id
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 14:54:36,634|INFO|508|_ParseField|9|2
+2016-04-15 14:54:36,634|INFO|509|_ParseField|required|string|name
+2016-04-15 14:54:36,634|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 14:54:36,634|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 17:14:14,677|INFO|112|_initlog|
+
+
+
+2016-04-15 17:14:14,677|INFO|113|_initlog|logger is inited!
+2016-04-15 17:14:14,680|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 17:14:14,680|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 17:14:14,680|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 17:14:14,680|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 17:14:14,680|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 17:14:14,680|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 17:14:14,753|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 17:14:14,753|INFO|492|_ParseLine|4
+2016-04-15 17:14:14,753|INFO|508|_ParseField|4|1
+2016-04-15 17:14:14,753|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,753|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 17:14:14,753|INFO|508|_ParseField|4|2
+2016-04-15 17:14:14,753|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,753|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 17:14:14,753|INFO|492|_ParseLine|5
+2016-04-15 17:14:14,753|INFO|508|_ParseField|5|1
+2016-04-15 17:14:14,753|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,753|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 17:14:14,753|INFO|508|_ParseField|5|2
+2016-04-15 17:14:14,753|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,753|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 17:14:14,753|INFO|492|_ParseLine|6
+2016-04-15 17:14:14,753|INFO|508|_ParseField|6|1
+2016-04-15 17:14:14,753|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,753|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 17:14:14,753|INFO|508|_ParseField|6|2
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 17:14:14,755|INFO|492|_ParseLine|7
+2016-04-15 17:14:14,755|INFO|508|_ParseField|7|1
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 17:14:14,755|INFO|508|_ParseField|7|2
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 17:14:14,755|INFO|492|_ParseLine|8
+2016-04-15 17:14:14,755|INFO|508|_ParseField|8|1
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 17:14:14,755|INFO|508|_ParseField|8|2
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 17:14:14,755|INFO|492|_ParseLine|9
+2016-04-15 17:14:14,755|INFO|508|_ParseField|9|1
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 17:14:14,755|INFO|508|_ParseField|9|2
+2016-04-15 17:14:14,755|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,755|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 17:14:14,755|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 17:14:14,756|INFO|492|_ParseLine|4
+2016-04-15 17:14:14,756|INFO|508|_ParseField|4|1
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 17:14:14,756|INFO|508|_ParseField|4|2
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 17:14:14,756|INFO|492|_ParseLine|5
+2016-04-15 17:14:14,756|INFO|508|_ParseField|5|1
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 17:14:14,756|INFO|508|_ParseField|5|2
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 17:14:14,756|INFO|492|_ParseLine|6
+2016-04-15 17:14:14,756|INFO|508|_ParseField|6|1
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 17:14:14,756|INFO|508|_ParseField|6|2
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 17:14:14,756|INFO|492|_ParseLine|7
+2016-04-15 17:14:14,756|INFO|508|_ParseField|7|1
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 17:14:14,756|INFO|508|_ParseField|7|2
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 17:14:14,756|INFO|492|_ParseLine|8
+2016-04-15 17:14:14,756|INFO|508|_ParseField|8|1
+2016-04-15 17:14:14,756|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,756|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 17:14:14,757|INFO|508|_ParseField|8|2
+2016-04-15 17:14:14,757|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,757|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 17:14:14,757|INFO|492|_ParseLine|9
+2016-04-15 17:14:14,757|INFO|508|_ParseField|9|1
+2016-04-15 17:14:14,757|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:14:14,757|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 17:14:14,757|INFO|508|_ParseField|9|2
+2016-04-15 17:14:14,757|INFO|509|_ParseField|required|string|name
+2016-04-15 17:14:14,757|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 17:14:14,757|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 17:38:25,723|INFO|112|_initlog|
+
+
+
+2016-04-15 17:38:25,723|INFO|113|_initlog|logger is inited!
+2016-04-15 17:38:25,726|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 17:38:25,726|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 17:38:25,726|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 17:38:25,726|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 17:38:25,726|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 17:38:25,726|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 17:38:25,796|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 17:38:25,796|INFO|492|_ParseLine|4
+2016-04-15 17:38:25,796|INFO|508|_ParseField|4|1
+2016-04-15 17:38:25,796|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,796|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 17:38:25,796|INFO|508|_ParseField|4|2
+2016-04-15 17:38:25,796|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 17:38:25,798|INFO|492|_ParseLine|5
+2016-04-15 17:38:25,798|INFO|508|_ParseField|5|1
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 17:38:25,798|INFO|508|_ParseField|5|2
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 17:38:25,798|INFO|492|_ParseLine|6
+2016-04-15 17:38:25,798|INFO|508|_ParseField|6|1
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 17:38:25,798|INFO|508|_ParseField|6|2
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 17:38:25,798|INFO|492|_ParseLine|7
+2016-04-15 17:38:25,798|INFO|508|_ParseField|7|1
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 17:38:25,798|INFO|508|_ParseField|7|2
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,798|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 17:38:25,798|INFO|492|_ParseLine|8
+2016-04-15 17:38:25,798|INFO|508|_ParseField|8|1
+2016-04-15 17:38:25,798|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 17:38:25,799|INFO|508|_ParseField|8|2
+2016-04-15 17:38:25,799|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 17:38:25,799|INFO|492|_ParseLine|9
+2016-04-15 17:38:25,799|INFO|508|_ParseField|9|1
+2016-04-15 17:38:25,799|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 17:38:25,799|INFO|508|_ParseField|9|2
+2016-04-15 17:38:25,799|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 17:38:25,799|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 17:38:25,799|INFO|492|_ParseLine|4
+2016-04-15 17:38:25,799|INFO|508|_ParseField|4|1
+2016-04-15 17:38:25,799|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 17:38:25,799|INFO|508|_ParseField|4|2
+2016-04-15 17:38:25,799|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 17:38:25,799|INFO|492|_ParseLine|5
+2016-04-15 17:38:25,799|INFO|508|_ParseField|5|1
+2016-04-15 17:38:25,799|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,799|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 17:38:25,799|INFO|508|_ParseField|5|2
+2016-04-15 17:38:25,801|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,801|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 17:38:25,801|INFO|492|_ParseLine|6
+2016-04-15 17:38:25,801|INFO|508|_ParseField|6|1
+2016-04-15 17:38:25,801|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,801|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 17:38:25,801|INFO|508|_ParseField|6|2
+2016-04-15 17:38:25,801|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,801|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 17:38:25,801|INFO|492|_ParseLine|7
+2016-04-15 17:38:25,801|INFO|508|_ParseField|7|1
+2016-04-15 17:38:25,801|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,801|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 17:38:25,801|INFO|508|_ParseField|7|2
+2016-04-15 17:38:25,801|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,801|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 17:38:25,802|INFO|492|_ParseLine|8
+2016-04-15 17:38:25,802|INFO|508|_ParseField|8|1
+2016-04-15 17:38:25,802|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,802|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 17:38:25,802|INFO|508|_ParseField|8|2
+2016-04-15 17:38:25,802|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,802|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 17:38:25,802|INFO|492|_ParseLine|9
+2016-04-15 17:38:25,802|INFO|508|_ParseField|9|1
+2016-04-15 17:38:25,802|INFO|509|_ParseField|required|int32|id
+2016-04-15 17:38:25,802|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 17:38:25,802|INFO|508|_ParseField|9|2
+2016-04-15 17:38:25,802|INFO|509|_ParseField|required|string|name
+2016-04-15 17:38:25,802|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 17:38:25,802|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 18:09:13,444|INFO|112|_initlog|
+
+
+
+2016-04-15 18:09:13,444|INFO|113|_initlog|logger is inited!
+2016-04-15 18:09:13,447|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 18:09:13,447|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 18:09:13,447|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 18:09:13,447|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 18:09:13,447|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 18:09:13,447|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 18:09:13,520|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 18:09:13,522|INFO|492|_ParseLine|4
+2016-04-15 18:09:13,522|INFO|508|_ParseField|4|1
+2016-04-15 18:09:13,522|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,522|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 18:09:13,522|INFO|508|_ParseField|4|2
+2016-04-15 18:09:13,522|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,522|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 18:09:13,522|INFO|492|_ParseLine|5
+2016-04-15 18:09:13,522|INFO|508|_ParseField|5|1
+2016-04-15 18:09:13,522|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,522|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 18:09:13,522|INFO|508|_ParseField|5|2
+2016-04-15 18:09:13,522|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,522|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 18:09:13,522|INFO|492|_ParseLine|6
+2016-04-15 18:09:13,522|INFO|508|_ParseField|6|1
+2016-04-15 18:09:13,522|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,522|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 18:09:13,522|INFO|508|_ParseField|6|2
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 18:09:13,523|INFO|492|_ParseLine|7
+2016-04-15 18:09:13,523|INFO|508|_ParseField|7|1
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 18:09:13,523|INFO|508|_ParseField|7|2
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 18:09:13,523|INFO|492|_ParseLine|8
+2016-04-15 18:09:13,523|INFO|508|_ParseField|8|1
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 18:09:13,523|INFO|508|_ParseField|8|2
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 18:09:13,523|INFO|492|_ParseLine|9
+2016-04-15 18:09:13,523|INFO|508|_ParseField|9|1
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 18:09:13,523|INFO|508|_ParseField|9|2
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 18:09:13,523|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 18:09:13,523|INFO|492|_ParseLine|4
+2016-04-15 18:09:13,523|INFO|508|_ParseField|4|1
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 18:09:13,523|INFO|508|_ParseField|4|2
+2016-04-15 18:09:13,523|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,523|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 18:09:13,523|INFO|492|_ParseLine|5
+2016-04-15 18:09:13,525|INFO|508|_ParseField|5|1
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 18:09:13,525|INFO|508|_ParseField|5|2
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 18:09:13,525|INFO|492|_ParseLine|6
+2016-04-15 18:09:13,525|INFO|508|_ParseField|6|1
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 18:09:13,525|INFO|508|_ParseField|6|2
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 18:09:13,525|INFO|492|_ParseLine|7
+2016-04-15 18:09:13,525|INFO|508|_ParseField|7|1
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 18:09:13,525|INFO|508|_ParseField|7|2
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 18:09:13,525|INFO|492|_ParseLine|8
+2016-04-15 18:09:13,525|INFO|508|_ParseField|8|1
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 18:09:13,525|INFO|508|_ParseField|8|2
+2016-04-15 18:09:13,525|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,525|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 18:09:13,526|INFO|492|_ParseLine|9
+2016-04-15 18:09:13,526|INFO|508|_ParseField|9|1
+2016-04-15 18:09:13,526|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:13,526|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 18:09:13,526|INFO|508|_ParseField|9|2
+2016-04-15 18:09:13,526|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:13,526|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 18:09:13,526|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 18:09:43,437|INFO|112|_initlog|
+
+
+
+2016-04-15 18:09:43,437|INFO|113|_initlog|logger is inited!
+2016-04-15 18:09:43,440|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 18:09:43,440|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 18:09:43,441|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 18:09:43,441|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 18:09:43,441|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 18:09:43,441|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 18:09:43,510|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 18:09:43,510|INFO|492|_ParseLine|4
+2016-04-15 18:09:43,510|INFO|508|_ParseField|4|1
+2016-04-15 18:09:43,510|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,510|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 18:09:43,510|INFO|508|_ParseField|4|2
+2016-04-15 18:09:43,510|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,510|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 18:09:43,510|INFO|492|_ParseLine|5
+2016-04-15 18:09:43,510|INFO|508|_ParseField|5|1
+2016-04-15 18:09:43,510|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,510|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 18:09:43,510|INFO|508|_ParseField|5|2
+2016-04-15 18:09:43,510|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,510|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 18:09:43,512|INFO|492|_ParseLine|6
+2016-04-15 18:09:43,512|INFO|508|_ParseField|6|1
+2016-04-15 18:09:43,512|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,512|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 18:09:43,512|INFO|508|_ParseField|6|2
+2016-04-15 18:09:43,512|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,512|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 18:09:43,512|INFO|492|_ParseLine|7
+2016-04-15 18:09:43,512|INFO|508|_ParseField|7|1
+2016-04-15 18:09:43,512|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,512|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 18:09:43,512|INFO|508|_ParseField|7|2
+2016-04-15 18:09:43,512|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,512|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 18:09:43,512|INFO|492|_ParseLine|8
+2016-04-15 18:09:43,512|INFO|508|_ParseField|8|1
+2016-04-15 18:09:43,512|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,512|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 18:09:43,512|INFO|508|_ParseField|8|2
+2016-04-15 18:09:43,512|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,512|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 18:09:43,512|INFO|492|_ParseLine|9
+2016-04-15 18:09:43,513|INFO|508|_ParseField|9|1
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 18:09:43,513|INFO|508|_ParseField|9|2
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 18:09:43,513|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 18:09:43,513|INFO|492|_ParseLine|4
+2016-04-15 18:09:43,513|INFO|508|_ParseField|4|1
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 18:09:43,513|INFO|508|_ParseField|4|2
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 18:09:43,513|INFO|492|_ParseLine|5
+2016-04-15 18:09:43,513|INFO|508|_ParseField|5|1
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 18:09:43,513|INFO|508|_ParseField|5|2
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 18:09:43,513|INFO|492|_ParseLine|6
+2016-04-15 18:09:43,513|INFO|508|_ParseField|6|1
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 18:09:43,513|INFO|508|_ParseField|6|2
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 18:09:43,513|INFO|492|_ParseLine|7
+2016-04-15 18:09:43,513|INFO|508|_ParseField|7|1
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 18:09:43,513|INFO|508|_ParseField|7|2
+2016-04-15 18:09:43,513|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,513|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 18:09:43,515|INFO|492|_ParseLine|8
+2016-04-15 18:09:43,515|INFO|508|_ParseField|8|1
+2016-04-15 18:09:43,515|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,515|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 18:09:43,515|INFO|508|_ParseField|8|2
+2016-04-15 18:09:43,515|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,515|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 18:09:43,515|INFO|492|_ParseLine|9
+2016-04-15 18:09:43,515|INFO|508|_ParseField|9|1
+2016-04-15 18:09:43,515|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:09:43,515|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 18:09:43,515|INFO|508|_ParseField|9|2
+2016-04-15 18:09:43,515|INFO|509|_ParseField|required|string|name
+2016-04-15 18:09:43,515|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 18:09:43,515|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 18:39:20,863|INFO|112|_initlog|
+
+
+
+2016-04-15 18:39:20,863|INFO|113|_initlog|logger is inited!
+2016-04-15 18:39:20,887|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 18:39:20,888|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 18:39:20,888|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 18:39:20,889|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 18:39:20,889|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 18:39:20,889|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 18:39:21,052|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 18:39:21,053|INFO|492|_ParseLine|4
+2016-04-15 18:39:21,053|INFO|508|_ParseField|4|1
+2016-04-15 18:39:21,053|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,054|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 18:39:21,054|INFO|508|_ParseField|4|2
+2016-04-15 18:39:21,054|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,055|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 18:39:21,055|INFO|492|_ParseLine|5
+2016-04-15 18:39:21,056|INFO|508|_ParseField|5|1
+2016-04-15 18:39:21,056|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,056|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 18:39:21,057|INFO|508|_ParseField|5|2
+2016-04-15 18:39:21,057|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,058|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 18:39:21,058|INFO|492|_ParseLine|6
+2016-04-15 18:39:21,058|INFO|508|_ParseField|6|1
+2016-04-15 18:39:21,059|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,059|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 18:39:21,060|INFO|508|_ParseField|6|2
+2016-04-15 18:39:21,060|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,060|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 18:39:21,061|INFO|492|_ParseLine|7
+2016-04-15 18:39:21,061|INFO|508|_ParseField|7|1
+2016-04-15 18:39:21,061|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,062|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 18:39:21,062|INFO|508|_ParseField|7|2
+2016-04-15 18:39:21,063|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,063|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 18:39:21,063|INFO|492|_ParseLine|8
+2016-04-15 18:39:21,064|INFO|508|_ParseField|8|1
+2016-04-15 18:39:21,064|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,065|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 18:39:21,065|INFO|508|_ParseField|8|2
+2016-04-15 18:39:21,065|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,066|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 18:39:21,066|INFO|492|_ParseLine|9
+2016-04-15 18:39:21,067|INFO|508|_ParseField|9|1
+2016-04-15 18:39:21,067|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,067|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 18:39:21,068|INFO|508|_ParseField|9|2
+2016-04-15 18:39:21,068|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,068|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 18:39:21,069|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 18:39:21,072|INFO|492|_ParseLine|4
+2016-04-15 18:39:21,073|INFO|508|_ParseField|4|1
+2016-04-15 18:39:21,073|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,074|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 18:39:21,074|INFO|508|_ParseField|4|2
+2016-04-15 18:39:21,074|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,075|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 18:39:21,075|INFO|492|_ParseLine|5
+2016-04-15 18:39:21,076|INFO|508|_ParseField|5|1
+2016-04-15 18:39:21,076|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,076|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 18:39:21,077|INFO|508|_ParseField|5|2
+2016-04-15 18:39:21,077|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,077|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 18:39:21,078|INFO|492|_ParseLine|6
+2016-04-15 18:39:21,078|INFO|508|_ParseField|6|1
+2016-04-15 18:39:21,079|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,079|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 18:39:21,079|INFO|508|_ParseField|6|2
+2016-04-15 18:39:21,080|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,080|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 18:39:21,081|INFO|492|_ParseLine|7
+2016-04-15 18:39:21,081|INFO|508|_ParseField|7|1
+2016-04-15 18:39:21,081|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,082|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 18:39:21,082|INFO|508|_ParseField|7|2
+2016-04-15 18:39:21,083|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,083|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 18:39:21,083|INFO|492|_ParseLine|8
+2016-04-15 18:39:21,084|INFO|508|_ParseField|8|1
+2016-04-15 18:39:21,084|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,084|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 18:39:21,085|INFO|508|_ParseField|8|2
+2016-04-15 18:39:21,085|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,086|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 18:39:21,086|INFO|492|_ParseLine|9
+2016-04-15 18:39:21,086|INFO|508|_ParseField|9|1
+2016-04-15 18:39:21,087|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:39:21,087|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 18:39:21,088|INFO|508|_ParseField|9|2
+2016-04-15 18:39:21,088|INFO|509|_ParseField|required|string|name
+2016-04-15 18:39:21,088|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 18:39:21,089|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 18:40:17,797|INFO|112|_initlog|
+
+
+
+2016-04-15 18:40:17,798|INFO|113|_initlog|logger is inited!
+2016-04-15 18:40:17,822|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 18:40:17,823|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 18:40:17,823|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 18:40:17,823|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 18:40:17,824|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 18:40:17,824|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 18:40:17,989|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 18:40:17,990|INFO|492|_ParseLine|4
+2016-04-15 18:40:17,991|INFO|508|_ParseField|4|1
+2016-04-15 18:40:17,991|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:17,991|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 18:40:17,992|INFO|508|_ParseField|4|2
+2016-04-15 18:40:17,992|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:17,992|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 18:40:17,993|INFO|492|_ParseLine|5
+2016-04-15 18:40:17,994|INFO|508|_ParseField|5|1
+2016-04-15 18:40:17,994|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:17,994|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 18:40:17,995|INFO|508|_ParseField|5|2
+2016-04-15 18:40:17,995|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:17,996|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 18:40:17,996|INFO|492|_ParseLine|6
+2016-04-15 18:40:17,996|INFO|508|_ParseField|6|1
+2016-04-15 18:40:17,997|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:17,997|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 18:40:17,998|INFO|508|_ParseField|6|2
+2016-04-15 18:40:17,998|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:17,998|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 18:40:17,999|INFO|492|_ParseLine|7
+2016-04-15 18:40:17,999|INFO|508|_ParseField|7|1
+2016-04-15 18:40:17,999|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,000|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 18:40:18,000|INFO|508|_ParseField|7|2
+2016-04-15 18:40:18,001|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,001|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 18:40:18,001|INFO|492|_ParseLine|8
+2016-04-15 18:40:18,002|INFO|508|_ParseField|8|1
+2016-04-15 18:40:18,002|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,002|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 18:40:18,003|INFO|508|_ParseField|8|2
+2016-04-15 18:40:18,003|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,004|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 18:40:18,004|INFO|492|_ParseLine|9
+2016-04-15 18:40:18,005|INFO|508|_ParseField|9|1
+2016-04-15 18:40:18,005|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,005|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 18:40:18,006|INFO|508|_ParseField|9|2
+2016-04-15 18:40:18,006|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,006|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 18:40:18,007|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 18:40:18,010|INFO|492|_ParseLine|4
+2016-04-15 18:40:18,011|INFO|508|_ParseField|4|1
+2016-04-15 18:40:18,011|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,011|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 18:40:18,012|INFO|508|_ParseField|4|2
+2016-04-15 18:40:18,012|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,013|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 18:40:18,013|INFO|492|_ParseLine|5
+2016-04-15 18:40:18,014|INFO|508|_ParseField|5|1
+2016-04-15 18:40:18,014|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,014|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 18:40:18,015|INFO|508|_ParseField|5|2
+2016-04-15 18:40:18,015|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,015|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 18:40:18,016|INFO|492|_ParseLine|6
+2016-04-15 18:40:18,016|INFO|508|_ParseField|6|1
+2016-04-15 18:40:18,017|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,017|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 18:40:18,017|INFO|508|_ParseField|6|2
+2016-04-15 18:40:18,018|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,018|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 18:40:18,019|INFO|492|_ParseLine|7
+2016-04-15 18:40:18,020|INFO|508|_ParseField|7|1
+2016-04-15 18:40:18,020|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,021|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 18:40:18,022|INFO|508|_ParseField|7|2
+2016-04-15 18:40:18,022|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,023|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 18:40:18,023|INFO|492|_ParseLine|8
+2016-04-15 18:40:18,024|INFO|508|_ParseField|8|1
+2016-04-15 18:40:18,024|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,025|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 18:40:18,025|INFO|508|_ParseField|8|2
+2016-04-15 18:40:18,025|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,026|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 18:40:18,026|INFO|492|_ParseLine|9
+2016-04-15 18:40:18,027|INFO|508|_ParseField|9|1
+2016-04-15 18:40:18,027|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:18,027|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 18:40:18,028|INFO|508|_ParseField|9|2
+2016-04-15 18:40:18,028|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:18,028|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 18:40:18,029|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 18:40:48,718|INFO|112|_initlog|
+
+
+
+2016-04-15 18:40:48,719|INFO|113|_initlog|logger is inited!
+2016-04-15 18:40:48,742|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 18:40:48,743|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 18:40:48,743|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 18:40:48,743|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 18:40:48,744|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 18:40:48,744|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 18:40:48,889|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 18:40:48,890|INFO|492|_ParseLine|4
+2016-04-15 18:40:48,891|INFO|508|_ParseField|4|1
+2016-04-15 18:40:48,891|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,892|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 18:40:48,892|INFO|508|_ParseField|4|2
+2016-04-15 18:40:48,892|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,893|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 18:40:48,893|INFO|492|_ParseLine|5
+2016-04-15 18:40:48,894|INFO|508|_ParseField|5|1
+2016-04-15 18:40:48,894|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,894|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 18:40:48,895|INFO|508|_ParseField|5|2
+2016-04-15 18:40:48,895|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,895|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 18:40:48,896|INFO|492|_ParseLine|6
+2016-04-15 18:40:48,896|INFO|508|_ParseField|6|1
+2016-04-15 18:40:48,897|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,897|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 18:40:48,897|INFO|508|_ParseField|6|2
+2016-04-15 18:40:48,898|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,898|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 18:40:48,898|INFO|492|_ParseLine|7
+2016-04-15 18:40:48,899|INFO|508|_ParseField|7|1
+2016-04-15 18:40:48,899|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,899|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 18:40:48,900|INFO|508|_ParseField|7|2
+2016-04-15 18:40:48,900|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,900|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 18:40:48,901|INFO|492|_ParseLine|8
+2016-04-15 18:40:48,901|INFO|508|_ParseField|8|1
+2016-04-15 18:40:48,901|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,902|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 18:40:48,902|INFO|508|_ParseField|8|2
+2016-04-15 18:40:48,903|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,903|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 18:40:48,903|INFO|492|_ParseLine|9
+2016-04-15 18:40:48,904|INFO|508|_ParseField|9|1
+2016-04-15 18:40:48,904|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,904|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 18:40:48,905|INFO|508|_ParseField|9|2
+2016-04-15 18:40:48,905|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,905|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 18:40:48,906|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 18:40:48,909|INFO|492|_ParseLine|4
+2016-04-15 18:40:48,909|INFO|508|_ParseField|4|1
+2016-04-15 18:40:48,910|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,910|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 18:40:48,911|INFO|508|_ParseField|4|2
+2016-04-15 18:40:48,911|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,911|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 18:40:48,912|INFO|492|_ParseLine|5
+2016-04-15 18:40:48,912|INFO|508|_ParseField|5|1
+2016-04-15 18:40:48,912|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,913|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 18:40:48,913|INFO|508|_ParseField|5|2
+2016-04-15 18:40:48,913|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,914|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 18:40:48,914|INFO|492|_ParseLine|6
+2016-04-15 18:40:48,914|INFO|508|_ParseField|6|1
+2016-04-15 18:40:48,915|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,915|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 18:40:48,915|INFO|508|_ParseField|6|2
+2016-04-15 18:40:48,916|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,916|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 18:40:48,917|INFO|492|_ParseLine|7
+2016-04-15 18:40:48,917|INFO|508|_ParseField|7|1
+2016-04-15 18:40:48,917|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,917|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 18:40:48,918|INFO|508|_ParseField|7|2
+2016-04-15 18:40:48,918|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,918|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 18:40:48,919|INFO|492|_ParseLine|8
+2016-04-15 18:40:48,919|INFO|508|_ParseField|8|1
+2016-04-15 18:40:48,920|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,920|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 18:40:48,920|INFO|508|_ParseField|8|2
+2016-04-15 18:40:48,921|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,921|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 18:40:48,921|INFO|492|_ParseLine|9
+2016-04-15 18:40:48,922|INFO|508|_ParseField|9|1
+2016-04-15 18:40:48,922|INFO|509|_ParseField|required|int32|id
+2016-04-15 18:40:48,922|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 18:40:48,923|INFO|508|_ParseField|9|2
+2016-04-15 18:40:48,923|INFO|509|_ParseField|required|string|name
+2016-04-15 18:40:48,923|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 18:40:48,924|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:34:54,512|INFO|112|_initlog|
+
+
+
+2016-04-15 19:34:54,513|INFO|113|_initlog|logger is inited!
+2016-04-15 19:34:54,536|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:34:54,537|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:34:54,537|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:34:54,538|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:34:54,538|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:34:54,538|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:34:54,696|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:34:54,697|INFO|492|_ParseLine|4
+2016-04-15 19:34:54,698|INFO|508|_ParseField|4|1
+2016-04-15 19:34:54,698|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,698|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:34:54,699|INFO|508|_ParseField|4|2
+2016-04-15 19:34:54,699|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,699|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:34:54,700|INFO|492|_ParseLine|5
+2016-04-15 19:34:54,700|INFO|508|_ParseField|5|1
+2016-04-15 19:34:54,701|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,701|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:34:54,701|INFO|508|_ParseField|5|2
+2016-04-15 19:34:54,702|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,702|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:34:54,703|INFO|492|_ParseLine|6
+2016-04-15 19:34:54,703|INFO|508|_ParseField|6|1
+2016-04-15 19:34:54,703|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,704|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:34:54,704|INFO|508|_ParseField|6|2
+2016-04-15 19:34:54,704|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,705|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:34:54,705|INFO|492|_ParseLine|7
+2016-04-15 19:34:54,706|INFO|508|_ParseField|7|1
+2016-04-15 19:34:54,706|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,706|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:34:54,707|INFO|508|_ParseField|7|2
+2016-04-15 19:34:54,707|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,708|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:34:54,708|INFO|492|_ParseLine|8
+2016-04-15 19:34:54,708|INFO|508|_ParseField|8|1
+2016-04-15 19:34:54,709|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,709|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:34:54,710|INFO|508|_ParseField|8|2
+2016-04-15 19:34:54,710|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,710|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:34:54,711|INFO|492|_ParseLine|9
+2016-04-15 19:34:54,711|INFO|508|_ParseField|9|1
+2016-04-15 19:34:54,712|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,712|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:34:54,713|INFO|508|_ParseField|9|2
+2016-04-15 19:34:54,713|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,713|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:34:54,714|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:34:54,717|INFO|492|_ParseLine|4
+2016-04-15 19:34:54,717|INFO|508|_ParseField|4|1
+2016-04-15 19:34:54,718|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,718|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:34:54,719|INFO|508|_ParseField|4|2
+2016-04-15 19:34:54,719|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,719|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:34:54,720|INFO|492|_ParseLine|5
+2016-04-15 19:34:54,720|INFO|508|_ParseField|5|1
+2016-04-15 19:34:54,721|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,721|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:34:54,721|INFO|508|_ParseField|5|2
+2016-04-15 19:34:54,722|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,722|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:34:54,722|INFO|492|_ParseLine|6
+2016-04-15 19:34:54,723|INFO|508|_ParseField|6|1
+2016-04-15 19:34:54,723|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,723|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:34:54,724|INFO|508|_ParseField|6|2
+2016-04-15 19:34:54,724|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,725|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:34:54,725|INFO|492|_ParseLine|7
+2016-04-15 19:34:54,725|INFO|508|_ParseField|7|1
+2016-04-15 19:34:54,726|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,726|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:34:54,727|INFO|508|_ParseField|7|2
+2016-04-15 19:34:54,727|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,728|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:34:54,728|INFO|492|_ParseLine|8
+2016-04-15 19:34:54,728|INFO|508|_ParseField|8|1
+2016-04-15 19:34:54,729|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,729|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:34:54,729|INFO|508|_ParseField|8|2
+2016-04-15 19:34:54,730|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,730|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:34:54,731|INFO|492|_ParseLine|9
+2016-04-15 19:34:54,731|INFO|508|_ParseField|9|1
+2016-04-15 19:34:54,731|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:34:54,732|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:34:54,732|INFO|508|_ParseField|9|2
+2016-04-15 19:34:54,732|INFO|509|_ParseField|required|string|name
+2016-04-15 19:34:54,733|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:34:54,733|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:36:54,056|INFO|112|_initlog|
+
+
+
+2016-04-15 19:36:54,057|INFO|113|_initlog|logger is inited!
+2016-04-15 19:36:54,082|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:36:54,082|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:36:54,083|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:36:54,083|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:36:54,083|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:36:54,084|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:36:54,255|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:36:54,256|INFO|492|_ParseLine|4
+2016-04-15 19:36:54,257|INFO|508|_ParseField|4|1
+2016-04-15 19:36:54,257|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,257|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:36:54,258|INFO|508|_ParseField|4|2
+2016-04-15 19:36:54,258|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,259|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:36:54,259|INFO|492|_ParseLine|5
+2016-04-15 19:36:54,259|INFO|508|_ParseField|5|1
+2016-04-15 19:36:54,260|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,260|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:36:54,261|INFO|508|_ParseField|5|2
+2016-04-15 19:36:54,261|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,261|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:36:54,262|INFO|492|_ParseLine|6
+2016-04-15 19:36:54,262|INFO|508|_ParseField|6|1
+2016-04-15 19:36:54,263|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,263|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:36:54,263|INFO|508|_ParseField|6|2
+2016-04-15 19:36:54,264|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,264|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:36:54,265|INFO|492|_ParseLine|7
+2016-04-15 19:36:54,265|INFO|508|_ParseField|7|1
+2016-04-15 19:36:54,265|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,266|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:36:54,266|INFO|508|_ParseField|7|2
+2016-04-15 19:36:54,267|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,267|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:36:54,267|INFO|492|_ParseLine|8
+2016-04-15 19:36:54,268|INFO|508|_ParseField|8|1
+2016-04-15 19:36:54,268|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,269|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:36:54,269|INFO|508|_ParseField|8|2
+2016-04-15 19:36:54,270|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,271|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:36:54,273|INFO|492|_ParseLine|9
+2016-04-15 19:36:54,274|INFO|508|_ParseField|9|1
+2016-04-15 19:36:54,276|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,277|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:36:54,278|INFO|508|_ParseField|9|2
+2016-04-15 19:36:54,278|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,279|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:36:54,279|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:36:54,283|INFO|492|_ParseLine|4
+2016-04-15 19:36:54,283|INFO|508|_ParseField|4|1
+2016-04-15 19:36:54,284|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,284|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:36:54,284|INFO|508|_ParseField|4|2
+2016-04-15 19:36:54,285|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,285|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:36:54,286|INFO|492|_ParseLine|5
+2016-04-15 19:36:54,286|INFO|508|_ParseField|5|1
+2016-04-15 19:36:54,286|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,287|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:36:54,287|INFO|508|_ParseField|5|2
+2016-04-15 19:36:54,287|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,288|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:36:54,288|INFO|492|_ParseLine|6
+2016-04-15 19:36:54,289|INFO|508|_ParseField|6|1
+2016-04-15 19:36:54,289|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,289|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:36:54,290|INFO|508|_ParseField|6|2
+2016-04-15 19:36:54,290|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,291|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:36:54,292|INFO|492|_ParseLine|7
+2016-04-15 19:36:54,292|INFO|508|_ParseField|7|1
+2016-04-15 19:36:54,293|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,293|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:36:54,294|INFO|508|_ParseField|7|2
+2016-04-15 19:36:54,294|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,294|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:36:54,295|INFO|492|_ParseLine|8
+2016-04-15 19:36:54,295|INFO|508|_ParseField|8|1
+2016-04-15 19:36:54,295|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,296|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:36:54,296|INFO|508|_ParseField|8|2
+2016-04-15 19:36:54,296|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,297|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:36:54,297|INFO|492|_ParseLine|9
+2016-04-15 19:36:54,298|INFO|508|_ParseField|9|1
+2016-04-15 19:36:54,298|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:36:54,298|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:36:54,299|INFO|508|_ParseField|9|2
+2016-04-15 19:36:54,299|INFO|509|_ParseField|required|string|name
+2016-04-15 19:36:54,299|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:36:54,300|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:38:13,155|INFO|112|_initlog|
+
+
+
+2016-04-15 19:38:13,155|INFO|113|_initlog|logger is inited!
+2016-04-15 19:38:13,182|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:38:13,182|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:38:13,183|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:38:13,183|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:38:13,184|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:38:13,184|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:38:13,357|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:38:13,358|INFO|492|_ParseLine|4
+2016-04-15 19:38:13,358|INFO|508|_ParseField|4|1
+2016-04-15 19:38:13,359|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,359|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:38:13,360|INFO|508|_ParseField|4|2
+2016-04-15 19:38:13,360|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,360|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:38:13,361|INFO|492|_ParseLine|5
+2016-04-15 19:38:13,361|INFO|508|_ParseField|5|1
+2016-04-15 19:38:13,362|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,362|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:38:13,363|INFO|508|_ParseField|5|2
+2016-04-15 19:38:13,363|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,363|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:38:13,364|INFO|492|_ParseLine|6
+2016-04-15 19:38:13,364|INFO|508|_ParseField|6|1
+2016-04-15 19:38:13,365|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,365|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:38:13,365|INFO|508|_ParseField|6|2
+2016-04-15 19:38:13,366|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,366|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:38:13,367|INFO|492|_ParseLine|7
+2016-04-15 19:38:13,367|INFO|508|_ParseField|7|1
+2016-04-15 19:38:13,367|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,368|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:38:13,368|INFO|508|_ParseField|7|2
+2016-04-15 19:38:13,368|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,369|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:38:13,369|INFO|492|_ParseLine|8
+2016-04-15 19:38:13,370|INFO|508|_ParseField|8|1
+2016-04-15 19:38:13,370|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,370|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:38:13,371|INFO|508|_ParseField|8|2
+2016-04-15 19:38:13,371|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,372|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:38:13,372|INFO|492|_ParseLine|9
+2016-04-15 19:38:13,372|INFO|508|_ParseField|9|1
+2016-04-15 19:38:13,373|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,373|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:38:13,374|INFO|508|_ParseField|9|2
+2016-04-15 19:38:13,374|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,374|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:38:13,375|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:38:13,379|INFO|492|_ParseLine|4
+2016-04-15 19:38:13,379|INFO|508|_ParseField|4|1
+2016-04-15 19:38:13,379|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,380|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:38:13,380|INFO|508|_ParseField|4|2
+2016-04-15 19:38:13,381|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,381|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:38:13,382|INFO|492|_ParseLine|5
+2016-04-15 19:38:13,382|INFO|508|_ParseField|5|1
+2016-04-15 19:38:13,382|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,383|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:38:13,383|INFO|508|_ParseField|5|2
+2016-04-15 19:38:13,384|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,384|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:38:13,384|INFO|492|_ParseLine|6
+2016-04-15 19:38:13,385|INFO|508|_ParseField|6|1
+2016-04-15 19:38:13,385|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,385|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:38:13,386|INFO|508|_ParseField|6|2
+2016-04-15 19:38:13,386|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,387|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:38:13,387|INFO|492|_ParseLine|7
+2016-04-15 19:38:13,388|INFO|508|_ParseField|7|1
+2016-04-15 19:38:13,388|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,388|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:38:13,389|INFO|508|_ParseField|7|2
+2016-04-15 19:38:13,389|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,389|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:38:13,390|INFO|492|_ParseLine|8
+2016-04-15 19:38:13,390|INFO|508|_ParseField|8|1
+2016-04-15 19:38:13,391|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,391|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:38:13,391|INFO|508|_ParseField|8|2
+2016-04-15 19:38:13,392|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,392|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:38:13,392|INFO|492|_ParseLine|9
+2016-04-15 19:38:13,393|INFO|508|_ParseField|9|1
+2016-04-15 19:38:13,393|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:38:13,393|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:38:13,394|INFO|508|_ParseField|9|2
+2016-04-15 19:38:13,394|INFO|509|_ParseField|required|string|name
+2016-04-15 19:38:13,395|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:38:13,395|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:40:38,280|INFO|112|_initlog|
+
+
+
+2016-04-15 19:40:38,281|INFO|113|_initlog|logger is inited!
+2016-04-15 19:40:38,306|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:40:38,307|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:40:38,307|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:40:38,307|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:40:38,308|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:40:38,308|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:40:38,467|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:40:38,468|INFO|492|_ParseLine|4
+2016-04-15 19:40:38,468|INFO|508|_ParseField|4|1
+2016-04-15 19:40:38,469|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,469|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:40:38,470|INFO|508|_ParseField|4|2
+2016-04-15 19:40:38,470|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,470|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:40:38,471|INFO|492|_ParseLine|5
+2016-04-15 19:40:38,471|INFO|508|_ParseField|5|1
+2016-04-15 19:40:38,472|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,472|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:40:38,473|INFO|508|_ParseField|5|2
+2016-04-15 19:40:38,473|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,473|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:40:38,474|INFO|492|_ParseLine|6
+2016-04-15 19:40:38,474|INFO|508|_ParseField|6|1
+2016-04-15 19:40:38,475|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,475|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:40:38,475|INFO|508|_ParseField|6|2
+2016-04-15 19:40:38,476|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,477|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:40:38,478|INFO|492|_ParseLine|7
+2016-04-15 19:40:38,478|INFO|508|_ParseField|7|1
+2016-04-15 19:40:38,479|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,479|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:40:38,480|INFO|508|_ParseField|7|2
+2016-04-15 19:40:38,480|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,480|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:40:38,481|INFO|492|_ParseLine|8
+2016-04-15 19:40:38,481|INFO|508|_ParseField|8|1
+2016-04-15 19:40:38,482|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,482|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:40:38,482|INFO|508|_ParseField|8|2
+2016-04-15 19:40:38,483|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,483|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:40:38,483|INFO|492|_ParseLine|9
+2016-04-15 19:40:38,484|INFO|508|_ParseField|9|1
+2016-04-15 19:40:38,484|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,485|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:40:38,485|INFO|508|_ParseField|9|2
+2016-04-15 19:40:38,485|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,486|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:40:38,486|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:40:38,494|INFO|492|_ParseLine|4
+2016-04-15 19:40:38,495|INFO|508|_ParseField|4|1
+2016-04-15 19:40:38,495|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,495|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:40:38,496|INFO|508|_ParseField|4|2
+2016-04-15 19:40:38,496|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,497|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:40:38,497|INFO|492|_ParseLine|5
+2016-04-15 19:40:38,498|INFO|508|_ParseField|5|1
+2016-04-15 19:40:38,498|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,498|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:40:38,499|INFO|508|_ParseField|5|2
+2016-04-15 19:40:38,499|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,499|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:40:38,500|INFO|492|_ParseLine|6
+2016-04-15 19:40:38,500|INFO|508|_ParseField|6|1
+2016-04-15 19:40:38,501|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,501|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:40:38,501|INFO|508|_ParseField|6|2
+2016-04-15 19:40:38,502|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,502|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:40:38,503|INFO|492|_ParseLine|7
+2016-04-15 19:40:38,503|INFO|508|_ParseField|7|1
+2016-04-15 19:40:38,503|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,504|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:40:38,504|INFO|508|_ParseField|7|2
+2016-04-15 19:40:38,504|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,505|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:40:38,506|INFO|492|_ParseLine|8
+2016-04-15 19:40:38,506|INFO|508|_ParseField|8|1
+2016-04-15 19:40:38,507|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,507|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:40:38,508|INFO|508|_ParseField|8|2
+2016-04-15 19:40:38,508|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,508|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:40:38,509|INFO|492|_ParseLine|9
+2016-04-15 19:40:38,509|INFO|508|_ParseField|9|1
+2016-04-15 19:40:38,509|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:40:38,510|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:40:38,510|INFO|508|_ParseField|9|2
+2016-04-15 19:40:38,510|INFO|509|_ParseField|required|string|name
+2016-04-15 19:40:38,511|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:40:38,511|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:55:05,237|INFO|112|_initlog|
+
+
+
+2016-04-15 19:55:05,237|INFO|113|_initlog|logger is inited!
+2016-04-15 19:55:05,263|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:55:05,263|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:55:05,264|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:55:05,264|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:55:05,264|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:55:05,265|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:55:05,419|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:55:05,420|INFO|492|_ParseLine|4
+2016-04-15 19:55:05,420|INFO|508|_ParseField|4|1
+2016-04-15 19:55:05,421|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,421|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:55:05,421|INFO|508|_ParseField|4|2
+2016-04-15 19:55:05,422|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,422|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:55:05,423|INFO|492|_ParseLine|5
+2016-04-15 19:55:05,423|INFO|508|_ParseField|5|1
+2016-04-15 19:55:05,423|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,424|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:55:05,424|INFO|508|_ParseField|5|2
+2016-04-15 19:55:05,424|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,425|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:55:05,425|INFO|492|_ParseLine|6
+2016-04-15 19:55:05,425|INFO|508|_ParseField|6|1
+2016-04-15 19:55:05,426|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,426|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:55:05,426|INFO|508|_ParseField|6|2
+2016-04-15 19:55:05,427|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,427|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:55:05,428|INFO|492|_ParseLine|7
+2016-04-15 19:55:05,428|INFO|508|_ParseField|7|1
+2016-04-15 19:55:05,428|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,429|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:55:05,429|INFO|508|_ParseField|7|2
+2016-04-15 19:55:05,429|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,430|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:55:05,430|INFO|492|_ParseLine|8
+2016-04-15 19:55:05,431|INFO|508|_ParseField|8|1
+2016-04-15 19:55:05,431|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,431|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:55:05,432|INFO|508|_ParseField|8|2
+2016-04-15 19:55:05,432|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,432|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:55:05,433|INFO|492|_ParseLine|9
+2016-04-15 19:55:05,433|INFO|508|_ParseField|9|1
+2016-04-15 19:55:05,433|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,434|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:55:05,434|INFO|508|_ParseField|9|2
+2016-04-15 19:55:05,434|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,435|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:55:05,435|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:55:05,439|INFO|492|_ParseLine|4
+2016-04-15 19:55:05,439|INFO|508|_ParseField|4|1
+2016-04-15 19:55:05,440|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,440|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:55:05,440|INFO|508|_ParseField|4|2
+2016-04-15 19:55:05,441|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,441|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:55:05,441|INFO|492|_ParseLine|5
+2016-04-15 19:55:05,442|INFO|508|_ParseField|5|1
+2016-04-15 19:55:05,442|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,442|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:55:05,443|INFO|508|_ParseField|5|2
+2016-04-15 19:55:05,443|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,443|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:55:05,444|INFO|492|_ParseLine|6
+2016-04-15 19:55:05,444|INFO|508|_ParseField|6|1
+2016-04-15 19:55:05,445|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,445|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:55:05,445|INFO|508|_ParseField|6|2
+2016-04-15 19:55:05,446|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,446|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:55:05,446|INFO|492|_ParseLine|7
+2016-04-15 19:55:05,447|INFO|508|_ParseField|7|1
+2016-04-15 19:55:05,447|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,447|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:55:05,448|INFO|508|_ParseField|7|2
+2016-04-15 19:55:05,448|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,448|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:55:05,449|INFO|492|_ParseLine|8
+2016-04-15 19:55:05,449|INFO|508|_ParseField|8|1
+2016-04-15 19:55:05,449|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,450|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:55:05,450|INFO|508|_ParseField|8|2
+2016-04-15 19:55:05,450|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,451|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:55:05,451|INFO|492|_ParseLine|9
+2016-04-15 19:55:05,452|INFO|508|_ParseField|9|1
+2016-04-15 19:55:05,452|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:55:05,452|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:55:05,453|INFO|508|_ParseField|9|2
+2016-04-15 19:55:05,453|INFO|509|_ParseField|required|string|name
+2016-04-15 19:55:05,453|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:55:05,454|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:56:07,252|INFO|112|_initlog|
+
+
+
+2016-04-15 19:56:07,252|INFO|113|_initlog|logger is inited!
+2016-04-15 19:56:07,278|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:56:07,278|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:56:07,279|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:56:07,279|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:56:07,279|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:56:07,280|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:56:07,439|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:56:07,440|INFO|492|_ParseLine|4
+2016-04-15 19:56:07,440|INFO|508|_ParseField|4|1
+2016-04-15 19:56:07,441|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,441|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:56:07,442|INFO|508|_ParseField|4|2
+2016-04-15 19:56:07,442|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,442|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:56:07,443|INFO|492|_ParseLine|5
+2016-04-15 19:56:07,443|INFO|508|_ParseField|5|1
+2016-04-15 19:56:07,443|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,444|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:56:07,444|INFO|508|_ParseField|5|2
+2016-04-15 19:56:07,445|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,445|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:56:07,445|INFO|492|_ParseLine|6
+2016-04-15 19:56:07,446|INFO|508|_ParseField|6|1
+2016-04-15 19:56:07,446|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,446|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:56:07,447|INFO|508|_ParseField|6|2
+2016-04-15 19:56:07,447|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,447|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:56:07,448|INFO|492|_ParseLine|7
+2016-04-15 19:56:07,448|INFO|508|_ParseField|7|1
+2016-04-15 19:56:07,449|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,449|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:56:07,449|INFO|508|_ParseField|7|2
+2016-04-15 19:56:07,450|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,450|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:56:07,451|INFO|492|_ParseLine|8
+2016-04-15 19:56:07,451|INFO|508|_ParseField|8|1
+2016-04-15 19:56:07,452|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,452|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:56:07,453|INFO|508|_ParseField|8|2
+2016-04-15 19:56:07,453|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,453|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:56:07,454|INFO|492|_ParseLine|9
+2016-04-15 19:56:07,454|INFO|508|_ParseField|9|1
+2016-04-15 19:56:07,454|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,455|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:56:07,455|INFO|508|_ParseField|9|2
+2016-04-15 19:56:07,456|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,457|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:56:07,457|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:56:07,462|INFO|492|_ParseLine|4
+2016-04-15 19:56:07,463|INFO|508|_ParseField|4|1
+2016-04-15 19:56:07,463|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,464|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:56:07,464|INFO|508|_ParseField|4|2
+2016-04-15 19:56:07,465|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,465|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:56:07,466|INFO|492|_ParseLine|5
+2016-04-15 19:56:07,466|INFO|508|_ParseField|5|1
+2016-04-15 19:56:07,466|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,467|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:56:07,467|INFO|508|_ParseField|5|2
+2016-04-15 19:56:07,468|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,468|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:56:07,469|INFO|492|_ParseLine|6
+2016-04-15 19:56:07,469|INFO|508|_ParseField|6|1
+2016-04-15 19:56:07,469|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,470|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:56:07,470|INFO|508|_ParseField|6|2
+2016-04-15 19:56:07,470|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,471|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:56:07,471|INFO|492|_ParseLine|7
+2016-04-15 19:56:07,471|INFO|508|_ParseField|7|1
+2016-04-15 19:56:07,472|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,472|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:56:07,473|INFO|508|_ParseField|7|2
+2016-04-15 19:56:07,473|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,474|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:56:07,474|INFO|492|_ParseLine|8
+2016-04-15 19:56:07,475|INFO|508|_ParseField|8|1
+2016-04-15 19:56:07,475|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,475|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:56:07,476|INFO|508|_ParseField|8|2
+2016-04-15 19:56:07,476|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,476|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:56:07,477|INFO|492|_ParseLine|9
+2016-04-15 19:56:07,477|INFO|508|_ParseField|9|1
+2016-04-15 19:56:07,478|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:07,478|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:56:07,478|INFO|508|_ParseField|9|2
+2016-04-15 19:56:07,479|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:07,479|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:56:07,479|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:56:22,668|INFO|112|_initlog|
+
+
+
+2016-04-15 19:56:22,669|INFO|113|_initlog|logger is inited!
+2016-04-15 19:56:22,693|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:56:22,694|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:56:22,694|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:56:22,694|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:56:22,695|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:56:22,695|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:56:22,873|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:56:22,874|INFO|492|_ParseLine|4
+2016-04-15 19:56:22,874|INFO|508|_ParseField|4|1
+2016-04-15 19:56:22,875|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,875|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:56:22,876|INFO|508|_ParseField|4|2
+2016-04-15 19:56:22,876|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,876|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:56:22,877|INFO|492|_ParseLine|5
+2016-04-15 19:56:22,877|INFO|508|_ParseField|5|1
+2016-04-15 19:56:22,878|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,878|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:56:22,879|INFO|508|_ParseField|5|2
+2016-04-15 19:56:22,879|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,879|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:56:22,880|INFO|492|_ParseLine|6
+2016-04-15 19:56:22,881|INFO|508|_ParseField|6|1
+2016-04-15 19:56:22,881|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,881|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:56:22,882|INFO|508|_ParseField|6|2
+2016-04-15 19:56:22,882|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,882|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:56:22,883|INFO|492|_ParseLine|7
+2016-04-15 19:56:22,884|INFO|508|_ParseField|7|1
+2016-04-15 19:56:22,884|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,884|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:56:22,885|INFO|508|_ParseField|7|2
+2016-04-15 19:56:22,885|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,885|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:56:22,886|INFO|492|_ParseLine|8
+2016-04-15 19:56:22,886|INFO|508|_ParseField|8|1
+2016-04-15 19:56:22,887|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,887|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:56:22,887|INFO|508|_ParseField|8|2
+2016-04-15 19:56:22,888|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,888|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:56:22,888|INFO|492|_ParseLine|9
+2016-04-15 19:56:22,889|INFO|508|_ParseField|9|1
+2016-04-15 19:56:22,889|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,890|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:56:22,890|INFO|508|_ParseField|9|2
+2016-04-15 19:56:22,890|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,891|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:56:22,891|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:56:22,897|INFO|492|_ParseLine|4
+2016-04-15 19:56:22,897|INFO|508|_ParseField|4|1
+2016-04-15 19:56:22,898|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,899|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:56:22,899|INFO|508|_ParseField|4|2
+2016-04-15 19:56:22,899|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,900|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:56:22,900|INFO|492|_ParseLine|5
+2016-04-15 19:56:22,901|INFO|508|_ParseField|5|1
+2016-04-15 19:56:22,901|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,901|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:56:22,902|INFO|508|_ParseField|5|2
+2016-04-15 19:56:22,902|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,903|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:56:22,903|INFO|492|_ParseLine|6
+2016-04-15 19:56:22,903|INFO|508|_ParseField|6|1
+2016-04-15 19:56:22,904|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,904|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:56:22,905|INFO|508|_ParseField|6|2
+2016-04-15 19:56:22,905|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,905|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:56:22,906|INFO|492|_ParseLine|7
+2016-04-15 19:56:22,906|INFO|508|_ParseField|7|1
+2016-04-15 19:56:22,906|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,907|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:56:22,907|INFO|508|_ParseField|7|2
+2016-04-15 19:56:22,907|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,908|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:56:22,908|INFO|492|_ParseLine|8
+2016-04-15 19:56:22,909|INFO|508|_ParseField|8|1
+2016-04-15 19:56:22,909|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,909|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:56:22,910|INFO|508|_ParseField|8|2
+2016-04-15 19:56:22,910|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,910|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:56:22,911|INFO|492|_ParseLine|9
+2016-04-15 19:56:22,911|INFO|508|_ParseField|9|1
+2016-04-15 19:56:22,912|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:22,912|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:56:22,912|INFO|508|_ParseField|9|2
+2016-04-15 19:56:22,913|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:22,913|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:56:22,914|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:56:41,056|INFO|112|_initlog|
+
+
+
+2016-04-15 19:56:41,056|INFO|113|_initlog|logger is inited!
+2016-04-15 19:56:41,082|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:56:41,082|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:56:41,083|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:56:41,083|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:56:41,084|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:56:41,084|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:56:41,256|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:56:41,257|INFO|492|_ParseLine|4
+2016-04-15 19:56:41,258|INFO|508|_ParseField|4|1
+2016-04-15 19:56:41,258|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,258|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:56:41,259|INFO|508|_ParseField|4|2
+2016-04-15 19:56:41,259|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,259|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:56:41,260|INFO|492|_ParseLine|5
+2016-04-15 19:56:41,260|INFO|508|_ParseField|5|1
+2016-04-15 19:56:41,261|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,261|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:56:41,261|INFO|508|_ParseField|5|2
+2016-04-15 19:56:41,262|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,262|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:56:41,262|INFO|492|_ParseLine|6
+2016-04-15 19:56:41,263|INFO|508|_ParseField|6|1
+2016-04-15 19:56:41,263|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,264|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:56:41,264|INFO|508|_ParseField|6|2
+2016-04-15 19:56:41,264|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,265|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:56:41,265|INFO|492|_ParseLine|7
+2016-04-15 19:56:41,265|INFO|508|_ParseField|7|1
+2016-04-15 19:56:41,266|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,266|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:56:41,266|INFO|508|_ParseField|7|2
+2016-04-15 19:56:41,267|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,267|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:56:41,268|INFO|492|_ParseLine|8
+2016-04-15 19:56:41,268|INFO|508|_ParseField|8|1
+2016-04-15 19:56:41,268|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,269|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:56:41,269|INFO|508|_ParseField|8|2
+2016-04-15 19:56:41,269|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,270|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:56:41,270|INFO|492|_ParseLine|9
+2016-04-15 19:56:41,271|INFO|508|_ParseField|9|1
+2016-04-15 19:56:41,271|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,271|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:56:41,272|INFO|508|_ParseField|9|2
+2016-04-15 19:56:41,272|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,273|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:56:41,273|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:56:41,277|INFO|492|_ParseLine|4
+2016-04-15 19:56:41,277|INFO|508|_ParseField|4|1
+2016-04-15 19:56:41,278|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,278|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:56:41,279|INFO|508|_ParseField|4|2
+2016-04-15 19:56:41,279|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,279|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:56:41,280|INFO|492|_ParseLine|5
+2016-04-15 19:56:41,280|INFO|508|_ParseField|5|1
+2016-04-15 19:56:41,281|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,281|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:56:41,281|INFO|508|_ParseField|5|2
+2016-04-15 19:56:41,282|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,282|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:56:41,282|INFO|492|_ParseLine|6
+2016-04-15 19:56:41,283|INFO|508|_ParseField|6|1
+2016-04-15 19:56:41,283|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,283|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:56:41,284|INFO|508|_ParseField|6|2
+2016-04-15 19:56:41,284|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,284|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:56:41,285|INFO|492|_ParseLine|7
+2016-04-15 19:56:41,285|INFO|508|_ParseField|7|1
+2016-04-15 19:56:41,286|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,286|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:56:41,286|INFO|508|_ParseField|7|2
+2016-04-15 19:56:41,287|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,287|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:56:41,288|INFO|492|_ParseLine|8
+2016-04-15 19:56:41,288|INFO|508|_ParseField|8|1
+2016-04-15 19:56:41,288|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,289|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:56:41,289|INFO|508|_ParseField|8|2
+2016-04-15 19:56:41,289|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,290|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:56:41,290|INFO|492|_ParseLine|9
+2016-04-15 19:56:41,290|INFO|508|_ParseField|9|1
+2016-04-15 19:56:41,291|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:56:41,291|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:56:41,292|INFO|508|_ParseField|9|2
+2016-04-15 19:56:41,292|INFO|509|_ParseField|required|string|name
+2016-04-15 19:56:41,292|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:56:41,293|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 19:59:49,147|INFO|112|_initlog|
+
+
+
+2016-04-15 19:59:49,148|INFO|113|_initlog|logger is inited!
+2016-04-15 19:59:49,173|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 19:59:49,174|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 19:59:49,174|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 19:59:49,174|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 19:59:49,175|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 19:59:49,175|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 19:59:49,361|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 19:59:49,362|INFO|492|_ParseLine|4
+2016-04-15 19:59:49,362|INFO|508|_ParseField|4|1
+2016-04-15 19:59:49,363|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,363|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 19:59:49,363|INFO|508|_ParseField|4|2
+2016-04-15 19:59:49,364|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,364|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 19:59:49,365|INFO|492|_ParseLine|5
+2016-04-15 19:59:49,365|INFO|508|_ParseField|5|1
+2016-04-15 19:59:49,365|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,366|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 19:59:49,366|INFO|508|_ParseField|5|2
+2016-04-15 19:59:49,366|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,367|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 19:59:49,367|INFO|492|_ParseLine|6
+2016-04-15 19:59:49,368|INFO|508|_ParseField|6|1
+2016-04-15 19:59:49,368|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,368|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 19:59:49,369|INFO|508|_ParseField|6|2
+2016-04-15 19:59:49,369|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,369|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 19:59:49,370|INFO|492|_ParseLine|7
+2016-04-15 19:59:49,370|INFO|508|_ParseField|7|1
+2016-04-15 19:59:49,370|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,371|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 19:59:49,371|INFO|508|_ParseField|7|2
+2016-04-15 19:59:49,371|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,372|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 19:59:49,372|INFO|492|_ParseLine|8
+2016-04-15 19:59:49,372|INFO|508|_ParseField|8|1
+2016-04-15 19:59:49,373|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,373|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 19:59:49,373|INFO|508|_ParseField|8|2
+2016-04-15 19:59:49,374|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,374|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 19:59:49,375|INFO|492|_ParseLine|9
+2016-04-15 19:59:49,375|INFO|508|_ParseField|9|1
+2016-04-15 19:59:49,375|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,376|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 19:59:49,376|INFO|508|_ParseField|9|2
+2016-04-15 19:59:49,376|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,377|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 19:59:49,377|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 19:59:49,380|INFO|492|_ParseLine|4
+2016-04-15 19:59:49,381|INFO|508|_ParseField|4|1
+2016-04-15 19:59:49,381|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,382|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 19:59:49,382|INFO|508|_ParseField|4|2
+2016-04-15 19:59:49,382|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,383|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 19:59:49,383|INFO|492|_ParseLine|5
+2016-04-15 19:59:49,384|INFO|508|_ParseField|5|1
+2016-04-15 19:59:49,384|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,384|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 19:59:49,385|INFO|508|_ParseField|5|2
+2016-04-15 19:59:49,385|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,385|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 19:59:49,386|INFO|492|_ParseLine|6
+2016-04-15 19:59:49,386|INFO|508|_ParseField|6|1
+2016-04-15 19:59:49,386|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,387|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 19:59:49,387|INFO|508|_ParseField|6|2
+2016-04-15 19:59:49,387|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,388|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 19:59:49,388|INFO|492|_ParseLine|7
+2016-04-15 19:59:49,388|INFO|508|_ParseField|7|1
+2016-04-15 19:59:49,389|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,389|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 19:59:49,389|INFO|508|_ParseField|7|2
+2016-04-15 19:59:49,390|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,390|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 19:59:49,391|INFO|492|_ParseLine|8
+2016-04-15 19:59:49,391|INFO|508|_ParseField|8|1
+2016-04-15 19:59:49,391|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,391|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 19:59:49,392|INFO|508|_ParseField|8|2
+2016-04-15 19:59:49,392|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,392|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 19:59:49,393|INFO|492|_ParseLine|9
+2016-04-15 19:59:49,393|INFO|508|_ParseField|9|1
+2016-04-15 19:59:49,394|INFO|509|_ParseField|required|int32|id
+2016-04-15 19:59:49,394|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 19:59:49,394|INFO|508|_ParseField|9|2
+2016-04-15 19:59:49,395|INFO|509|_ParseField|required|string|name
+2016-04-15 19:59:49,395|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 19:59:49,395|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 20:06:03,210|INFO|112|_initlog|
+
+
+
+2016-04-15 20:06:03,211|INFO|113|_initlog|logger is inited!
+2016-04-15 20:06:03,233|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 20:06:03,233|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 20:06:03,234|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 20:06:03,234|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 20:06:03,235|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 20:06:03,235|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 20:06:03,386|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 20:06:03,387|INFO|492|_ParseLine|4
+2016-04-15 20:06:03,387|INFO|508|_ParseField|4|1
+2016-04-15 20:06:03,388|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,388|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 20:06:03,388|INFO|508|_ParseField|4|2
+2016-04-15 20:06:03,389|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,389|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 20:06:03,389|INFO|492|_ParseLine|5
+2016-04-15 20:06:03,390|INFO|508|_ParseField|5|1
+2016-04-15 20:06:03,390|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,391|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 20:06:03,391|INFO|508|_ParseField|5|2
+2016-04-15 20:06:03,391|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,392|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 20:06:03,392|INFO|492|_ParseLine|6
+2016-04-15 20:06:03,392|INFO|508|_ParseField|6|1
+2016-04-15 20:06:03,393|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,393|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 20:06:03,394|INFO|508|_ParseField|6|2
+2016-04-15 20:06:03,394|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,394|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 20:06:03,395|INFO|492|_ParseLine|7
+2016-04-15 20:06:03,395|INFO|508|_ParseField|7|1
+2016-04-15 20:06:03,395|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,396|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 20:06:03,396|INFO|508|_ParseField|7|2
+2016-04-15 20:06:03,396|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,397|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 20:06:03,397|INFO|492|_ParseLine|8
+2016-04-15 20:06:03,398|INFO|508|_ParseField|8|1
+2016-04-15 20:06:03,398|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,398|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 20:06:03,399|INFO|508|_ParseField|8|2
+2016-04-15 20:06:03,399|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,399|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 20:06:03,400|INFO|492|_ParseLine|9
+2016-04-15 20:06:03,400|INFO|508|_ParseField|9|1
+2016-04-15 20:06:03,401|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,401|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 20:06:03,401|INFO|508|_ParseField|9|2
+2016-04-15 20:06:03,402|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,402|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 20:06:03,403|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 20:06:03,406|INFO|492|_ParseLine|4
+2016-04-15 20:06:03,406|INFO|508|_ParseField|4|1
+2016-04-15 20:06:03,407|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,407|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 20:06:03,408|INFO|508|_ParseField|4|2
+2016-04-15 20:06:03,408|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,408|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 20:06:03,409|INFO|492|_ParseLine|5
+2016-04-15 20:06:03,409|INFO|508|_ParseField|5|1
+2016-04-15 20:06:03,409|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,410|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 20:06:03,410|INFO|508|_ParseField|5|2
+2016-04-15 20:06:03,411|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,411|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 20:06:03,411|INFO|492|_ParseLine|6
+2016-04-15 20:06:03,412|INFO|508|_ParseField|6|1
+2016-04-15 20:06:03,412|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,412|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 20:06:03,413|INFO|508|_ParseField|6|2
+2016-04-15 20:06:03,413|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,413|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 20:06:03,414|INFO|492|_ParseLine|7
+2016-04-15 20:06:03,414|INFO|508|_ParseField|7|1
+2016-04-15 20:06:03,415|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,415|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 20:06:03,416|INFO|508|_ParseField|7|2
+2016-04-15 20:06:03,416|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,416|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 20:06:03,417|INFO|492|_ParseLine|8
+2016-04-15 20:06:03,417|INFO|508|_ParseField|8|1
+2016-04-15 20:06:03,417|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,418|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 20:06:03,418|INFO|508|_ParseField|8|2
+2016-04-15 20:06:03,418|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,419|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 20:06:03,419|INFO|492|_ParseLine|9
+2016-04-15 20:06:03,420|INFO|508|_ParseField|9|1
+2016-04-15 20:06:03,420|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:06:03,420|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 20:06:03,421|INFO|508|_ParseField|9|2
+2016-04-15 20:06:03,421|INFO|509|_ParseField|required|string|name
+2016-04-15 20:06:03,421|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 20:06:03,422|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 20:09:10,686|INFO|112|_initlog|
+
+
+
+2016-04-15 20:09:10,687|INFO|113|_initlog|logger is inited!
+2016-04-15 20:09:10,716|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 20:09:10,717|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 20:09:10,717|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 20:09:10,718|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 20:09:10,718|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 20:09:10,719|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 20:09:10,875|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 20:09:10,877|INFO|492|_ParseLine|4
+2016-04-15 20:09:10,878|INFO|508|_ParseField|4|1
+2016-04-15 20:09:10,879|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,879|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 20:09:10,880|INFO|508|_ParseField|4|2
+2016-04-15 20:09:10,880|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,880|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 20:09:10,881|INFO|492|_ParseLine|5
+2016-04-15 20:09:10,881|INFO|508|_ParseField|5|1
+2016-04-15 20:09:10,882|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,882|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 20:09:10,882|INFO|508|_ParseField|5|2
+2016-04-15 20:09:10,883|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,883|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 20:09:10,884|INFO|492|_ParseLine|6
+2016-04-15 20:09:10,884|INFO|508|_ParseField|6|1
+2016-04-15 20:09:10,884|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,885|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 20:09:10,885|INFO|508|_ParseField|6|2
+2016-04-15 20:09:10,886|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,886|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 20:09:10,887|INFO|492|_ParseLine|7
+2016-04-15 20:09:10,887|INFO|508|_ParseField|7|1
+2016-04-15 20:09:10,887|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,888|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 20:09:10,888|INFO|508|_ParseField|7|2
+2016-04-15 20:09:10,888|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,889|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 20:09:10,889|INFO|492|_ParseLine|8
+2016-04-15 20:09:10,890|INFO|508|_ParseField|8|1
+2016-04-15 20:09:10,891|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,891|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 20:09:10,891|INFO|508|_ParseField|8|2
+2016-04-15 20:09:10,892|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,892|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 20:09:10,893|INFO|492|_ParseLine|9
+2016-04-15 20:09:10,893|INFO|508|_ParseField|9|1
+2016-04-15 20:09:10,893|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,894|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 20:09:10,894|INFO|508|_ParseField|9|2
+2016-04-15 20:09:10,895|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,895|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 20:09:10,895|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 20:09:10,899|INFO|492|_ParseLine|4
+2016-04-15 20:09:10,900|INFO|508|_ParseField|4|1
+2016-04-15 20:09:10,900|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,900|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 20:09:10,901|INFO|508|_ParseField|4|2
+2016-04-15 20:09:10,901|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,902|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 20:09:10,902|INFO|492|_ParseLine|5
+2016-04-15 20:09:10,903|INFO|508|_ParseField|5|1
+2016-04-15 20:09:10,903|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,904|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 20:09:10,904|INFO|508|_ParseField|5|2
+2016-04-15 20:09:10,904|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,905|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 20:09:10,905|INFO|492|_ParseLine|6
+2016-04-15 20:09:10,906|INFO|508|_ParseField|6|1
+2016-04-15 20:09:10,906|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,906|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 20:09:10,907|INFO|508|_ParseField|6|2
+2016-04-15 20:09:10,907|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,907|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 20:09:10,908|INFO|492|_ParseLine|7
+2016-04-15 20:09:10,908|INFO|508|_ParseField|7|1
+2016-04-15 20:09:10,909|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,909|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 20:09:10,909|INFO|508|_ParseField|7|2
+2016-04-15 20:09:10,910|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,910|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 20:09:10,911|INFO|492|_ParseLine|8
+2016-04-15 20:09:10,911|INFO|508|_ParseField|8|1
+2016-04-15 20:09:10,911|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,912|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 20:09:10,912|INFO|508|_ParseField|8|2
+2016-04-15 20:09:10,912|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,913|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 20:09:10,913|INFO|492|_ParseLine|9
+2016-04-15 20:09:10,913|INFO|508|_ParseField|9|1
+2016-04-15 20:09:10,914|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:09:10,914|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 20:09:10,915|INFO|508|_ParseField|9|2
+2016-04-15 20:09:10,915|INFO|509|_ParseField|required|string|name
+2016-04-15 20:09:10,915|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 20:09:10,916|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+
+2016-04-15 20:10:00,191|INFO|112|_initlog|
+
+
+
+2016-04-15 20:10:00,192|INFO|113|_initlog|logger is inited!
+2016-04-15 20:10:00,217|INFO|180|Interpreter|begin Interpreter, row_count = 10, col_count = 3
+2016-04-15 20:10:00,218|INFO|209|_FieldDefine|row=0, col=0, repeated_num=0
+2016-04-15 20:10:00,218|INFO|209|_FieldDefine|row=0, col=1, repeated_num=0
+2016-04-15 20:10:00,219|INFO|217|_FieldDefine|required|int32|id|单位id
+2016-04-15 20:10:00,219|INFO|209|_FieldDefine|row=0, col=2, repeated_num=0
+2016-04-15 20:10:00,220|INFO|217|_FieldDefine|required|string|name|单位名称
+2016-04-15 20:10:00,380|INFO|447|Parse|begin parse, row_count = 0, col_count = 0
+2016-04-15 20:10:00,382|INFO|492|_ParseLine|4
+2016-04-15 20:10:00,382|INFO|508|_ParseField|4|1
+2016-04-15 20:10:00,382|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,383|INFO|634|_GetFieldValue|4|1|1.0
+2016-04-15 20:10:00,383|INFO|508|_ParseField|4|2
+2016-04-15 20:10:00,384|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,384|INFO|634|_GetFieldValue|4|2|角色1
+2016-04-15 20:10:00,385|INFO|492|_ParseLine|5
+2016-04-15 20:10:00,385|INFO|508|_ParseField|5|1
+2016-04-15 20:10:00,385|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,386|INFO|634|_GetFieldValue|5|1|2.0
+2016-04-15 20:10:00,386|INFO|508|_ParseField|5|2
+2016-04-15 20:10:00,387|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,387|INFO|634|_GetFieldValue|5|2|角色2
+2016-04-15 20:10:00,387|INFO|492|_ParseLine|6
+2016-04-15 20:10:00,388|INFO|508|_ParseField|6|1
+2016-04-15 20:10:00,388|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,388|INFO|634|_GetFieldValue|6|1|3.0
+2016-04-15 20:10:00,389|INFO|508|_ParseField|6|2
+2016-04-15 20:10:00,389|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,390|INFO|634|_GetFieldValue|6|2|角色3
+2016-04-15 20:10:00,390|INFO|492|_ParseLine|7
+2016-04-15 20:10:00,391|INFO|508|_ParseField|7|1
+2016-04-15 20:10:00,391|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,391|INFO|634|_GetFieldValue|7|1|4.0
+2016-04-15 20:10:00,392|INFO|508|_ParseField|7|2
+2016-04-15 20:10:00,392|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,392|INFO|634|_GetFieldValue|7|2|角色4
+2016-04-15 20:10:00,393|INFO|492|_ParseLine|8
+2016-04-15 20:10:00,393|INFO|508|_ParseField|8|1
+2016-04-15 20:10:00,394|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,394|INFO|634|_GetFieldValue|8|1|5.0
+2016-04-15 20:10:00,394|INFO|508|_ParseField|8|2
+2016-04-15 20:10:00,395|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,395|INFO|634|_GetFieldValue|8|2|角色5
+2016-04-15 20:10:00,396|INFO|492|_ParseLine|9
+2016-04-15 20:10:00,396|INFO|508|_ParseField|9|1
+2016-04-15 20:10:00,396|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,397|INFO|634|_GetFieldValue|9|1|6.0
+2016-04-15 20:10:00,397|INFO|508|_ParseField|9|2
+2016-04-15 20:10:00,397|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,398|INFO|634|_GetFieldValue|9|2|角色6
+2016-04-15 20:10:00,398|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+
+2016-04-15 20:10:00,402|INFO|492|_ParseLine|4
+2016-04-15 20:10:00,403|INFO|508|_ParseField|4|1
+2016-04-15 20:10:00,403|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,404|INFO|634|_GetFieldValue|4|1|101.0
+2016-04-15 20:10:00,404|INFO|508|_ParseField|4|2
+2016-04-15 20:10:00,404|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,405|INFO|634|_GetFieldValue|4|2|xxxx
+2016-04-15 20:10:00,405|INFO|492|_ParseLine|5
+2016-04-15 20:10:00,406|INFO|508|_ParseField|5|1
+2016-04-15 20:10:00,406|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,406|INFO|634|_GetFieldValue|5|1|102.0
+2016-04-15 20:10:00,407|INFO|508|_ParseField|5|2
+2016-04-15 20:10:00,407|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,408|INFO|634|_GetFieldValue|5|2|建筑2
+2016-04-15 20:10:00,408|INFO|492|_ParseLine|6
+2016-04-15 20:10:00,409|INFO|508|_ParseField|6|1
+2016-04-15 20:10:00,409|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,409|INFO|634|_GetFieldValue|6|1|103.0
+2016-04-15 20:10:00,410|INFO|508|_ParseField|6|2
+2016-04-15 20:10:00,410|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,410|INFO|634|_GetFieldValue|6|2|建筑3
+2016-04-15 20:10:00,411|INFO|492|_ParseLine|7
+2016-04-15 20:10:00,411|INFO|508|_ParseField|7|1
+2016-04-15 20:10:00,412|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,412|INFO|634|_GetFieldValue|7|1|104.0
+2016-04-15 20:10:00,413|INFO|508|_ParseField|7|2
+2016-04-15 20:10:00,413|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,413|INFO|634|_GetFieldValue|7|2|建筑4
+2016-04-15 20:10:00,414|INFO|492|_ParseLine|8
+2016-04-15 20:10:00,414|INFO|508|_ParseField|8|1
+2016-04-15 20:10:00,415|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,415|INFO|634|_GetFieldValue|8|1|105.0
+2016-04-15 20:10:00,415|INFO|508|_ParseField|8|2
+2016-04-15 20:10:00,416|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,416|INFO|634|_GetFieldValue|8|2|建筑5
+2016-04-15 20:10:00,417|INFO|492|_ParseLine|9
+2016-04-15 20:10:00,417|INFO|508|_ParseField|9|1
+2016-04-15 20:10:00,417|INFO|509|_ParseField|required|int32|id
+2016-04-15 20:10:00,418|INFO|634|_GetFieldValue|9|1|106.0
+2016-04-15 20:10:00,418|INFO|508|_ParseField|9|2
+2016-04-15 20:10:00,419|INFO|509|_ParseField|required|string|name
+2016-04-15 20:10:00,419|INFO|634|_GetFieldValue|9|2|建筑6
+2016-04-15 20:10:00,420|INFO|479|Parse|parse result:
+items {
+  id: 1
+  name: "\350\247\222\350\211\2621"
+}
+items {
+  id: 2
+  name: "\350\247\222\350\211\2622"
+}
+items {
+  id: 3
+  name: "\350\247\222\350\211\2623"
+}
+items {
+  id: 4
+  name: "\350\247\222\350\211\2624"
+}
+items {
+  id: 5
+  name: "\350\247\222\350\211\2625"
+}
+items {
+  id: 6
+  name: "\350\247\222\350\211\2626"
+}
+items {
+  id: 101
+  name: "xxxx"
+}
+items {
+  id: 102
+  name: "\345\273\272\347\255\2212"
+}
+items {
+  id: 103
+  name: "\345\273\272\347\255\2213"
+}
+items {
+  id: 104
+  name: "\345\273\272\347\255\2214"
+}
+items {
+  id: 105
+  name: "\345\273\272\347\255\2215"
+}
+items {
+  id: 106
+  name: "\345\273\272\347\255\2216"
+}
+

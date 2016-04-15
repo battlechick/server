@@ -7,6 +7,7 @@ config = config.master
 
 require "skynet.manager"
 require "player.player"
+local data_manager = require "data_manager.data_manager"
 local bt_manager = require "behavior_tree.bt_manager"
 local map_manager = require "battle.map_manager"
 
@@ -22,6 +23,8 @@ skynet.start(function()
   local agentpool = skynet.uniqueservice("agentpool", "master")
   
   cluster.open "master"
+
+  data_manager.load_datas()
 
   bt_manager.export_node_doc()
   bt_manager.load_trees()

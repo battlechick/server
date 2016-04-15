@@ -19,7 +19,7 @@ function M.load_maps()
         local map_id = tonumber(id_str)
         if map_id then
             local file = io.open(dir..filename, "r")
-            local str = file:read()
+            local str = file:read("*a")
             local data = json.decode(str)
             id2map_data[tonumber(map_id)] = data
         end

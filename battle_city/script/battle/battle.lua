@@ -57,11 +57,13 @@ function init_map()
 end
 
 function start()
-    broadcast("S2C_StartBattle", {})
-end
+    local tbl = {} 
+    local count = 0
+    for _, unit in pairs(guid2unit) do
+        table_insert(tbl, {guid = unit.guid, unit_type = unit.unit_type, data = "" })
+    end
 
-function boradcast_map()
-    
+    broadcast("S2C_StartBattle", tbl)
 end
 
 function broadcast(message_type, tbl)

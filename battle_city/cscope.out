@@ -1,4 +1,4 @@
-cscope 15 $HOME/server/battle_city -q 0000001468 0000161611
+cscope 15 $HOME/server/battle_city -q 0000001492 0000163245
 	@config/clustername.lua
 
 1 
@@ -12483,7 +12483,7 @@ M
 M
 
 
-	@proto/client_proto/ProtoGen/protobuf-net.xml
+	@proto/ClientProto/ProtoGen/protobuf-net.xml
 
 1 <?
 xml
@@ -26622,7 +26622,7 @@ pb
  -
 f
  
-	gmsg
+	gMsg
 .
 ´Ùo
  
@@ -26658,6 +26658,32 @@ $1
 3 
 cd
  
+ExûlD©a
+
+
+4 
+pythÚ
+ 
+expÜt
+.
+py
+ 
+Un™PrÙo
+ Un™PrÙo.
+xls
+ ../
+´Ùo
+/ ../
+d©a
+/
+
+5 
+cd
+ ..
+
+7 
+cd
+ 
 ´Ùo
  && ./
 expÜt
@@ -26665,13 +26691,13 @@ expÜt
 sh
  && cd ..
 
-4 
+8 
 cd
  ../
 skyÃt
 
 
-5 ./
+9 ./
 skyÃt
  ../
 b©Že_c™y
@@ -26693,43 +26719,67 @@ loÿl
 »quœe
  "skynet"
 
-3 
+2 
 loÿl
  
-room
+bË_š£¹
+ = 
+bË
+.
+š£¹
 
 
 4 
 loÿl
  
-m­
+room
 
 
 5 
 loÿl
  
+m­
+
+
+6 
+loÿl
+ 
 ¶ay”s
 
 
-7 
+8 
 loÿl
  
 cmd
  = {}
 
 9 
-»quœe
- "battle.map"
-
-10 
 loÿl
  
-m­_mªag”
+guid2un™
+ = {}
+
+10 
+£tm‘©abË
+(
+guid2un™
+, {
+__mode
+ = "v"})
+
+12 
+	g»quœe
+ "battle.map"
+
+13 
+loÿl
+ 
+	gm­_mªag”
  = 
 »quœe
  "battle.map_manager"
 
-12 
+15 
 funùiÚ
  
 cmd
@@ -26739,19 +26789,19 @@ cmd
 _room
 )
 
-13 
+16 
 room
  = 
 _room
 
 
-14 
+17 
 ¶ay”s
  = 
 room
 .players
 
-16 
+19 
 ¶ay”_id
 , 
 ¶ay”
@@ -26763,21 +26813,21 @@ room
 ¶ay”s
 ) do
 
-17 
+20 
 ¶ay”
 .
 lßded
  = 0
 
-18 
-’d
-
-
-19 
-’d
-
-
 21 
+’d
+
+
+22 
+’d
+
+
+24 
 funùiÚ
  
 cmd
@@ -26787,7 +26837,7 @@ cmd
 ¶ay”_id
 )
 
-22 
+25 
 loÿl
  
 ¶ay”
@@ -26797,7 +26847,7 @@ loÿl
 ¶ay”_id
 ]
 
-23 
+26 
 nÙ
  
 ¶ay”
@@ -26805,49 +26855,49 @@ nÙ
 th’
 
 
-24  
+27  
 çl£
 
 
-25 
+28 
 ’d
 
 
-26 
+29 
 ¶ay”
 .
 lßded
  = 100
 
-28 
+31 
 	$check_lßd_fšished
 (è
 th’
 
 
-29 
+32 
 	$¡¬t
 ()
 
-30 
+33 
 ’d
 
 
-31  
+34  
 Œue
 
 
-32 
+35 
 ’d
 
 
-34 
+37 
 funùiÚ
  
 	$check_lßd_fšished
 ()
 
-35 
+38 
 _
 , 
 ¶ay”
@@ -26859,7 +26909,7 @@ _
 ¶ay”s
 ) do
 
-36 
+39 
 ¶ay”
 .
 lßded
@@ -26867,33 +26917,33 @@ lßded
 th’
 
 
-37  
-çl£
-
-
-38 
-’d
-
-
-39 
-’d
-
-
 40  
-Œue
+çl£
 
 
 41 
 ’d
 
 
-43 
+42 
+’d
+
+
+43  
+Œue
+
+
+44 
+’d
+
+
+46 
 funùiÚ
  
 	$š™_m­
 ()
 
-44 
+47 
 loÿl
  
 m­_id
@@ -26901,7 +26951,7 @@ m­_id
 room
 .map_id
 
-45 
+48 
 loÿl
  
 m­_d©a
@@ -26913,7 +26963,7 @@ m­_mªag”
 m­_id
 )
 
-46 
+49 
 m­
  = 
 M­
@@ -26921,7 +26971,7 @@ M­
 	$Ãw
 ()
 
-47 
+50 
 m­
 :
 	$š™
@@ -26929,27 +26979,113 @@ m­
 m­_d©a
 )
 
-48 
+51 
+_
+, 
+lše
+ 
+š
+ 
+	$aœs
+(
+lše
+) do
+
+52 
+_
+, 
+tže
+ 
+š
+ 
+	$aœs
+(
+lše
+) do
+
+53 
+guid2un™
+[
+tže
+.
+guid
+] =ile
+
+54 
 ’d
 
 
-50 
+55 
+’d
+
+
+57 
+’d
+
+
+59 
 funùiÚ
  
 	$¡¬t
 ()
 
-51 
-	`brßdÿ¡
-("S2C_S¹B©Že", {
+60 
+loÿl
+ 
+tbl
+ = {
+	}
+}
+
+61 
+loÿl
+ 
+couÁ
+ = 0
+
+62 
+_
+, 
+un™
+ 
+š
+ 
+	$·œs
+(
+guid2un™
+) do
+
+63 
+	`bË_š£¹
+(
+tbl
+, {
+guid
+ = 
+un™
+.guid, 
+un™_ty³
+ = un™.un™_ty³, 
+d©a
+ = "" 
 	}
 })
 
-52 
+64 
 ’d
 
 
-54 
+66 
+brßdÿ¡
+("S2C_S¹B©Že", 
+tbl
+)
+
+67 
+’d
+
+
+69 
 funùiÚ
  
 	$brßdÿ¡
@@ -26959,7 +27095,7 @@ mes§ge_ty³
 tbl
 )
 
-55 
+70 
 ¶ay”_id
 , 
 _
@@ -26971,7 +27107,7 @@ _
 ¶ay”s
 ) do
 
-56 
+71 
 skyÃt
 .
 	`ÿÎ
@@ -26983,15 +27119,15 @@ mes§ge_ty³
 tbl
 )
 
-57 
+72 
 ’d
 
 
-58 
+73 
 ’d
 
 
-60 
+75 
 skyÃt
 .
 	`¡¬t
@@ -26999,7 +27135,7 @@ skyÃt
 	$funùiÚ
 ()
 
-61 
+76 
 skyÃt
 .
 	`di¥©ch
@@ -27011,7 +27147,7 @@ _
 commªd
 , ...)
 
-62 
+77 
 loÿl
  
 f
@@ -27021,7 +27157,7 @@ cmd
 commªd
 ]
 
-63 
+78 
 skyÃt
 .
 	`»t
@@ -27031,11 +27167,11 @@ skyÃt
 	$f
 (...)))
 
-64 
+79 
 ’d
 )
 
-65 
+80 
 ’d
 )
 
@@ -27178,7 +27314,7 @@ m­_d©a
 .height
 
 16 
-_
+y
 , 
 lše
  
@@ -27200,7 +27336,7 @@ tbl
 }
 
 18 
-_
+x
 , 
 block_id
  
@@ -27221,6 +27357,10 @@ Tže
 	$Ãw
 (
 block_id
+, 
+x
+, 
+y
 )
 
 20 
@@ -27246,10 +27386,58 @@ tže
 26 
 Tže
  = 
-	`þass
+	$þass
 (
 Un™
 )
+
+28 
+funùiÚ
+ 
+Tže
+:
+	$ùÜ
+(
+block_id
+, 
+x
+, 
+y
+)
+
+29 
+£lf
+.
+un™_ty³
+ = 
+UNIT_TYPE_TILE
+
+
+30 
+£lf
+.
+pos™iÚ
+ = {
+x
+ = x, 
+y
+ = 
+	}
+y}
+
+31 
+	g£lf
+.
+	g´Ùo
+ = 
+d©a_mªag”
+.
+g‘_´Ùo
+("MapBlockProto")
+
+32 
+’d
+
 
 	@script/battle/map_manager.lua
 
@@ -27471,6 +27659,74 @@ m­_id
 
 35  
 M
+
+
+	@script/battle/unit.lua
+
+2 
+	gUn™
+ = 
+þass
+()
+
+4 --
+glob®
+ 
+unique
+ 
+id
+
+
+5 
+loÿl
+ 
+auto_id
+ = 0
+
+6 
+funùiÚ
+ 
+	$auto_guid
+()
+
+7 
+auto_id
+ =‡uto_id + 1
+
+8  
+auto_id
+
+
+9 
+’d
+
+
+11 
+funùiÚ
+ 
+Un™
+:
+	$ùÜ
+()
+
+12 
+£lf
+.
+guid
+ = 
+	$auto_guid
+()
+
+13 
+£lf
+.
+un™_ty³
+ = 
+UNIT_TYPE_ERROR
+
+
+14 
+’d
 
 
 	@script/behavior_tree/behavior_node.lua
@@ -28891,6 +29147,146 @@ M
 
 	@script/behavior_tree/node/map.lua
 
+	@script/data_manager/data_manager.lua
+
+2 
+loÿl
+ 
+	gM
+ = {}
+
+4 
+funùiÚ
+ 
+M
+.
+	$lßd_d©as
+()
+
+5 
+loÿl
+ 
+dœ
+ = 
+WORKSPACE
+.."data/ServerBtree/Tree/"
+
+6 
+loÿl
+ 
+s
+ = 
+io
+.
+	`pÝ’
+("l ".. 
+dœ
+)
+
+7 
+loÿl
+ 
+fžeLi¡s
+ = 
+s
+:
+	`»ad
+("*all")
+
+8 
+¡¬t_pos
+ = 1
+
+9 
+Œue
+ do
+
+10 
+_
+,
+’d_pos
+, 
+fž’ame
+ = 
+¡ršg
+.
+	`fšd
+(
+fžeLi¡s
+, "([^\n\r]+.txt)", 
+¡¬t_pos
+)
+
+11 
+nÙ
+ 
+’d_pos
+ 
+th’
+
+
+13 
+’d
+
+
+14 
+loÿl
+ 
+fže
+ = 
+io
+.
+	`Ý’
+(
+dœ
+..
+fž’ame
+, "r")
+
+15 
+loÿl
+ 
+¡r
+ = 
+fže
+:
+	$»ad
+()
+
+16 
+loÿl
+ 
+d©a
+ = 
+jsÚ
+.
+	$decode
+(
+¡r
+)
+
+17 
+id2Œ“_d©a
+[
+d©a
+.
+Œ“_id
+] = data
+
+18 
+¡¬t_pos
+ = 
+’d_pos
+ + 1
+
+19 
+’d
+
+
+22 
+’d
+
+
 	@script/global.lua
 
 1 
@@ -28955,7 +29351,31 @@ loÿl
 Ãxt
  =‚ext
 
-10 
+11 
+WORKSPACE
+ = "../battle_city/"
+
+13 
+UNIT_TYPE_ERROR
+ = 0
+
+14 
+UNIT_TYPE_TILE
+ = 1
+
+15 
+UNIT_TYPE_PLAYER
+ = 2
+
+16 
+UNIT_TYPE_TANK
+ = 3
+
+17 
+UNIT_TYPE_BULLET
+ = 4
+
+26 
 funùiÚ
  
 	$dump_tbl
@@ -28963,7 +29383,7 @@ funùiÚ
 roÙ
 )
 
-11 
+27 
 loÿl
  
 ÿche
@@ -28973,7 +29393,7 @@ roÙ
 	}
 }
 
-12 
+28 
 loÿl
  
 funùiÚ
@@ -28987,7 +29407,7 @@ t
 Çme
 )
 
-13 
+29 
 loÿl
  
 ‹mp
@@ -28995,7 +29415,7 @@ loÿl
 	}
 }
 
-14 
+30 
 k
 ,
 v
@@ -29007,7 +29427,7 @@ v
 t
 ) do
 
-15 
+31 
 loÿl
  
 key
@@ -29017,7 +29437,7 @@ key
 k
 )
 
-16 
+32 
 ÿche
 [
 v
@@ -29025,7 +29445,7 @@ v
 th’
 
 
-17 
+33 
 	`tš£¹
 (
 ‹mp
@@ -29037,7 +29457,7 @@ key
 v
 ].."}")
 
-18 
+34 
 –£if
  
 	`ty³
@@ -29047,7 +29467,7 @@ v
 th’
 
 
-19 
+35 
 loÿl
  
 Ãw_key
@@ -29057,7 +29477,7 @@ loÿl
 key
 
 
-20 
+36 
 ÿche
 [
 v
@@ -29065,7 +29485,7 @@ v
 Ãw_key
 
 
-21 
+37 
 	`tš£¹
 (
 ‹mp
@@ -29093,7 +29513,7 @@ k
 Ãw_key
 ))
 
-23 
+39 
 	`tš£¹
 (
 ‹mp
@@ -29105,15 +29525,15 @@ key
 v
 ).."]")
 
-24 
+40 
 ’d
 
 
-25 
+41 
 ’d
 
 
-26  
+42  
 	`tcÚÿt
 (
 ‹mp
@@ -29121,11 +29541,11 @@ v
 ¥aû
 )
 
-27 
+43 
 ’d
 
 
-28 
+44 
 	`´št
 (
 	`_dump
@@ -29133,11 +29553,11 @@ v
 roÙ
 , "",""))
 
-29 
+45 
 ’d
 
 
-32 
+48 
 loÿl
  
 _þass
@@ -29145,7 +29565,7 @@ _þass
 	}
 }
 
-34 
+50 
 funùiÚ
  
 	$þass
@@ -29155,7 +29575,7 @@ su³r
 þass_Çme
 )
 
-35 
+51 
 loÿl
  
 þass_ty³
@@ -29163,7 +29583,7 @@ loÿl
 	}
 }
 
-36 
+52 
 þass_ty³
 .
 ùÜ
@@ -29171,13 +29591,13 @@ loÿl
 çl£
 
 
-37 
+53 
 þass_ty³
 .
 su³r
 =super
 
-38 
+54 
 þass_ty³
 .
 Ãw
@@ -29185,7 +29605,7 @@ su³r
 	$funùiÚ
 (...)
 
-39 
+55 
 loÿl
  
 obj
@@ -29193,13 +29613,13 @@ obj
 	}
 }
 
-41 
+57 
 loÿl
  
 ü—‹
 
 
-42 
+58 
 ü—‹
  = 
 	$funùiÚ
@@ -29207,7 +29627,7 @@ loÿl
 c
 ,...)
 
-43 
+59 
 c
 .
 su³r
@@ -29215,7 +29635,7 @@ su³r
 th’
 
 
-44 
+60 
 	$ü—‹
 (
 c
@@ -29223,11 +29643,11 @@ c
 su³r
 ,...)
 
-45 
+61 
 ’d
 
 
-46 
+62 
 c
 .
 ùÜ
@@ -29235,7 +29655,7 @@ c
 th’
 
 
-47 
+63 
 c
 .
 	$ùÜ
@@ -29243,25 +29663,25 @@ c
 obj
 ,...)
 
-48 
+64 
 ’d
 
 
-49 
+65 
 ’d
 
 
-51 
+67 
 	$ü—‹
 (
 þass_ty³
 ,...)
 
-52 
+68 
 ’d
 
 
-53 
+69 
 	`£tm‘©abË
 (
 obj
@@ -29275,21 +29695,21 @@ _þass
 	}
 })
 
-54  
+70  
 obj
 
 
-55 
+71 
 ’d
 
 
-56 
+72 
 loÿl
  
 	gvtbl
 ={}
 
-57 
+73 
 _þass
 [
 þass_ty³
@@ -29297,7 +29717,7 @@ _þass
 vtbl
 
 
-59 
+75 
 £tm‘©abË
 (
 þass_ty³
@@ -29313,7 +29733,7 @@ k
 v
 )
 
-60 
+76 
 vtbl
 [
 k
@@ -29321,17 +29741,17 @@ k
 v
 
 
-61 
+77 
 ’d
 })
 
-63 
+79 
 su³r
  
 th’
 
 
-64 
+80 
 £tm‘©abË
 (
 vtbl
@@ -29345,7 +29765,7 @@ t
 k
 )
 
-65 
+81 
 loÿl
  
 »t
@@ -29357,7 +29777,7 @@ su³r
 k
 ]
 
-66 
+82 
 vtbl
 [
 k
@@ -29365,27 +29785,27 @@ k
 »t
 
 
-67  
+83  
 »t
 
 
-68 
+84 
 ’d
 })
 
-69 
+85 
 ’d
 
 
-71  
+87  
 þass_ty³
 
 
-72 
+88 
 ’d
 
 
-74 
+90 
 funùiÚ
  
 by‹s_to_št
@@ -29409,7 +29829,7 @@ to
 b™s
 
 
-75 
+91 
 loÿl
  
 	gt
@@ -29419,7 +29839,7 @@ loÿl
 by‹
 (1,-1)}
 
-76 
+92 
 ’dŸn
 =="big" 
 th’
@@ -29429,17 +29849,17 @@ th’
 by‹s
 
 
-77 
+93 
 loÿl
  
 ‰
 ={}
 
-78 
+94 
 k
 =1,#t do
 
-79 
+95 
 	g‰
 [#t-
 k
@@ -29447,31 +29867,31 @@ k
 t
 [k]
 
-80 
+96 
 ’d
 
 
-81 
+97 
 t
 =
 ‰
 
 
-82 
+98 
 ’d
 
 
-83 
+99 
 loÿl
  
 n
 =0
 
-84 
+100 
 k
 =1,#t do
 
-85 
+101 
 	gn
 =
 n
@@ -29481,15 +29901,15 @@ t
 k
 ]*2^((k-1)*8)
 
-86 
+102 
 ’d
 
 
-87 sigÃd 
+103 sigÃd 
 th’
 
 
-88 
+104 
 n
  = (À> 2^(#t-1è-1è
 ªd
@@ -29505,19 +29925,19 @@ b™
 	gÃg©ive
 .
 
-89 
+105 
 ’d
 
 
-90  
+106  
 n
 
 
-91 
+107 
 ’d
 
 
-93 
+109 
 funùiÚ
  
 	$št_to_by‹s
@@ -29527,7 +29947,7 @@ num
 ’dŸn
 ,signed)
 
-94 
+110 
 num
 <0 
 ªd
@@ -29541,7 +29961,7 @@ th’
 ’d
 
 
-95 
+111 
 loÿl
  
 »s
@@ -29549,7 +29969,7 @@ loÿl
 	}
 }
 
-96 
+112 
 loÿl
  
 n
@@ -29577,7 +29997,7 @@ be
 	gu£d
 .
 
-97 sigÃd 
+113 sigÃd 
 ªd
  
 	gnum
@@ -29585,7 +30005,7 @@ be
 th’
 
 
-98 
+114 
 	gnum
  = 
 num
@@ -29593,11 +30013,11 @@ num
 n
 
 
-99 
+115 
 ’d
 
 
-100 
+116 
 k
 =
 n
@@ -29607,7 +30027,7 @@ b™s
 ³r
  .
 
-101 
+117 
 loÿl
  
 mul
@@ -29615,7 +30035,7 @@ mul
 k
 -1))
 
-102 
+118 
 »s
 [
 k
@@ -29629,7 +30049,7 @@ num
 mul
 )
 
-103 
+119 
 num
 òum-
 »s
@@ -29639,23 +30059,23 @@ k
 mul
 
 
-104 
+120 
 ’d
 
 
-105 
+121 
 	$as£¹
 (
 num
 ==0)
 
-106 
+122 
 ’dŸn
  =ð"big" 
 th’
 
 
-107 
+123 
 loÿl
  
 t
@@ -29663,13 +30083,13 @@ t
 	}
 }
 
-108 
+124 
 k
 =1,
 n
  do
 
-109 
+125 
 	gt
 [
 k
@@ -29679,21 +30099,21 @@ k
 n
 -k+1]
 
-110 
+126 
 ’d
 
 
-111 
+127 
 »s
 =
 t
 
 
-112 
+128 
 ’d
 
 
-113  
+129  
 ¡ršg
 .(
 	$uÅack
@@ -29701,181 +30121,147 @@ t
 »s
 ))
 
-114 
+130 
 ’d
 
 
-117 
+133 
 funùiÚ
  
 ¡ršg
 .
 	$¥l™
 (
-¡r
+s
 , 
 d–im
-, 
-maxNb
 )
-
-118 
-¡ršg
-.
-	`fšd
-(
-¡r
-, 
-d–im
-è=ð
-nž
- 
-th’
-
-
-119  { 
-¡r
- 
-	}
-}
-
-120 
-’d
-
-
-121 
-maxNb
- =ð
-nž
- 
-Ü
- maxNb < 1 
-th’
-
-
-122 
-maxNb
- = 0 -- 
-No
- 
-lim™
-
-
-123 
-’d
-
-
-124 
-loÿl
- 
-»suÉ
- = {}
-
-125 
-loÿl
- 
-·t
- = "(.-)" .. 
-d–im
- .. "()"
-
-126 
-loÿl
- 
-nb
- = 0
-
-127 
-loÿl
- 
-Ï¡Pos
-
-
-128 
-·¹
-, 
-pos
- 
-š
- 
-	g¡ršg
-.
-	$gfšd
-(
-¡r
-, 
-·t
-) do
-
-129 
-nb
- =‚b + 1
-
-130 
-»suÉ
-[
-nb
-] = 
-·¹
-
-
-131 
-Ï¡Pos
- = 
-pos
-
-
-132 
-nb
- =ð
-maxNb
- 
-th’
-  
-’d
-
-
-133 
-’d
-
 
 134 
-nb
- ~ð
-maxNb
+	`ty³
+(
+d–im
+è~ð"¡ršg" 
+Ü
  
-th’
-
-
-135 
-»suÉ
-[
-nb
- + 1] = 
 ¡ršg
 .
-	$sub
-(
-¡r
-, 
-Ï¡Pos
-)
+	`Ën
+(d–imè<ð0 
+th’
+
 
 136 
 ’d
 
 
-137  
-»suÉ
-
-
 138 
+loÿl
+ 
+¡¬t
+ = 1
+
+139 
+loÿl
+ 
+t
+ = {
+	}
+}
+
+140 
+Œue
+ do
+
+141 
+loÿl
+ 
+pos
+ = 
+¡ršg
+.
+fšd
+ (
+s
+, 
+d–im
+, 
+¡¬t
+, 
+Œue
+è-- 
+¶aš
+ find
+
+142 
+nÙ
+ 
+pos
+ 
+th’
+
+
+144 
 ’d
 
 
-140 
-WORKSPACE
- = "../battle_city/"
+146 
+	gbË
+.
+š£¹
+ (
+t
+, 
+¡ršg
+.
+sub
+ (
+s
+, 
+¡¬t
+, 
+pos
+ - 1))
+
+147 
+	g¡¬t
+ = 
+pos
+ + 
+¡ršg
+.
+	$Ën
+ (
+d–im
+)
+
+148 
+’d
+
+
+149 
+bË
+.
+	`š£¹
+ (
+t
+, 
+¡ršg
+.
+	$sub
+ (
+s
+, 
+¡¬t
+))
+
+151  
+t
+
+
+152 
+’d
+
 
 	@script/player/player.lua
 
@@ -33215,7 +33601,7 @@ add»ss
 pÜt
  = 
 	}
-port})
+pÜt})
 
 93  
 çl£
@@ -34777,27 +35163,29 @@ skyÃt
 1
 .
 0
-34
-846
+36
+905
 config/clustername.lua
 config/config.lua
 install.sh
 luaclib/lua_cjson.c
 luaclib/pbc-lua53.c
 lualib/protobuf.lua
-proto/client_proto/ProtoGen/protobuf-net.xml
+proto/ClientProto/ProtoGen/protobuf-net.xml
 proto/export.sh
 run.sh
 script/battle/battle.lua
 script/battle/battle_handler.lua
 script/battle/map.lua
 script/battle/map_manager.lua
+script/battle/unit.lua
 script/behavior_tree/behavior_node.lua
 script/behavior_tree/behavior_tree.lua
 script/behavior_tree/bt_manager.lua
 script/behavior_tree/node/ai.lua
 script/behavior_tree/node/common.lua
 script/behavior_tree/node/map.lua
+script/data_manager/data_manager.lua
 script/global.lua
 script/player/player.lua
 script/player/player_handler.lua
