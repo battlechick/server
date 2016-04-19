@@ -18,8 +18,10 @@ function M.load_datas()
         local file = io.open(dir..filename, "r")
         local str = file:read("*a")
         protobuf.register_file("../battle_city/proto/"..tbl_name..".pb" )
-        local data = protobuf.decode("Base.UnitProto_ARRAY", str)
-        dump_tbl(data)
+        local data = protobuf.decode("Base."..tbl_name.."_ARRAY", str)
+        file:close()
+        print("load proto data:"..tbl_name)
+        --dump_tbl(data)
         name2tbl[tbl_name] = data
         start_pos = end_pos + 1
     end

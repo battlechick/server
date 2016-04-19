@@ -60,7 +60,12 @@ function start()
     local tbl = {} 
     local count = 0
     for _, unit in pairs(guid2unit) do
-        table_insert(tbl, {guid = unit.guid, unit_type = unit.unit_type, data = "" })
+        table_insert(tbl, {
+            guid = unit.guid, 
+            unit_type = unit.unit_type, 
+            x = unit.position.x,
+            y = unit.position.y,
+            data = json.encode(unit:get_data()) })
     end
 
     broadcast("S2C_StartBattle", tbl)

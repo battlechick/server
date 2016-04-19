@@ -28,9 +28,9 @@ skynet.start(function()
 
   bt_manager.export_node_doc()
   bt_manager.load_trees()
-  local player = Player.new()
-  local tree = bt_manager.create_tree(1, player)
-  tree:exec()
+--local player = Player.new()
+--  local tree = bt_manager.create_tree(1, player)
+--  tree:exec()
 
   map_manager.load_maps()
   skynet.exit()

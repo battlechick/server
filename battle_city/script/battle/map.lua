@@ -1,6 +1,8 @@
 
 local table_insert = table.insert
 
+local map_manager = "battle.map_manager"
+
 Map = class()
 
 function Map:ctor()
@@ -28,5 +30,11 @@ Tile = class(Unit)
 function Tile:ctor(block_id, x, y)
     self.unit_type = UNIT_TYPE_TILE
     self.position = {x = x, y = y}
-    self.proto = data_manager.get_proto("MapBlockProto")
+    self.block = map_manager.get_map_block(block_id)
+end
+
+function Tile:get_data()
+    return {
+        block_id = self.block.id
+    }
 end

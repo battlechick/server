@@ -446,11 +446,10 @@ class DataParser:
         """对外的接口:解析数据"""
         LOG_INFO("begin parse, row_count = %d, col_count = %d", self._row_count, self._col_count)
 
-        item_array = getattr(self._module, self._sheet_name+'_ARRAY')()
-
         data = ""
 
         for sheet in self._sheets:
+            item_array = getattr(self._module, self._sheet_name+'_ARRAY')()
             self._sheet = sheet
             self._row_count = len(self._sheet.col_values(0))
             self._col_count = len(self._sheet.row_values(0))
@@ -667,7 +666,7 @@ class DataParser:
             raise
 
     def _WriteData2File(self, data) :
-        file_name = self._export_path + self._sheet_name + ".data"
+        file_name = self._export_path + self._sheet_name + ".txt"
         file = open(file_name, 'wb+')
         file.write(data)
         file.close()

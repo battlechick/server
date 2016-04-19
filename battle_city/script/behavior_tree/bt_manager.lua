@@ -26,6 +26,7 @@ function M.export_node_doc()
 
     local file = io.open(WORKSPACE.."data/Btree/node_doc.txt", "w")
     file:write(data)
+    file:close()
 end
 
 local id2tree_data = {}
@@ -43,6 +44,8 @@ function M.load_trees()
         local str = file:read("*a")
         local data = json.decode(str)
         id2tree_data[data.tree_id] = data
+        file:close()
+        print("load behavior tree: "..filename)
         start_pos = end_pos + 1
     end
 
