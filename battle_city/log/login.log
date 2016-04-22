@@ -1,0 +1,21 @@
+[:00000001] LAUNCH logger ../battle_city/log/login.log
+[:00000002] LAUNCH snlua bootstrap
+[:00000003] LAUNCH snlua launcher
+[:00000004] LAUNCH snlua cdummy
+[:00000005] LAUNCH harbor 0 4
+[:00000006] LAUNCH snlua datacenterd
+[:00000007] LAUNCH snlua service_mgr
+[:00000008] LAUNCH snlua login
+[:00000009] LAUNCH snlua clusterd
+[:0000000a] LAUNCH snlua gate
+[:0000000a] Listen on 127.0.0.1:2501
+[:0000000b] LAUNCH snlua db 127.0.0.1 battle_city
+[:0000000c] LAUNCH snlua watchdog
+[:0000000d] LAUNCH snlua gate
+[:0000000d] Listen on 121.42.162.95:10000
+[:00000002] KILL self
+[:0000000c] New client from : 219.137.151.43:25739
+[:0000000e] LAUNCH snlua agent
+[:0000000e] KILL self
+[:0000000c] New client from : 115.159.79.85:36419
+[:0000000f] LAUNCH snlua agent

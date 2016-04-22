@@ -1,0 +1,141 @@
+[:00000001] LAUNCH logger ../battle_city/log/battlemng.log
+[:00000002] LAUNCH snlua bootstrap
+[:00000003] LAUNCH snlua launcher
+[:00000004] LAUNCH snlua cdummy
+[:00000005] LAUNCH harbor 0 4
+[:00000006] LAUNCH snlua datacenterd
+[:00000007] LAUNCH snlua service_mgr
+[:00000008] LAUNCH snlua battlemng
+[:00000009] LAUNCH snlua clusterd
+[:00000008] load map
+[:00000008] load map data: Scene001.txt
+[:00000008] load map data: Scene002.txt
+[:0000000a] LAUNCH snlua gate
+[:0000000a] Listen on 127.0.0.1:2502
+[:0000000b] LAUNCH snlua agentpool battle
+[:0000000c] LAUNCH snlua watchdog
+[:0000000d] LAUNCH snlua gate
+[:0000000d] Listen on 121.42.162.95:10003
+[:0000000e] LAUNCH snlua watchdog
+[:0000000f] LAUNCH snlua gate
+[:0000000f] Listen on 121.42.162.95:10004
+[:00000002] KILL self
+[:00000009] socket accept from 127.0.0.1:32931
+[:00000010] LAUNCH snlua battle
+[:00000010] 
++players+86+player_name [86]
+|          +player_id [86]
+|          +ready [true]
++cur_count [1]
++map_id [2]
++captain [86]
++status [waiting]
++total_count [2]
++room_name [86的房间]
++room_id [10001]
+[:00000010] map_id2
+[:00000010] loading map 2
+[:00000010] 
++1+1+position+y [1]
+|   |        +x [1]
+|   +unit_id [201.0]
+|   +guid [1]
++2+1+position+y [2]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [2]
++3+1+position+y [3]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [3]
++4+1+position+y [4]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [4]
++5+1+position+y [5]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [5]
++6+1+position+y [6]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [6]
++7+1+position+y [7]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [7]
++8+1+position+y [8]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [8]
++9+1+position+y [9]
+|   |        +x [1]
+|   +block [201.0]
+|   +unit_id [201.0]
+|   +guid [9]
++10+1+position+y [10]
+     |        +x [1]
+     +block [201.0]
+     +unit_id [201.0]
+     +guid [10]
+[:0000000c] New client from : 219.137.151.43:25749
+[:00000012] LAUNCH snlua agent
+[:00000010] 
++unitList+1+y [1]
+         | +x [1]
+         | +guid [1]
+         | +data [{}]
+         | +unitId [201.0]
+         +2+y [2]
+         | +x [1]
+         | +guid [2]
+         | +data [{}]
+         | +unitId [201.0]
+         +3+y [3]
+         | +x [1]
+         | +guid [3]
+         | +data [{}]
+         | +unitId [201.0]
+         +4+y [4]
+         | +x [1]
+         | +guid [4]
+         | +data [{}]
+         | +unitId [201.0]
+         +5+y [5]
+         | +x [1]
+         | +guid [5]
+         | +data [{}]
+         | +unitId [201.0]
+         +6+y [6]
+         | +x [1]
+         | +guid [6]
+         | +data [{}]
+         | +unitId [201.0]
+         +7+y [7]
+         | +x [1]
+         | +guid [7]
+         | +data [{}]
+         | +unitId [201.0]
+         +8+y [8]
+         | +x [1]
+         | +guid [8]
+         | +data [{}]
+         | +unitId [201.0]
+         +9+y [9]
+         | +x [1]
+         | +guid [9]
+         | +data [{}]
+         | +unitId [201.0]
+         +10+y [10]
+            +x [1]
+            +guid [10]
+            +data [{}]
+            +unitId [201.0]
+[:00000012] KILL self

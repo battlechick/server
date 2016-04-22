@@ -9,13 +9,18 @@ local cmd = {}
 local guid2unit = {}
 setmetatable(guid2unit, {__mode = "v"})
 
+require "battle.unit"
 require "battle.map"
 local map_manager = require "battle.map_manager"
 
+local json = require "cjson"
+
 function cmd.init(_room)
     room = _room
+    skynet.dump(room)
     players = room.players
 
+    init_map()
     for player_id, player in pairs(players) do
         player.loaded = 0
     end
@@ -45,10 +50,9 @@ end
 
 function init_map()
     local map_id = room.map_id
-    local map_data = map_manager.get_map_data(map_id)
-    map = Map.new()
-    map:init(map_data)
-    for _, line in ipairs(line) do
+    map = Map.new(map_id)
+    map:init()
+    for _, line in ipairs(map.tiles) do
         for _, tile in ipairs(line) do
             guid2unit[tile.guid] = tile
         end
@@ -57,18 +61,20 @@ function init_map()
 end
 
 function start()
-    local tbl = {} 
+    local tbl = {unitList={}} 
     local count = 0
     for _, unit in pairs(guid2unit) do
-        table_insert(tbl, {
+        table_insert(tbl.unitList, {
             guid = unit.guid, 
-            unit_type = unit.unit_type, 
+            unitId = unit.unit_id, 
             x = unit.position.x,
             y = unit.position.y,
             data = json.encode(unit:get_data()) })
     end
 
-    broadcast("S2C_StartBattle", tbl)
+    skynet.dump(tbl)
+    broadcast("S2C_StartBattle", {})
+    broadcast("S2C_CreateUnit",tbl)
 end
 
 function broadcast(message_type, tbl)

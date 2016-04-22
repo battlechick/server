@@ -313,9 +313,7 @@ class SheetInterpreter:
     def _LayoutFileHeader(self) :
         """生成PB文件的描述信息"""
         self._output.append("/**\n")
-        self._output.append("* @file:   " + self._pb_file_name + "\n")
-        self._output.append("* @author: jameyli <jameyli AT tencent DOT com>\n")
-        self._output.append("* @brief:  这个文件是通过工具自动生成的，建议不要手动修改\n")
+        self._output.append("* @这个文件是通过工具自动生成的，建议不要手动修改\n")
         self._output.append("*/\n")
         self._output.append("\n")
 

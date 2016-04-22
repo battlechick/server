@@ -64,8 +64,8 @@ M.pack	lualib/protobuf.lua	/^function M.pack(pattern, ...)$/;"	f
 M.register	lualib/protobuf.lua	/^function M.register(buffer)$/;"	f
 M.register_file	lualib/protobuf.lua	/^function M.register_file(filename)$/;"	f
 M.unpack	lualib/protobuf.lua	/^function M.unpack(pattern, buffer, length)$/;"	f
-Map:ctor	script/battle/map.lua	/^function Map:ctor()$/;"	f
-Map:init	script/battle/map.lua	/^function Map:init(map_data)$/;"	f
+Map:ctor	script/battle/map.lua	/^function Map:ctor(map_id)$/;"	f
+Map:init	script/battle/map.lua	/^function Map:init()$/;"	f
 Parse	ExcelData/export.py	/^    def Parse(self) :$/;"	m	class:DataParser
 Player:create_room	script/player/player_room.lua	/^function Player:create_room()$/;"	f
 Player:ctor	script/player/player.lua	/^function Player:ctor()$/;"	f
@@ -106,7 +106,7 @@ T_OBJ_END	luaclib/lua_cjson.c	/^    T_OBJ_END,$/;"	e	enum:__anon1	file:
 T_STRING	luaclib/lua_cjson.c	/^    T_STRING,$/;"	e	enum:__anon1	file:
 T_UNKNOWN	luaclib/lua_cjson.c	/^    T_UNKNOWN$/;"	e	enum:__anon1	file:
 T_WHITESPACE	luaclib/lua_cjson.c	/^    T_WHITESPACE,$/;"	e	enum:__anon1	file:
-Tile:ctor	script/battle/map.lua	/^function Tile:ctor(block_id, x, y)$/;"	f
+Tile:ctor	script/battle/map.lua	/^function Tile:ctor(unit_id, x, y)$/;"	f
 Tile:get_data	script/battle/map.lua	/^function Tile:get_data()$/;"	f
 Unit:ctor	script/battle/unit.lua	/^function Unit:ctor()$/;"	f
 Unit:get_data	script/battle/unit.lua	/^function Unit:get_data()$/;"	f
@@ -148,6 +148,7 @@ _decode	luaclib/pbc-lua53.c	/^_decode(lua_State *L) {$/;"	f	file:
 _decode_type_meta:__index	lualib/protobuf.lua	/^function _decode_type_meta:__index(key)$/;"	f
 _descriptor	ExcelData/Cache/UnitProto_pb2.py	/^from google.protobuf import descriptor as _descriptor$/;"	i
 _dump	script/global.lua	/^    local function _dump(t,space,name)$/;"	f
+_dump_tbl	script/global.lua	/^function _dump_tbl(root)$/;"	f
 _encode_type_meta:__index	lualib/protobuf.lua	/^function _encode_type_meta:__index(key)$/;"	f
 _env_enum_id	luaclib/pbc-lua53.c	/^_env_enum_id(lua_State *L) {$/;"	f	file:
 _env_new	luaclib/pbc-lua53.c	/^_env_new(lua_State *L) {$/;"	f	file:
@@ -257,7 +258,10 @@ cmd.Request_PrepareGame	script/player/player_handler.lua	/^function cmd.Request_
 cmd.Request_QuitRoom	script/player/player_handler.lua	/^function cmd.Request_QuitRoom(package, player)$/;"	f
 cmd.Request_RoomList	script/player/player_handler.lua	/^function cmd.Request_RoomList(package, player)$/;"	f
 cmd.Request_StartGame	script/player/player_handler.lua	/^function cmd.Request_StartGame(package, player)$/;"	f
+cmd.abort	service/battlemng.lua	/^function cmd.abort()$/;"	f
+cmd.abort	service/lobby.lua	/^function cmd.abort()$/;"	f
 cmd.abort	service/login.lua	/^function cmd.abort()$/;"	f
+cmd.abort	service/master.lua	/^function cmd.abort()$/;"	f
 cmd.auto_player_id	service/db.lua	/^function cmd.auto_player_id()$/;"	f
 cmd.battle_start	service/agent.lua	/^function cmd.battle_start(conf)$/;"	f
 cmd.broadcast_room_data	service/lobby.lua	/^function cmd.broadcast_room_data(room_id)$/;"	f
@@ -265,6 +269,7 @@ cmd.close	service/watchdog.lua	/^function cmd.close(fd)$/;"	f
 cmd.create	service/battlemng.lua	/^function cmd.create(room)$/;"	f
 cmd.create_room	service/lobby.lua	/^function cmd.create_room(room_name, player_id)$/;"	f
 cmd.disconnect	service/agent.lua	/^function cmd.disconnect()$/;"	f
+cmd.get_module	service/util/module.lua	/^function cmd.get_module(module_name)$/;"	f
 cmd.get_room_list	service/lobby.lua	/^function cmd.get_room_list(start_idx, end_idx)$/;"	f
 cmd.init	script/battle/battle.lua	/^function cmd.init(_room)$/;"	f
 cmd.is_full	service/watchdog.lua	/^function cmd.is_full()$/;"	f
@@ -291,6 +296,13 @@ create 	script/global.lua	/^            create = function(c,...)$/;"	f
 current_depth	luaclib/lua_cjson.c	/^    int current_depth;$/;"	m	struct:__anon3	file:
 data	luaclib/lua_cjson.c	/^    const char *data;$/;"	m	struct:__anon3	file:
 data_path	ExcelData/export.py	/^    data_path = sys.argv[4]$/;"	v	class:DataParser
+datacenter.create	lualib/datacenter.lua	/^function datacenter.create()$/;"	f
+datacenter.get	lualib/datacenter.lua	/^function datacenter.get(...)$/;"	f
+datacenter.get_cluster	lualib/datacenter.lua	/^function datacenter.get_cluster(cluster_name, ...)$/;"	f
+datacenter.set	lualib/datacenter.lua	/^function datacenter.set(...)$/;"	f
+datacenter.set_cluster	lualib/datacenter.lua	/^function datacenter.set_cluster(cluster_name, ...)$/;"	f
+datacenter.wait	lualib/datacenter.lua	/^function datacenter.wait(...)$/;"	f
+datacenter.wait_cluster	lualib/datacenter.lua	/^function datacenter.wait_cluster(cluster_name, ...)$/;"	f
 decode_cb	luaclib/pbc-lua53.c	/^decode_cb(void *ud, int type, const char * type_name, union pbc_value *v, int id, const char *key) {$/;"	f	file:
 decode_hex4	luaclib/lua_cjson.c	/^static int decode_hex4(const char *hex)$/;"	f	file:
 decode_invalid_numbers	luaclib/lua_cjson.c	/^    int decode_invalid_numbers;$/;"	m	struct:__anon2	file:
@@ -301,8 +313,8 @@ decode_message_mt.__index	lualib/protobuf.lua	/^function decode_message_mt.__ind
 decode_message_mt.__pairs	lualib/protobuf.lua	/^function decode_message_mt.__pairs(tbl)$/;"	f
 default_table	lualib/protobuf.lua	/^local function default_table(typename)$/;"	f
 descriptor_pb2	ExcelData/Cache/UnitProto_pb2.py	/^from google.protobuf import descriptor_pb2$/;"	i
-dispatch 	service/agent.lua	/^	dispatch = function (session, address, buffer, ...)$/;"	f
-dump_tbl	script/global.lua	/^function dump_tbl(root)$/;"	f
+dispatch 	service/agent.lua	/^    dispatch = function (session, address, buffer, ...)$/;"	f
+dispatch 	service/util/userlog.lua	/^    dispatch = function(_, address, msg)$/;"	f
 encode_buf	luaclib/lua_cjson.c	/^    strbuf_t encode_buf;$/;"	m	struct:__anon2	file:
 encode_invalid_numbers	luaclib/lua_cjson.c	/^    int encode_invalid_numbers;     \/* 2 => Encode as "null" *\/$/;"	m	struct:__anon2	file:
 encode_keep_buffer	luaclib/lua_cjson.c	/^    int encode_keep_buffer;$/;"	m	struct:__anon2	file:
@@ -420,6 +432,7 @@ setmetatable(vtbl,{__index	script/global.lua	/^        setmetatable(vtbl,{__inde
 sheet_name	ExcelData/export.py	/^    sheet_name =  sys.argv[1]$/;"	v	class:DataParser
 size_msg	luaclib/pbc-lua53.c	/^	int size_msg;$/;"	m	struct:gcobj	file:
 size_pat	luaclib/pbc-lua53.c	/^	int size_pat;$/;"	m	struct:gcobj	file:
+skynet.dump 	script/global.lua	/^skynet.dump = function(root)$/;"	f
 start	script/battle/battle.lua	/^function start()$/;"	f
 string	luaclib/lua_cjson.c	/^        const char *string;$/;"	m	union:__anon4::__anon5	file:
 string.split	script/global.lua	/^function string.split(s, delim)$/;"	f
@@ -428,7 +441,7 @@ sys	ExcelData/Cache/UnitProto_pb2.py	/^import sys$/;"	i
 sys	ExcelData/export.py	/^import sys$/;"	i
 tmp	luaclib/lua_cjson.c	/^    strbuf_t *tmp;    \/* Temporary storage for strings *\/$/;"	m	struct:__anon3	file:
 type	luaclib/lua_cjson.c	/^    json_token_type_t type;$/;"	m	struct:__anon4	file:
-unpack 	service/agent.lua	/^	unpack = function (msg, sz)$/;"	f
+unpack 	service/agent.lua	/^    unpack = function (msg, sz)$/;"	f
 value	luaclib/lua_cjson.c	/^    } value;$/;"	m	struct:__anon4	typeref:union:__anon4::__anon5	file:
 xlrd	ExcelData/export.py	/^import xlrd # for read excel$/;"	i
 xls_file_path	ExcelData/export.py	/^    xls_file_path =  sys.argv[2]$/;"	v	class:DataParser

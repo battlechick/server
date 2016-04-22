@@ -17,16 +17,12 @@ UNIT_TYPE_TANK = 3
 UNIT_TYPE_BULLET = 4
 
 
+local skynet = require "skynet"
+skynet.log = skynet.error
 
-
-
-
-
-
-function dump_tbl(root)
+function _dump_tbl(root)
     if type(root) ~= "table" then
-        print("not table")
-        return
+        return "not table"
     end
 
     local cache = {  [root] = "." }
@@ -46,9 +42,11 @@ function dump_tbl(root)
         end
         return tconcat(temp,"\n"..space)
     end
-    print(_dump(root, "",""))
+    return _dump(root, "","")
 end
-
+skynet.dump = function(root)
+    skynet.log("\n".._dump_tbl(root))
+end
 
 local _class={}
 

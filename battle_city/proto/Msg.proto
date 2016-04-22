@@ -74,15 +74,17 @@ message C2S_JoinBattle {
 }
 
 message S2C_StartBattle {
+}
+
+message S2C_CreateUnit {
     message UnitInfo{
         required int32 guid = 1;
-        required int32 unit_type = 2;
+        required int32 unitId = 2;
         required int32 x = 3;
         required int32 y = 4;
         required string data = 5;
     }
-    required int32 count = 6;
-    repeated UnitInfo unitList = 7;
+    repeated UnitInfo unitList = 6;
 }
 
 message Player {

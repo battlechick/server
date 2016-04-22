@@ -3,6 +3,7 @@ require "behavior_tree.behavior_node"
 require "behavior_tree.behavior_tree"
 
 local json = require "cjson"
+local datacenter = require "datacenter"
 
 local M = {}
 -- 导出节点说明配置
@@ -29,8 +30,8 @@ function M.export_node_doc()
     file:close()
 end
 
-local id2tree_data = {}
 function M.load_trees()
+    local id2tree_data = {}
     local dir = WORKSPACE.."data/Btree/Tree/"
     local s = io.popen("ls ".. dir)
     local fileLists = s:read("*all")
@@ -48,11 +49,11 @@ function M.load_trees()
         print("load behavior tree: "..filename)
         start_pos = end_pos + 1
     end
-
+    datacenter.set("id2tree_data", id2tree_data)
 end
 
 function M.create_tree(tree_id, owner)
-    local tree_data = id2tree_data[tree_id]
+    local tree_data = datacenter.get("id2tree_data", tree_id)
     if not tree_data then
         print("behavior tree not exist, tree_id:"..tree_id)
         return

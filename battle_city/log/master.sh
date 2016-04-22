@@ -1,0 +1,1 @@
+tailf master.log

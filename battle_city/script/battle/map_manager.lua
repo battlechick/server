@@ -1,10 +1,11 @@
-
+local skynet = require "skynet"
 local json = require "cjson"
+local datacenter = require "datacenter"
 
 local M = {}
 
-local id2map_data = {}
 function M.load_maps()
+    skynet.log("load map")
     local dir = WORKSPACE.."data/Map/"
     local s = io.popen("ls ".. dir)
     local fileLists = s:read("*all")
@@ -21,28 +22,27 @@ function M.load_maps()
             local str = file:read("*a")
             local data = json.decode(str)
             file:close()
-            print("load map data: "..filename)
-            id2map_data[tonumber(map_id)] = data
+            skynet.log("load map data: "..filename)
+            datacenter.set("id2map_data", tonumber(map_id), data)
         end
 
         start_pos = end_pos + 1
     end
 end
 
-local id2block = {}
 function load_map_block()
     local file = io.open(WORKSPACE.."data/Map/MapBlock.txt", "r")
     local str = file:read("*a")
-    id2block = json.decode(str)
+    datacenter.set("id2block", json.decode(str))
     file:close()
 end
 
 function M.get_map_data(map_id)
-    return id2map_data[map_id]
+    return datacenter.get("id2map_data", map_id)
 end
 
 function M.get_map_block(block_id)
-    return id2block[block_id]
+    return datacenter.set("id2block", block_id)
 end
 
 return M

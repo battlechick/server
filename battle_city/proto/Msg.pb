@@ -1,5 +1,5 @@
 
-º
+¹
 	Msg.proto"4
 Package
 name (	
@@ -53,13 +53,13 @@ playerName (	
 port ("2
 C2S_JoinBattle
 playerId (
-battle ("ž
-S2C_StartBattle
-count (+
-unitList (2.S2C_StartBattle.UnitInfoO
+battle ("
+S2C_StartBattle"Š
+S2C_CreateUnit*
+unitList (2.S2C_CreateUnit.UnitInfoL
 UnitInfo
-guid (
-	unit_type (	
+guid (
+unitId (	
 x (	
 y (
 data (	".

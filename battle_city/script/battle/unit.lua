@@ -10,7 +10,7 @@ end
 
 function Unit:ctor()
     self.guid = auto_guid()
-    self.unit_type = UNIT_TYPE_ERROR
+    self.unit_id = 0
     self.position = {x = 0, y = 0}
 end
 

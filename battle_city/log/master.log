@@ -1,0 +1,39 @@
+[:00000001] LAUNCH logger ../battle_city/log/master.log
+[:00000002] LAUNCH snlua bootstrap
+[:00000003] LAUNCH snlua launcher
+[:00000004] LAUNCH snlua cdummy
+[:00000005] LAUNCH harbor 0 4
+[:00000006] LAUNCH snlua datacenterd
+[:00000007] LAUNCH snlua service_mgr
+[:00000008] LAUNCH snlua master
+[:00000009] LAUNCH snlua clusterd
+[:0000000a] LAUNCH snlua datacenterd
+[:00000004] lua call [8 to :4 : 0 msgsz = 22] error : [31m./lualib/skynet.lua:521: ./lualib/skynet.lua:155: ./service/cdummy.lua:35: assertion failed!
+stack traceback:
+	[C]: in function 'assert'
+	./service/cdummy.lua:35: in local 'f'
+	./service/cdummy.lua:74: in upvalue 'f'
+	./lualib/skynet.lua:109: in function <./lualib/skynet.lua:103>
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:521: in function 'skynet.manager.dispatch_message'[0m
+[:0000000b] LAUNCH snlua db 127.0.0.1 battle_city
+[:0000000c] LAUNCH snlua lobby
+[:0000000d] LAUNCH snlua agentpool master
+[:0000000e] LAUNCH snlua watchdog
+[:0000000f] LAUNCH snlua gate
+[:0000000f] Listen on 121.42.162.95:10001
+[:00000010] LAUNCH snlua watchdog
+[:00000011] LAUNCH snlua gate
+[:00000011] Listen on 121.42.162.95:10002
+[:00000008] load map
+[:00000008] load map data: Scene001.txt
+[:00000008] load map data: Scene002.txt
+[:00000012] LAUNCH snlua gate
+[:00000012] Listen on 127.0.0.1:2500
+[:00000008] haha
+[:00000002] KILL self
+[:00000009] socket accept from 127.0.0.1:44727
+[:0000000e] New client from : 219.137.151.43:25740
+[:00000013] LAUNCH snlua agent
+[:00000013] KILL self

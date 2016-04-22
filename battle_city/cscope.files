@@ -1,12 +1,11 @@
-./run.sh
 ./lualib/protobuf.lua
-./install.sh
+./lualib/datacenter.lua
 ./config/clustername.lua
 ./config/config.lua
 ./proto/ClientProto/ProtoGen/protobuf-net.xml
-./proto/export.sh
 ./luaclib/lua_cjson.c
 ./luaclib/pbc-lua53.c
+./service/stop.lua
 ./service/watchdog.lua
 ./service/battlemng.lua
 ./service/agent.lua
@@ -14,8 +13,9 @@
 ./service/db.lua
 ./service/lobby.lua
 ./service/agentpool.lua
+./service/util/module.lua
+./service/util/userlog.lua
 ./service/util/build_db.lua
-./service/util/abort.lua
 ./service/login.lua
 ./script/data_manager/data_manager.lua
 ./script/player/player_room.lua

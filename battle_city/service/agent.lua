@@ -21,25 +21,26 @@ local player
 local battle -- 战斗服务地址
 
 skynet.register_protocol {
-	name = "client",
-	id = skynet.PTYPE_CLIENT,
-	unpack = function (msg, sz)
-    return skynet.tostring(msg, sz)
-	end,
-	dispatch = function (session, address, buffer, ...)
-    local p = protobuf.decode("Package", buffer)
-    print("recieve package",p.name)
-    local pp = protobuf.decode(p.name, p.data)
-    local f = cmd[p.name] or player_handler[p.name]
-    if not f then
-      print("message handler not exist. Package:"..p.name)
-      return
+    name = "client",
+    id = skynet.PTYPE_CLIENT,
+    unpack = function (msg, sz)
+        print(msg)
+        return skynet.tostring(msg, sz)
+    end,
+    dispatch = function (session, address, buffer, ...)
+        local p = protobuf.decode("Package", buffer)
+        print("recieve package",p.name)
+        local pp = protobuf.decode(p.name, p.data)
+        local f = cmd[p.name] or player_handler[p.name]
+        if not f then
+            print("message handler not exist. Package:"..p.name)
+            return
+        end
+        local ret = f(pp, player)
+        if p.rpcId ~= 0 then
+            send_package("Response"..string.sub(p.name, 8, -1), ret, p.rpcId)
+        end
     end
-    local ret = f(pp, player)
-    if p.rpcId ~= 0 then
-      send_package("Response"..string.sub(p.name, 8, -1), ret, p.rpcId)
-    end
-	end
 }
 
 function cmd.login_start(conf)
