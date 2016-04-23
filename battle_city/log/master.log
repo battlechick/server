@@ -7,16 +7,8 @@
 [:00000007] LAUNCH snlua service_mgr
 [:00000008] LAUNCH snlua master
 [:00000009] LAUNCH snlua clusterd
-[:0000000a] LAUNCH snlua datacenterd
-[:00000004] lua call [8 to :4 : 0 msgsz = 22] error : [31m./lualib/skynet.lua:521: ./lualib/skynet.lua:155: ./service/cdummy.lua:35: assertion failed!
-stack traceback:
-	[C]: in function 'assert'
-	./service/cdummy.lua:35: in local 'f'
-	./service/cdummy.lua:74: in upvalue 'f'
-	./lualib/skynet.lua:109: in function <./lualib/skynet.lua:103>
-stack traceback:
-	[C]: in function 'assert'
-	./lualib/skynet.lua:521: in function 'skynet.manager.dispatch_message'[0m
+[:0000000a] LAUNCH snlua gate
+[:0000000a] Listen on 127.0.0.1:2500
 [:0000000b] LAUNCH snlua db 127.0.0.1 battle_city
 [:0000000c] LAUNCH snlua lobby
 [:0000000d] LAUNCH snlua agentpool master
@@ -26,44 +18,9 @@ stack traceback:
 [:00000010] LAUNCH snlua watchdog
 [:00000011] LAUNCH snlua gate
 [:00000011] Listen on 121.42.162.95:10002
+[:00000008] load datas
 [:00000008] load map
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
-[:00000012] LAUNCH snlua gate
-[:00000012] Listen on 127.0.0.1:2500
 [:00000008] haha
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:45200
-[:0000000e] New client from : 119.129.210.220:26159
-[:00000013] LAUNCH snlua agent
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] userdata: 0x7f075cc90600
-[:00000013] recieve package C2S_Online
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] userdata: 0x7f07534514c0
-[:00000013] recieve package Request_RoomList
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] userdata: 0x7f07534be4c0
-[:00000013] recieve package Request_CreateRoom
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] userdata: 0x7f075cc90740
-[:00000013] recieve package Request_RoomList
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] userdata: 0x7f0753450ac0
-[:00000013] recieve package C2S_BroadcastRoomData
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] userdata: 0x7f07534514c0
-[:00000013] recieve package Request_StartGame
-[:00000013] send_package
-[:00000013] raw_send_package
-[:00000013] KILL self

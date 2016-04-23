@@ -73,6 +73,7 @@
 import xlrd # for read excel
 import sys
 import os
+import platform
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -664,7 +665,7 @@ class DataParser:
             raise
 
     def _WriteData2File(self, data) :
-        file_name = self._export_path + self._sheet_name + ".txt"
+        file_name = self._export_path + self._sheet_name + ".bytes"
         file = open(file_name, 'wb+')
         file.write(data)
         file.close()

@@ -33,15 +33,15 @@ skynet.start(function()
         local f = cmd[command]
         skynet.ret(skynet.pack(f(...)))
     end)
+    skynet.register ".battlemng"
+    cluster.open "battlemng"
+
 
     data_manager.load_datas()
     bt_manager.export_node_doc()
     bt_manager.load_trees()
     map_manager.load_maps()
 
-
-    skynet.register ".battlemng"
-    cluster.open "battlemng"
 
     local agentpool = skynet.uniqueservice("agentpool", "battle")
 

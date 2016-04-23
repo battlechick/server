@@ -10,11 +10,11 @@ function M.load_datas()
     local fileLists = s:read("*all")
     start_pos = 1
     while true do
-        _,end_pos, filename = string.find(fileLists, "([^\n\r]+.data)", start_pos)
+        _,end_pos, filename = string.find(fileLists, "([^\n\r]+.bytes)", start_pos)
         if not end_pos then 
             break
         end
-        local tbl_name = string.sub(filename, 1, -6)
+        local tbl_name = string.sub(filename, 1, -7)
         local file = io.open(dir..filename, "r")
         local str = file:read("*a")
         protobuf.register_file("../battle_city/proto/"..tbl_name..".pb" )

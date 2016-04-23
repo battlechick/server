@@ -74,7 +74,6 @@ function start()
     end
     broadcast("S2C_CreateUnit",tbl)
     broadcast("S2C_StartBattle", {})
-    broadcast("S2C_StartBattle", {})
 end
 
 function broadcast(message_type, tbl)

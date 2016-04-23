@@ -7,11 +7,11 @@
 [:00000007] LAUNCH snlua service_mgr
 [:00000008] LAUNCH snlua battlemng
 [:00000009] LAUNCH snlua clusterd
+[:0000000a] LAUNCH snlua gate
+[:0000000a] Listen on 127.0.0.1:2502
 [:00000008] load map
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
-[:0000000a] LAUNCH snlua gate
-[:0000000a] Listen on 127.0.0.1:2502
 [:0000000b] LAUNCH snlua agentpool battle
 [:0000000c] LAUNCH snlua watchdog
 [:0000000d] LAUNCH snlua gate
@@ -20,31 +20,3 @@
 [:0000000f] LAUNCH snlua gate
 [:0000000f] Listen on 121.42.162.95:10004
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:33404
-[:00000010] LAUNCH snlua battle
-[:00000010] 
-+players+124+player_name [124]
-|           +player_id [124]
-|           +ready [true]
-+cur_count [1]
-+map_id [1]
-+captain [124]
-+status [waiting]
-+total_count [2]
-+room_name [124的房间]
-+room_id [10001]
-[:00000010] map_id1
-[:00000010] loading map 1
-[:0000000c] New client from : 119.129.210.220:26163
-[:00000012] LAUNCH snlua agent
-[:00000012] send_package
-[:00000012] raw_send_package
-[:00000012] userdata: 0x7f6a55bf0120
-[:00000012] recieve package C2S_JoinBattle
-[:00000012] send_package
-[:00000012] raw_send_package
-[:00000012] send_package
-[:00000012] raw_send_package
-[:00000012] send_package
-[:00000012] raw_send_package
-[:00000012] KILL self

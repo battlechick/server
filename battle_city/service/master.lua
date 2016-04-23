@@ -22,11 +22,18 @@ function cmd.abort()
 end
 
 skynet.start(function()
+    skynet.dispatch("lua", function(_,_, command, ...)
+        local f = cmd[command]
+        skynet.ret(skynet.pack(f(...)))
+    end)
+    skynet.register ".master"
+    cluster.open "master"
+
     --local console = skynet.newservice("console")
     --skynet.newservice("debug_console",8000)
     
     local datacenter = require "datacenter"
-    datacenter.create()
+    --datacenter.create()
 
     local db = skynet.newservice("db", config.db.address, config.db.db_name)
     skynet.name(".db",db) 
@@ -35,6 +42,7 @@ skynet.start(function()
 
     local agentpool = skynet.uniqueservice("agentpool", "master")
 
+    skynet.log("load datas")
     data_manager.load_datas()
 
     bt_manager.export_node_doc()
@@ -44,13 +52,6 @@ skynet.start(function()
     --  tree:exec()
 
     map_manager.load_maps()
-    skynet.dispatch("lua", function(_,_, command, ...)
-        local f = cmd[command]
-        skynet.ret(skynet.pack(f(...)))
-    end)
-
-    skynet.register ".master"
-    cluster.open "master"
-
+    
     skynet.log("haha")
 end)

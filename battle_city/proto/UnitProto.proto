@@ -9,6 +9,8 @@ message UnitProto{
     required int32 unitId = 1 [default = 0];
     /** 单位名称 */
     required string name = 2 [default = ""];
+    /** 单位类型 */
+    required int32 unitType = 3 [default = 0];
 }
 
 message UnitProto_ARRAY {
