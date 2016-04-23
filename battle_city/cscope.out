@@ -1,4 +1,4 @@
-cscope 15 $HOME/server/battle_city -q 0000001483 0000167740
+cscope 15 $HOME/server/battle_city -q 0000001484 0000167952
 	@config/clustername.lua
 
 1 
@@ -26727,9 +26727,13 @@ __mode
 
 12 
 	g»quœe
- "battle.map"
+ "battle.unit"
 
 13 
+	g»quœe
+ "battle.map"
+
+14 
 loÿl
  
 	gm­_mªag”
@@ -26737,7 +26741,15 @@ loÿl
 »quœe
  "battle.map_manager"
 
-15 
+16 
+loÿl
+ 
+jsÚ
+ = 
+»quœe
+ "cjson"
+
+18 
 funùiÚ
  
 cmd
@@ -26747,13 +26759,13 @@ cmd
 _room
 )
 
-16 
+19 
 room
  = 
 _room
 
 
-17 
+20 
 skyÃt
 .
 	$dump
@@ -26761,17 +26773,17 @@ skyÃt
 room
 )
 
-18 
+21 
 ¶ay”s
  = 
 room
 .players
 
-20 
+23 
 	$š™_m­
 ()
 
-21 
+24 
 ¶ay”_id
 , 
 ¶ay”
@@ -26783,21 +26795,21 @@ room
 ¶ay”s
 ) do
 
-22 
+25 
 ¶ay”
 .
 lßded
  = 0
 
-23 
-’d
-
-
-24 
-’d
-
-
 26 
+’d
+
+
+27 
+’d
+
+
+29 
 funùiÚ
  
 cmd
@@ -26807,7 +26819,7 @@ cmd
 ¶ay”_id
 )
 
-27 
+30 
 loÿl
  
 ¶ay”
@@ -26817,7 +26829,7 @@ loÿl
 ¶ay”_id
 ]
 
-28 
+31 
 nÙ
  
 ¶ay”
@@ -26825,49 +26837,49 @@ nÙ
 th’
 
 
-29  
+32  
 çl£
 
 
-30 
+33 
 ’d
 
 
-31 
+34 
 ¶ay”
 .
 lßded
  = 100
 
-33 
+36 
 	$check_lßd_fšished
 (è
 th’
 
 
-34 
+37 
 	$¡¬t
 ()
 
-35 
+38 
 ’d
 
 
-36  
+39  
 Œue
 
 
-37 
+40 
 ’d
 
 
-39 
+42 
 funùiÚ
  
 	$check_lßd_fšished
 ()
 
-40 
+43 
 _
 , 
 ¶ay”
@@ -26879,7 +26891,7 @@ _
 ¶ay”s
 ) do
 
-41 
+44 
 ¶ay”
 .
 lßded
@@ -26887,33 +26899,33 @@ lßded
 th’
 
 
-42  
-çl£
-
-
-43 
-’d
-
-
-44 
-’d
-
-
 45  
-Œue
+çl£
 
 
 46 
 ’d
 
 
-48 
+47 
+’d
+
+
+48  
+Œue
+
+
+49 
+’d
+
+
+51 
 funùiÚ
  
 	$š™_m­
 ()
 
-49 
+52 
 loÿl
  
 m­_id
@@ -26921,7 +26933,7 @@ m­_id
 room
 .map_id
 
-50 
+53 
 m­
  = 
 M­
@@ -26931,13 +26943,13 @@ M­
 m­_id
 )
 
-51 
+54 
 m­
 :
 	$š™
 ()
 
-52 
+55 
 _
 , 
 lše
@@ -26951,7 +26963,7 @@ m­
 tes
 ) do
 
-53 
+56 
 _
 , 
 te
@@ -26963,7 +26975,7 @@ te
 lše
 ) do
 
-54 
+57 
 guid2un™
 [
 te
@@ -26971,39 +26983,41 @@ te
 guid
 ] =ile
 
-55 
-’d
-
-
-56 
-’d
-
-
 58 
 ’d
 
 
-60 
+59 
+’d
+
+
+61 
+’d
+
+
+63 
 funùiÚ
  
 	$¡¬t
 ()
 
-61 
+64 
 loÿl
  
 tbl
  = {
+un™Li¡
+={}
 	}
 }
 
-62 
+65 
 loÿl
  
-couÁ
+	gcouÁ
  = 0
 
-63 
+66 
 _
 , 
 un™
@@ -27015,25 +27029,29 @@ un™
 guid2un™
 ) do
 
-64 
+67 
 	`bË_š£¹
 (
 tbl
+.
+un™Li¡
 , {
 
-65 
+68 
 guid
  = 
 un™
 .guid,
 
-66 
-un™_id
+69 
+un™Id
  = 
 un™
-.unit_id,
+.
+un™_id
+,
 
-67 
+70 
 x
  = 
 un™
@@ -27041,7 +27059,7 @@ un™
 pos™iÚ
 .x,
 
-68 
+71 
 y
  = 
 un™
@@ -27049,7 +27067,15 @@ un™
 pos™iÚ
 .y,
 
-69 
+72 
+o
+ = 
+un™
+.
+pos™iÚ
+.o,
+
+73 
 d©a
  = 
 jsÚ
@@ -27063,25 +27089,35 @@ un™
 	}
 })
 
-70 
-’d
-
-
-72 
-brßdÿ¡
-("S2C_StartBattle", {})
-
-73 
-brßdÿ¡
-("S2C_C»©eUn™",
-tbl
-)
-
 74 
 ’d
 
 
 76 
+skyÃt
+.
+	$dump
+(
+tbl
+)
+
+77 
+	`brßdÿ¡
+("S2C_S¹B©e", {
+	}
+})
+
+78 
+brßdÿ¡
+("S2C_C»©eUn™",
+tbl
+)
+
+79 
+’d
+
+
+81 
 funùiÚ
  
 	$brßdÿ¡
@@ -27091,7 +27127,7 @@ mes§ge_ty³
 tbl
 )
 
-77 
+82 
 ¶ay”_id
 , 
 _
@@ -27103,7 +27139,7 @@ _
 ¶ay”s
 ) do
 
-78 
+83 
 skyÃt
 .
 	`ÿÎ
@@ -27115,15 +27151,15 @@ mes§ge_ty³
 tbl
 )
 
-79 
+84 
 ’d
 
 
-80 
+85 
 ’d
 
 
-82 
+87 
 skyÃt
 .
 	`¡¬t
@@ -27131,7 +27167,7 @@ skyÃt
 	$funùiÚ
 ()
 
-83 
+88 
 skyÃt
 .
 	`di¥©ch
@@ -27143,7 +27179,7 @@ _
 commªd
 , ...)
 
-84 
+89 
 loÿl
  
 f
@@ -27153,7 +27189,7 @@ cmd
 commªd
 ]
 
-85 
+90 
 skyÃt
 .
 	`»t
@@ -27163,11 +27199,11 @@ skyÃt
 	$f
 (...)))
 
-86 
+91 
 ’d
 )
 
-87 
+92 
 ’d
 )
 
@@ -27342,14 +27378,6 @@ m­_id
 )
 
 20 
-skyÃt
-.
-	$dump
-(
-m­_d©a
-)
-
-21 
 £lf
 .
 width
@@ -27357,7 +27385,7 @@ width
 m­_d©a
 .width
 
-22 
+21 
 £lf
 .
 height
@@ -27365,41 +27393,49 @@ height
 m­_d©a
 .height
 
-23 
-y
-, 
-lše
- 
-š
- 
-	$aœs
-(
-m­_d©a
-.
-blocks
-) do
-
-24 
+23 
 loÿl
  
-tbl
+i
+ = 1
+
+24 
+y
+=1, 
+£lf
+.
+height
+ do
+
+25 
+loÿl
+ 
+lše
  = {
 	}
 }
 
-25 
+26 
 x
-, 
-block_id
- 
-š
- 
-	$aœs
-(
-lše
-) do
+=1, 
+	g£lf
+.
+width
+ do
 
-26 
+27 
+loÿl
+ 
+	gblock_id
+ = 
+m­_d©a
+.
+blocks
+[
+i
+]
+
+28 
 loÿl
  
 te
@@ -27415,33 +27451,37 @@ x
 y
 )
 
-27 
+29 
 	$bË_š£¹
 (
-tbl
+lše
 , 
 te
 )
 
-28 
+30 
+i
+ = i + 1
+
+31 
 ’d
 
 
-29 
+32 
 	$bË_š£¹
 (
 £lf
 .
 tes
 , 
-tbl
+lše
 )
 
-30 
+33 
 ’d
 
 
-31 
+34 
 skyÃt
 .
 	$dump
@@ -27451,17 +27491,17 @@ skyÃt
 tes
 )
 
-32 
+35 
 £lf
 .
 m­_d©a
  = map_data
 
-33 
+36 
 ’d
 
 
-36 
+39 
 Te
  = 
 	$şass
@@ -27469,7 +27509,7 @@ Te
 Un™
 )
 
-38 
+41 
 funùiÚ
  
 Te
@@ -27483,13 +27523,13 @@ x
 y
 )
 
-39 
+42 
 £lf
 .
 un™_id
  = unit_id
 
-40 
+43 
 £lf
 .
 pos™iÚ
@@ -27497,11 +27537,13 @@ pos™iÚ
 x
  = x, 
 y
- = 
+ = y, 
+o
+ = 0
 	}
-y}
+}
 
-41 
+44 
 	g£lf
 .
 	gblock
@@ -27513,11 +27555,11 @@ m­_mªag”
 un™_id
 )
 
-42 
+45 
 ’d
 
 
-44 
+47 
 funùiÚ
  
 Te
@@ -27525,21 +27567,11 @@ Te
 	$g‘_d©a
 ()
 
-46 
-block_id
- = 
-£lf
-.
-block
-.
-id
-
-
-47 
+49 
 	}
 }
 
-48 
+50 
 ’d
 
 
@@ -27935,6 +27967,8 @@ pos™iÚ
 x
  = 0, 
 y
+ = 0, 
+o
  = 0
 	}
 }
@@ -33591,7 +33625,7 @@ room
 room
 .
 m­_id
- = 1
+ = 2
 
 17 
 room
@@ -34065,7 +34099,7 @@ pÜt
 şu¡”
 .
 	`ÿÎ
-("b©e", ".b©emng", "ü—‹", 
+("b©emng", ".b©emng", "ü—‹", 
 room
 )
 
@@ -34093,7 +34127,7 @@ add»ss
 pÜt
  = 
 	}
-pÜt})
+port})
 
 93  
 çl£
@@ -35164,7 +35198,9 @@ skyÃt
  "stop"
 
 9 
-	`´št
+skyÃt
+.
+	`log
 ("stop‡ll server")
 
 10 
@@ -35182,11 +35218,15 @@ th’
 
 
 11 
-	`´št
+skyÃt
+.
+	`log
 ("master stop!")
 
 13 
-	`´št
+skyÃt
+.
+	`log
 ("cannot stop master")
 
 14 
@@ -35208,11 +35248,15 @@ th’
 
 
 16 
-	`´št
+skyÃt
+.
+	`log
 ("battlemng stop!")
 
 18 
-	`´št
+skyÃt
+.
+	`log
 ("cannot stop battle")
 
 19 
@@ -35234,11 +35278,15 @@ th’
 
 
 21 
-	`´št
+skyÃt
+.
+	`log
 ("login stop!")
 
 23 
-	`´št
+skyÃt
+.
+	`log
 ("cannot stop†ogin")
 
 24 
@@ -35252,7 +35300,9 @@ skyÃt
 (10)
 
 27 
-	`´št
+skyÃt
+.
+	`log
 ("Done!")
 
 28 

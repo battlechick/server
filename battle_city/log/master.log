@@ -33,7 +33,37 @@ stack traceback:
 [:00000012] Listen on 127.0.0.1:2500
 [:00000008] haha
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:44727
-[:0000000e] New client from : 219.137.151.43:25740
+[:00000009] socket accept from 127.0.0.1:45200
+[:0000000e] New client from : 119.129.210.220:26159
 [:00000013] LAUNCH snlua agent
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] userdata: 0x7f075cc90600
+[:00000013] recieve package C2S_Online
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] userdata: 0x7f07534514c0
+[:00000013] recieve package Request_RoomList
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] userdata: 0x7f07534be4c0
+[:00000013] recieve package Request_CreateRoom
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] userdata: 0x7f075cc90740
+[:00000013] recieve package Request_RoomList
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] userdata: 0x7f0753450ac0
+[:00000013] recieve package C2S_BroadcastRoomData
+[:00000013] send_package
+[:00000013] raw_send_package
+[:00000013] userdata: 0x7f07534514c0
+[:00000013] recieve package Request_StartGame
+[:00000013] send_package
+[:00000013] raw_send_package
 [:00000013] KILL self

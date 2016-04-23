@@ -31,7 +31,7 @@ function Map:init()
         end
         table_insert(self.tiles, line)
     end
-    skynet.dump(self.tiles)
+    --skynet.dump(self.tiles)
     self.map_data = map_data 
 end
 
@@ -40,7 +40,7 @@ Tile = class(Unit)
 
 function Tile:ctor(unit_id, x, y)
     self.unit_id = unit_id
-    self.position = {x = x, y = y}
+    self.position = {x = x, y = y, o = 0}
     self.block = map_manager.get_map_block(unit_id)
 end
 

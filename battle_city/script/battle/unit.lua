@@ -11,7 +11,7 @@ end
 function Unit:ctor()
     self.guid = auto_guid()
     self.unit_id = 0
-    self.position = {x = 0, y = 0}
+    self.position = {x = 0, y = 0, o = 0}
 end
 
 -- 单位数据,发送到客户端

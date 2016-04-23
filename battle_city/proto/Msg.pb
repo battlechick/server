@@ -1,6 +1,8 @@
 
-¹
-	Msg.proto"4
+ö
+	Msg.proto"f
+Message%
+packageList (2.Message.Package4
 Package
 name (	
 rpcId (
@@ -54,15 +56,16 @@ playerName (	
 C2S_JoinBattle
 playerId (
 battle ("
-S2C_StartBattle"Š
+S2C_StartBattle"•
 S2C_CreateUnit*
-unitList (2.S2C_CreateUnit.UnitInfoL
+unitList (2.S2C_CreateUnit.UnitInfoW
 UnitInfo
 guid (
 unitId (	
 x (	
-y (
-data (	".
+y (	
+o (
+data (	".
 Player
 playerId (
 

@@ -69,12 +69,12 @@ function start()
             unitId = unit.unit_id, 
             x = unit.position.x,
             y = unit.position.y,
+            o = unit.position.o,
             data = json.encode(unit:get_data()) })
     end
-
-    skynet.dump(tbl)
-    broadcast("S2C_StartBattle", {})
     broadcast("S2C_CreateUnit",tbl)
+    broadcast("S2C_StartBattle", {})
+    broadcast("S2C_StartBattle", {})
 end
 
 function broadcast(message_type, tbl)

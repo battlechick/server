@@ -6,7 +6,7 @@ package Base;
 
 message UnitProto{
     /** 单位id */
-    required int32 id = 1 [default = 0];
+    required int32 unitId = 1 [default = 0];
     /** 单位名称 */
     required string name = 2 [default = ""];
 }

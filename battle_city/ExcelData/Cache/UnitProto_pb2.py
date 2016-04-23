@@ -18,7 +18,7 @@ _sym_db = _symbol_database.Default()
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='UnitProto.proto',
   package='Base',
-  serialized_pb=_b('\n\x0fUnitProto.proto\x12\x04\x42\x61se\"*\n\tUnitProto\x12\r\n\x02id\x18\x01 \x02(\x05:\x01\x30\x12\x0e\n\x04name\x18\x02 \x02(\t:\x00\"1\n\x0fUnitProto_ARRAY\x12\x1e\n\x05items\x18\x01 \x03(\x0b\x32\x0f.Base.UnitProto')
+  serialized_pb=_b('\n\x0fUnitProto.proto\x12\x04\x42\x61se\".\n\tUnitProto\x12\x11\n\x06unitId\x18\x01 \x02(\x05:\x01\x30\x12\x0e\n\x04name\x18\x02 \x02(\t:\x00\"1\n\x0fUnitProto_ARRAY\x12\x1e\n\x05items\x18\x01 \x03(\x0b\x32\x0f.Base.UnitProto')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -33,7 +33,7 @@ _UNITPROTO = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='id', full_name='Base.UnitProto.id', index=0,
+      name='unitId', full_name='Base.UnitProto.unitId', index=0,
       number=1, type=5, cpp_type=1, label=2,
       has_default_value=True, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -58,7 +58,7 @@ _UNITPROTO = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=25,
-  serialized_end=67,
+  serialized_end=71,
 )
 
 
@@ -87,8 +87,8 @@ _UNITPROTO_ARRAY = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=69,
-  serialized_end=118,
+  serialized_start=73,
+  serialized_end=122,
 )
 
 _UNITPROTO_ARRAY.fields_by_name['items'].message_type = _UNITPROTO

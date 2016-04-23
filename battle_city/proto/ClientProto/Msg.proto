@@ -1,8 +1,12 @@
-message Package {
-    required string name = 1;
-    required int32 rpcId = 2;
-    required bytes data = 3;
+message Message {
+    message Package {
+        required string name = 1;
+        required int32 rpcId = 2;
+        required bytes data = 3;
+    }
+    repeated Package packageList = 4;
 }
+
 
 message S2C_Ping {
     required int32 time = 1;
@@ -82,9 +86,10 @@ message S2C_CreateUnit {
         required int32 unitId = 2;
         required int32 x = 3;
         required int32 y = 4;
-        required string data = 5;
+        required int32 o = 5;
+        required string data = 6;
     }
-    repeated UnitInfo unitList = 6;
+    repeated UnitInfo unitList = 7;
 }
 
 message Player {
