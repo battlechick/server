@@ -20,13 +20,15 @@ function M.load_datas()
         protobuf.register_file("../battle_city/proto/"..tbl_name..".pb" )
         local data = protobuf.decode("Base."..tbl_name.."_ARRAY", str)
         file:close()
-        datacenter.set("name2tbl", tbl_name, data)
+        skynet.log("load "..tbl_name)
+        datacenter.set(tbl_name, data)
+
         start_pos = end_pos + 1
     end
 end
 
-function M.get_data(name)
-    return datacenter.get("name2tbl", name)
+function M.get_data(tbl_name, ...)
+    return datacenter.get(tbl_name, "items", ...)
 end
 
 return M

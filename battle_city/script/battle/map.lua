@@ -3,6 +3,9 @@ local skynet = require "skynet"
 local table_insert = table.insert
 
 local map_manager = require "battle.map_manager"
+local bt_manager = require "behavior_tree.bt_manager"
+local data_manager = require "data_manager.data_manager"
+local datacenter = require "datacenter"
 
 Map = class()
 
@@ -12,6 +15,8 @@ function Map:ctor(map_id)
     self.width = 0
     self.height = 0
     self.tiles = {}
+    self.guid2unit = {}
+    self.proto = nil
 end
 
 function Map:init()
@@ -24,17 +29,30 @@ function Map:init()
     for y=1, self.height do
         local line = {}
         for x=1, self.width do
-            local block_id = map_data.blocks[i]
-            local tile = Tile.new(block_id, x, y)
+            local unit_id = map_data.blocks[i]
+            local tile = Tile.new(unit_id, x, y)
+            if unit_id ~= 201 then
+                self.guid2unit[tile.guid] = tile
+            end
             table_insert(line, tile)
             i = i + 1 
         end
         table_insert(self.tiles, line)
     end
-    --skynet.dump(self.tiles)
     self.map_data = map_data 
+    self.proto = data_manager.get_data("SceneProto", self.map_id) 
+    
+    local tree_id = self.proto.treeId
+    skynet.log("scene treeid:"..tree_id)
+    self.tree = bt_manager.create_tree(tree_id, self)
+    self.tree:exec()
 end
 
+function Map:create_unit(unit_id, x, y)
+    skynet.log("Map:create_unit "..unit_id)
+    
+    return
+end
 
 Tile = class(Unit)
 

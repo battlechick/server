@@ -1,1 +1,1 @@
-{ "tree_id" : 1, "classify" : "fdfdf", "root" : { "node_id" : 1000001, "name" : "Root", "describe" : "", "args" : [], "var_flags" : [], "children" : [] } }
+{ "treeId" : 1, "classify" : "地图", "root" : { "nodeId" : 1000001, "name" : "Root", "describe" : "Scene001", "args" : [""], "varFlags" : [false], "children" : [{ "nodeId" : 1000002, "name" : "LimitExec", "describe" : "", "args" : ["1"], "varFlags" : [false], "children" : [{ "nodeId" : 1000003, "name" : "CreateUnit", "describe" : "", "args" : ["101", "0", "0"], "varFlags" : [false, false, false], "children" : [] }] }] } }

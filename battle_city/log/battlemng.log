@@ -9,6 +9,8 @@
 [:00000009] LAUNCH snlua clusterd
 [:0000000a] LAUNCH snlua gate
 [:0000000a] Listen on 127.0.0.1:2502
+[:00000008] load SceneProto
+[:00000008] load UnitProto
 [:00000008] load map
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
@@ -20,3 +22,90 @@
 [:0000000f] LAUNCH snlua gate
 [:0000000f] Listen on 121.42.162.95:10004
 [:00000002] KILL self
+[:00000009] socket accept from 127.0.0.1:34805
+[:00000010] LAUNCH snlua battle
+[:00000010] map_id1
+[:00000010] loading map 1
+[:00000010] scene treeid:1
+[:00000010] before_run key:rate value:nil desc:rate/int/100/执行频率(毫秒次)
+[:00000010] 
++nodeId [1000001.0]
++name [Root]
++args+1 []
++describe [Scene001]
++children+1+nodeId [1000002.0]
+|          +name [LimitExec]
+|          +args+1 [1]
+|          +describe []
+|          +children+1+nodeId [1000003.0]
+|          |          +name [CreateUnit]
+|          |          +args+1 [101]
+|          |          |    +2 [0]
+|          |          |    +3 [0]
+|          |          +describe []
+|          |          +children
+|          |          +varFlags+1 [false]
+|          |                   +2 [false]
+|          |                   +3 [false]
+|          +varFlags+1 [false]
++varFlags+1 [false]
+[:00000010] Root:run
+[:00000010] before_run key:limit value:1 desc:limit/int/1/执行次数
+[:00000010] 
++nodeId [1000002.0]
++name [LimitExec]
++args+1 [1]
++describe []
++children+1+nodeId [1000003.0]
+|          +name [CreateUnit]
+|          +args+1 [101]
+|          |    +2 [0]
+|          |    +3 [0]
+|          +describe []
+|          +children
+|          +varFlags+1 [false]
+|                   +2 [false]
+|                   +3 [false]
++varFlags+1 [false]
+[:00000010] before_run key:unit_id value:101 desc:unit_id/int/0/单位ID
+[:00000010] 
++nodeId [1000003.0]
++name [CreateUnit]
++args+1 [101]
+|    +2 [0]
+|    +3 [0]
++describe []
++children
++varFlags+1 [false]
+         +2 [false]
+         +3 [false]
+[:00000010] before_run key:x value:0 desc:x/int/0/x
+[:00000010] 
++nodeId [1000003.0]
++name [CreateUnit]
++args+1 [101]
+|    +2 [0]
+|    +3 [0]
++describe []
++children
++varFlags+1 [false]
+         +2 [false]
+         +3 [false]
+[:00000010] before_run key:y value:0 desc:y/int/0/y
+[:00000010] 
++nodeId [1000003.0]
++name [CreateUnit]
++args+1 [101]
+|    +2 [0]
+|    +3 [0]
++describe []
++children
++varFlags+1 [false]
+         +2 [false]
+         +3 [false]
+[:00000010] Map:create_unit 101
+[:0000000c] New client from : 113.99.30.246:29631
+[:00000012] LAUNCH snlua agent
+[:00000012] userdata: 0x7f3ec7953c20
+[:00000012] recieve package C2S_JoinBattle
+[:00000012] KILL self

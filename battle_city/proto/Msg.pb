@@ -1,5 +1,5 @@
 
-ö
+à
 	Msg.proto"f
 Message%
 packageList (2.Message.Package4
@@ -36,18 +36,19 @@ S2C_Online
 
 playerName (	"
 S2C_LoadScene
-name (	"¬
-S2C_RoomData
-roomId (
-roomName (	
-	captianId ((
+name (	"A
 
-playerList (2.S2C_RoomData.Player=
-Player
+PlayerInfo
 playerId (
 
 playerName (	
-ready ("
+ready ("d
+S2C_RoomData
+roomId (
+roomName (	
+	captianId (
+
+playerList (2.PlayerInfo"
 C2S_BroadcastRoomData"?
 S2C_LoadBattle
 battle (
@@ -56,16 +57,16 @@ playerName (	
 C2S_JoinBattle
 playerId (
 battle ("
-S2C_StartBattle"•
-S2C_CreateUnit*
-unitList (2.S2C_CreateUnit.UnitInfoW
+S2C_StartBattle"W
 UnitInfo
 guid (
 unitId (	
 x (	
 y (	
 o (
-data (	".
+data (	"-
+S2C_CreateUnit
+unitList (2	.UnitInfo".
 Player
 playerId (
 

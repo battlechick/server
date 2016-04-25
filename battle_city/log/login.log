@@ -14,3 +14,9 @@
 [:0000000d] LAUNCH snlua gate
 [:0000000d] Listen on 121.42.162.95:10000
 [:00000002] KILL self
+[:0000000c] New client from : 113.99.30.246:29629
+[:0000000e] LAUNCH snlua agent
+[:0000000e] userdata: 0x7f696f5ac3d0
+[:0000000e] recieve package C2S_Login
+[:0000000e] client login
+[:0000000e] KILL self

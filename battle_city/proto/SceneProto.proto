@@ -1,0 +1,16 @@
+/**
+* @这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package Base;
+
+message SceneProto{
+    /** 关卡ID */
+    required int32 id = 1 [default = 0];
+    /** 行为树ID */
+    required int32 treeId = 2 [default = 0];
+}
+
+message SceneProto_ARRAY {
+    repeated SceneProto items = 1;
+}

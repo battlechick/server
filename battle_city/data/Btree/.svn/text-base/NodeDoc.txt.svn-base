@@ -1,3 +1,5 @@
-[{"nickname":"根节点","args_desc":["rate\/int\/100\/执行频率(毫秒次)"],"describe":"AI的根节点,执行所有子节点","name":"Root","limit":999,"classify":"复合节点"},
-{"nickname":"顺序执行","limit":999,"describe":"执行所有子节点直到返回false","name":"Sequence","classify":"复合节点"},
-{"nickname":"选择执行","limit":999,"describe":"执行所有子节点直到返回true","name":"Selector","classify":"复合节点"}]
+[{"nickname":"选择执行","limit":999,"describe":"执行所有子节点直到返回true","name":"Selector","style":"blue","classify":"复合节点"},
+{"nickname":"限制执行","args_desc":["limit\/int\/1\/执行次数"],"name":"LimitExec","describe":"子节点最多执行limit次，如果超过了次数，则返回false。\n        如果子节点为空，则返回false；否则，执行并返回子节点的值。","style":"blue","limit":999,"classify":"复合节点"},
+{"nickname":"顺序执行","limit":999,"describe":"执行所有子节点直到返回false","name":"Sequence","style":"blue","classify":"复合节点"},
+{"nickname":"根节点","args_desc":["rate\/int\/100\/执行频率(毫秒次)"],"name":"Root","describe":"AI的根节点,执行所有子节点","style":"green","limit":999,"classify":"复合节点"},
+{"nickname":"创建单位","args_desc":["unit_id\/int\/0\/单位ID","x\/int\/0\/x","y\/int\/0\/y"],"describe":"在地图上创建一个单位","name":"CreateUnit","limit":999,"classify":"复合节点"}]

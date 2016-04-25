@@ -19,8 +19,26 @@
 [:00000011] LAUNCH snlua gate
 [:00000011] Listen on 121.42.162.95:10002
 [:00000008] load datas
+[:00000008] load SceneProto
+[:00000008] load UnitProto
 [:00000008] load map
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
 [:00000008] haha
 [:00000002] KILL self
+[:00000009] socket accept from 127.0.0.1:46601
+[:0000000e] New client from : 113.99.30.246:29630
+[:00000012] LAUNCH snlua agent
+[:00000012] userdata: 0x7f269249ba20
+[:00000012] recieve package C2S_Online
+[:00000012] userdata: 0x7f269101ed40
+[:00000012] recieve package Request_RoomList
+[:00000012] userdata: 0x7f269ad9f420
+[:00000012] recieve package Request_CreateRoom
+[:00000012] userdata: 0x7f269ad0e340
+[:00000012] recieve package Request_RoomList
+[:00000012] userdata: 0x7f26925fdb80
+[:00000012] recieve package C2S_BroadcastRoomData
+[:00000012] userdata: 0x7f269101ee20
+[:00000012] recieve package Request_StartGame
+[:00000012] KILL self

@@ -2,6 +2,7 @@
 cd ExcelData
 svn up
 python export.py UnitProto UnitProto.xls ../proto/ ../data/
+python export.py SceneProto SceneProto.xls ../proto/ ../data/
 cd ..
 
 cd data 

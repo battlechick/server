@@ -1,4 +1,4 @@
-
+local skynet = require "skynet"
 BehaviorTree = class()
 
 function BehaviorTree:ctor(tree_data, owner)

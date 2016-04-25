@@ -1,4 +1,4 @@
-cscope 15 $HOME/server/battle_city -q 0000001484 0000167952
+cscope 15 $HOME/server/battle_city -q 0000001489 0000169213
 	@config/clustername.lua
 
 1 
@@ -26975,7 +26975,15 @@ te
 lše
 ) do
 
-57 
+57 
+te
+.
+un™_id
+ ~ğ201 
+th’
+
+
+58 
 guid2un™
 [
 te
@@ -26983,11 +26991,11 @@ te
 guid
 ] =ile
 
-58 
+59 
 ’d
 
 
-59 
+60 
 ’d
 
 
@@ -26996,12 +27004,16 @@ guid
 
 
 63 
+’d
+
+
+65 
 funùiÚ
  
 	$¡¬t
 ()
 
-64 
+66 
 loÿl
  
 tbl
@@ -27011,13 +27023,13 @@ un™Li¡
 	}
 }
 
-65 
+67 
 loÿl
  
 	gcouÁ
  = 0
 
-66 
+69 
 _
 , 
 un™
@@ -27029,7 +27041,7 @@ un™
 guid2un™
 ) do
 
-67 
+70 
 	`bË_š£¹
 (
 tbl
@@ -27037,13 +27049,13 @@ tbl
 un™Li¡
 , {
 
-68 
+71 
 guid
  = 
 un™
 .guid,
 
-69 
+72 
 un™Id
  = 
 un™
@@ -27051,7 +27063,7 @@ un™
 un™_id
 ,
 
-70 
+73 
 x
  = 
 un™
@@ -27059,7 +27071,7 @@ un™
 pos™iÚ
 .x,
 
-71 
+74 
 y
  = 
 un™
@@ -27067,7 +27079,7 @@ un™
 pos™iÚ
 .y,
 
-72 
+75 
 o
  = 
 un™
@@ -27075,7 +27087,7 @@ un™
 pos™iÚ
 .o,
 
-73 
+76 
 d©a
  = 
 jsÚ
@@ -27089,35 +27101,63 @@ un™
 	}
 })
 
-74 
-’d
+77 
+couÁ
+ >ğ100 
+th’
 
-
-76 
-skyÃt
-.
-	$dump
-(
-tbl
-)
-
-77 
-	`brßdÿ¡
-("S2C_S¹B©e", {
-	}
-})
 
 78 
+couÁ
+ = 0
+
+79 
 brßdÿ¡
 ("S2C_C»©eUn™",
 tbl
 )
 
-79 
+80 
+	gtbl
+ = {
+un™Li¡
+={}}
+
+81 
+	gskyÃt
+.
+	$¦“p
+(2)
+
+82 
 ’d
 
 
-81 
+83 
+couÁ
+ = count + 1
+
+84 
+’d
+
+
+85 
+	`brßdÿ¡
+("S2C_C»©eUn™",
+tbl
+)
+
+86 
+	`brßdÿ¡
+("S2C_S¹B©e", {
+	}
+})
+
+87 
+’d
+
+
+89 
 funùiÚ
  
 	$brßdÿ¡
@@ -27127,7 +27167,7 @@ mes§ge_ty³
 tbl
 )
 
-82 
+90 
 ¶ay”_id
 , 
 _
@@ -27139,7 +27179,7 @@ _
 ¶ay”s
 ) do
 
-83 
+91 
 skyÃt
 .
 	`ÿÎ
@@ -27151,15 +27191,15 @@ mes§ge_ty³
 tbl
 )
 
-84 
+92 
 ’d
 
 
-85 
+93 
 ’d
 
 
-87 
+95 
 skyÃt
 .
 	`¡¬t
@@ -27167,7 +27207,7 @@ skyÃt
 	$funùiÚ
 ()
 
-88 
+96 
 skyÃt
 .
 	`di¥©ch
@@ -27179,7 +27219,7 @@ _
 commªd
 , ...)
 
-89 
+97 
 loÿl
  
 f
@@ -27189,7 +27229,7 @@ cmd
 commªd
 ]
 
-90 
+98 
 skyÃt
 .
 	`»t
@@ -27199,11 +27239,11 @@ skyÃt
 	$f
 (...)))
 
-91 
+99 
 ’d
 )
 
-92 
+100 
 ’d
 )
 
@@ -27426,7 +27466,7 @@ width
 27 
 loÿl
  
-	gblock_id
+	gun™_id
  = 
 m­_d©a
 .
@@ -27444,7 +27484,7 @@ Te
 .
 	$Ãw
 (
-block_id
+un™_id
 , 
 x
 , 
@@ -27481,7 +27521,7 @@ lše
 ’d
 
 
-34 
+34 --
 skyÃt
 .
 	$dump
@@ -28050,14 +28090,18 @@ lim™
  = 0, -- å­èŠ‚ç‚¹é™åˆ¶
 
 12 
+¡yË
+ = "default", -- èŠ‚ç‚¹æ ·å¼
+
+13 
 	}
 }
 
-13 
+14 
 ’d
 
 
-14 
+15 
 funùiÚ
  
 	gBehaviÜNode
@@ -28069,13 +28113,13 @@ node_d©a
 Œ“
 )
 
-15 
+16 
 £lf
 .
 Œ“
  =ree
 
-16 
+17 
 £lf
 .
 d©a
@@ -28083,15 +28127,17 @@ d©a
 node_d©a
 
 
-17 
+18 
 £lf
 .
 node_id
  = 
 node_d©a
-.node_id
+.
+nodeId
 
-18 
+
+19 
 £lf
 .
 chd»n
@@ -28099,7 +28145,7 @@ chd»n
 	}
 }
 
-19 
+20 
 _
 , 
 chd_d©a
@@ -28113,7 +28159,7 @@ node_d©a
 chd»n
 ) do
 
-20 
+21 
 loÿl
  
 node_Çme
@@ -28123,7 +28169,7 @@ chd_d©a
 Çme
 
 
-21 
+22 
 nÙ
  
 _G
@@ -28133,17 +28179,17 @@ node_Çme
 th’
 
 
-22 
+23 
 	`´št
 ("behaviÜ‚odnÙƒxi¡: "..
 node_Çme
 )
 
-24 
+25 
 ’d
 
 
-25 
+26 
 loÿl
  
 chd
@@ -28155,7 +28201,7 @@ node_Çme
 	$Ãw
 ()
 
-26 
+27 
 chd
 :
 	$š™
@@ -28165,7 +28211,7 @@ chd_d©a
 Œ“
 )
 
-27 
+28 
 bË
 .
 	$š£¹
@@ -28177,15 +28223,15 @@ chd»n
 chd
 )
 
-28 
-’d
-
-
 29 
 ’d
 
 
 30 
+’d
+
+
+31 
 funùiÚ
  
 BehaviÜNode
@@ -28193,29 +28239,29 @@ BehaviÜNode
 	$exec
 ()
 
-31 
+32 
 £lf
 :
 	$befÜe_run
 ()
 
-32 
+33 
 £lf
 :
 	$run
 ()
 
-33 
+34 
 £lf
 :
 	$aá”_run
 ()
 
-34 
+35 
 ’d
 
 
-35 
+36 
 funùiÚ
  
 BehaviÜNode
@@ -28223,7 +28269,7 @@ BehaviÜNode
 	$befÜe_run
 ()
 
-36 
+37 
 i
 , 
 desc
@@ -28239,7 +28285,7 @@ doc
 ¬gs_desc
 ) do
 
-37 
+38 
 loÿl
  
 ¬r
@@ -28251,7 +28297,7 @@ loÿl
 desc
 , '/')
 
-38 
+39 
 loÿl
  
 key
@@ -28259,7 +28305,7 @@ key
 ¬r
 [1]
 
-39 
+40 
 loÿl
  
 t
@@ -28267,22 +28313,10 @@ t
 ¬r
 [3]
 
-40 
-loÿl
- 
-v¬_æag
- = 
-£lf
-.
-d©a
-[
-i
-]
-
 41 
 loÿl
  
-¬g
+v¬_æag
  = 
 £lf
 .
@@ -28294,18 +28328,30 @@ i
 42 
 loÿl
  
+¬g
+ = 
+£lf
+.
+d©a
+[
+i
+]
+
+43 
+loÿl
+ 
 v®ue
  = 
 n
 
 
-43 
+44 
 v¬_æag
  
 th’
 
 
-44 
+45 
 v®ue
  = 
 £lf
@@ -28317,7 +28363,7 @@ v®ue
 ¬g
 )
 
-46 
+47 
 t
  =ğ"št" 
 Ü
@@ -28325,7 +28371,7 @@ t
 th’
 
 
-47 
+48 
 v®ue
  = 
 	$tÚumb”
@@ -28333,14 +28379,10 @@ v®ue
 ¬g
 )
 
-49 
+50 
 v®ue
  = 
 ¬g
-
-
-50 
-’d
 
 
 51 
@@ -28348,6 +28390,10 @@ v®ue
 
 
 52 
+’d
+
+
+53 
 £lf
 [
 key
@@ -28355,15 +28401,15 @@ key
 v®ue
 
 
-53 
-’d
-
-
 54 
 ’d
 
 
 55 
+’d
+
+
+56 
 funùiÚ
  
 BehaviÜNode
@@ -28371,15 +28417,15 @@ BehaviÜNode
 	$run
 ()
 
-56  
+57  
 Œue
 
 
-57 
+58 
 ’d
 
 
-58 
+59 
 funùiÚ
  
 BehaviÜNode
@@ -28387,7 +28433,7 @@ BehaviÜNode
 	$aá”_run
 ()
 
-59 
+60 
 i
  , 
 desc
@@ -28403,7 +28449,7 @@ doc
 ¬gs_desc
 ) do
 
-60 
+61 
 loÿl
  
 ¬r
@@ -28415,7 +28461,7 @@ loÿl
 desc
 , '/')
 
-61 
+62 
 loÿl
  
 key
@@ -28423,7 +28469,7 @@ key
 ¬r
 [1]
 
-62 
+63 
 loÿl
  
 t
@@ -28431,22 +28477,10 @@ t
 ¬r
 [3]
 
-63 
-loÿl
- 
-v¬_æag
- = 
-£lf
-.
-d©a
-[
-i
-]
-
 64 
 loÿl
  
-¬g
+v¬_æag
  = 
 £lf
 .
@@ -28458,6 +28492,18 @@ i
 65 
 loÿl
  
+¬g
+ = 
+£lf
+.
+d©a
+[
+i
+]
+
+66 
+loÿl
+ 
 v®ue
  = 
 £lf
@@ -28465,13 +28511,13 @@ v®ue
 key
 ]
 
-67 
+68 
 v¬_æag
  
 th’
 
 
-68 
+69 
 £lf
 .
 Œ“
@@ -28483,11 +28529,7 @@ th’
 v®ue
 )
 
-69 
-’d
-
-
-71 
+70 
 ’d
 
 
@@ -28495,289 +28537,21 @@ v®ue
 ’d
 
 
+73 
+’d
+
+
 75 
-RoÙ
- = 
-	$şass
-(
-BehaviÜNode
-)
+»quœe
+ "behavior_tree/node/common"
 
 76 
-funùiÚ
- 
-RoÙ
-:
-	$ùÜ
-()
+»quœe
+ "behavior_tree/node/map"
 
 77 
-£lf
-.
-doc
- = {
-
-78 
-nickÇme
- = "æ ¹èŠ‚ç‚¹",
-
-79 
-desüibe
- = "AIçš„æ ¹èŠ‚ç‚¹,æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹",
-
-80 
-¬gs_desc
- = {"rate/int/100/æ‰§è¡Œé¢‘ç‡(æ¯«ç§’æ¬¡)"},
-
-81 
-şassify
- = "å¤åˆèŠ‚ç‚¹",
-
-82 
-lim™
- = 999,
-
-83 
-	}
-}
-
-84 
-’d
-
-
-85 
-funùiÚ
- 
-	gRoÙ
-:
-	$run
-()
-
-86 
-_
-, 
-chd
- 
-š
- 
-	$aœs
-(
-£lf
-.
-chd»n
-) do
-
-87 
-chd
-:
-	$run
-()
-
-88 
-’d
-
-
-89  
-Œue
-
-
-90 
-’d
-
-
-93 
-Sequ’û
- = 
-	$şass
-(
-BehaviÜNode
-)
-
-94 
-funùiÚ
- 
-Sequ’û
-:
-	$ùÜ
-()
-
-95 
-£lf
-.
-doc
- = {
-
-96 
-nickÇme
- = "é¡ºåºæ‰§è¡Œ",
-
-97 
-desüibe
- = "æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹ç›´åˆ°è¿”å›false",
-
-98 
-şassify
- = "å¤åˆèŠ‚ç‚¹",
-
-99 
-lim™
- = 999,
-
-100 
-	}
-}
-
-101 
-’d
-
-
-102 
-funùiÚ
- 
-	gSequ’û
-:
-	$run
-()
-
-103 
-_
-, 
-chd
- 
-š
- 
-	$aœs
-(
-£lf
-.
-chd»n
-) do
-
-104 
-nÙ
- 
-chd
-:
-	$run
-(è
-th’
-
-
-105  
-çl£
-
-
-106 
-’d
-
-
-107 
-’d
-
-
-108  
-Œue
-
-
-109 
-’d
-
-
-111 
-S–eùÜ
- = 
-	$şass
-(
-BehaviÜNode
-)
-
-112 
-funùiÚ
- 
-S–eùÜ
-:
-	$ùÜ
-()
-
-113 
-£lf
-.
-doc
- = {
-
-114 
-nickÇme
- = "é€‰æ‹©æ‰§è¡Œ",
-
-115 
-desüibe
- = "æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹ç›´åˆ°è¿”å›true",
-
-116 
-şassify
- = "å¤åˆèŠ‚ç‚¹",
-
-117 
-lim™
- = 999,
-
-118 
-	}
-}
-
-119 
-’d
-
-
-120 
-funùiÚ
- 
-	gS–eùÜ
-:
-	$run
-()
-
-121 
-_
-, 
-chd
- 
-š
- 
-	$aœs
-(
-£lf
-.
-chd»n
-) do
-
-122 
-chd
-:
-	$run
-(è
-th’
-
-
-123  
-Œue
-
-
-124 
-’d
-
-
-125 
-’d
-
-
-126  
-çl£
-
-
-127 
-’d
-
+»quœe
+ "behavior_tree/node/ai"
 
 	@script/behavior_tree/behavior_tree.lua
 
@@ -29344,7 +29118,7 @@ id2Œ“_d©a
 [
 d©a
 .
-Œ“_id
+Œ“Id
 ] = data
 
 48 
@@ -29445,7 +29219,397 @@ M
 
 	@script/behavior_tree/node/common.lua
 
+3 
+	gRoÙ
+ = 
+	$şass
+(
+BehaviÜNode
+)
+
+4 
+funùiÚ
+ 
+RoÙ
+:
+	$ùÜ
+()
+
+5 
+£lf
+.
+doc
+ = {
+
+6 
+nickÇme
+ = "æ ¹èŠ‚ç‚¹",
+
+7 
+desüibe
+ = "AIçš„æ ¹èŠ‚ç‚¹,æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹",
+
+8 
+¬gs_desc
+ = {"rate/int/100/æ‰§è¡Œé¢‘ç‡(æ¯«ç§’æ¬¡)"},
+
+9 
+şassify
+ = "å¤åˆèŠ‚ç‚¹",
+
+10 
+lim™
+ = 999,
+
+11 
+¡yË
+ = "green",
+
+12 
+	}
+}
+
+13 
+’d
+
+
+14 
+funùiÚ
+ 
+	gRoÙ
+:
+	$run
+()
+
+15 
+_
+, 
+chd
+ 
+š
+ 
+	$aœs
+(
+£lf
+.
+chd»n
+) do
+
+16 
+chd
+:
+	$run
+()
+
+17 
+’d
+
+
+18  
+Œue
+
+
+19 
+’d
+
+
+22 
+Sequ’û
+ = 
+	$şass
+(
+BehaviÜNode
+)
+
+23 
+funùiÚ
+ 
+Sequ’û
+:
+	$ùÜ
+()
+
+24 
+£lf
+.
+doc
+ = {
+
+25 
+nickÇme
+ = "é¡ºåºæ‰§è¡Œ",
+
+26 
+desüibe
+ = "æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹ç›´åˆ°è¿”å›false",
+
+27 
+şassify
+ = "å¤åˆèŠ‚ç‚¹",
+
+28 
+lim™
+ = 999,
+
+29 
+¡yË
+ = "blue",
+
+30 
+	}
+}
+
+31 
+’d
+
+
+32 
+funùiÚ
+ 
+	gSequ’û
+:
+	$run
+()
+
+33 
+_
+, 
+chd
+ 
+š
+ 
+	$aœs
+(
+£lf
+.
+chd»n
+) do
+
+34 
+nÙ
+ 
+chd
+:
+	$run
+(è
+th’
+
+
+35  
+çl£
+
+
+36 
+’d
+
+
+37 
+’d
+
+
+38  
+Œue
+
+
+39 
+’d
+
+
+41 
+S–eùÜ
+ = 
+	$şass
+(
+BehaviÜNode
+)
+
+42 
+funùiÚ
+ 
+S–eùÜ
+:
+	$ùÜ
+()
+
+43 
+£lf
+.
+doc
+ = {
+
+44 
+nickÇme
+ = "é€‰æ‹©æ‰§è¡Œ",
+
+45 
+desüibe
+ = "æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹ç›´åˆ°è¿”å›true",
+
+46 
+şassify
+ = "å¤åˆèŠ‚ç‚¹",
+
+47 
+lim™
+ = 999,
+
+48 
+¡yË
+ = "blue",
+
+49 
+	}
+}
+
+50 
+’d
+
+
+51 
+funùiÚ
+ 
+	gS–eùÜ
+:
+	$run
+()
+
+52 
+_
+, 
+chd
+ 
+š
+ 
+	$aœs
+(
+£lf
+.
+chd»n
+) do
+
+53 
+chd
+:
+	$run
+(è
+th’
+
+
+54  
+Œue
+
+
+55 
+’d
+
+
+56 
+’d
+
+
+57  
+çl£
+
+
+58 
+’d
+
+
 	@script/behavior_tree/node/map.lua
+
+2 
+	gRoÙ
+ = 
+	$şass
+(
+BehaviÜNode
+)
+
+3 
+funùiÚ
+ 
+RoÙ
+:
+	$ùÜ
+()
+
+4 
+£lf
+.
+doc
+ = {
+
+5 
+nickÇme
+ = "æ ¹èŠ‚ç‚¹",
+
+6 
+desüibe
+ = "AIçš„æ ¹èŠ‚ç‚¹,æ‰§è¡Œæ‰€æœ‰å­èŠ‚ç‚¹",
+
+7 
+¬gs_desc
+ = {"rate/int/100/æ‰§è¡Œé¢‘ç‡(æ¯«ç§’æ¬¡)"},
+
+8 
+şassify
+ = "å¤åˆèŠ‚ç‚¹",
+
+9 
+lim™
+ = 999,
+
+10 
+¡yË
+ = "green",
+
+11 
+	}
+}
+
+12 
+’d
+
+
+13 
+funùiÚ
+ 
+	gRoÙ
+:
+	$run
+()
+
+14 
+_
+, 
+chd
+ 
+š
+ 
+	$aœs
+(
+£lf
+.
+chd»n
+) do
+
+15 
+chd
+:
+	$run
+()
+
+16 
+’d
+
+
+17  
+Œue
+
+
+18 
+’d
+
 
 	@script/data_manager/data_manager.lua
 
@@ -29537,7 +29701,7 @@ f’ame
 	`fšd
 (
 feLi¡s
-, "([^\n\r]+.d©a)", 
+, "([^\n\r]+.by‹s)", 
 ¡¬t_pos
 )
 
@@ -29563,7 +29727,7 @@ tbl_Çme
 	`sub
 (
 f’ame
-, 1, -6)
+, 1, -7)
 
 18 
 loÿl
@@ -31675,29 +31839,39 @@ loÿl
 »quœe
  "protobuf"
 
-10 
+9 
+loÿl
+ 
+bË_š£¹
+ = 
+bË
+.
+š£¹
+
+
+11 
 »quœe
  "player.player"
 
-12 
+13 
 loÿl
  
 WATCHDOG
 
 
-13 
+14 
 loÿl
  
 ho¡
 
 
-14 
+15 
 loÿl
  
 £nd_»que¡
 
 
-16 
+17 
 loÿl
  
 ¶ay”_hªdËr
@@ -31705,47 +31879,47 @@ loÿl
 »quœe
  "player.player_handler"
 
-17 
+18 
 loÿl
  
 cmd
  = {}
 
-18 
+19 
 loÿl
  
 REQUEST
  = {}
 
-19 
+20 
 loÿl
  
 ş›Á_fd
 
 
-20 
+21 
 loÿl
  
 ¶ay”
 
 
-21 
+22 
 loÿl
  
 b©e
  -- æˆ˜æ–—æœåŠ¡åœ°å€
 
-23 
+24 
 skyÃt
 .
 »gi¡”_´ÙocŞ
  {
 
-24 
+25 
 Çme
  = "client",
 
-25 
+26 
 	gid
  = 
 skyÃt
@@ -31753,7 +31927,7 @@ skyÃt
 PTYPE_CLIENT
 ,
 
-26 
+27 
 	guÅack
  = 
 funùiÚ
@@ -31763,13 +31937,15 @@ msg
 sz
 )
 
-27 
-´št
+28 
+	gskyÃt
+.
+log
 (
 msg
 )
 
-28  
+29  
 	gskyÃt
 .
 to¡ršg
@@ -31779,11 +31955,11 @@ msg
 sz
 )
 
-29 
+30 
 	g’d
 ,
 
-30 
+31 
 	gdi¥©ch
  = 
 funùiÚ
@@ -31795,27 +31971,43 @@ add»ss
 bufãr
 , ...)
 
-31 
+32 
 loÿl
  
-	gp
+	gmsg
  = 
 ´Ùobuf
 .
 decode
-("Package", 
+("Mes§ge", 
 bufãr
 )
 
-32 
-´št
+33 
+	g_
+, 
+p
+ 
+š
+ 
+aœs
+(
+msg
+.
+·ckageLi¡
+) do
+
+34 
+	gskyÃt
+.
+log
 ("»c›v·ckage",
 p
 .
 Çme
 )
 
-33 
+35 
 loÿl
  
 	gµ
@@ -31831,7 +32023,7 @@ p
 d©a
 )
 
-34 
+36 
 loÿl
  
 	gf
@@ -31847,7 +32039,7 @@ p
 ¶ay”_hªdËr
 [p.name]
 
-35 
+37 
 nÙ
  
 f
@@ -31855,7 +32047,7 @@ f
 th’
 
 
-36 
+38 
 ´št
 ("mes§ghªdË¸nÙƒxi¡. Package:"..
 p
@@ -31863,11 +32055,11 @@ p
 Çme
 )
 
-38 
+40 
 ’d
 
 
-39 
+41 
 loÿl
  
 »t
@@ -31879,7 +32071,7 @@ f
 ¶ay”
 )
 
-40 
+42 
 	gp
 .
 	g½cId
@@ -31887,7 +32079,7 @@ f
 th’
 
 
-41 
+43 
 £nd_·ckage
 ("Re¥Ú£"..
 ¡ršg
@@ -31903,15 +32095,19 @@ p
 ½cId
 )
 
-42 
+44 
 ’d
 
 
-43 
+46 
+’d
+
+
+48 
 	g’d
 
 
-46 
+51 
 funùiÚ
  
 	gcmd
@@ -31921,7 +32117,7 @@ funùiÚ
 cÚf
 )
 
-47 
+52 
 loÿl
  
 fd
@@ -31931,7 +32127,7 @@ cÚf
 ş›Á
 
 
-48 
+53 
 loÿl
  
 g©e
@@ -31939,7 +32135,7 @@ g©e
 cÚf
 .gate
 
-49 
+54 
 WATCHDOG
  = 
 cÚf
@@ -31947,17 +32143,17 @@ cÚf
 w©chdog
 
 
-50 
+55 
 ş›Á_fd
  = 
 fd
 
 
-51 
+56 
 	`´št
 ("login start")
 
-53 
+58 
 skyÃt
 .
 	`ÿÎ
@@ -31967,11 +32163,11 @@ g©e
 fd
 )
 
-54 
+59 
 ’d
 
 
-56 
+61 
 funùiÚ
  
 cmd
@@ -31981,7 +32177,7 @@ cmd
 cÚf
 )
 
-57 
+62 
 loÿl
  
 fd
@@ -31991,7 +32187,7 @@ cÚf
 ş›Á
 
 
-58 
+63 
 loÿl
  
 g©e
@@ -31999,7 +32195,7 @@ g©e
 cÚf
 .gate
 
-59 
+64 
 WATCHDOG
  = 
 cÚf
@@ -32007,17 +32203,17 @@ cÚf
 w©chdog
 
 
-60 
+65 
 ş›Á_fd
  = 
 fd
 
 
-61 
+66 
 	`´št
 ("master start")
 
-63 
+68 
 skyÃt
 .
 	`ÿÎ
@@ -32027,7 +32223,7 @@ g©e
 fd
 )
 
-64 
+69 
 	`£nd_·ckage
 ("S2C_LßdSûÃ", {
 Çme
@@ -32035,15 +32231,15 @@ fd
 	}
 })
 
-65 --
+70 --
 	$£nd_h–lo
 ()
 
-66 
+71 
 ’d
 
 
-68 
+73 
 funùiÚ
  
 cmd
@@ -32053,7 +32249,7 @@ cmd
 cÚf
 )
 
-69 
+74 
 loÿl
  
 fd
@@ -32063,7 +32259,7 @@ cÚf
 ş›Á
 
 
-70 
+75 
 loÿl
  
 g©e
@@ -32071,7 +32267,7 @@ g©e
 cÚf
 .gate
 
-71 
+76 
 WATCHDOG
  = 
 cÚf
@@ -32079,17 +32275,17 @@ cÚf
 w©chdog
 
 
-72 
+77 
 ş›Á_fd
  = 
 fd
 
 
-73 
+78 
 	`´št
 ("battle start")
 
-75 
+80 
 skyÃt
 .
 	`ÿÎ
@@ -32099,7 +32295,7 @@ g©e
 fd
 )
 
-76 
+81 
 	`£nd_·ckage
 ("S2C_LßdSûÃ", {
 Çme
@@ -32107,15 +32303,15 @@ fd
 	}
 })
 
-77 --
+82 --
 	$£nd_h–lo
 ()
 
-78 
+83 
 ’d
 
 
-80 
+85 
 funùiÚ
  
 cmd
@@ -32125,11 +32321,13 @@ cmd
 p
 )
 
-81 
-	`´št
+86 
+skyÃt
+.
+	`log
 ("client†ogin")
 
-82 
+87 
 loÿl
  
 »suÉ
@@ -32151,7 +32349,7 @@ accouÁName
 accouÁPwd
 )
 
-83 
+88 
 	`£nd_·ckage
 ("S2C_Logš", {
 »suÉ
@@ -32165,7 +32363,7 @@ pÜt
 ¶ay”_id
 })
 
-84 
+89 
 	gskyÃt
 .
 ÿÎ
@@ -32175,17 +32373,17 @@ WATCHDOG
 ş›Á_fd
 )
 
-85 
+90 
 	gskyÃt
 .
 	$ex™
 ()
 
-86 
+91 
 ’d
 
 
-88 
+93 
 funùiÚ
  
 cmd
@@ -32195,7 +32393,7 @@ cmd
 p
 )
 
-89 
+94 
 loÿl
  
 ¶ay”_id
@@ -32205,7 +32403,7 @@ p
 ¶ay”Id
 
 
-90 
+95 
 ¶ay”
  = 
 skyÃt
@@ -32215,7 +32413,7 @@ skyÃt
 ¶ay”_id
 )
 
-91 
+96 
 nÙ
  
 ¶ay”
@@ -32223,7 +32421,7 @@ nÙ
 th’
 
 
-92 
+97 
 ¶ay”
  = 
 PÏy”
@@ -32231,11 +32429,11 @@ PÏy”
 	$Ãw
 ()
 
-93 
+98 
 ’d
 
 
-95 
+100 
 skyÃt
 .(".ag’t"..
 ¶ay”
@@ -32243,7 +32441,7 @@ skyÃt
 ¶ay”_id
 )
 
-96 
+101 
 	`´št
 ("»gi¡”‡g’t"..
 ¶ay”
@@ -32251,17 +32449,17 @@ skyÃt
 ¶ay”_id
 )
 
-97 
+102 
 	`£nd_·ckage
 ("S2C_Online", {
 
-98 
+103 
 »suÉ
  = 
 Œue
 ,
 
-99 
+104 
 ¶ay”Id
  =
 ¶ay”
@@ -32269,7 +32467,7 @@ skyÃt
 ¶ay”_id
 ,
 
-100 
+105 
 ¶ay”Name
  = 
 ¶ay”
@@ -32277,15 +32475,15 @@ skyÃt
 ¶ay”_Çme
 
 
-101 
+106 
 	}
 })
 
-102 
+107 
 ’d
 
 
-104 
+109 
 funùiÚ
  
 	gcmd
@@ -32295,7 +32493,7 @@ funùiÚ
 p
 )
 
-105 
+110 
 loÿl
  
 ¶ay”_id
@@ -32305,19 +32503,19 @@ p
 ¶ay”Id
 
 
-106 
+111 
 b©e
  = 
 p
 .battle
 
-107 
+112 
 skyÃt
 .(".ag’t"..
 ¶ay”_id
 )
 
-108 
+113 
 loÿl
  
 »t
@@ -32331,27 +32529,27 @@ b©e
 ¶ay”_id
 )
 
-109 
+114 
 »t
  
 th’
 
 
-110 
+115 
 ’d
 
 
-111 
+116 
 ’d
 
 
-113 
+118 
 funùiÚ
  
 	$£nd_h–lo
 ()
 
-114 
+119 
 skyÃt
 .
 	`fÜk
@@ -32359,11 +32557,11 @@ skyÃt
 	$funùiÚ
 ()
 
-115 
+120 
 Œue
  do
 
-116 
+121 
 	`£nd_·ckage
 ("S2C_Pšg",{
 time
@@ -32375,40 +32573,96 @@ os
 	}
 })
 
-117 --
+122 --
 £nd_·ckage
 ("S2C_LßdSûÃ", {
 Çme
  = "Lobby"})
 
-118 
+123 
 	gskyÃt
 .
 	$¦“p
 (500)
 
-119 
+124 
 ’d
 
 
-120 
+125 
 ’d
 )
 
-121 
+126 
 ’d
 
 
-123 
+128 
 ´Ùobuf
 .
 »gi¡”_fe
  "../battle_city/proto/Msg.pb"
 
-124 
+129 
+loÿl
+ 
+msgCache
+ = {
+·ckageLi¡
+ = {}
+	}
+}
+
+130 
 funùiÚ
  
-	$£nd_·ckage
+¿w_£nd_·ckage
+()
+
+131 --
+	gskyÃt
+.
+log
+("raw_send_package")
+
+132 #msgCache.
+	g·ckageLi¡
+ =ğ0 
+th’
+
+
+134 
+’d
+
+
+135 
+sock‘
+.
+wr™e
+(
+ş›Á_fd
+, 
+´Ùobuf
+.
+’code
+("Mes§ge",
+msgCache
+))
+
+136 
+	gmsgCache
+.
+	g·ckageLi¡
+ = {}
+
+137 
+’d
+
+
+139 
+funùiÚ
+ 
+£nd_·ckage
 (
 mes§ge_ty³
 , 
@@ -32417,13 +32671,21 @@ tbl
 ½c_id
 )
 
-125 
+140 --
+	gskyÃt
+.
+log
+("send_package")
+
+141 
+	g½c_id
+ = 
 ½c_id
- =„pc_id 
+ 
 Ü
  0
 
-126 
+142 
 bufãr
  = 
 ´Ùobuf
@@ -32435,17 +32697,13 @@ mes§ge_ty³
 tbl
 )
 
-127 
-sock‘
-.
-	`wr™e
+143 
+	`bË_š£¹
 (
-ş›Á_fd
-, 
-´Ùobuf
+msgCache
 .
-	`’code
-("Package",{
+·ckageLi¡
+, {
 Çme
  = 
 mes§ge_ty³
@@ -32457,37 +32715,37 @@ mes§ge_ty³
 d©a
  = 
 bufãr
-}))
+})
 
-128 
-´št
-("£nd_·ckage:"..
-mes§ge_ty³
-.." d©a:"..
-bufãr
-)
+144 
+	gskyÃt
+.
+	$¦“p
+(1)
 
-129 
+145 
+	$¿w_£nd_·ckage
+()
+
+147 
 ’d
 
 
-131 
-	gcmd
+149 
+cmd
 .
-	g£nd_·ckage
- = 
 £nd_·ckage
+ = send_package
 
-
-133 
+151 
 funùiÚ
  
 cmd
 .
-discÚÃù
+	`discÚÃù
 ()
 
-134 -- 
+152 -- 
 todo
 : dØ
 som‘hšg
@@ -32497,19 +32755,19 @@ befÜe
 ex™
 
 
-135 
+153 
 ¶ay”
  
 th’
 
 
-136 
+154 
 ¶ay”
 :
-qu™_room
+	`qu™_room
 (player)
 
-137 --
+155 --
 ¶ay”
 :
 	$§ve
@@ -32517,21 +32775,21 @@ qu™_room
 ¶ay”
 )
 
-138 
+156 
 ’d
 
 
-139 
+157 
 skyÃt
 .
 	$ex™
 ()
 
-140 
+158 
 ’d
 
 
-142 
+160 
 skyÃt
 .
 	`¡¬t
@@ -32539,7 +32797,7 @@ skyÃt
 	$funùiÚ
 ()
 
-143 
+161 
 skyÃt
 .
 	`di¥©ch
@@ -32551,7 +32809,7 @@ _
 commªd
 , ...)
 
-144 
+162 
 loÿl
  
 f
@@ -32561,7 +32819,7 @@ cmd
 commªd
 ]
 
-145 
+163 
 skyÃt
 .
 	`»t
@@ -32571,11 +32829,11 @@ skyÃt
 	$f
 (...)))
 
-146 
+164 
 ’d
 )
 
-147 
+165 
 ’d
 )
 
@@ -33049,39 +33307,39 @@ skyÃt
 ’d
 )
 
+36 
+skyÃt
+.".battlemng"
+
 37 
+şu¡”
+.
+İ’
+ "battlemng"
+
+40 
 d©a_mªag”
 .
 	$lßd_d©as
 ()
 
-38 
+41 
 bt_mªag”
 .
 	$expÜt_node_doc
 ()
 
-39 
+42 
 bt_mªag”
 .
 	$lßd_Œ“s
 ()
 
-40 
+43 
 m­_mªag”
 .
 	$lßd_m­s
 ()
-
-43 
-skyÃt
-.".battlemng"
-
-44 
-şu¡”
-.
-İ’
- "battlemng"
 
 46 
 loÿl
@@ -33625,7 +33883,7 @@ room
 room
 .
 m­_id
- = 2
+ = 1
 
 17 
 room
@@ -34972,10 +35230,56 @@ skyÃt
 .
 	`¡¬t
 (
-	`funùiÚ
+	$funùiÚ
 ()
 
-25 --
+25 
+skyÃt
+.
+	`di¥©ch
+("lua", 
+	$funùiÚ
+(
+_
+,_, 
+commªd
+, ...)
+
+26 
+loÿl
+ 
+f
+ = 
+cmd
+[
+commªd
+]
+
+27 
+skyÃt
+.
+	`»t
+(skyÃt.
+	`·ck
+(
+	$f
+(...)))
+
+28 
+’d
+)
+
+29 
+skyÃt
+.".master"
+
+30 
+şu¡”
+.
+İ’
+ "master"
+
+32 --
 loÿl
  
 cÚsŞe
@@ -34985,13 +35289,13 @@ skyÃt
 	`Ãw£rviû
 ("console")
 
-26 --
+33 --
 skyÃt
 .
 	`Ãw£rviû
 ("debug_console",8000)
 
-28 
+35 
 loÿl
  
 d©aûÁ”
@@ -34999,13 +35303,13 @@ d©aûÁ”
 »quœe
  "datacenter"
 
-29 
+36 --
 d©aûÁ”
 .
 	$ü—‹
 ()
 
-31 
+38 
 loÿl
  
 db
@@ -35021,7 +35325,7 @@ add»ss
 db_Çme
 )
 
-32 
+39 
 skyÃt
 .
 	`Çme
@@ -35029,7 +35333,7 @@ skyÃt
 db
 )
 
-34 
+41 
 loÿl
  
 lobby
@@ -35039,7 +35343,7 @@ skyÃt
 	`unique£rviû
 ("lobby")
 
-36 
+43 
 loÿl
  
 ag’oŞ
@@ -35049,25 +35353,31 @@ skyÃt
 	`unique£rviû
 ("agentpool", "master")
 
-38 
+45 
+skyÃt
+.
+	`log
+("load datas")
+
+46 
 d©a_mªag”
 .
 	$lßd_d©as
 ()
 
-40 
+48 
 bt_mªag”
 .
 	$expÜt_node_doc
 ()
 
-41 
+49 
 bt_mªag”
 .
 	`lßd_Œ“s
 ()
 
-42 --
+50 --
 loÿl
  
 ¶ay”
@@ -35077,7 +35387,7 @@ PÏy”
 	`Ãw
 ()
 
-43 -- 
+51 -- 
 loÿl
  
 Œ“
@@ -35089,71 +35399,25 @@ bt_mªag”
 ¶ay”
 )
 
-44 -- 
+52 -- 
 Œ“
 :
 	$exec
 ()
 
-46 
+54 
 m­_mªag”
 .
 	$lßd_m­s
 ()
 
-47 
-skyÃt
-.
-	`di¥©ch
-("lua", 
-	$funùiÚ
-(
-_
-,_, 
-commªd
-, ...)
-
-48 
-loÿl
- 
-f
- = 
-cmd
-[
-commªd
-]
-
-49 
-skyÃt
-.
-	`»t
-(skyÃt.
-	`·ck
-(
-	$f
-(...)))
-
-50 
-’d
-)
-
-52 
-skyÃt
-.".master"
-
-53 
-şu¡”
-.
-İ’
- "master"
-
-55 
+56 
 skyÃt
 .
 	`log
 ("haha")
 
-56 
+57 
 ’d
 )
 

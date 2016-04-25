@@ -36,7 +36,6 @@ skynet.start(function()
     skynet.register ".battlemng"
     cluster.open "battlemng"
 
-
     data_manager.load_datas()
     bt_manager.export_node_doc()
     bt_manager.load_trees()
