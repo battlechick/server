@@ -24,21 +24,48 @@
 [:00000008] load map
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
-[:00000008] haha
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:46601
-[:0000000e] New client from : 113.99.30.246:29630
+[:00000009] socket accept from 127.0.0.1:47991
+[:00000009] id:4 sz:27 wsz:0
+[:0000000e] New client from : 116.22.221.109:26263
 [:00000012] LAUNCH snlua agent
-[:00000012] userdata: 0x7f269249ba20
+[:00000012] master start5
+[:00000012] send_package S2C_LoadScene
+[:00000012] send_package S2C_Ping
+[:00000012] id:5 sz:54 wsz:0
+[:00000012] 20 userdata: 0x7fae8a505640
 [:00000012] recieve package C2S_Online
-[:00000012] userdata: 0x7f269101ed40
+[:0000000b] id:6 sz:58 wsz:0
+[:0000000b] id:6 sz:67 wsz:0
+[:0000000b] id:7 sz:58 wsz:0
+[:0000000b] id:7 sz:73 wsz:0
+[:0000000b] id:8 sz:58 wsz:0
+[:0000000b] id:8 sz:153 wsz:0
+[:00000012] register agent298
+[:00000012] send_package S2C_Online
+[:00000012] id:5 sz:32 wsz:0
+[:00000012] 28 userdata: 0x7fae92942ee0
 [:00000012] recieve package Request_RoomList
-[:00000012] userdata: 0x7f269ad9f420
+[:00000012] send_package Response_RoomList
+[:00000012] id:5 sz:29 wsz:0
+[:00000012] 26 userdata: 0x7fae88c1d360
 [:00000012] recieve package Request_CreateRoom
-[:00000012] userdata: 0x7f269ad0e340
+[:00000012] send_package S2C_RoomData
+[:00000012] send_package S2C_RoomData
+[:00000012] send_package Response_CreateRoom
+[:00000012] id:5 sz:137 wsz:0
+[:00000012] 28 userdata: 0x7fae8a537e40
 [:00000012] recieve package Request_RoomList
-[:00000012] userdata: 0x7f26925fdb80
+[:00000012] send_package Response_RoomList
+[:00000012] id:5 sz:52 wsz:0
+[:00000012] 29 userdata: 0x7fae8a52e970
 [:00000012] recieve package C2S_BroadcastRoomData
-[:00000012] userdata: 0x7f269101ee20
+[:00000012] send_package S2C_RoomData
+[:00000012] id:5 sz:56 wsz:0
+[:00000012] 25 userdata: 0x7fae88c1d740
 [:00000012] recieve package Request_StartGame
+[:00000009] id:9 sz:178 wsz:0
+[:00000012] send_package S2C_LoadBattle
+[:00000012] id:5 sz:46 wsz:0
+[:0000000e] watchdog socket close 5
 [:00000012] KILL self

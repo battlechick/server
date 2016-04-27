@@ -47,7 +47,8 @@ function cmd.join_room(room_id, player_id, player_name)
     local player = {
         player_id = player_id,
         player_name = player_name,
-        ready = false
+        ready = false,
+        idx = room.cur_count
     }
     room.players[player_id] = player
     room.cur_count = room.cur_count + 1

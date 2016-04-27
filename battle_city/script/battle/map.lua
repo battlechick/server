@@ -3,20 +3,18 @@ local skynet = require "skynet"
 local table_insert = table.insert
 
 local map_manager = require "battle.map_manager"
-local bt_manager = require "behavior_tree.bt_manager"
 local data_manager = require "data_manager.data_manager"
-local datacenter = require "datacenter"
 
 Map = class()
 
 function Map:ctor(map_id)
-    skynet.log("map_id"..map_id)
     self.map_id = map_id
     self.width = 0
     self.height = 0
     self.tiles = {}
     self.guid2unit = {}
     self.proto = nil
+    self.room = nil
 end
 
 function Map:init()
@@ -43,15 +41,6 @@ function Map:init()
     self.proto = data_manager.get_data("SceneProto", self.map_id) 
     
     local tree_id = self.proto.treeId
-    skynet.log("scene treeid:"..tree_id)
-    self.tree = bt_manager.create_tree(tree_id, self)
-    self.tree:exec()
-end
-
-function Map:create_unit(unit_id, x, y)
-    skynet.log("Map:create_unit "..unit_id)
-    
-    return
 end
 
 Tile = class(Unit)

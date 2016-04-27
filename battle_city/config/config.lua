@@ -37,6 +37,10 @@ return{
   },
 
   battle = {
+    db = {
+      address = "127.0.0.1",
+      db_name = "battle_city",
+    },
     gate_list = {
       {
         address = ip,

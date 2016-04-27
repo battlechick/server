@@ -53,5 +53,4 @@ skynet.start(function()
 
     map_manager.load_maps()
     
-    skynet.log("haha")
 end)

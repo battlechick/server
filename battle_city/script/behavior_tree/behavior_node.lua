@@ -56,8 +56,6 @@ function BehaviorNode:before_run()
             end
         end
         self[key] = value
-        skynet.log("before_run key:"..key.." value:"..tostring(value).." desc:"..desc)
-        skynet.dump(self.data)
     end
 end
 function BehaviorNode:run()

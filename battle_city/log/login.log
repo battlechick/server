@@ -14,9 +14,15 @@
 [:0000000d] LAUNCH snlua gate
 [:0000000d] Listen on 121.42.162.95:10000
 [:00000002] KILL self
-[:0000000c] New client from : 113.99.30.246:29629
+[:0000000c] New client from : 116.22.221.109:26261
 [:0000000e] LAUNCH snlua agent
-[:0000000e] userdata: 0x7f696f5ac3d0
+[:0000000e] 29 userdata: 0x7f26713b1110
 [:0000000e] recieve package C2S_Login
 [:0000000e] client login
+[:0000000b] id:4 sz:58 wsz:0
+[:0000000b] id:4 sz:68 wsz:0
+[:00000009] id:5 sz:39 wsz:0
+[:0000000e] send_package S2C_Login
+[:0000000e] id:3 sz:41 wsz:0
 [:0000000e] KILL self
+[:0000000c] watchdog socket close 3

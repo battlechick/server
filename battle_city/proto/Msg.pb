@@ -1,5 +1,5 @@
 
-à
+‹
 	Msg.proto"f
 Message%
 packageList (2.Message.Package4
@@ -66,7 +66,9 @@ playerList (2.PlayerInfo"
 o (
 data (	"-
 S2C_CreateUnit
-unitList (2	.UnitInfo".
+unitList (2	.UnitInfo")
+S2C_CreateHero
+info (2	.UnitInfo".
 Player
 playerId (
 

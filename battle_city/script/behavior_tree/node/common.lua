@@ -69,7 +69,7 @@ function LimitExec:ctor()
         args_desc = {"limit/int/1/执行次数"},
         classify = "复合节点",
         limit = 999,
-        style = "blue",
+        style = "red",
     }
 end
 function LimitExec:run()

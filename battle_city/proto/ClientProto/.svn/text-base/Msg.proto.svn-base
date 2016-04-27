@@ -94,6 +94,10 @@ message S2C_CreateUnit {
     repeated UnitInfo unitList = 1;
 }
 
+message S2C_CreateHero {
+    required UnitInfo info = 1;
+}
+
 message Player {
     required int32 playerId = 1;
     required string playerName = 2;
