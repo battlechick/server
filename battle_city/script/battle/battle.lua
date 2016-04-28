@@ -9,7 +9,7 @@ local battle = {
 }
 --setmetatable(guid2unit, {__mode = "v"})
 
-require "battle.unit"
+require "battle.unit.unit"
 require "battle.map"
 local skynet = require "skynet"
 local map_manager = require "battle.map_manager"
@@ -87,34 +87,29 @@ function battle:create_hero(unit_id, x, y, idx)
         skynet.log("Map:create_hero "..unit_id.." fail")
         return false
     end
+    local hero = Hero.new()
+    hero:set_position({x = 1, y = 1, o = 90})
+    self:broadcast_create_unit(hero)
     return true
 end
 
-function battle:broadcast(message_type, tbl)
+function battle:broadcast(message_type, tbl, delay)
     for player_id, _ in pairs(self.players) do
-        skynet.call(".agent"..player_id, "lua", "send_package", message_type, tbl)
+        skynet.call(".agent"..player_id, "lua", "send_package", message_type, tbl, 0, delay)
     end
 end
 
 function battle:broadcast_start()
-    local tbl = {unitList={}} 
     -- 分若干个小包发
+    self:broadcast("S2C_StartBattle", {})
     for _, unit in pairs(self.guid2unit) do
-        table_insert(tbl.unitList, {
-            guid = unit.guid, 
-            unitId = unit.unit_id, 
-            x = unit.position.x,
-            y = unit.position.y,
-            o = unit.position.o,
-            data = json.encode(unit:get_data()) })
+        self:broadcast_create_unit(unit, 100)     
     end
     skynet.log("send start")
-    self:broadcast("S2C_CreateUnit",tbl)
-    self:broadcast("S2C_StartBattle", {})
 end
 
-function battle:broadcast_unit(unit)
-    local tbl = {unitList = {
+function battle:broadcast_create_unit(unit, delay)
+    local tbl = {unitInfo = 
         {
             guid = unit.guid, 
             unitId = unit.unit_id, 
@@ -123,22 +118,26 @@ function battle:broadcast_unit(unit)
             o = unit.position.o,
             data = json.encode(unit:get_data()) 
         } 
-    }}
-    self:broadcast("S2C_CreateUnit", tbl)
+    }
+    self:broadcast("S2C_CreateUnit", tbl, delay)
 end
 
-function battle:broadcast_hero(hero)
+function battle:broadcast_update_position(unit)
     local tbl = {
-        guid = hero.guid, 
-        unitId = hero.unit_id, 
-        x = hero.position.x,
-        y = hero.position.y,
-        o = hero.position.o,
-        data = json.encode(hero:get_data()) 
+        guid = unit.guid,
+        x = unit.position.x,
+        y = unit.position.y,
+        o = unit.position.o,
     }
-    self:broadcast("S2C_CreateHero", tbl)
+    self:broadcast("S2C_UpdatePosition", tbl)
 end
-    
+
+function battle:broadcast_del_unit(unit)
+    local tbl = {
+        guid = unit.guid,
+    }
+    self:broadcast("S2C_DelUnit", tbl)
+end
 
 skynet.start(function()
     skynet.dispatch("lua", function(_,_, command, ...)

@@ -143,7 +143,7 @@ end
 protobuf.register_file "../battle_city/proto/Msg.pb"  
 local msgCache = {packageList = {}}
 function raw_send_package()
-    --skynet.log("raw_send_package")
+    -- skynet.log("&&&&raw_send_package")
     if #msgCache.packageList == 0 then
         return
     end
@@ -152,12 +152,12 @@ function raw_send_package()
     msgCache.packageList = {}
 end
 
-function send_package(message_type, tbl, rpc_id)
-    skynet.log("send_package "..message_type)
+function send_package(message_type, tbl, rpc_id, delay)
+    -- skynet.log("send_package",message_type, delay)
     rpc_id = rpc_id or 0
     buffer = protobuf.encode(message_type, tbl)
-    table_insert(msgCache.packageList, {name = message_type, rpcId = rpc_id, data = buffer})
-    skynet.timeout(1,function()
+    table_insert(msgCache.packageList, {name = message_type, rpcId = rpc_id, data = buffer}) 
+    skynet.timeout(delay or 1,function()
         raw_send_package()
     end)
 

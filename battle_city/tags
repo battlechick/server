@@ -121,8 +121,8 @@ T_UNKNOWN	luaclib/lua_cjson.c	/^    T_UNKNOWN$/;"	e	enum:__anon1	file:
 T_WHITESPACE	luaclib/lua_cjson.c	/^    T_WHITESPACE,$/;"	e	enum:__anon1	file:
 Tile:ctor	script/battle/map.lua	/^function Tile:ctor(unit_id, x, y)$/;"	f
 Tile:get_data	script/battle/map.lua	/^function Tile:get_data()$/;"	f
-Unit:ctor	script/battle/unit.lua	/^function Unit:ctor()$/;"	f
-Unit:get_data	script/battle/unit.lua	/^function Unit:get_data()$/;"	f
+Unit:ctor	script/battle/unit/unit.lua	/^function Unit:ctor()$/;"	f
+Unit:get_data	script/battle/unit/unit.lua	/^function Unit:get_data()$/;"	f
 UnitProto	ExcelData/Cache/UnitProto_pb2.py	/^UnitProto = _reflection.GeneratedProtocolMessageType('UnitProto', (_message.Message,), dict($/;"	v
 UnitProto_ARRAY	ExcelData/Cache/UnitProto_pb2.py	/^UnitProto_ARRAY = _reflection.GeneratedProtocolMessageType('UnitProto_ARRAY', (_message.Message,), dict($/;"	v
 _DecreaseIndentation	ExcelData/export.py	/^    def _DecreaseIndentation(self) :$/;"	m	class:SheetInterpreter
@@ -251,7 +251,7 @@ _writer[4] 	lualib/protobuf.lua	/^_writer[4] = function(msg) return _writer.stri
 _writer[5] 	lualib/protobuf.lua	/^_writer[5] = function(msg) return _writer.string end$/;"	f
 _writer[6] 	lualib/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
 alloca	luaclib/pbc-lua53.c	16;"	d	file:
-auto_guid	script/battle/unit.lua	/^function auto_guid()$/;"	f
+auto_guid	script/battle/unit/unit.lua	/^function auto_guid()$/;"	f
 battle:broadcast	script/battle/battle.lua	/^function battle:broadcast(message_type, tbl)$/;"	f
 battle:broadcast_hero	script/battle/battle.lua	/^function battle:broadcast_hero(hero)$/;"	f
 battle:broadcast_start	script/battle/battle.lua	/^function battle:broadcast_start()$/;"	f

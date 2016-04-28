@@ -44,6 +44,7 @@ function cmd.join_room(room_id, player_id, player_name)
     if not room or room.players[player_id] then
         return false
     end
+    room.cur_count = room.cur_count + 1
     local player = {
         player_id = player_id,
         player_name = player_name,
@@ -51,7 +52,6 @@ function cmd.join_room(room_id, player_id, player_name)
         idx = room.cur_count
     }
     room.players[player_id] = player
-    room.cur_count = room.cur_count + 1
 
     broadcast_room_data(room)
     return true

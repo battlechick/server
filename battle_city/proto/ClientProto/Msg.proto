@@ -91,11 +91,7 @@ message UnitInfo{
 }
 
 message S2C_CreateUnit {
-    repeated UnitInfo unitList = 1;
-}
-
-message S2C_CreateHero {
-    required UnitInfo info = 1;
+    required UnitInfo unitInfo = 1;
 }
 
 message Player {
