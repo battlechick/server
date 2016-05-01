@@ -8,9 +8,9 @@ function auto_guid()
     return auto_id
 end
 
-function Unit:ctor()
+function Unit:ctor(unit_id)
     self.guid = auto_guid()
-    self.unit_id = 0
+    self.unit_id = unit_id
     self.position = {x = 0, y = 0, o = 0}
 end
 

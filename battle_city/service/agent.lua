@@ -48,6 +48,10 @@ skynet.register_protocol {
     end
 }
 
+function cmd.get_client_fd()
+    return client_fd
+end
+
 function cmd.login_start(conf)
     local fd = conf.client
     local gate = conf.gate
@@ -126,7 +130,7 @@ function cmd.C2S_JoinBattle(p)
     local player_id = p.playerId
     battle = p.battle  
     skynet.register(".agent"..player_id)
-    local ret = skynet.call(battle, "lua", "join_battle", player_id)
+    local ret = skynet.call(battle, "lua", "join_battle", player_id, client_fd)
     if ret then
     end
 end
@@ -143,10 +147,10 @@ end
 protobuf.register_file "../battle_city/proto/Msg.pb"  
 local msgCache = {packageList = {}}
 function raw_send_package()
-    -- skynet.log("&&&&raw_send_package")
     if #msgCache.packageList == 0 then
         return
     end
+    skynet.log("&&&&raw_send_package "..#msgCache.packageList)
     --socket.write(client_fd, protobuf.encode("Message",msgCache))
     socket.write(client_fd, string.pack("<s4", protobuf.encode("Message",msgCache)))
     msgCache.packageList = {}

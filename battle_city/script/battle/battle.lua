@@ -1,5 +1,7 @@
 
 local table_insert = table.insert
+local socket = require "socket"
+local protobuf = require "protobuf"
 
 local battle = {
     room = nil,
@@ -21,6 +23,7 @@ local json = require "cjson"
 function battle:init(_room)
     self.room = _room
     self.players = self.room.players
+    self.msgCache = {packageList = {}}
 
     self:init_map()
     for player_id, player in pairs(self.players) do
@@ -28,12 +31,14 @@ function battle:init(_room)
     end
 end
 
-function battle:join_battle(player_id)
+function battle:join_battle(player_id, client_fd)
     local player = self.players[player_id]
     if not player then
         return false
     end
     player.loaded = 100
+    player.client_fd = client_fd
+    skynet.log("join fd", client_fd)
 
     if self:check_load_finished() then
         skynet.timeout(10, function()
@@ -66,8 +71,18 @@ function battle:start()
     skynet.log("scene treeid:"..tree_id)
     self.tree = bt_manager.create_tree(tree_id, battle)
     self.tree:exec()
+
+    self:main_loop()
 end
 
+function battle:main_loop()
+    
+    self:raw_send_package()
+
+    skynet.timeout(10, function()
+        self:main_loop()
+    end)
+end
 
 function battle:create_unit(unit_id, x, y)
     skynet.log("Map:create_unit "..unit_id)
@@ -87,16 +102,27 @@ function battle:create_hero(unit_id, x, y, idx)
         skynet.log("Map:create_hero "..unit_id.." fail")
         return false
     end
-    local hero = Hero.new()
+    local hero = Hero.new(unit_id)
     hero:set_position({x = 1, y = 1, o = 90})
     self:broadcast_create_unit(hero)
     return true
 end
 
-function battle:broadcast(message_type, tbl, delay)
-    for player_id, _ in pairs(self.players) do
-        skynet.call(".agent"..player_id, "lua", "send_package", message_type, tbl, 0, delay)
+protobuf.register_file "../battle_city/proto/Msg.pb"  
+function battle:raw_send_package()
+    if #self.msgCache.packageList == 0 then
+        return
     end
+    skynet.log("&&&&raw_send_package "..#self.msgCache.packageList)
+    for player_id, player in pairs(self.players) do
+        socket.write(player.client_fd, string.pack("<s4", protobuf.encode("Message",self.msgCache)))
+    end
+    self.msgCache.packageList = {}
+end
+
+function battle:broadcast(message_type, tbl, delay)
+    local buffer = protobuf.encode(message_type, tbl)
+    table_insert(self.msgCache.packageList, {name = message_type, rpcId = 0, data = buffer}) 
 end
 
 function battle:broadcast_start()
