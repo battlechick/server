@@ -48,6 +48,8 @@ FIELD_COMMENT_ROW	ExcelData/export.py	/^FIELD_COMMENT_ROW = 3$/;"	v
 FIELD_NAME_ROW	ExcelData/export.py	/^FIELD_NAME_ROW = 2$/;"	v
 FIELD_RULE_ROW	ExcelData/export.py	/^FIELD_RULE_ROW = 0$/;"	v
 FIELD_TYPE_ROW	ExcelData/export.py	/^FIELD_TYPE_ROW = 1$/;"	v
+Hero:ctor	script/battle/unit/hero.lua	/^function Hero:ctor()$/;"	f
+Hero:get_data	script/battle/unit/hero.lua	/^function Hero:get_data()$/;"	f
 Interpreter	ExcelData/export.py	/^    def Interpreter(self) :$/;"	m	class:SheetInterpreter
 LOG_DEBUG	ExcelData/export.py	/^LOG_DEBUG=LogHelp.get_logger().debug$/;"	v
 LOG_ERROR	ExcelData/export.py	/^LOG_ERROR=LogHelp.get_logger().error$/;"	v
@@ -64,6 +66,7 @@ M.encode	lualib/protobuf.lua	/^function M.encode( message, t , func , ...)$/;"	f
 M.enum_id	lualib/protobuf.lua	/^function M.enum_id(enum_type, enum_name)$/;"	f
 M.export_node_doc	script/behavior_tree/bt_manager.lua	/^function M.export_node_doc()$/;"	f
 M.extract	lualib/protobuf.lua	/^function M.extract(tbl)$/;"	f
+M.get_collider	script/battle/map_manager.lua	/^function M.get_collider(unit_id)$/;"	f
 M.get_data	script/data_manager/data_manager.lua	/^function M.get_data(tbl_name, ...)$/;"	f
 M.get_map_block	script/battle/map_manager.lua	/^function M.get_map_block(block_id)$/;"	f
 M.get_map_data	script/battle/map_manager.lua	/^function M.get_map_data(map_id)$/;"	f
@@ -89,6 +92,14 @@ Player:rpc	script/player/player.lua	/^function Player:rpc(self)$/;"	f
 Player:send	script/player/player.lua	/^function Player:send(message_type, tbl)$/;"	f
 Player:start_game	script/player/player_room.lua	/^function Player:start_game()$/;"	f
 Player_save	script/player/player.lua	/^function Player_save(self)$/;"	f
+QuadTree:addObject	script/common/quadtree.lua	/^function QuadTree:addObject(object)$/;"	f
+QuadTree:check	script/common/quadtree.lua	/^function QuadTree:check(object, func, x, y)$/;"	f
+QuadTree:ctor	script/common/quadtree.lua	/^function QuadTree:ctor(_left, _top, _width, _height)$/;"	f
+QuadTree:getCollidableObjects	script/common/quadtree.lua	/^function QuadTree:getCollidableObjects(object, moving)$/;"	f
+QuadTree:removeAllObjects	script/common/quadtree.lua	/^function QuadTree:removeAllObjects()$/;"	f
+QuadTree:removeObject	script/common/quadtree.lua	/^function QuadTree:removeObject(object, usePrevious)$/;"	f
+QuadTree:subdivide	script/common/quadtree.lua	/^function QuadTree:subdivide()$/;"	f
+QuadTree:updateObject	script/common/quadtree.lua	/^function QuadTree:updateObject(object)$/;"	f
 Root:ctor	script/behavior_tree/node/common.lua	/^function Root:ctor()$/;"	f
 Root:run	script/behavior_tree/node/common.lua	/^function Root:run()$/;"	f
 SOCKET.close	service/watchdog.lua	/^function SOCKET.close(fd)$/;"	f
@@ -121,8 +132,9 @@ T_UNKNOWN	luaclib/lua_cjson.c	/^    T_UNKNOWN$/;"	e	enum:__anon1	file:
 T_WHITESPACE	luaclib/lua_cjson.c	/^    T_WHITESPACE,$/;"	e	enum:__anon1	file:
 Tile:ctor	script/battle/map.lua	/^function Tile:ctor(unit_id, x, y)$/;"	f
 Tile:get_data	script/battle/map.lua	/^function Tile:get_data()$/;"	f
-Unit:ctor	script/battle/unit/unit.lua	/^function Unit:ctor()$/;"	f
+Unit:ctor	script/battle/unit/unit.lua	/^function Unit:ctor(unit_id)$/;"	f
 Unit:get_data	script/battle/unit/unit.lua	/^function Unit:get_data()$/;"	f
+Unit:set_position	script/battle/unit/unit.lua	/^function Unit:set_position(position)$/;"	f
 UnitProto	ExcelData/Cache/UnitProto_pb2.py	/^UnitProto = _reflection.GeneratedProtocolMessageType('UnitProto', (_message.Message,), dict($/;"	v
 UnitProto_ARRAY	ExcelData/Cache/UnitProto_pb2.py	/^UnitProto_ARRAY = _reflection.GeneratedProtocolMessageType('UnitProto_ARRAY', (_message.Message,), dict($/;"	v
 _DecreaseIndentation	ExcelData/export.py	/^    def _DecreaseIndentation(self) :$/;"	m	class:SheetInterpreter
@@ -252,16 +264,19 @@ _writer[5] 	lualib/protobuf.lua	/^_writer[5] = function(msg) return _writer.stri
 _writer[6] 	lualib/protobuf.lua	/^_writer[6] = function(msg)$/;"	f
 alloca	luaclib/pbc-lua53.c	16;"	d	file:
 auto_guid	script/battle/unit/unit.lua	/^function auto_guid()$/;"	f
-battle:broadcast	script/battle/battle.lua	/^function battle:broadcast(message_type, tbl)$/;"	f
-battle:broadcast_hero	script/battle/battle.lua	/^function battle:broadcast_hero(hero)$/;"	f
+battle:broadcast	script/battle/battle.lua	/^function battle:broadcast(message_type, tbl, delay)$/;"	f
+battle:broadcast_create_unit	script/battle/battle.lua	/^function battle:broadcast_create_unit(unit, delay)$/;"	f
+battle:broadcast_del_unit	script/battle/battle.lua	/^function battle:broadcast_del_unit(unit)$/;"	f
 battle:broadcast_start	script/battle/battle.lua	/^function battle:broadcast_start()$/;"	f
-battle:broadcast_unit	script/battle/battle.lua	/^function battle:broadcast_unit(unit)$/;"	f
+battle:broadcast_update_position	script/battle/battle.lua	/^function battle:broadcast_update_position(unit)$/;"	f
 battle:check_load_finished	script/battle/battle.lua	/^function battle:check_load_finished()$/;"	f
 battle:create_hero	script/battle/battle.lua	/^function battle:create_hero(unit_id, x, y, idx)$/;"	f
 battle:create_unit	script/battle/battle.lua	/^function battle:create_unit(unit_id, x, y)$/;"	f
 battle:init	script/battle/battle.lua	/^function battle:init(_room)$/;"	f
 battle:init_map	script/battle/battle.lua	/^function battle:init_map()$/;"	f
-battle:join_battle	script/battle/battle.lua	/^function battle:join_battle(player_id)$/;"	f
+battle:join_battle	script/battle/battle.lua	/^function battle:join_battle(player_id, client_fd)$/;"	f
+battle:main_loop	script/battle/battle.lua	/^function battle:main_loop()$/;"	f
+battle:raw_send_package	script/battle/battle.lua	/^function battle:raw_send_package()$/;"	f
 battle:start	script/battle/battle.lua	/^function battle:start()$/;"	f
 boolean	luaclib/lua_cjson.c	/^        int boolean;$/;"	m	union:__anon4::__anon5	file:
 broadcast	service/lobby.lua	/^function broadcast(room, message_type, tbl)$/;"	f
@@ -274,6 +289,7 @@ ch2token	luaclib/lua_cjson.c	/^    json_token_type_t ch2token[256];$/;"	m	struct
 char2escape	luaclib/lua_cjson.c	/^static const char *char2escape[256] = {$/;"	v	file:
 check_empty	service/lobby.lua	/^function check_empty(room)$/;"	f
 checkuserdata	luaclib/pbc-lua53.c	/^checkuserdata(lua_State *L, int index) {$/;"	f	file:
+child) child:addObject	script/common/quadtree.lua	/^        self:check(object, function(child) child:addObject(object) end)$/;"	f
 class	script/global.lua	/^function class(super, class_name)$/;"	f
 class_type.new	script/global.lua	/^    class_type.new=function(...) $/;"	f
 close	ExcelData/export.py	/^    def close() :$/;"	m	class:LogHelp
@@ -300,6 +316,7 @@ cmd.close	service/watchdog.lua	/^function cmd.close(fd)$/;"	f
 cmd.create	service/battlemng.lua	/^function cmd.create(room)$/;"	f
 cmd.create_room	service/lobby.lua	/^function cmd.create_room(room_name, player_id)$/;"	f
 cmd.disconnect	service/agent.lua	/^function cmd.disconnect()$/;"	f
+cmd.get_client_fd	service/agent.lua	/^function cmd.get_client_fd()$/;"	f
 cmd.get_module	service/util/module.lua	/^function cmd.get_module(module_name)$/;"	f
 cmd.get_room_list	service/lobby.lua	/^function cmd.get_room_list(start_idx, end_idx)$/;"	f
 cmd.is_full	service/watchdog.lua	/^function cmd.is_full()$/;"	f
@@ -428,6 +445,7 @@ json_token_type_t	luaclib/lua_cjson.c	/^} json_token_type_t;$/;"	t	typeref:enum:
 json_verify_invalid_number_setting	luaclib/lua_cjson.c	/^void json_verify_invalid_number_setting(lua_State *l, int *setting)$/;"	f
 json_verify_invalid_number_setting	luaclib/lua_cjson.c	333;"	d	file:
 load_map_block	script/battle/map_manager.lua	/^function load_map_block()$/;"	f
+load_unit_collider	script/battle/map_manager.lua	/^function load_unit_collider()$/;"	f
 logging	ExcelData/export.py	/^            import logging$/;"	i
 logging	ExcelData/export.py	/^        import logging$/;"	i
 luaL_setfuncs	luaclib/lua_cjson.c	/^static void luaL_setfuncs (lua_State *l, const luaL_Reg *reg, int nup)$/;"	f	file:
@@ -466,8 +484,10 @@ push_value	luaclib/pbc-lua53.c	/^push_value(lua_State *L, int type, const char *
 raw_send_package	service/agent.lua	/^function raw_send_package()$/;"	f
 read	ExcelData/export.py	/^import xlrd # for read excel$/;"	i
 save_global_data	service/db.lua	/^function save_global_data(key, value)$/;"	f
+self:check(object, function (child) quads[child] 	script/common/quadtree.lua	/^            self:check(object, function (child) quads[child] = child end,$/;"	f
+self:check(object, function (child) quads[child] 	script/common/quadtree.lua	/^        self:check(object, function (child) quads[child] = child end)$/;"	f
 send_hello	service/agent.lua	/^function send_hello()$/;"	f
-send_package	service/agent.lua	/^function send_package(message_type, tbl, rpc_id)$/;"	f
+send_package	service/agent.lua	/^function send_package(message_type, tbl, rpc_id, delay)$/;"	f
 send_package	service/lobby.lua	/^function send_package(player_id, message_type, tbl)$/;"	f
 serialized_end	ExcelData/Cache/SceneProto_pb2.py	/^  serialized_end=125,$/;"	v
 serialized_end	ExcelData/Cache/SceneProto_pb2.py	/^  serialized_end=72,$/;"	v

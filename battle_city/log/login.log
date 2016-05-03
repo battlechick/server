@@ -14,67 +14,12 @@
 [:0000000d] LAUNCH snlua gate
 [:0000000d] Listen on 121.42.162.95:10000
 [:00000002] KILL self
-[:0000000c] New client from : 119.129.211.86:2776
+[:0000000c] New client from : 119.129.49.0:18165
 [:0000000e] LAUNCH snlua agent
-[:0000000e] 28 userdata: 0x7f80bf0a7a00
+[:0000000e] 29 userdata: 0x7f8d535bd0e0
 [:0000000e] recieve package C2S_Login
 [:0000000e] client login
 [:0000000e] &&&&raw_send_package 1
 [:0000000e] KILL self
 [:0000000c] watchdog socket close 3
-[:0000000c] New client from : 119.129.211.86:2846
-[:0000000f] LAUNCH snlua agent
-[:0000000f] 28 userdata: 0x7f80bf10b5a0
-[:0000000f] recieve package C2S_Login
-[:0000000f] client login
-[:0000000f] &&&&raw_send_package 1
-[:0000000f] KILL self
-[:0000000c] watchdog socket close 6
-[:0000000c] New client from : 119.129.211.86:2898
-[:00000010] LAUNCH snlua agent
-[:00000010] 28 userdata: 0x7f80bda1f080
-[:00000010] recieve package C2S_Login
-[:00000010] client login
-[:00000010] &&&&raw_send_package 1
-[:00000010] KILL self
-[:0000000c] watchdog socket close 8
-[:0000000c] New client from : 119.129.211.86:2908
-[:00000012] LAUNCH snlua agent
-[:00000012] 28 userdata: 0x7f80bf0a7c40
-[:00000012] recieve package C2S_Login
-[:00000012] client login
-[:00000012] &&&&raw_send_package 1
-[:00000012] KILL self
-[:0000000c] watchdog socket close 10
-[:0000000c] New client from : 119.129.211.86:2930
-[:0000001e] LAUNCH snlua agent
-[:0000001e] 28 userdata: 0x7f80bda1f240
-[:0000001e] recieve package C2S_Login
-[:0000001e] client login
-[:0000001e] &&&&raw_send_package 1
-[:0000001e] KILL self
-[:0000000c] watchdog socket close 12
-[:0000000c] New client from : 119.129.211.86:2949
-[:0000001f] LAUNCH snlua agent
-[:0000001f] 28 userdata: 0x7f80bf1f9b20
-[:0000001f] recieve package C2S_Login
-[:0000001f] client login
-[:0000001f] &&&&raw_send_package 1
-[:0000001f] KILL self
-[:0000000c] watchdog socket close 14
-[:0000000c] New client from : 119.129.211.86:3055
-[:00000020] LAUNCH snlua agent
-[:00000020] 28 userdata: 0x7f80bda1f400
-[:00000020] recieve package C2S_Login
-[:00000020] client login
-[:00000020] &&&&raw_send_package 1
-[:00000020] KILL self
-[:0000000c] watchdog socket close 16
-[:0000000c] New client from : 119.129.211.86:3057
-[:00000022] LAUNCH snlua agent
-[:00000022] 28 userdata: 0x7f80bf1f9ca0
-[:00000022] recieve package C2S_Login
-[:00000022] client login
-[:00000022] &&&&raw_send_package 1
-[:00000022] KILL self
-[:0000000c] watchdog socket close 18
+[:00000009] socket accept from 127.0.0.1:47696

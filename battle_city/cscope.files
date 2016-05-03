@@ -22,6 +22,7 @@
 ./script/player/player_handler.lua
 ./script/player/player.lua
 ./script/player/player_test.lua
+./script/common/quadtree.lua
 ./script/behavior_tree/behavior_tree.lua
 ./script/behavior_tree/bt_manager.lua
 ./script/behavior_tree/node/common.lua
@@ -29,6 +30,7 @@
 ./script/behavior_tree/node/map.lua
 ./script/behavior_tree/behavior_node.lua
 ./script/global.lua
+./script/battle/unit/hero.lua
 ./script/battle/unit/unit.lua
 ./script/battle/map.lua
 ./script/battle/battle.lua

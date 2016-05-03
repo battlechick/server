@@ -6,6 +6,8 @@ local M = {}
 
 function M.load_maps()
     skynet.log("load map")
+    load_map_block()
+    load_unit_collider()
     local dir = WORKSPACE.."data/Map/"
     local s = io.popen("ls ".. dir)
     local fileLists = s:read("*all")
@@ -33,8 +35,25 @@ end
 function load_map_block()
     local file = io.open(WORKSPACE.."data/Map/MapBlock.txt", "r")
     local str = file:read("*a")
-    datacenter.set("id2block", json.decode(str))
     file:close()
+    local list = json.decode(str)
+    local dict = {}
+    for _, block in pairs(list) do
+        dict[block.unitId] = block
+    end
+    datacenter.set("id2block", dict)
+end
+
+function load_unit_collider()
+    local file = io.open(WORKSPACE.."data/Map/UnitCollider.txt", "r")
+    local str = file:read("*a")
+    file:close()
+    local list = json.decode(str)
+    local dict = {}
+    for _, collider in pairs(list) do
+        dict[collider.unitId] = collider
+    end
+    datacenter.set("id2collider", dict)
 end
 
 function M.get_map_data(map_id)
@@ -43,6 +62,10 @@ end
 
 function M.get_map_block(block_id)
     return datacenter.set("id2block", block_id)
+end
+
+function M.get_collider(unit_id)
+    return datacenter.get("id2collider", unit_id)
 end
 
 return M

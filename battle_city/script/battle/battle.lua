@@ -13,6 +13,7 @@ local battle = {
 
 require "battle.unit.unit"
 require "battle.map"
+require "common.quadtree"
 local skynet = require "skynet"
 local map_manager = require "battle.map_manager"
 local bt_manager = require "behavior_tree.bt_manager"
@@ -25,7 +26,6 @@ function battle:init(_room)
     self.players = self.room.players
     self.msgCache = {packageList = {}}
 
-    self:init_map()
     for player_id, player in pairs(self.players) do
         player.loaded = 0
     end
@@ -61,17 +61,33 @@ function battle:init_map()
     local map_id = self.room.map_id
     self.map = Map.new(map_id)
     self.map:init()
+    skynet.log(self.map.width, self.map.height)
+    self.qtree = QuadTree.new(0,0, self.map.width, self.map.height, 50, 1000, 100)
+    self.qtree:subdivide()
     self.guid2unit = self.map.guid2unit
+    for guid, unit in pairs(self.guid2unit) do
+        local collider = map_manager.get_collider(unit.unit_id)
+        if collider then
+            unit.x = unit.position.x - collider.width/2 
+            unit.y = unit.position.y - collider.height/2
+            unit.width = collider.width
+            unit.height = collider.height
+            self.qtree:addObject(unit)
+        end
+    end
+    skynet.dump(self.qtree)
 end
 
 function battle:start()
-    battle:broadcast_start()
+    self:init_map()
 
     local tree_id = battle.map.proto.treeId
     skynet.log("scene treeid:"..tree_id)
-    self.tree = bt_manager.create_tree(tree_id, battle)
-    self.tree:exec()
+    self.btree = bt_manager.create_tree(tree_id, battle)
+    self.btree:exec()
 
+
+    battle:broadcast_start()
     self:main_loop()
 end
 
@@ -104,6 +120,16 @@ function battle:create_hero(unit_id, x, y, idx)
     end
     local hero = Hero.new(unit_id)
     hero:set_position({x = 1, y = 1, o = 90})
+    hero.x = 1
+    hero.y = 1
+    hero.width = 2
+    hero.height = 2
+    self.qtree:addObject(hero)
+    local objects = self.qtree:getCollidableObjects(hero)
+    skynet.log("做碰撞检测啦", #objects)
+    for _, obj in ipairs(objects) do
+        skynet.log(obj.position.x, obj.position.y)
+    end
     self:broadcast_create_unit(hero)
     return true
 end

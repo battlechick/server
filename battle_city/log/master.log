@@ -25,164 +25,66 @@
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:49178
-[:0000000e] New client from : 119.129.211.86:2777
+[:00000009] socket accept from 127.0.0.1:50026
+[:0000000e] New client from : 119.129.49.0:18168
 [:00000012] LAUNCH snlua agent
 [:00000012] master start5
 [:00000012] &&&&raw_send_package 2
-[:00000012] 20 userdata: 0x7f3bb56911a0
+[:00000012] 20 userdata: 0x7fad193460e0
 [:00000012] recieve package C2S_Online
-[:00000012] register agent354
+[:00000012] register agent397
 [:00000012] &&&&raw_send_package 1
-[:00000012] 28 userdata: 0x7f3bb6733f00
+[:00000012] 28 userdata: 0x7fad17e73c40
 [:00000012] recieve package Request_RoomList
 [:00000012] &&&&raw_send_package 1
-[:00000012] 26 userdata: 0x7f3bbee90ba0
+[:00000012] 26 userdata: 0x7fad193a1020
 [:00000012] recieve package Request_CreateRoom
 [:00000012] &&&&raw_send_package 3
-[:00000012] 28 userdata: 0x7f3bb56b0760
+[:00000012] 28 userdata: 0x7fad217c0b60
 [:00000012] recieve package Request_RoomList
 [:00000012] &&&&raw_send_package 1
-[:00000012] 29 userdata: 0x7f3bb665a480
+[:00000012] 29 userdata: 0x7fad2175e700
 [:00000012] recieve package C2S_BroadcastRoomData
 [:00000012] &&&&raw_send_package 1
-[:00000012] 25 userdata: 0x7f3bb66c7f60
+[:00000012] 25 userdata: 0x7fad21742d80
 [:00000012] recieve package Request_StartGame
 [:00000012] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 5
-[:00000012] KILL self
-[:0000000e] New client from : 119.129.211.86:2848
-[:00000013] LAUNCH snlua agent
-[:00000013] master start10
-[:00000013] &&&&raw_send_package 2
-[:00000013] 20 userdata: 0x7f3bb56b06c0
-[:00000013] recieve package C2S_Online
-[:00000013] register agent355
-[:00000013] &&&&raw_send_package 1
-[:00000013] 28 userdata: 0x7f3bbef0e160
-[:00000013] recieve package Request_RoomList
-[:00000013] &&&&raw_send_package 1
-[:00000013] 26 userdata: 0x7f3bbef0e160
-[:00000013] recieve package Request_CreateRoom
-[:00000013] &&&&raw_send_package 3
-[:00000013] 28 userdata: 0x7f3bbef0e1e0
-[:00000013] recieve package Request_RoomList
-[:00000013] &&&&raw_send_package 1
-[:00000013] 29 userdata: 0x7f3bb665a4b0
-[:00000013] recieve package C2S_BroadcastRoomData
-[:00000013] &&&&raw_send_package 1
-[:00000013] 25 userdata: 0x7f3bbef42ea0
-[:00000013] recieve package Request_StartGame
-[:00000013] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 10
-[:00000013] KILL self
-[:0000000e] New client from : 119.129.211.86:2902
-[:00000014] LAUNCH snlua agent
-[:00000014] master start14
-[:00000014] &&&&raw_send_package 2
-[:00000014] 20 userdata: 0x7f3bbef0e400
-[:00000014] recieve package C2S_Online
-[:00000014] register agent356
-[:00000014] &&&&raw_send_package 1
-[:00000014] 28 userdata: 0x7f3bb56b09e0
-[:00000014] recieve package Request_RoomList
-[:00000014] &&&&raw_send_package 1
-[:00000014] 26 userdata: 0x7f3bbef0e4e0
-[:00000014] recieve package Request_CreateRoom
-[:00000014] &&&&raw_send_package 3
-[:00000014] 28 userdata: 0x7f3bb56ee6e0
-[:00000014] recieve package Request_RoomList
-[:00000014] &&&&raw_send_package 1
-[:00000014] 26 userdata: 0x7f3bb56b09e0
-[:00000014] recieve package Request_CreateRoom
-[:00000014] &&&&raw_send_package 1
-[:00000014] 26 userdata: 0x7f3bb56ee7a0
-[:00000014] recieve package Request_CreateRoom
-[:00000014] &&&&raw_send_package 1
-[:00000014] 26 userdata: 0x7f3bbef0e460
-[:00000014] recieve package Request_CreateRoom
-[:00000014] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 14
-[:00000014] KILL self
-[:0000000e] New client from : 119.129.211.86:2911
-[:00000015] LAUNCH snlua agent
-[:00000015] master start18
-[:00000015] &&&&raw_send_package 2
-[:00000015] 20 userdata: 0x7f3bb66d0440
-[:00000015] recieve package C2S_Online
-[:00000015] register agent357
-[:00000015] &&&&raw_send_package 1
-[:00000015] 28 userdata: 0x7f3bbef0e7a0
-[:00000015] recieve package Request_RoomList
-[:00000015] &&&&raw_send_package 1
-[:00000015] 26 userdata: 0x7f3bbef0e700
-[:00000015] recieve package Request_CreateRoom
-[:00000015] &&&&raw_send_package 3
-[:00000015] 28 userdata: 0x7f3bbef0e820
-[:00000015] recieve package Request_RoomList
-[:00000015] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 18
-[:00000015] KILL self
-[:0000000e] New client from : 119.129.211.86:2932
-[:00000016] LAUNCH snlua agent
-[:00000016] master start22
-[:00000016] &&&&raw_send_package 2
-[:00000016] 20 userdata: 0x7f3bbee15500
-[:00000016] recieve package C2S_Online
-[:00000016] register agent358
-[:00000016] &&&&raw_send_package 1
-[:00000016] 28 userdata: 0x7f3bbef0eea0
-[:00000016] recieve package Request_RoomList
-[:00000016] &&&&raw_send_package 1
-[:00000016] 26 userdata: 0x7f3bb56915e0
-[:00000016] recieve package Request_CreateRoom
-[:00000016] &&&&raw_send_package 3
-[:00000016] 28 userdata: 0x7f3bb56ee8e0
-[:00000016] recieve package Request_RoomList
-[:00000016] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 22
-[:00000016] KILL self
-[:0000000e] New client from : 119.129.211.86:2950
-[:00000017] LAUNCH snlua agent
-[:00000017] master start26
-[:00000017] &&&&raw_send_package 2
-[:00000017] 20 userdata: 0x7f3bbef0eea0
-[:00000017] recieve package C2S_Online
-[:00000017] register agent359
-[:00000017] &&&&raw_send_package 1
-[:00000017] 28 userdata: 0x7f3bbef0e800
-[:00000017] recieve package Request_RoomList
-[:00000017] &&&&raw_send_package 1
-[:00000017] 26 userdata: 0x7f3bb569a320
-[:00000017] recieve package Request_CreateRoom
-[:00000017] &&&&raw_send_package 3
-[:00000017] 28 userdata: 0x7f3bb5691840
-[:00000017] recieve package Request_RoomList
-[:00000017] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 26
-[:00000017] KILL self
-[:0000000e] New client from : 119.129.211.86:3058
-[:00000018] LAUNCH snlua agent
-[:00000018] master start30
-[:00000018] &&&&raw_send_package 2
-[:00000018] 20 userdata: 0x7f3bb54ca4c0
-[:00000018] recieve package C2S_Online
-[:00000018] register agent360
-[:00000018] &&&&raw_send_package 1
-[:00000018] 28 userdata: 0x7f3bb54ca6e0
-[:00000018] recieve package Request_RoomList
-[:00000018] &&&&raw_send_package 1
-[:00000018] 26 userdata: 0x7f3bb56913c0
-[:00000018] recieve package Request_CreateRoom
-[:00000018] &&&&raw_send_package 3
-[:00000018] 28 userdata: 0x7f3bb5691980
-[:00000018] recieve package Request_RoomList
-[:00000018] &&&&raw_send_package 1
-[:00000018] 29 userdata: 0x7f3bb665a750
-[:00000018] recieve package C2S_BroadcastRoomData
-[:00000018] &&&&raw_send_package 1
-[:00000018] 25 userdata: 0x7f3bb5691a80
-[:00000018] recieve package Request_StartGame
-[:00000018] &&&&raw_send_package 1
-[:0000000e] watchdog socket close 30
-[:00000018] KILL self
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000012] &&&&raw_send_package 1
+[:00000009] socket accept from 127.0.0.1:50034
+[:00000008] master server will be stop
+[:00000009] socket close 4 : nil
