@@ -1,129 +1,152 @@
-local print, pairs, assert, setmetatable = print, pairs, assert, setmetatable
-local math, table = math, table
+local Quadtree = {}
+Quadtree.__index = Quadtree
 
+-- Creates the quadtree
+-- If no max objects or max depth is defined, the default of 10 and 5 are used repectively
+function Quadtree.create(_left, _top, _width, _height, _depth, _maxObjects, _maxDepth)
+    local quadtree = {}
+    setmetatable(quadtree, Quadtree)
 
-------------------------------------------------------------
----------------------- QuadTree class ----------------------
-------------------------------------------------------------
+    quadtree.objects = {}
 
-QuadTree = class()
+    quadtree.nodes = {}
 
-function QuadTree:ctor(_left, _top, _width, _height)
-   self.left   = _left
-   self.top    = _top
-   self.width  = _width
-   self.height = _height
-   self.children = nil
-   self.objects = {}
-    
+    quadtree.position = {}
+    quadtree.position.left = _left or 0
+    quadtree.position.top = _top or 0
+
+    quadtree.dimensions = {}
+    quadtree.dimensions.width = _width or 0
+    quadtree.dimensions.height = _height or 0
+
+    quadtree.depth = _depth or 0
+
+    quadtree.maxObjects = _maxObjects or 10
+    quadtree.maxDepth = _maxDepth or 5
+
+    return quadtree
 end
 
-function QuadTree:subdivide()
-    if self.children then
-        for i,child in pairs(self.children) do
-            child:subdivide()
-        end
-    else
-        local x = self.left
-        local y = self.top
-        local w = math.floor(self.width / 2)
-        local h = math.floor(self.height / 2)
-        -- Note: This only works for even width/height
-        --   for odd the size of the far quadrant needs to be
-        --    (self.width - w, wself.height - h)
-        if w <= 0 and h <= 0 then
+-- Retrieves an index for the shape, based on which child node the object fits inside
+-- If the object does not intersect any child nodes, then returns -1 else
+-- If the object does not fit perfectly inside a single child node, then returns 0
+-- Else returns the index of the child node.
+function Quadtree:index(_object)
+    local index = 0
+
+    -- Check that the object at least intersects the parent node
+    if (_object.left + _object.width) < self.position.left or (self.position.left + self.dimensions.width) < _object.left or (_object.top + _object.height) < self.position.top or (self.position.top + self.dimensions.height) < _object.top then
+        return -1 -- No intersection present
+    end
+
+    -- Determine which, if any, child nodes the object lies within perfectly
+    local top    = _object.top < self.position.top + (self.dimensions.height / 2) and _object.top + _object.height < self.position.top + (self.dimensions.height / 2)
+    local bottom = _object.top > self.position.top + (self.dimensions.height / 2)
+    local left   = _object.left < self.position.left + (self.dimensions.width / 2) and _object.left + _object.width < self.position.left + (self.dimensions.width / 2)
+    local right  = _object.left > self.position.left + (self.dimensions.width / 2)
+
+    if top    and left  then index = 1 end
+    if top    and right then index = 2 end
+    if bottom and left  then index = 3 end
+    if bottom and right then index = 4 end
+
+    return index
+end
+
+-- Create child nodes
+function Quadtree:divide()
+    local left = self.position.left
+    local top = self.position.top
+    local width = self.dimensions.width
+    local height = self.dimensions.height
+
+    self.nodes[1] = Quadtree.create(left              , top               , width / 2, height / 2, self.depth + 1, self.maxObjects, self.maxDepth)
+    self.nodes[2] = Quadtree.create(left + (width / 2), top               , width / 2, height / 2, self.depth + 1, self.maxObjects, self.maxDepth)
+    self.nodes[3] = Quadtree.create(left              , top + (height / 2), width / 2, height / 2, self.depth + 1, self.maxObjects, self.maxDepth)
+    self.nodes[4] = Quadtree.create(left + (width / 2), top + (height / 2), width / 2, height / 2, self.depth + 1, self.maxObjects, self.maxDepth)
+end
+
+-- Inserts an object into the quadtree.
+function Quadtree:insert(_object)
+    -- Check if the quadtree has already divided
+    if #self.nodes > 0 then
+        -- Determine in which node the object belongs
+        local index = self:index(_object)
+
+        -- If it belongs in a child node, insert it there and return
+        if index > 0 then
+            self.nodes[index]:insert(_object)
             return
         end
-        self.children = {
-            QuadTree.new(x    , y    , w, h),
-            QuadTree.new(x + w, y    , w, h),
-            QuadTree.new(x    , y + h, w, h),
-            QuadTree.new(x + w, y + h, w, h)
-        }
+    end
+
+    -- Insert the object into the node's object list
+    table.insert(self.objects, _object)
+
+    -- Check if the number of objects or the depth exceeds the allowable maximum, and that the quadtree has not yet divided
+    if #self.objects > self.maxObjects and self.depth < self.maxDepth and #self.nodes == 0 then
+        -- Divide the quadtree
+        self:divide()
+
+        -- For each object in this node's object list, attempt to insert it into a child node
+        for key, object in pairs(self.objects) do
+            -- Fetch index of object
+            local index = self:index(object)
+
+            -- Insert the object into a child node if possible
+            if index > 0 then
+                self.nodes[index]:insert(object)
+
+                self.objects[key] = nil
+            end
+        end
     end
 end
 
-function QuadTree:check(object, func, x, y)
-    local oleft   = x or object.x
-    local otop    = y or object.y
-    local oright  = oleft + object.width - 1
-    local obottom = otop + object.height - 1
+-- Clears quadtree and all child nodes
+function Quadtree:clear()
+    self.objects = {}
 
-    for i,child in pairs(self.children) do
-        local left   = child.left
-        local top    = child.top
-        local right  = left + child.width - 1
-        local bottom = top  + child.height - 1
+    for key, _ in pairs(self.nodes) do
+        self.nodes[key]:clear()
+    end
+end
 
-        if oright < left or obottom < top or oleft > right or otop > bottom then
-            -- Object doesn't intersect quadrant
+-- Retrieve list of potential collisions
+function Quadtree:collidables(_object)
+    local index = self:index(_object)
+
+    local objects = {}
+
+    -- Check that object intersects with this node
+    if index == -1 then
+        return objects -- If no intersection, return no collisions
+    end
+
+    -- Add each object in this nodes objects
+    for _, object in pairs(self.objects) do
+        table.insert(objects, object)
+    end
+
+    -- If this node has children
+    if #self.nodes ~= 0 then
+        -- If the object perfectly fits inside a child node
+        if index > 0 then
+            -- Retrieve potential collisions in that child node
+            for _, object in pairs(self.nodes[index]:collidables(_object)) do
+                table.insert(objects, object)
+            end
+        -- Else, retrieve collisions for all child nodes
         else
-            func(child)
-        end
-    end
-end
-
-function QuadTree:addObject(object)
-    assert(not self.objects[object], "You cannot add the same object twice to a QuadTree")
-
-    if not self.children then
-        self.objects[object] = object
-    else
-        self:check(object, function(child) child:addObject(object) end)
-    end
-end
-
-function QuadTree:removeObject(object, usePrevious)
-    if not self.children then
-        self.objects[object] = nil
-    else
-        -- if 'usePrevious' is true then use prev_x/y else use x/y
-        local x = (usePrevious and object.prev_x) or object:getX()
-        local y = (usePrevious and object.prev_y) or object:getY()
-        self:check(object,
-            function(child)
-                child:removeObject(object, usePrevious)
-            end, x, y)
-    end
-end
-
-function QuadTree:updateObject(object)
-    self:removeObject(object, true)
-    self:addObject(object)
-end
-
-function QuadTree:removeAllObjects()
-    if not self.children then
-        self.objects = {}
-    else
-        for i,child in pairs(self.children) do
-            child:removeAllObjects()
-        end
-    end
-end
-
-function QuadTree:getCollidableObjects(object, moving)
-    if not self.children then
-        return self.objects
-    else
-        local quads = {}
-
-        self:check(object, function (child) quads[child] = child end)
-        if moving then
-            self:check(object, function (child) quads[child] = child end,
-                object.prev_x, object.prev_y)
-        end
-
-        local near = {}
-        for q in pairs(quads) do
-            for i,o in pairs(q:getCollidableObjects(object, moving)) do
-                -- Make sure we don't return the object itself
-                if i ~= object then
-                    table.insert(near, o)
+            for key, _ in pairs(self.nodes) do
+                for _, object in pairs(self.nodes[key]:collidables(_object)) do
+                    table.insert(objects, object)
                 end
             end
         end
-
-        return near
     end
+
+    return objects
 end
+
+return Quadtree
