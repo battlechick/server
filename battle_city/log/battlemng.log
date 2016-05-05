@@ -22,28 +22,33 @@
 [:0000000f] LAUNCH snlua gate
 [:0000000f] Listen on 121.42.162.95:10004
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:38230
+[:00000009] socket accept from 127.0.0.1:38704
 [:00000010] LAUNCH snlua battle
-[:0000000c] New client from : 119.129.49.0:18169
+[:0000000c] New client from : 119.129.209.116:32332
 [:00000012] LAUNCH snlua agent
 [:00000012] battle start
 [:00000012] &&&&raw_send_package 1
-[:00000012] 27 userdata: 0x7f7ddf2d29c0
+[:00000012] 27 userdata: 0x7f7a60053680
 [:00000012] recieve package C2S_JoinBattle
 [:00000010] join fd 5
 [:00000010] loading map 1
 [:00000010] 30.0 20.0
-[:00000010] lua call [6 to :10 : 604 msgsz = 16] error : [31m./lualib/skynet.lua:521: ./lualib/skynet.lua:155: ../battle_city/script/common/quadtree.lua:19: attempt to call a nil value (method 'subdivide')
-stack traceback:
-	../battle_city/script/common/quadtree.lua:19: in field 'ctor'
-	../battle_city/script/global.lua:66: in local 'create'
-	../battle_city/script/global.lua:70: in field 'new'
-	../battle_city/script/battle/battle.lua:65: in method 'init_map'
-	../battle_city/script/battle/battle.lua:82: in method 'start'
-	../battle_city/script/battle/battle.lua:45: in upvalue 'f'
-	./lualib/skynet.lua:104: in function <./lualib/skynet.lua:103>
-stack traceback:
-	[C]: in function 'assert'
-	./lualib/skynet.lua:521: in function 'skynet.dispatch_message'[0m
-[:00000009] socket accept from 127.0.0.1:38235
-[:00000008] battle server will be stop
+[:00000010] scene treeid:1
+[:00000010] Root:run
+[:00000010] Map:create_hero 101
+[:00000010] 100
+[:00000010] 做碰撞检测啦 9
+[:00000010] 1 2
+[:00000010] 2 2
+[:00000010] 3 2
+[:00000010] 1 3
+[:00000010] 2 3
+[:00000010] 3 3
+[:00000010] 1 1
+[:00000010] 2 1
+[:00000010] 3 1
+[:00000010] Map:create_hero 101 fail
+[:00000010] send start
+[:00000010] &&&&raw_send_package 602
+[:0000000c] watchdog socket close 5
+[:00000012] KILL self

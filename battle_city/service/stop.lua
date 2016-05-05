@@ -34,9 +34,8 @@ function test_quadtree()
    
     quadtree = Quadtree.create(0, 0, 640, 480)
     quadtree:insert({left = 64, top = 64, width = 128, height = 128})
-    local objects = quadtree:collidables({left = 32, top = 32, width = 128, height = 128})
-    skynet.dump(quadtree)
+    local objects = quadtree:collisions({left = 32, top = 32, width = 128, height = 128})
+    --skynet.dump(quadtree)
     skynet.dump(objects)
---    skynet.dump(quadtree)
 end
 

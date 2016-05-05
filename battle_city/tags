@@ -92,14 +92,13 @@ Player:rpc	script/player/player.lua	/^function Player:rpc(self)$/;"	f
 Player:send	script/player/player.lua	/^function Player:send(message_type, tbl)$/;"	f
 Player:start_game	script/player/player_room.lua	/^function Player:start_game()$/;"	f
 Player_save	script/player/player.lua	/^function Player_save(self)$/;"	f
-QuadTree:addObject	script/common/quadtree.lua	/^function QuadTree:addObject(object)$/;"	f
-QuadTree:check	script/common/quadtree.lua	/^function QuadTree:check(object, func, x, y)$/;"	f
-QuadTree:ctor	script/common/quadtree.lua	/^function QuadTree:ctor(_left, _top, _width, _height)$/;"	f
-QuadTree:getCollidableObjects	script/common/quadtree.lua	/^function QuadTree:getCollidableObjects(object, moving)$/;"	f
-QuadTree:removeAllObjects	script/common/quadtree.lua	/^function QuadTree:removeAllObjects()$/;"	f
-QuadTree:removeObject	script/common/quadtree.lua	/^function QuadTree:removeObject(object, usePrevious)$/;"	f
-QuadTree:subdivide	script/common/quadtree.lua	/^function QuadTree:subdivide()$/;"	f
-QuadTree:updateObject	script/common/quadtree.lua	/^function QuadTree:updateObject(object)$/;"	f
+Quadtree.create	script/common/quadtree.lua	/^function Quadtree.create(_left, _top, _width, _height, _depth, _maxObjects, _maxDepth)$/;"	f
+Quadtree:clear	script/common/quadtree.lua	/^function Quadtree:clear()$/;"	f
+Quadtree:collidables	script/common/quadtree.lua	/^function Quadtree:collidables(_object)$/;"	f
+Quadtree:collisions	script/common/quadtree.lua	/^function Quadtree:collisions(_object)$/;"	f
+Quadtree:divide	script/common/quadtree.lua	/^function Quadtree:divide()$/;"	f
+Quadtree:index	script/common/quadtree.lua	/^function Quadtree:index(_object)$/;"	f
+Quadtree:insert	script/common/quadtree.lua	/^function Quadtree:insert(_object)$/;"	f
 Root:ctor	script/behavior_tree/node/common.lua	/^function Root:ctor()$/;"	f
 Root:run	script/behavior_tree/node/common.lua	/^function Root:run()$/;"	f
 SOCKET.close	service/watchdog.lua	/^function SOCKET.close(fd)$/;"	f
@@ -289,7 +288,6 @@ ch2token	luaclib/lua_cjson.c	/^    json_token_type_t ch2token[256];$/;"	m	struct
 char2escape	luaclib/lua_cjson.c	/^static const char *char2escape[256] = {$/;"	v	file:
 check_empty	service/lobby.lua	/^function check_empty(room)$/;"	f
 checkuserdata	luaclib/pbc-lua53.c	/^checkuserdata(lua_State *L, int index) {$/;"	f	file:
-child) child:addObject	script/common/quadtree.lua	/^        self:check(object, function(child) child:addObject(object) end)$/;"	f
 class	script/global.lua	/^function class(super, class_name)$/;"	f
 class_type.new	script/global.lua	/^    class_type.new=function(...) $/;"	f
 close	ExcelData/export.py	/^    def close() :$/;"	m	class:LogHelp
@@ -484,8 +482,6 @@ push_value	luaclib/pbc-lua53.c	/^push_value(lua_State *L, int type, const char *
 raw_send_package	service/agent.lua	/^function raw_send_package()$/;"	f
 read	ExcelData/export.py	/^import xlrd # for read excel$/;"	i
 save_global_data	service/db.lua	/^function save_global_data(key, value)$/;"	f
-self:check(object, function (child) quads[child] 	script/common/quadtree.lua	/^            self:check(object, function (child) quads[child] = child end,$/;"	f
-self:check(object, function (child) quads[child] 	script/common/quadtree.lua	/^        self:check(object, function (child) quads[child] = child end)$/;"	f
 send_hello	service/agent.lua	/^function send_hello()$/;"	f
 send_package	service/agent.lua	/^function send_package(message_type, tbl, rpc_id, delay)$/;"	f
 send_package	service/lobby.lua	/^function send_package(player_id, message_type, tbl)$/;"	f
@@ -513,6 +509,7 @@ string_len	luaclib/lua_cjson.c	/^    int string_len;$/;"	m	struct:__anon4	file:
 sys	ExcelData/Cache/SceneProto_pb2.py	/^import sys$/;"	i
 sys	ExcelData/Cache/UnitProto_pb2.py	/^import sys$/;"	i
 sys	ExcelData/export.py	/^import sys$/;"	i
+test_quadtree	service/stop.lua	/^function test_quadtree()$/;"	f
 tmp	luaclib/lua_cjson.c	/^    strbuf_t *tmp;    \/* Temporary storage for strings *\/$/;"	m	struct:__anon3	file:
 type	luaclib/lua_cjson.c	/^    json_token_type_t type;$/;"	m	struct:__anon4	file:
 unpack 	service/agent.lua	/^    unpack = function (msg, sz)$/;"	f

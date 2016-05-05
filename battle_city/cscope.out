@@ -1,4 +1,4 @@
-cscope 15 $HOME/server/battle_city -q 0000001557 0000179748
+cscope 15 $HOME/server/battle_city -q 0000001575 0000182811
 	@config/clustername.lua
 
 1 
@@ -26752,10 +26752,6 @@ __mode
  "battle.map"
 
 16 
-	g»quœe
- "common.quadtree"
-
-17 
 loÿl
  
 	gskyÃt
@@ -26763,7 +26759,7 @@ loÿl
 »quœe
  "skynet"
 
-18 
+17 
 loÿl
  
 m­_mªag”
@@ -26771,7 +26767,7 @@ m­_mªag”
 »quœe
  "battle.map_manager"
 
-19 
+18 
 loÿl
  
 bt_mªag”
@@ -26779,13 +26775,21 @@ bt_mªag”
 »quœe
  "behavior_tree.bt_manager"
 
-20 
+19 
 loÿl
  
 d©a_mªag”
  = 
 »quœe
  "data_manager.data_manager"
+
+20 
+loÿl
+ 
+QuadŒ“
+ = 
+»quœe
+ "common.quadtree"
 
 22 
 loÿl
@@ -27064,9 +27068,9 @@ height
 .
 qŒ“
  = 
-QuadT»e
+QuadŒ“
 .
-	$Ãw
+	$ü—‹
 (0,0, 
 £lf
 .
@@ -27075,17 +27079,9 @@ m­
 width
 , s–f.m­.
 height
-, 50, 1000, 100)
+)
 
 66 
-£lf
-.
-qŒ“
-:
-	$subdivide
-()
-
-67 
 £lf
 .
 guid2un™
@@ -27093,7 +27089,7 @@ guid2un™
 m­
 .guid2unit
 
-68 
+67 
 guid
 , 
 un™
@@ -27107,7 +27103,7 @@ un™
 guid2un™
 ) do
 
-69 
+68 
 loÿl
  
 cŞlid”
@@ -27121,37 +27117,41 @@ un™
 un™_id
 )
 
-70 
+69 
 cŞlid”
  
 th’
 
 
-71 
+70 
 un™
 .
-x
+Ëá
  = un™.
 pos™iÚ
-.x - 
+.
+x
+ - 
 cŞlid”
 .
 width
 /2
 
-72 
+71 
 un™
 .
-y
+tİ
  = un™.
 pos™iÚ
-.y - 
+.
+y
+ - 
 cŞlid”
 .
 height
 /2
 
-73 
+72 
 un™
 .
 width
@@ -27159,7 +27159,7 @@ width
 cŞlid”
 .width
 
-74 
+73 
 un™
 .
 height
@@ -27167,25 +27167,25 @@ height
 cŞlid”
 .height
 
-75 
+74 
 £lf
 .
 qŒ“
 :
-	$addObjeù
+	$š£¹
 (
 un™
 )
+
+75 
+’d
+
 
 76 
 ’d
 
 
-77 
-’d
-
-
-78 
+77 --
 skyÃt
 .
 	$dump
@@ -27195,11 +27195,11 @@ skyÃt
 qŒ“
 )
 
-79 
+78 
 ’d
 
 
-81 
+80 
 funùiÚ
  
 b©e
@@ -27207,13 +27207,13 @@ b©e
 	$¡¬t
 ()
 
-82 
+81 
 £lf
 :
 	$š™_m­
 ()
 
-84 
+83 
 loÿl
  
 Œ“_id
@@ -27227,7 +27227,7 @@ m­
 Œ“Id
 
 
-85 
+84 
 skyÃt
 .
 	`log
@@ -27235,7 +27235,7 @@ skyÃt
 Œ“_id
 )
 
-86 
+85 
 £lf
 .
 bŒ“
@@ -27249,7 +27249,7 @@ bt_mªag”
 b©e
 )
 
-87 
+86 
 £lf
 .
 bŒ“
@@ -27257,23 +27257,23 @@ bŒ“
 	$exec
 ()
 
-90 
+89 
 b©e
 :
 	$brßdÿ¡_¡¬t
 ()
 
-91 
+90 
 £lf
 :
 	$maš_loİ
 ()
 
-92 
+91 
 ’d
 
 
-94 
+93 
 funùiÚ
  
 b©e
@@ -27281,13 +27281,13 @@ b©e
 	$maš_loİ
 ()
 
-96 
+95 
 £lf
 :
 	$¿w_£nd_·ckage
 ()
 
-98 
+97 
 skyÃt
 .
 	`timeout
@@ -27295,21 +27295,21 @@ skyÃt
 	$funùiÚ
 ()
 
-99 
+98 
 £lf
 :
 	$maš_loİ
 ()
 
-100 
+99 
 ’d
 )
 
-101 
+100 
 ’d
 
 
-103 
+102 
 funùiÚ
  
 b©e
@@ -27323,7 +27323,7 @@ x
 y
 )
 
-104 
+103 
 skyÃt
 .
 	`log
@@ -27331,11 +27331,11 @@ skyÃt
 un™_id
 )
 
-106 
+105 
 ’d
 
 
-108 
+107 
 funùiÚ
  
 b©e
@@ -27351,13 +27351,13 @@ y
 idx
 )
 
-109 
+108 
 loÿl
  
 ù¾_¶ay”
 
 
-110 
+109 
 _
 , 
 ¶ay”
@@ -27371,7 +27371,7 @@ _
 ¶ay”s
 ) do
 
-111 
+110 
 ¶ay”
 .
 idx
@@ -27379,27 +27379,27 @@ idx
 th’
 
 
-112 
+111 
 ù¾_¶ay”
  = 
 ¶ay”
+
+
+112 
+’d
 
 
 113 
 ’d
 
 
-114 
-’d
-
-
-115 
+114 
 ù¾_¶ay”
  
 th’
 
 
-116 
+115 
 skyÃt
 .
 	`log
@@ -27407,7 +27407,7 @@ skyÃt
 un™_id
 )
 
-118 
+117 
 skyÃt
 .
 	`log
@@ -27415,15 +27415,15 @@ skyÃt
 un™_id
 .." fail")
 
-119  
+118  
 çl£
 
 
-120 
+119 
 ’d
 
 
-121 
+120 
 loÿl
  
 h”o
@@ -27435,7 +27435,7 @@ H”o
 un™_id
 )
 
-122 
+121 
 h”o
 :
 	`£t_pos™iÚ
@@ -27449,91 +27449,41 @@ o
 	}
 })
 
-123 
+122 
 	gh”o
 .
-	gx
+	gËá
+ = 1
+
+123 
+h”o
+.
+tİ
  = 1
 
 124 
 h”o
 .
-y
- = 1
-
-125 
-h”o
-.
 width
  = 2
 
-126 
+125 
 h”o
 .
 height
  = 2
 
+126 
+£lf
+.
+qŒ“
+:
+	$š£¹
+(
+h”o
+)
+
 127 
-£lf
-.
-qŒ“
-:
-	$addObjeù
-(
-h”o
-)
-
-128 
-loÿl
- 
-objeùs
- = 
-£lf
-.
-qŒ“
-:
-	$g‘CŞlidabËObjeùs
-(
-h”o
-)
-
-129 
-skyÃt
-.
-	`log
-("åšç¢°æ’æ£€æµ‹å•¦", #objects)
-
-130 
-_
-, 
-obj
- 
-š
- 
-	$aœs
-(
-objeùs
-) do
-
-131 
-skyÃt
-.
-	$log
-(
-obj
-.
-pos™iÚ
-.
-x
-, obj.pos™iÚ.
-y
-)
-
-132 
-’d
-
-
-133 
 £lf
 :
 	$brßdÿ¡_ü—‹_un™
@@ -27541,21 +27491,21 @@ y
 h”o
 )
 
-134  
+128  
 Œue
 
 
-135 
+129 
 ’d
 
 
-137 
+131 
 ´Ùobuf
 .
 »gi¡”_fe
  "../battle_city/proto/Msg.pb"
 
-138 
+132 
 funùiÚ
  
 b©e
@@ -27563,7 +27513,7 @@ b©e
 	$¿w_£nd_·ckage
 ()
 
-139 #£lf.
+133 #£lf.
 msgCache
 .
 ·ckageLi¡
@@ -27571,11 +27521,11 @@ msgCache
 th’
 
 
-141 
+135 
 ’d
 
 
-142 
+136 
 skyÃt
 .
 	`log
@@ -27585,7 +27535,7 @@ msgCache
 ·ckageLi¡
 )
 
-143 
+137 
 ¶ay”_id
 , 
 ¶ay”
@@ -27599,7 +27549,7 @@ msgCache
 ¶ay”s
 ) do
 
-144 
+138 
 sock‘
 .
 	`wr™e
@@ -27621,11 +27571,11 @@ sock‘
 msgCache
 )))
 
-145 
+139 
 ’d
 
 
-146 
+140 
 £lf
 .
 msgCache
@@ -27635,11 +27585,11 @@ msgCache
 	}
 }
 
-147 
+141 
 ’d
 
 
-149 
+143 
 funùiÚ
  
 b©e
@@ -27653,7 +27603,7 @@ tbl
 d–ay
 )
 
-150 
+144 
 loÿl
  
 bufãr
@@ -27667,7 +27617,7 @@ mes§ge_ty³
 tbl
 )
 
-151 
+145 
 	`bË_š£¹
 (
 £lf
@@ -27687,11 +27637,11 @@ d©a
 bufãr
 })
 
-152 
+146 
 ’d
 
 
-154 
+148 
 funùiÚ
  
 	gb©e
@@ -27699,13 +27649,13 @@ funùiÚ
 brßdÿ¡_¡¬t
 ()
 
-156 
+150 
 £lf
 :
 brßdÿ¡
 ("S2C_StartBattle", {})
 
-157 
+151 
 	g_
 , 
 un™
@@ -27719,7 +27669,7 @@ un™
 guid2un™
 ) do
 
-158 
+152 
 £lf
 :
 	$brßdÿ¡_ü—‹_un™
@@ -27727,21 +27677,21 @@ guid2un™
 un™
 , 100)
 
-159 
+153 
 ’d
 
 
-160 
+154 
 skyÃt
 .
 	`log
 ("send start")
 
-161 
+155 
 ’d
 
 
-163 
+157 
 funùiÚ
  
 b©e
@@ -27753,7 +27703,7 @@ un™
 d–ay
 )
 
-164 
+158 
 loÿl
  
 tbl
@@ -27761,13 +27711,13 @@ tbl
 un™Info
  =
 
-166 
+160 
 guid
  = 
 un™
 .guid,
 
-167 
+161 
 un™Id
  = 
 un™
@@ -27775,7 +27725,7 @@ un™
 un™_id
 ,
 
-168 
+162 
 x
  = 
 un™
@@ -27783,7 +27733,7 @@ un™
 pos™iÚ
 .x,
 
-169 
+163 
 y
  = 
 un™
@@ -27791,7 +27741,7 @@ un™
 pos™iÚ
 .y,
 
-170 
+164 
 o
  = 
 un™
@@ -27799,7 +27749,7 @@ un™
 pos™iÚ
 .o,
 
-171 
+165 
 d©a
  = 
 jsÚ
@@ -27811,11 +27761,11 @@ un™
 	`g‘_d©a
 ())
 
-173 
+167 
 	}
 }
 
-174 
+168 
 £lf
 :
 brßdÿ¡
@@ -27825,11 +27775,11 @@ tbl
 d–ay
 )
 
-175 
+169 
 ’d
 
 
-177 
+171 
 funùiÚ
  
 	gb©e
@@ -27839,19 +27789,19 @@ funùiÚ
 un™
 )
 
-178 
+172 
 loÿl
  
 tbl
  = {
 
-179 
+173 
 guid
  = 
 un™
 .guid,
 
-180 
+174 
 x
  = 
 un™
@@ -27859,7 +27809,7 @@ un™
 pos™iÚ
 .x,
 
-181 
+175 
 y
  = 
 un™
@@ -27867,7 +27817,7 @@ un™
 pos™iÚ
 .y,
 
-182 
+176 
 o
  = 
 un™
@@ -27875,11 +27825,11 @@ un™
 pos™iÚ
 .o,
 
-183 
+177 
 	}
 }
 
-184 
+178 
 	g£lf
 :
 brßdÿ¡
@@ -27887,11 +27837,11 @@ brßdÿ¡
 tbl
 )
 
-185 
+179 
 ’d
 
 
-187 
+181 
 funùiÚ
  
 	gb©e
@@ -27901,23 +27851,23 @@ funùiÚ
 un™
 )
 
-188 
+182 
 loÿl
  
 tbl
  = {
 
-189 
+183 
 guid
  = 
 un™
 .guid,
 
-190 
+184 
 	}
 }
 
-191 
+185 
 	g£lf
 :
 brßdÿ¡
@@ -27925,11 +27875,11 @@ brßdÿ¡
 tbl
 )
 
-192 
+186 
 ’d
 
 
-194 
+188 
 	gskyÃt
 .
 ¡¬t
@@ -27937,7 +27887,7 @@ tbl
 	$funùiÚ
 ()
 
-195 
+189 
 skyÃt
 .
 	`di¥©ch
@@ -27949,7 +27899,7 @@ _
 commªd
 , ...)
 
-196 
+190 
 loÿl
  
 f
@@ -27959,7 +27909,7 @@ b©e
 commªd
 ]
 
-197 
+191 
 skyÃt
 .
 	`»t
@@ -27971,11 +27921,11 @@ skyÃt
 b©e
 , ...)))
 
-198 
+192 
 ’d
 )
 
-199 
+193 
 ’d
 )
 
@@ -30985,751 +30935,915 @@ idx
 1 
 loÿl
  
-	g´št
-, 
-	g·œs
-, 
-	gas£¹
-, 
-	g£tm‘©abË
- = 
-´št
-,…aœs,‡s£¹, 
-£tm‘©abË
-
+	gQuadŒ“
+ = {}
 
 2 
-loÿl
- 
-	gm©h
-, 
-	gbË
- = 
-m©h
-,able
-
-6 ---------------------- 
-QuadT»e
- 
-	gşass
- ----------------------
-
-9 
-	gQuadT»e
- = 
-	$şass
-()
-
-11 
-funùiÚ
- 
-QuadT»e
-:
-	$ùÜ
-(
-_Ëá
-, 
-_tİ
-, 
-_width
-, 
-_height
-)
-
-12 
-£lf
+QuadŒ“
 .
-Ëá
- = 
-_Ëá
+__šdex
+ = Quadtree
 
-
-13 
-£lf
-.
-tİ
- = 
-_tİ
-
-
-14 
-£lf
-.
-width
- = 
-_width
-
-
-15 
-£lf
-.
-height
- = 
-_height
-
-
-16 
-£lf
-.
-chd»n
- = 
-n
-
-
-17 
-£lf
-.
-objeùs
- = {
-	}
-}
-
-19 
-’d
-
-
-21 
-funùiÚ
- 
-QuadT»e
-:
-	$subdivide
-()
-
-22 
-£lf
-.
-chd»n
- 
-th’
-
-
-23 
-i
-,
-chd
- 
-š
- 
-	$·œs
-(
-£lf
-.
-chd»n
-) do
-
-24 
-chd
-:
-	$subdivide
-()
-
-25 
-’d
-
-
-27 
-loÿl
- 
-x
- = 
-£lf
-.
-Ëá
-
-
-28 
-loÿl
- 
-y
- = 
-£lf
-.
-tİ
-
-
-29 
-loÿl
- 
-w
- = 
-m©h
-.
-	`æoÜ
-(
-£lf
-.
-width
- / 2)
-
-30 
-loÿl
- 
-h
- = 
-m©h
-.
-	`æoÜ
-(
-£lf
-.
-height
- / 2)
-
-31 -- 
-NÙe
-: 
-This
- 
-Úly
- 
-wÜks
- 
-ev’
- 
-width
-/
-height
-
-
-32 -- 
-odd
+4 -- 
+C»©es
  
 the
  
-size
- 
-of
-h
-çr
- 
-quad¿Á
- 
-Ãeds
- 
-to
- 
-be
+quadŒ“
 
 
-33 -- (
-£lf
-.
-width
- - 
-w
+5 -- 
+If
+ 
+no
+ 
+max
+ 
+objeùs
+ 
+Ü
+ max 
+d•th
+ 
+is
+ 
+defšed
 , 
-w£lf
+the
+  
+	gof
+ 10 
+	gªd
+ 5 
+¬e
+ 
+u£d
+ 
+»³ùiv–y
+
+
+6 
+funùiÚ
+ 
+	gQuadŒ“
 .
-height
- - 
-h
+	$ü—‹
+(
+_Ëá
+, 
+_tİ
+, 
+_width
+, 
+_height
+, 
+_d•th
+, 
+_maxObjeùs
+, 
+_maxD•th
 )
 
-34 
-w
- <ğ0 
-ªd
+7 
+loÿl
  
-h
- <ğ0 
-th’
-
-
-36 
-’d
-
-
-37 
-£lf
-.
-chd»n
+quadŒ“
  = {
-
-38 
-QuadT»e
-.
-	`Ãw
-(
-x
- , 
-y
- , 
-w
-, 
-h
-),
-
-39 
-QuadT»e
-.
-	`Ãw
-(
-x
- + 
-w
-, 
-y
- , w, 
-h
-),
-
-40 
-QuadT»e
-.
-	`Ãw
-(
-x
- , 
-y
- + 
-h
-, 
-w
-, h),
-
-41 
-QuadT»e
-.
-	`Ãw
-(
-x
- + 
-w
-, 
-y
- + 
-h
-, w, h)
-
-42 
 	}
 }
 
-43 
-’d
-
-
-44 
-’d
-
-
-46 
-funùiÚ
- 
-QuadT»e
-:
-	$check
+8 
+	$£tm‘©abË
 (
-objeù
+quadŒ“
 , 
-func
-, 
-x
-, 
-y
+QuadŒ“
 )
 
-47 
-loÿl
- 
-Şeá
+10 
+quadŒ“
+.
+objeùs
+ = {
+	}
+}
+
+12 
+quadŒ“
+.
+nodes
+ = {}
+
+14 
+quadŒ“
+.
+pos™iÚ
+ = {}
+
+15 
+quadŒ“
+.
+pos™iÚ
+.
+Ëá
  = 
-x
+_Ëá
  
 Ü
- 
-objeù
-.x
+ 0
 
-48 
-loÿl
- 
-Ùİ
+16 
+quadŒ“
+.
+pos™iÚ
+.
+tİ
  = 
-y
+_tİ
  
 Ü
- 
-objeù
-.y
+ 0
 
-49 
-loÿl
- 
-Üight
- = 
-Şeá
- + 
-objeù
+18 
+quadŒ“
+.
+dim’siÚs
+ = {}
+
+19 
+quadŒ“
+.
+dim’siÚs
 .
 width
- - 1
-
-50 
-loÿl
- 
-obÙtom
  = 
-Ùİ
- + 
-objeù
+_width
+ 
+Ü
+ 0
+
+20 
+quadŒ“
+.
+dim’siÚs
 .
 height
- - 1
+ = 
+_height
+ 
+Ü
+ 0
 
-52 
-i
-,
+22 
+quadŒ“
+.
+d•th
+ = 
+_d•th
+ 
+Ü
+ 0
+
+24 
+quadŒ“
+.
+maxObjeùs
+ = 
+_maxObjeùs
+ 
+Ü
+ 10
+
+25 
+quadŒ“
+.
+maxD•th
+ = 
+_maxD•th
+ 
+Ü
+ 5
+
+27  
+quadŒ“
+
+
+28 
+’d
+
+
+30 -- 
+R‘r›ves
+ 
+ª
+ 
+šdex
+ 
+the
+ 
+sh­e
+, 
+ba£d
+ 
+Ú
+ 
+which
+ 
 chd
  
-š
+node
+h
+objeù
  
-	$·œs
+f™s
+ 
+	gšside
+
+
+31 -- 
+If
+ 
+the
+ 
+objeù
+ 
+dÛs
+ 
+nÙ
+ 
+š‹r£ù
+ 
+ªy
+ 
+chd
+ 
+	gnodes
+, 
+th’
+ 
+	g»tuºs
+ -1 
+
+32 -- 
+If
+ 
+the
+ 
+objeù
+ 
+dÛs
+ 
+nÙ
+ 
+f™
+ 
+³rãùly
+ 
+šside
+ 
+a
+ 
+sšgË
+ 
+chd
+ 
+	gnode
+, 
+th’
+ 
+	g»tuºs
+ 0
+
+33 -- 
+El£
+ 
+»tuºs
+ 
+the
+ 
+šdex
+ 
+of
+h
+chd
+ 
+	gnode
+.
+
+34 
+funùiÚ
+ 
+	gQuadŒ“
+:
+	$šdex
 (
+_objeù
+)
+
+35 
+loÿl
+ 
+šdex
+ = 0
+
+37 -- 
+Check
+ 
+th©
+ 
+the
+ 
+objeù
+ 
+©
+ 
+Ëa¡
+ 
+š‹r£ùs
+h
+·»Á
+ 
+node
+
+
+38 ià(
+_objeù
+.
+Ëá
+ + _objeù.
+width
+è< 
 £lf
 .
-chd»n
-) do
-
-53 
-loÿl
- 
-Ëá
- = 
-chd
-.left
-
-54 
-loÿl
- 
+pos™iÚ
+.Ëá 
+	`Ü
+ (£lf.pos™iÚ.Ëá + s–f.
+dim’siÚs
+.widthè< _objeù.Ëá o¸(_objeù.
 tİ
- = 
-chd
-.top
-
-55 
-loÿl
- 
-right
- = 
-Ëá
- + 
-chd
-.
-width
- - 1
-
-56 
-loÿl
- 
-bÙtom
- = 
-tİ
- + 
-chd
-.
+ + _objeù.
 height
- - 1
-
-58 
-Üight
- < 
-Ëá
- 
-Ü
- 
-obÙtom
- < 
-tİ
- o¸
-Şeá
- > 
-right
- o¸
-Ùİ
- > 
-bÙtom
- 
+è< s–f.pos™iÚ.tİ o¸(£lf.pos™iÚ.tİ + s–f.dim’siÚs.heightè< _objeù.tİ 
 th’
 
 
-59 -- 
-Objeù
+39  -1 -- 
+No
  
-dÛ¢
-'t intersect quadrant
+š‹r£ùiÚ
+ 
+´e£Á
 
-61 
-	$func
-(
+
+40 
+’d
+
+
+42 -- 
+D‘”mše
+ 
+which
+, 
+ªy
+, 
 chd
-)
+ 
+nodes
+ 
+the
+ 
+objeù
+ 
+l›s
+ 
+w™hš
+ 
+³rãùly
 
-62 
+
+43 
+loÿl
+ 
+tİ
+ = 
+_objeù
+.tİ < 
+£lf
+.
+pos™iÚ
+.tİ + (£lf.
+dim’siÚs
+.
+height
+ / 2è
+ªd
+ _object.top + _object.height < self.position.top + (self.dimensions.height / 2)
+
+44 
+loÿl
+ 
+bÙtom
+ = 
+_objeù
+.
+tİ
+ > 
+£lf
+.
+pos™iÚ
+.tİ + (£lf.
+dim’siÚs
+.
+height
+ / 2)
+
+45 
+loÿl
+ 
+Ëá
+ = 
+_objeù
+.Ëá < 
+£lf
+.
+pos™iÚ
+.Ëá + (£lf.
+dim’siÚs
+.
+width
+ / 2è
+ªd
+ _object.left + _object.width < self.position.left + (self.dimensions.width / 2)
+
+46 
+loÿl
+ 
+right
+ = 
+_objeù
+.
+Ëá
+ > 
+£lf
+.
+pos™iÚ
+.Ëá + (£lf.
+dim’siÚs
+.
+width
+ / 2)
+
+48 
+tİ
+ 
+ªd
+ 
+Ëá
+ 
+th’
+ 
+šdex
+ = 1 
 ’d
 
 
-63 
+49 
+tİ
+ 
+ªd
+ 
+right
+ 
+th’
+ 
+šdex
+ = 2 
 ’d
 
 
-64 
+50 
+bÙtom
+ 
+ªd
+ 
+Ëá
+ 
+th’
+ 
+šdex
+ = 3 
 ’d
 
 
-66 
+51 
+bÙtom
+ 
+ªd
+ 
+right
+ 
+th’
+ 
+šdex
+ = 4 
+’d
+
+
+53  
+šdex
+
+
+54 
+’d
+
+
+56 -- 
+C»©e
+ 
+chd
+ 
+nodes
+
+
+57 
 funùiÚ
  
-QuadT»e
+QuadŒ“
 :
-	$addObjeù
+	$divide
+()
+
+58 
+loÿl
+ 
+Ëá
+ = 
+£lf
+.
+pos™iÚ
+.left
+
+59 
+loÿl
+ 
+tİ
+ = 
+£lf
+.
+pos™iÚ
+.top
+
+60 
+loÿl
+ 
+width
+ = 
+£lf
+.
+dim’siÚs
+.width
+
+61 
+loÿl
+ 
+height
+ = 
+£lf
+.
+dim’siÚs
+.height
+
+63 
+£lf
+.
+nodes
+[1] = 
+QuadŒ“
+.
+	`ü—‹
 (
-objeù
+Ëá
+ , 
+tİ
+ , 
+width
+ / 2, 
+height
+ / 2, s–f.
+d•th
+ + 1, s–f.
+maxObjeùs
+, s–f.
+maxD•th
+)
+
+64 
+£lf
+.
+nodes
+[2] = 
+QuadŒ“
+.
+	`ü—‹
+(
+Ëá
+ + (
+width
+ / 2), 
+tİ
+ , width / 2, 
+height
+ / 2, s–f.
+d•th
+ + 1, s–f.
+maxObjeùs
+, s–f.
+maxD•th
+)
+
+65 
+£lf
+.
+nodes
+[3] = 
+QuadŒ“
+.
+	`ü—‹
+(
+Ëá
+ , 
+tİ
+ + (
+height
+ / 2), 
+width
+ / 2, heighˆ/ 2, s–f.
+d•th
+ + 1, s–f.
+maxObjeùs
+, s–f.
+maxD•th
+)
+
+66 
+£lf
+.
+nodes
+[4] = 
+QuadŒ“
+.
+	`ü—‹
+(
+Ëá
+ + (
+width
+ / 2), 
+tİ
+ + (
+height
+ / 2), width / 2, heighˆ/ 2, s–f.
+d•th
+ + 1, s–f.
+maxObjeùs
+, s–f.
+maxD•th
 )
 
 67 
-	`as£¹
-(
-nÙ
- 
-£lf
-.
-objeùs
-[
-objeù
-], "You cannot‡ddhe same objectwiceo‡ QuadTree")
+’d
 
-69 
-nÙ
+
+69 -- 
+In£¹s
  
-£lf
+ª
+ 
+objeù
+ 
+što
+ 
+the
+ 
+quadŒ“
 .
-chd»n
+
+70 
+funùiÚ
  
+QuadŒ“
+:
+	`š£¹
+(
+_objeù
+)
+
+71 -- 
+Check
+ 
+the
+ 
+quadŒ“
+ 
+has
+ 
+®»ady
+ 
+divided
+
+
+72 #£lf.
+nodes
+ > 0 
 th’
 
 
-70 
-£lf
-.
-objeùs
-[
+73 -- 
+D‘”mše
+ 
+š
+ 
+which
+ 
+node
+ 
+the
+ 
 objeù
-] = object
-
-72 
-£lf
-:
-	`check
-(
-objeù
-, 
-	$funùiÚ
-(
-chd
-èchd:
-	$addObjeù
-(
-objeù
-è
-’d
-)
-
-73 
-’d
+ 
+b–Úgs
 
 
 74 
-’d
-
-
-76 
-funùiÚ
+loÿl
  
-QuadT»e
+šdex
+ = 
+£lf
 :
-	$»moveObjeù
+	`šdex
 (
-objeù
-, 
-u£P»vious
+_objeù
 )
 
+76 -- 
+If
+ 
+™
+ 
+b–Úgs
+ 
+š
+ 
+a
+ 
+chd
+ 
+node
+, 
+š£¹
+ iˆ
+th”e
+ 
+ªd
+ 
+
 77 
-nÙ
- 
-£lf
-.
-chd»n
- 
+šdex
+ > 0 
 th’
 
 
 78 
 £lf
 .
-objeùs
+nodes
 [
-objeù
-] = 
-n
+šdex
+]:
+	$š£¹
+(
+_objeù
+)
 
+80 
+’d
 
-80 -- 'u£P»vious' 
-is
- 
-Œue
- 
-th’
- 
-u£
- 
-´ev_x
-/
-y
- u£ 
-x
-/y
 
 81 
-loÿl
- 
-x
- = (
-u£P»vious
- 
-ªd
- 
-objeù
-.
-´ev_x
-è
-Ü
- objeù:
-	$g‘X
-()
+’d
 
-82 
-loÿl
- 
-y
- = (
-u£P»vious
- 
-ªd
- 
-objeù
-.
-´ev_y
-è
-Ü
- objeù:
-	$g‘Y
-()
 
-83 
-£lf
-:
-	`check
-(
+83 -- 
+In£¹
+ 
+the
+ 
 objeù
-,
+ 
+što
+h
+node
+'s object†ist
 
 84 
-	$funùiÚ
-(
-chd
-)
-
-85 
-chd
-:
-	$»moveObjeù
-(
-objeù
-, 
-u£P»vious
-)
-
-86 
-’d
-, 
-x
-, 
-y
-)
-
-87 
-’d
-
-
-88 
-’d
-
-
-90 
-funùiÚ
- 
-QuadT»e
-:
-	$upd©eObjeù
-(
-objeù
-)
-
-91 
-£lf
-:
-	$»moveObjeù
-(
-objeù
-, 
-Œue
-)
-
-92 
-£lf
-:
-	$addObjeù
-(
-objeù
-)
-
-93 
-’d
-
-
-95 
-funùiÚ
- 
-QuadT»e
-:
-	$»moveAÎObjeùs
-()
-
-96 
-nÙ
- 
-£lf
+bË
 .
-chd»n
- 
-th’
-
-
-97 
+	`š£¹
+(
 £lf
 .
 objeùs
- = {
-	}
-}
+, 
+_objeù
+)
 
-99 
-i
-,
-chd
+86 -- 
+Check
+ 
+the
+ 
+numb”
+ 
+of
+ 
+objeùs
+ 
+Ü
+h
+d•th
+ 
+exûeds
+h
+®lowabË
+ 
+maximum
+, 
+ªd
+ 
+th©
+h
+quadŒ“
+ 
+has
+ 
+nÙ
+ 
+y‘
+ 
+divided
+
+
+87 #£lf.
+objeùs
+ > 
+£lf
+.
+maxObjeùs
+ 
+ªd
+ s–f.
+d•th
+ < s–f.
+maxD•th
+‡nd #£lf.
+nodes
+ =ğ0 
+th’
+
+
+88 -- 
+Divide
+ 
+the
+ 
+quadŒ“
+
+
+89 
+£lf
+:
+	`divide
+()
+
+91 -- 
+FÜ
+ 
+—ch
+ 
+objeù
+ 
+š
+ 
+this
+ 
+node
+'s object†ist,‡ttempto insert it into‡ child‚ode
+
+92 
+key
+, 
+objeù
  
 š
  
@@ -31737,14 +31851,76 @@ chd
 (
 £lf
 .
-chd»n
+objeùs
 ) do
 
-100 
-chd
+93 -- 
+F‘ch
+ 
+šdex
+ 
+of
+ 
+objeù
+
+
+94 
+loÿl
+ 
+šdex
+ = 
+£lf
 :
-	$»moveAÎObjeùs
-()
+	`šdex
+(
+objeù
+)
+
+96 -- 
+In£¹
+ 
+the
+ 
+objeù
+ 
+što
+ 
+a
+ 
+chd
+ 
+node
+ 
+possibË
+
+
+97 
+šdex
+ > 0 
+th’
+
+
+98 
+£lf
+.
+nodes
+[
+šdex
+]:
+	$š£¹
+(
+objeù
+)
+
+100 
+£lf
+.
+objeùs
+[
+key
+] = 
+n
+
 
 101 
 ’d
@@ -31758,178 +31934,560 @@ chd
 ’d
 
 
-105 
+104 
+’d
+
+
+106 -- 
+CË¬s
+ 
+quadŒ“
+ 
+ªd
+ 
+®l
+ 
+chd
+ 
+nodes
+
+
+107 
 funùiÚ
  
-QuadT»e
+QuadŒ“
 :
-	$g‘CŞlidabËObjeùs
-(
-objeù
-, 
-movšg
-)
+	$ş—r
+()
 
-106 
-nÙ
- 
-£lf
-.
-chd»n
- 
-th’
-
-
-107  
+108 
 £lf
 .
 objeùs
-
-
-109 
-loÿl
- 
-quads
  = {
 	}
 }
 
-111 
-£lf
-:
-check
-(
-objeù
+110 
+key
 , 
-	$funùiÚ
- (
-chd
-è
-quads
-[chd] = chd 
-’d
-)
-
-112 
-movšg
- 
-th’
-
-
-113 
-£lf
-:
-	`check
-(
-objeù
-, 
-	$funùiÚ
- (
-chd
-è
-quads
-[chd] = chd 
-’d
-,
-
-114 
-objeù
-.
-´ev_x
-, objeù.
-´ev_y
-)
-
-115 
-’d
-
-
-117 
-loÿl
- 
-Ã¬
- = {
-	}
-}
-
-118 
-q
+_
  
 š
  
 	$·œs
 (
-quads
+£lf
+.
+nodes
 ) do
 
-119 
-i
-,
-o
+111 
+£lf
+.
+nodes
+[
+key
+]:
+	$ş—r
+()
+
+112 
+’d
+
+
+113 
+’d
+
+
+115 -- 
+R‘r›ve
+ 
+li¡
+ 
+of
+ 
+pÙ’tŸl
+ 
+cŞlisiÚs
+
+
+116 
+funùiÚ
+ 
+QuadŒ“
+:
+	$cŞlidabËs
+(
+_objeù
+)
+
+117 
+loÿl
+ 
+šdex
+ = 
+£lf
+:
+	$šdex
+(
+_objeù
+)
+
+119 
+loÿl
+ 
+objeùs
+ = {
+	}
+}
+
+121 -- 
+Check
+ 
+th©
+ 
+objeù
+ 
+š‹r£ùs
+ 
+w™h
+ 
+this
+ 
+node
+
+
+122 
+šdex
+ =ğ-1 
+th’
+
+
+123  
+objeùs
+ -- 
+If
+ 
+no
+ 
+š‹r£ùiÚ
+, ‚Ø
+cŞlisiÚs
+
+
+124 
+	g’d
+
+
+126 -- 
+Add
+ 
+—ch
+ 
+objeù
+ 
+š
+ 
+this
+ 
+nodes
+ 
+objeùs
+
+
+127 
+	g_
+, 
+objeù
+ 
+š
+ 
+	$·œs
+(
+£lf
+.
+objeùs
+) do
+
+128 
+bË
+.
+	$š£¹
+(
+objeùs
+, 
+objeù
+)
+
+129 
+’d
+
+
+131 -- 
+If
+ 
+this
+ 
+node
+ 
+has
+ 
+chd»n
+
+
+132 #£lf.
+nodes
+ ~ğ0 
+th’
+
+
+133 -- 
+If
+ 
+the
+ 
+objeù
+ 
+³rãùly
+ 
+f™s
+ 
+šside
+ 
+a
+ 
+chd
+ 
+node
+
+
+134 
+šdex
+ > 0 
+th’
+
+
+135 -- 
+R‘r›ve
+ 
+pÙ’tŸl
+ 
+cŞlisiÚs
+ 
+š
+ 
+th©
+ 
+chd
+ 
+node
+
+
+136 
+_
+, 
+objeù
  
 š
  
 	`·œs
 (
-q
-:
-	$g‘CŞlidabËObjeùs
+£lf
+.
+nodes
+[
+šdex
+]:
+	$cŞlidabËs
 (
-objeù
-, 
-movšg
+_objeù
 )) do
 
-120 -- 
-Make
- 
-su»
- 
-we
- 
-dÚ
-'t„eturnhe object itself
-
-121 
-i
- ~ğ
-objeù
- 
-th’
-
-
-122 
+137 
 bË
 .
 	$š£¹
 (
-Ã¬
+objeùs
 , 
-o
+objeù
 )
 
-123 
+138 
 ’d
 
 
-124 
+139 -- 
+El£
+, 
+»Œ›ve
+ 
+cŞlisiÚs
+ 
+®l
+ 
+chd
+ 
+nodes
+
+
+141 
+key
+, 
+_
+ 
+š
+ 
+	$·œs
+(
+£lf
+.
+nodes
+) do
+
+142 
+_
+, 
+objeù
+ 
+š
+ 
+	`·œs
+(
+£lf
+.
+nodes
+[
+key
+]:
+	$cŞlidabËs
+(
+_objeù
+)) do
+
+143 
+bË
+.
+	$š£¹
+(
+objeùs
+, 
+objeù
+)
+
+144 
 ’d
 
 
-125 
+145 
 ’d
 
 
-127  
-Ã¬
-
-
-128 
+146 
 ’d
 
 
-129 
+147 
 ’d
+
+
+149  
+objeùs
+
+
+150 
+’d
+
+
+152 
+loÿl
+ 
+skyÃt
+ = 
+»quœe
+ "skynet"
+
+153 
+funùiÚ
+ 
+QuadŒ“
+:
+	$cŞlisiÚs
+(
+_objeù
+)
+
+154 
+loÿl
+ 
+pÙ’tŸls
+ = 
+£lf
+:
+	$cŞlidabËs
+(
+_objeù
+)
+
+155 
+loÿl
+ 
+cŞlisiÚs
+ = {
+	}
+}
+
+156 
+_
+, 
+rg‘
+ 
+š
+ 
+	$·œs
+(
+pÙ’tŸls
+) do
+
+157 
+loÿl
+ 
+æag
+ = 
+Œue
+
+
+158 
+_objeù
+.
+Ëá
+ > 
+rg‘
+.Ëá 
+ªd
+ _objeù.Ëá >¬g‘.Ëá +¬g‘.
+width
+ 
+th’
+
+
+159 
+æag
+ = 
+çl£
+
+
+160 
+–£if
+ 
+_objeù
+.
+Ëá
+ < 
+rg‘
+.Ëá 
+ªd
+ _objeù.Ëá + _objeù.
+width
+ <¬g‘.Ëá 
+th’
+
+
+161 
+æag
+ = 
+çl£
+
+
+162 
+–£if
+ 
+_objeù
+.
+tİ
+ > 
+rg‘
+.tİ 
+ªd
+ _objeù.tİ >¬g‘.tİ +¬g‘.
+height
+ 
+th’
+
+
+163 
+æag
+ = 
+çl£
+
+
+164 
+–£if
+ 
+_objeù
+.
+tİ
+ < 
+rg‘
+.tİ 
+ªd
+ _objeù.tİ + _objeù.
+height
+ <¬g‘.tİ 
+th’
+
+
+165 
+æag
+ = 
+çl£
+
+
+166 
+’d
+
+
+167 
+æag
+ 
+ªd
+ 
+_objeù
+ ~ğ
+rg‘
+ 
+th’
+
+
+168 
+bË
+.
+	$š£¹
+(
+cŞlisiÚs
+, 
+rg‘
+)
+
+169 
+’d
+
+
+170 
+’d
+
+
+171  
+cŞlisiÚs
+
+
+172 
+’d
+
+
+174  
+QuadŒ“
 
 
 	@script/data_manager/data_manager.lua
@@ -38017,26 +38575,106 @@ skyÃt
 
 
 26 
+	$‹¡_quadŒ“
+()
+
+27 
 skyÃt
 .
 	$¦“p
 (10)
 
-27 
+28 
 skyÃt
 .
 	`log
 ("Done!")
 
-28 
+29 
 skyÃt
 .
 	$abÜt
 ()
 
-29 
+30 
 ’d
 )
+
+32 
+loÿl
+ 
+QuadŒ“
+ = 
+»quœe
+ "common.quadtree"
+
+33 
+funùiÚ
+ 
+	$‹¡_quadŒ“
+()
+
+35 
+quadŒ“
+ = 
+QuadŒ“
+.
+	$ü—‹
+(0, 0, 640, 480)
+
+36 
+quadŒ“
+:
+	`š£¹
+({
+Ëá
+ = 64, 
+tİ
+ = 64, 
+width
+ = 128, 
+height
+ = 128
+	}
+})
+
+37 
+loÿl
+ 
+	gobjeùs
+ = 
+quadŒ“
+:
+cŞlisiÚs
+({
+Ëá
+ = 32, 
+tİ
+ = 32, 
+width
+ = 128, 
+height
+ = 128})
+
+38 --
+	gskyÃt
+.
+	$dump
+(
+quadŒ“
+)
+
+39 
+skyÃt
+.
+	$dump
+(
+objeùs
+)
+
+40 
+’d
+
 
 	@service/util/build_db.lua
 

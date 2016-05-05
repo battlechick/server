@@ -25,66 +25,33 @@
 [:00000008] load map data: Scene001.txt
 [:00000008] load map data: Scene002.txt
 [:00000002] KILL self
-[:00000009] socket accept from 127.0.0.1:50026
-[:0000000e] New client from : 119.129.49.0:18168
+[:00000009] socket accept from 127.0.0.1:50500
+[:0000000e] New client from : 119.129.209.116:32331
 [:00000012] LAUNCH snlua agent
 [:00000012] master start5
 [:00000012] &&&&raw_send_package 2
-[:00000012] 20 userdata: 0x7fad193460e0
+[:00000012] 20 userdata: 0x7f34d5db4ae0
 [:00000012] recieve package C2S_Online
-[:00000012] register agent397
+[:00000012] register agent402
 [:00000012] &&&&raw_send_package 1
-[:00000012] 28 userdata: 0x7fad17e73c40
+[:00000012] 28 userdata: 0x7f34de52e9c0
 [:00000012] recieve package Request_RoomList
 [:00000012] &&&&raw_send_package 1
-[:00000012] 26 userdata: 0x7fad193a1020
+[:00000012] 26 userdata: 0x7f34d5cac500
 [:00000012] recieve package Request_CreateRoom
 [:00000012] &&&&raw_send_package 3
-[:00000012] 28 userdata: 0x7fad217c0b60
+[:00000012] 28 userdata: 0x7f34d5db4d80
 [:00000012] recieve package Request_RoomList
 [:00000012] &&&&raw_send_package 1
-[:00000012] 29 userdata: 0x7fad2175e700
+[:00000012] 29 userdata: 0x7f34de55e7f0
 [:00000012] recieve package C2S_BroadcastRoomData
 [:00000012] &&&&raw_send_package 1
-[:00000012] 25 userdata: 0x7fad21742d80
+[:00000012] 25 userdata: 0x7f34d5cac700
 [:00000012] recieve package Request_StartGame
 [:00000012] &&&&raw_send_package 1
 [:00000012] &&&&raw_send_package 1
 [:00000012] &&&&raw_send_package 1
 [:00000012] &&&&raw_send_package 1
 [:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000012] &&&&raw_send_package 1
-[:00000009] socket accept from 127.0.0.1:50034
-[:00000008] master server will be stop
-[:00000009] socket close 4 : nil
+[:0000000e] watchdog socket close 5
+[:00000012] KILL self

@@ -149,4 +149,26 @@ function Quadtree:collidables(_object)
     return objects
 end
 
+local skynet = require "skynet"
+function Quadtree:collisions(_object)
+    local potentials = self:collidables(_object)
+    local collisions = {}
+    for _, target in pairs(potentials) do
+        local flag = true
+        if _object.left > target.left and _object.left > target.left + target.width then
+            flag = false
+        elseif _object.left < target.left and _object.left + _object.width < target.left then
+            flag = false
+        elseif _object.top > target.top and _object.top > target.top + target.height then 
+            flag = false  
+        elseif _object.top < target.top and _object.top + _object.height < target.top then
+            flag = false  
+        end
+        if flag and _object ~= target then
+            table.insert(collisions, target)
+        end
+    end
+    return collisions
+end
+
 return Quadtree
